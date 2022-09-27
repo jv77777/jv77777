@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
   text-align: center;
+  font-size: 175%;
 }
 
 .menuItem {
@@ -22,8 +24,48 @@ h1 {
   text-align: right;
 }
 
-.menuTitleText {
+#menu1TitleText {
+  top: 2px;
+  position: relative;
+  font-size: 125%;
+  font-weight: bold;
   text-align: center;
+  border: 1px solid black;
+  background-color: gold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#menu2TitleText {
+  top: 2px;
+  position: relative;
+  font-size: 125%;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  color: white; 
+  background-color: darkred;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#menu3TitleText {
+  top: 2px;
+  position: relative;
+  font-size: 125%;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  color: orangered;
+  background-color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .menuText{
