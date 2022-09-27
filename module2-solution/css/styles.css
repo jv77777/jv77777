@@ -88,7 +88,6 @@ h1 {
   .col-lg-10,
   .col-lg-11,
   .col-lg-12 {
-    position: relative;
     float: left;
   }
 
@@ -157,7 +156,6 @@ h1 {
   .col-md-11,
   .col-md-12 {
     float: left;
-    box-sizing: border-box;
   }
 
   .col-md-1 {
