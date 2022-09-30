@@ -24,14 +24,18 @@
 #nav-list {
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: -1px;
+    padding-left: 0px;
 }
 
 #nav-list a {
     color: black;
     background-color: dodgerblue;
-    border: 1px solid black;
+    border-width: 1px 1px 1px 2px;
+    border-style: solid;
+    border-color: black;
     width: 100%;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -92,24 +96,6 @@
 
     .navbar-brand {
         margin-left: 45px;
-    }
-
-    #nav-list {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: -1px;
-        padding-left: 0px;
-    }
-
-    #nav-list a {
-        color: black;
-        background-color: dodgerblue;
-        border-width: 1px 1px 1px 2px;
-        border-style: solid;
-        border-color: black;
-        width: 100%;
-        font-weight: bold;
-        text-align: center;
     }
 
     #collapsable-nav {
