@@ -77589,5 +77589,16 @@
     "asset":"BTCB",
     "amount":94.53271227256022,
     "usdvalue":2664196.52343511
+  },
+  {
+    "id":"3ae51a6257ac",
+    "txtime":1685324861,
+    "tx":"0x06d79c958b3eb10139cd834f902641d050c3bb93cbdf9bc8256a2a7ce1b10b0c",
+    "action":"supply",
+    "address":"0x009551a836590fdd291d59d03a07e7d25c7b5b29",
+    "addressname":"Bolide.fi",
+    "asset":"USDT",
+    "amount":1378171.5398979897,
+    "usdvalue":1378569.8728181664
   }
 ]
