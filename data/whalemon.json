@@ -77479,5 +77479,55 @@
     "asset":"USDC",
     "amount":7735267.98939135,
     "usdvalue":7735177.8735192735
+  },
+  {
+    "id":"21bc1ab39327",
+    "txtime":1685319490,
+    "tx":"0x5249274834a0895c946ad7ba5d6f724e08f3103ee63dbf6bf23547f6bbeca2f7",
+    "action":"borrow",
+    "address":"0xb8b92767f681979fc1c1af75014adb51e4e4958b",
+    "asset":"USDT",
+    "amount":8000000.0,
+    "usdvalue":8002953.359999999
+  },
+  {
+    "id":"8a0acd96f2fc",
+    "txtime":1685319538,
+    "tx":"0x553b1751687e2e3c1f964939581886cccf847ae8814937a3d9deebd301ec7521",
+    "action":"borrow",
+    "address":"0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+    "asset":"USDT",
+    "amount":1000000.0,
+    "usdvalue":1000369.1699999999
+  },
+  {
+    "id":"5c5b4f76521e",
+    "txtime":1685319691,
+    "tx":"0x255d2d4b1fcb68510fc03e3f931e2038732a0411741c4059bcb3153442f6feb9",
+    "action":"repay",
+    "address":"0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+    "asset":"USDT",
+    "amount":1000000.0,
+    "usdvalue":1000369.1699999999
+  },
+  {
+    "id":"de8e50a46749",
+    "txtime":1685319787,
+    "tx":"0xf903bc6735f297be72e5a28ef61c1f40342cd0a0177c48321f40f9ed28b10c1c",
+    "action":"borrow",
+    "address":"0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+    "asset":"USDT",
+    "amount":1000000.0,
+    "usdvalue":1000369.1699999999
+  },
+  {
+    "id":"567d0bec8a61",
+    "txtime":1685319967,
+    "tx":"0x1c49ff4ab3045ec85934c2effef7b1fbc8ff9a24d0895a831685c38c14fa26f9",
+    "action":"repay",
+    "address":"0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+    "asset":"USDT",
+    "amount":1000000.0,
+    "usdvalue":1000313.51
   }
 ]
