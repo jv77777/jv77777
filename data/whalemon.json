@@ -77760,5 +77760,15 @@
     "asset":"USDT",
     "amount":1000099.71,
     "usdvalue":1000749.7748115
+  },
+  {
+    "id":"50485c0cabab",
+    "txtime":1685453730,
+    "tx":"0x3166636e4ff9d4c014e8e75954442bb0b75b7a11702b55a3ebcdeeb4e43dcccf",
+    "action":"withdraw",
+    "address":"0x6e1355628b5cb34c3753c3f88d05160d393bca45",
+    "asset":"BTCB",
+    "amount":143.5331528816209,
+    "usdvalue":4015052.8855575817
   }
 ]
