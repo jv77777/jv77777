@@ -77882,5 +77882,15 @@
     "asset":"USDT",
     "amount":1000000.0,
     "usdvalue":1000187.13
+  },
+  {
+    "id":"08059821dd21",
+    "txtime":1685606432,
+    "tx":"0x2f5676a22cd81ae9f1ba15109f4ec0271253eb79e711c4d088556aba84634302",
+    "action":"supply",
+    "address":"0x8d945aca57cbe793507bccaba8cd77bfe117f255",
+    "asset":"BUSD",
+    "amount":1005014.141327148,
+    "usdvalue":1004873.1780436854
   }
 ]
