@@ -77850,5 +77850,16 @@
     "asset":"USDT",
     "amount":1021326.79858,
     "usdvalue":1021482.2547320118
+  },
+  {
+    "id":"3880308a6fdd",
+    "txtime":1685579546,
+    "tx":"0xd4931765e7df8b6bc008f12b35dd872011c8a3890041de0760e5caee70def735",
+    "action":"withdraw",
+    "address":"0x009551a836590fdd291d59d03a07e7d25c7b5b29",
+    "addressname":"Bolide.fi",
+    "asset":"USDT",
+    "amount":1378212.61323253,
+    "usdvalue":1378533.2543969986
   }
 ]
