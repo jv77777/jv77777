@@ -78334,5 +78334,15 @@
     "asset":"ETH",
     "amount":700.0,
     "usdvalue":1323139.37
+  },
+  {
+    "id":"ded91721052a",
+    "txtime":1685843070,
+    "tx":"0x4350d15fc668ff46c7145ed994d6e741d85433b2ef697f1c08fd430ae681ec28",
+    "action":"repay",
+    "address":"0xb8b92767f681979fc1c1af75014adb51e4e4958b",
+    "asset":"ETH",
+    "amount":700.001944,
+    "usdvalue":1324333.6778536001
   }
 ]
