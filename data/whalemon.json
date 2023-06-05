@@ -78635,5 +78635,15 @@
     "asset":"XVS",
     "amount":233265.72272152777,
     "usdvalue":1016212.6271214209
+  },
+  {
+    "id":"57b5ca6bd7ef",
+    "txtime":1685982901,
+    "tx":"0x07598c5754045a00eccccce8aaba6dd1d999c2d53e0b04dc844f490fd0779a98",
+    "action":"withdraw",
+    "address":"0x013b646fe54562a3ff6e3469fcc8c4efc2337656",
+    "asset":"USDT",
+    "amount":3450317.030415693,
+    "usdvalue":3451585.5394719252
   }
 ]
