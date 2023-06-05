@@ -78624,5 +78624,16 @@
     "asset":"USDT",
     "amount":1930579.68337453,
     "usdvalue":1930907.8819207037
+  },
+  {
+    "id":"015a064619e5",
+    "txtime":1685981047,
+    "tx":"0xe82d1e4941a970f103ece7b5bed4c79e97ba3130754c7284f68481dccb078fa4",
+    "action":"unstake",
+    "address":"0x2a7affef37ee145cb9da989a7c93fbf487325b2e",
+    "vault":"XVS Vault",
+    "asset":"XVS",
+    "amount":233265.72272152777,
+    "usdvalue":1016212.6271214209
   }
 ]
