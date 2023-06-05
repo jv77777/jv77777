@@ -78574,5 +78574,15 @@
     "asset":"USDT",
     "amount":1774135.010222,
     "usdvalue":1774296.5984387312
+  },
+  {
+    "id":"87a5dcb256c4",
+    "txtime":1685977105,
+    "tx":"0x18602350348214a9bb9170ac381417ee6820066e6804ef1959430c1ce7f0f079",
+    "action":"supply",
+    "address":"0xdbd08d75a614567ff03f50e75b2a72ff9af35700",
+    "asset":"USDC",
+    "amount":1030331.7631851082,
+    "usdvalue":1030125.7071357887
   }
 ]
