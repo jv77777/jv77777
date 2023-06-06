@@ -27793,5 +27793,35 @@
     "repay_usdvalue":946.0080369783032,
     "treasury_amount":7.7976108534199104,
     "treasury_usdvalue":47.300401242103746
+  },
+  {
+    "id":"89b943644d84",
+    "txtime":1686057661,
+    "tx":"0xc3fb09594f102679851899efe1e8073129c0da5c22d26a9c368027075e1c2cb2",
+    "liquidator":"0xe8871c8ad85cf5c1c018638298838bf3c450b716",
+    "borrower":"0x59502aac728a2e2166a06da91bd2c7de5cdccc49",
+    "seize_token":"XVS",
+    "repay_token":"BUSD",
+    "seize_amount":8.783121690538362,
+    "repay_amount":33.57218569857925,
+    "seize_usdvalue":36.91482711442763,
+    "repay_usdvalue":33.556633719276235,
+    "treasury_amount":0.3992328041153801,
+    "treasury_usdvalue":1.6779466870194377
+  },
+  {
+    "id":"a8bf1142e4ad",
+    "txtime":1686057714,
+    "tx":"0xbe1b437d014ce4c2635c65c8f38d351529ee34c71483a0b2e10fd118613f4820",
+    "liquidator":"0x5517912b7d2094c0925370e136429e72f5f7efd1",
+    "borrower":"0x443c0856c921d1eb92223f5e4a6e8a96511a2305",
+    "seize_token":"LTC",
+    "repay_token":"MATIC",
+    "seize_amount":12.795500419611935,
+    "repay_amount":1262.1915896703063,
+    "seize_usdvalue":1099.6740575508925,
+    "repay_usdvalue":1002.0263998845172,
+    "treasury_amount":0.5816136554369061,
+    "treasury_usdvalue":49.985184434131476
   }
 ]
