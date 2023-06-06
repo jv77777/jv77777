@@ -78825,5 +78825,25 @@
     "asset":"BUSD",
     "amount":4779598.109519033,
     "usdvalue":4777035.2412167275
+  },
+  {
+    "id":"f5cc25b21b24",
+    "txtime":1686014807,
+    "tx":"0x3b6569a9d30045e848b5ed28bbef721ada0d2d72942ab1cde1565c210f204d91",
+    "action":"supply",
+    "address":"0x90b9f0b04cf9eff1b2163f2acf89cc4b04e0db20",
+    "asset":"BNB",
+    "amount":17000.0,
+    "usdvalue":4712604.58157
+  },
+  {
+    "id":"f01b457998e0",
+    "txtime":1686014900,
+    "tx":"0x501a0a0caac4bd0d571b977045c940df7bcd55266e9d887e84c4c384645f28a0",
+    "action":"supply",
+    "address":"0x013b646fe54562a3ff6e3469fcc8c4efc2337656",
+    "asset":"USDT",
+    "amount":2480341.497191,
+    "usdvalue":2481358.437204848
   }
 ]
