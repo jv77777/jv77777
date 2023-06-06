@@ -27733,5 +27733,20 @@
     "repay_usdvalue":28.73407082333801,
     "treasury_amount":0.005162898870290947,
     "treasury_usdvalue":1.4367035192560387
+  },
+  {
+    "id":"7b82717a9416",
+    "txtime":1686053665,
+    "tx":"0x8001f4cfab25012987811a4951dcc1a97f623ac674b3d532bcbb398c8be31239",
+    "liquidator":"0x5517912b7d2094c0925370e136429e72f5f7efd1",
+    "borrower":"0x87ea7fb1286a6467048973c59c334d4a190c9e3e",
+    "seize_token":"MATIC",
+    "repay_token":"USDT",
+    "seize_amount":83.91479888509588,
+    "repay_amount":61.69670971382249,
+    "seize_usdvalue":68.8524281444167,
+    "repay_usdvalue":61.71213389125096,
+    "treasury_amount":3.8143090402316306,
+    "treasury_usdvalue":3.129655824746214
   }
 ]
