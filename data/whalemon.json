@@ -79015,5 +79015,45 @@
     "asset":"USDC",
     "amount":2000000.0,
     "usdvalue":1999673.5999999999
+  },
+  {
+    "id":"6cea8452f89e",
+    "txtime":1686092888,
+    "tx":"0xb459aa135f641dbe537a6a39ee246486893d1dc70c8d83c87a26108fbbce80dd",
+    "action":"supply",
+    "address":"0x013b646fe54562a3ff6e3469fcc8c4efc2337656",
+    "asset":"USDT",
+    "amount":2345855.7409,
+    "usdvalue":2346512.580507452
+  },
+  {
+    "id":"118d465238b4",
+    "txtime":1686093023,
+    "tx":"0xee57c4c9ffcd12cc54467405d02a479ac53153d243d453c5836a47105a01d829",
+    "action":"borrow",
+    "address":"0x013b646fe54562a3ff6e3469fcc8c4efc2337656",
+    "asset":"ETH",
+    "amount":750.0,
+    "usdvalue":1413089.1141525
+  },
+  {
+    "id":"943ebb8cd0b8",
+    "txtime":1686093239,
+    "tx":"0xf2ebb2d9b178c0e7835aa1be2945564551bf660a958710bf80011188af7e5a51",
+    "action":"supply",
+    "address":"0xb8b92767f681979fc1c1af75014adb51e4e4958b",
+    "asset":"ETH",
+    "amount":2794.779944,
+    "usdvalue":5261502.136296052
+  },
+  {
+    "id":"a19cd1982545",
+    "txtime":1686093281,
+    "tx":"0x14c3ebc6c832358cc927c55fdb7b3abb5931989314d7dbd03fe77633fba40557",
+    "action":"borrow",
+    "address":"0xb8b92767f681979fc1c1af75014adb51e4e4958b",
+    "asset":"USDT",
+    "amount":3800000.0,
+    "usdvalue":3800950.0000000005
   }
 ]
