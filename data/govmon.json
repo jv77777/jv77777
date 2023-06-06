@@ -280,5 +280,16 @@
       "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
       "0xfd36e2c2a6789db23113685031d7f16329158384._setPriceOracle(0x6592b5de802159f3e74b2486b091d11a8256ab8a)"
     ]
+  },
+  {
+    "id":"124",
+    "type":"Normal",
+    "title":"VIP-124 Risk Parameters Adjustment for BUSD",
+    "description":"**Summary **\n\nThis VIP will perform the following action: \n\n- Reduce BUSD Borrow cap from 130M to 80M\n\n**Description**\n\nAs observed by Quants in [this post](https://community.venus.io/t/reduce-busd-borrow-cap/3583), Recently, BUSD liquidity in PancakeSwap V2 has been shrinking rapidly with no sign of bouncing back: 220.30M on May 20th to 153.69M on May 31st.\n\n\nWe are therefore proposing to reduce our borrow cap of BUSD from 130M to 80M. The change may not have immediate impact on the protocol.",
+    "endblock":28897293,
+    "eta":1686142844,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x61edcfe8dd6ba3c891cb9bec2dc7657b3b422e93, 0x2ff3d0f6990a40261c66e1ff2017acbc282eb6d0, 0x95c78222b3d6e262426483d42cfa53685a67ab9d], [1, 1, 80000000000000000000000000])"
+    ]
   }
 ]
