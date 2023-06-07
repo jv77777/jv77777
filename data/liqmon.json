@@ -27913,5 +27913,20 @@
     "repay_usdvalue":9.9994458,
     "treasury_amount":0.001791950930061697,
     "treasury_usdvalue":0.5008728635339631
+  },
+  {
+    "id":"5ca79ff34792",
+    "txtime":1686109431,
+    "tx":"0x2a6f0fb558ac22459bfcd681761669246c79c5aa6ccb413c8f8687d2c608f1b5",
+    "liquidator":"0xe8871c8ad85cf5c1c018638298838bf3c450b716",
+    "borrower":"0x99337a215d4875af0d8a5a5215161867c5b7212c",
+    "seize_token":"BNB",
+    "repay_token":"BUSD",
+    "seize_amount":0.10131318561157325,
+    "repay_amount":25.65817812041073,
+    "seize_usdvalue":28.168104995585708,
+    "repay_usdvalue":25.658947865754342,
+    "treasury_amount":0.004605144800526057,
+    "treasury_usdvalue":1.2803684088902596
   }
 ]
