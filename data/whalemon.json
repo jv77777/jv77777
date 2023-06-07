@@ -79485,5 +79485,65 @@
     "asset":"USDC",
     "amount":2000000.0,
     "usdvalue":2000703.9999999998
+  },
+  {
+    "id":"85463571ead5",
+    "txtime":1686151333,
+    "tx":"0x116e3006faaff0142c43fc0a106d47ab4833aed0ff8a029aa6f6c582df0cbcde",
+    "action":"supply",
+    "address":"0x27bab5f163ce67242ed5331eca0d3ebfa7197a3e",
+    "asset":"USDC",
+    "amount":4321985.54170209,
+    "usdvalue":4323506.880612768
+  },
+  {
+    "id":"7cd9ee907982",
+    "txtime":1686151399,
+    "tx":"0xb22da05f128b713cf33430610e54b9c2627b2d946fb0984162c475f5b9571d55",
+    "action":"withdraw",
+    "address":"0xc69579edafabcda360936acb11043a555eb86b34",
+    "asset":"BTCB",
+    "amount":76.4617385867861,
+    "usdvalue":2032053.687480423
+  },
+  {
+    "id":"6a2fe6f4225f",
+    "txtime":1686151439,
+    "tx":"0x26a8977d6124e582ddbcf082ee8aa22854fd2ee61800ff2919453f815ead7f19",
+    "action":"withdraw",
+    "address":"0x1f356cc150608e4f1334d65bcc448db84cb7cfee",
+    "asset":"USDC",
+    "amount":1024196.59344,
+    "usdvalue":1024557.1106408908
+  },
+  {
+    "id":"29811fd5dc1a",
+    "txtime":1686151442,
+    "tx":"0x0f63aa13c32d312f452a431edf038ad89e85453a2b1f02531da5c59a95234705",
+    "action":"withdraw",
+    "address":"0xdbd08d75a614567ff03f50e75b2a72ff9af35700",
+    "asset":"USDC",
+    "amount":1000000.0,
+    "usdvalue":1000351.9999999999
+  },
+  {
+    "id":"24147e4841b3",
+    "txtime":1686151487,
+    "tx":"0x8076fddbe420a3a6208e7b0027075b0c081879a13a056b49cdd91a8a6c82f18c",
+    "action":"supply",
+    "address":"0xdbd08d75a614567ff03f50e75b2a72ff9af35700",
+    "asset":"USDC",
+    "amount":1000000.0,
+    "usdvalue":1000351.9999999999
+  },
+  {
+    "id":"0a605c87d6f0",
+    "txtime":1686151518,
+    "tx":"0xd511b946d803d23a30e1f4420afd68d1f4c44d553510be8d6700bbef652fbee2",
+    "action":"withdraw",
+    "address":"0xdbd08d75a614567ff03f50e75b2a72ff9af35700",
+    "asset":"USDT",
+    "amount":1000000.0,
+    "usdvalue":1000250.0000000001
   }
 ]
