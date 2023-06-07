@@ -28033,5 +28033,20 @@
     "repay_usdvalue":149.5525218029167,
     "treasury_amount":1.80002382045727,
     "treasury_usdvalue":7.477568953752567
+  },
+  {
+    "id":"d3c40d2449fc",
+    "txtime":1686144504,
+    "tx":"0x380a4ea3d287559a13b3c3dbf5265eefa37cf5b49d2af6a49505b67a7f9f7828",
+    "liquidator":"0xdb6b3ddbb078ada1d6af17a61acac20dca47a94f",
+    "borrower":"0x2c78b4b5e40f78f5bfa6fce0b277d2c59ccf8545",
+    "seize_token":"BNB",
+    "repay_token":"XRP",
+    "seize_amount":0.9786723700320846,
+    "repay_amount":452.61191006458375,
+    "seize_usdvalue":264.2634337882529,
+    "repay_usdvalue":240.19065817943752,
+    "treasury_amount":0.04448510772873112,
+    "treasury_usdvalue":12.011974263102402
   }
 ]
