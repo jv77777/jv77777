@@ -28513,5 +28513,35 @@
     "repay_usdvalue":14.906658028339507,
     "treasury_amount":1.9037779054928925,
     "treasury_usdvalue":0.7453812135150779
+  },
+  {
+    "id":"cd750587a8fc",
+    "txtime":1686164528,
+    "tx":"0xdd9e1c6599050c7ea98c0a8213380a991495b3a000da944e7470e6e6ea62efe9",
+    "liquidator":"0x903c33f6e67d212e3ae51995f2195e5cd83aff7d",
+    "borrower":"0x6b7a803bb85c7d1f67470c50358d11902d3169e0",
+    "seize_token":"BNB",
+    "repay_token":"BUSD",
+    "seize_amount":0.04011603258023219,
+    "repay_amount":9.5,
+    "seize_usdvalue":10.477215751549814,
+    "repay_usdvalue":9.496304405,
+    "treasury_amount":0.0018234560263741906,
+    "treasury_usdvalue":0.47623707961590067
+  },
+  {
+    "id":"1b2ea5d603b8",
+    "txtime":1686164600,
+    "tx":"0x627e32d1da3c0eae71f98242561dbd365d8a0918e20cacc095a485329ad39e21",
+    "liquidator":"0xe8871c8ad85cf5c1c018638298838bf3c450b716",
+    "borrower":"0x1404d2065a601cbdc19b58cf2d53664f500800dc",
+    "seize_token":"XRP",
+    "repay_token":"DAI",
+    "seize_amount":92.0348715912316,
+    "repay_amount":43.12902593079994,
+    "seize_usdvalue":47.442454968852495,
+    "repay_usdvalue":43.12471302820686,
+    "treasury_amount":4.18340325414689,
+    "treasury_usdvalue":2.1564752258569313
   }
 ]
