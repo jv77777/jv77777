@@ -79235,5 +79235,15 @@
     "asset":"USDT",
     "amount":1309999.999999,
     "usdvalue":1310261.9999989998
+  },
+  {
+    "id":"1fa39b5a78d6",
+    "txtime":1686125380,
+    "tx":"0x6a77169995b5187b6b903ed40b8a03dd328e0d643e468d1cb6acf36a27cbf0c4",
+    "action":"supply",
+    "address":"0x215462dc79523ac795216e1baa27586840fa9382",
+    "asset":"BNB",
+    "amount":3919.0,
+    "usdvalue":1086128.6527840002
   }
 ]
