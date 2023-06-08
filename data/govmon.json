@@ -775,5 +775,71 @@
     "actions":[
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d], [1300000000000000000000000])"
     ]
+  },
+  {
+    "id":"125",
+    "type":"Normal",
+    "title":"VIP-125 Risk Parameters Adjustment for XVS ",
+    "description":"**Summary**\n\nThis VIP will perform the following action as recommended by Gauntlet in their [latest risk parameters update recommendations](https://community.venus.io/t/risk-parameter-updates-6-7-2023/3600):\n\n- Increase XVS Supply cap from 1M XVS to 1.3M XVS. \n\n**Description**\n\nWhile Gauntlet continues to monitor XVS volatility, they recommend raising the supply cap moderately to 1,300,000 from 1,000,000 as XVS supply cap usage remains > 80%. 1.3M XVS represents < 9% of its total circulating supply (14.9M) and the combined liquidity of XVS across DEX/CEXes is ample enough to mitigate significant insolvency risk due to liquidations.\n\nGauntlet will continue to monitor market conditions and recommend additional XVS parameter changes to support the Venus community without introducing significant risk to the protocol.\n\n",
+    "endblock":28954946,
+    "eta":1686316209,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d], [1300000000000000000000000])"
+    ]
+  },
+  {
+    "id":"125",
+    "type":"Normal",
+    "title":"VIP-125 Risk Parameters Adjustment for XVS ",
+    "description":"**Summary**\n\nThis VIP will perform the following action as recommended by Gauntlet in their [latest risk parameters update recommendations](https://community.venus.io/t/risk-parameter-updates-6-7-2023/3600):\n\n- Increase XVS Supply cap from 1M XVS to 1.3M XVS. \n\n**Description**\n\nWhile Gauntlet continues to monitor XVS volatility, they recommend raising the supply cap moderately to 1,300,000 from 1,000,000 as XVS supply cap usage remains > 80%. 1.3M XVS represents < 9% of its total circulating supply (14.9M) and the combined liquidity of XVS across DEX/CEXes is ample enough to mitigate significant insolvency risk due to liquidations.\n\nGauntlet will continue to monitor market conditions and recommend additional XVS parameter changes to support the Venus community without introducing significant risk to the protocol.\n\n",
+    "endblock":28954946,
+    "eta":1686316209,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d], [1300000000000000000000000])"
+    ]
+  },
+  {
+    "id":"125",
+    "type":"Normal",
+    "title":"VIP-125 Risk Parameters Adjustment for XVS ",
+    "description":"**Summary**\n\nThis VIP will perform the following action as recommended by Gauntlet in their [latest risk parameters update recommendations](https://community.venus.io/t/risk-parameter-updates-6-7-2023/3600):\n\n- Increase XVS Supply cap from 1M XVS to 1.3M XVS. \n\n**Description**\n\nWhile Gauntlet continues to monitor XVS volatility, they recommend raising the supply cap moderately to 1,300,000 from 1,000,000 as XVS supply cap usage remains > 80%. 1.3M XVS represents < 9% of its total circulating supply (14.9M) and the combined liquidity of XVS across DEX/CEXes is ample enough to mitigate significant insolvency risk due to liquidations.\n\nGauntlet will continue to monitor market conditions and recommend additional XVS parameter changes to support the Venus community without introducing significant risk to the protocol.\n\n",
+    "endblock":28954946,
+    "eta":1686316209,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d], [1300000000000000000000000])"
+    ]
+  },
+  {
+    "id":"125",
+    "type":"Normal",
+    "title":"VIP-125 Risk Parameters Adjustment for XVS ",
+    "description":"**Summary**\n\nThis VIP will perform the following action as recommended by Gauntlet in their [latest risk parameters update recommendations](https://community.venus.io/t/risk-parameter-updates-6-7-2023/3600):\n\n- Increase XVS Supply cap from 1M XVS to 1.3M XVS. \n\n**Description**\n\nWhile Gauntlet continues to monitor XVS volatility, they recommend raising the supply cap moderately to 1,300,000 from 1,000,000 as XVS supply cap usage remains > 80%. 1.3M XVS represents < 9% of its total circulating supply (14.9M) and the combined liquidity of XVS across DEX/CEXes is ample enough to mitigate significant insolvency risk due to liquidations.\n\nGauntlet will continue to monitor market conditions and recommend additional XVS parameter changes to support the Venus community without introducing significant risk to the protocol.\n\n",
+    "endblock":28954946,
+    "eta":1686316209,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d], [1300000000000000000000000])"
+    ]
+  },
+  {
+    "id":"125",
+    "type":"Normal",
+    "title":"VIP-125 Risk Parameters Adjustment for XVS ",
+    "description":"**Summary**\n\nThis VIP will perform the following action as recommended by Gauntlet in their [latest risk parameters update recommendations](https://community.venus.io/t/risk-parameter-updates-6-7-2023/3600):\n\n- Increase XVS Supply cap from 1M XVS to 1.3M XVS. \n\n**Description**\n\nWhile Gauntlet continues to monitor XVS volatility, they recommend raising the supply cap moderately to 1,300,000 from 1,000,000 as XVS supply cap usage remains > 80%. 1.3M XVS represents < 9% of its total circulating supply (14.9M) and the combined liquidity of XVS across DEX/CEXes is ample enough to mitigate significant insolvency risk due to liquidations.\n\nGauntlet will continue to monitor market conditions and recommend additional XVS parameter changes to support the Venus community without introducing significant risk to the protocol.\n\n",
+    "endblock":28954946,
+    "eta":1686316209,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d], [1300000000000000000000000])"
+    ]
+  },
+  {
+    "id":"125",
+    "type":"Normal",
+    "title":"VIP-125 Risk Parameters Adjustment for XVS ",
+    "description":"**Summary**\n\nThis VIP will perform the following action as recommended by Gauntlet in their [latest risk parameters update recommendations](https://community.venus.io/t/risk-parameter-updates-6-7-2023/3600):\n\n- Increase XVS Supply cap from 1M XVS to 1.3M XVS. \n\n**Description**\n\nWhile Gauntlet continues to monitor XVS volatility, they recommend raising the supply cap moderately to 1,300,000 from 1,000,000 as XVS supply cap usage remains > 80%. 1.3M XVS represents < 9% of its total circulating supply (14.9M) and the combined liquidity of XVS across DEX/CEXes is ample enough to mitigate significant insolvency risk due to liquidations.\n\nGauntlet will continue to monitor market conditions and recommend additional XVS parameter changes to support the Venus community without introducing significant risk to the protocol.\n\n",
+    "endblock":28954946,
+    "eta":1686316209,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d], [1300000000000000000000000])"
+    ]
   }
 ]
