@@ -28738,5 +28738,50 @@
     "repay_usdvalue":406.83706239657795,
     "treasury_amount":20.307285854556895,
     "treasury_usdvalue":20.310941166010718
+  },
+  {
+    "id":"f945af982bfa",
+    "txtime":1686191871,
+    "tx":"0x9ace7a72fe1ad78eb8d9d8a87576b1f935807133064e89238b18db4667ef7121",
+    "liquidator":"0x903c33f6e67d212e3ae51995f2195e5cd83aff7d",
+    "borrower":"0x6b7a803bb85c7d1f67470c50358d11902d3169e0",
+    "seize_token":"BNB",
+    "repay_token":"BUSD",
+    "seize_amount":0.014702909467062783,
+    "repay_amount":3.493,
+    "seize_usdvalue":3.846369039982237,
+    "repay_usdvalue":3.492179145,
+    "treasury_amount":0.0006683140666846717,
+    "treasury_usdvalue":0.1748349563628289
+  },
+  {
+    "id":"55f46a7f7a36",
+    "txtime":1686195039,
+    "tx":"0x469988300f7c895054db8127c094d77ab17fb00096f574c6861d92a3eb81182e",
+    "liquidator":"0xdb6b3ddbb078ada1d6af17a61acac20dca47a94f",
+    "borrower":"0x94ee11855595a6a355c93eb938b87b08b13b57b7",
+    "seize_token":"XVS",
+    "repay_token":"USDC",
+    "seize_amount":456.9710864209229,
+    "repay_amount":1651.1740820988553,
+    "seize_usdvalue":1829.2317203622927,
+    "repay_usdvalue":1651.1686002009026,
+    "treasury_amount":20.771413019132858,
+    "treasury_usdvalue":83.14689638010421
+  },
+  {
+    "id":"93cd020b89e7",
+    "txtime":1686195468,
+    "tx":"0x2c73d23355cb2e70b5a24bcfd059f49e1002a8e6b9f96ce36d2d526c1acf9dfa",
+    "liquidator":"0xd915cb4a5384b473378939e671a243c6e93a08a5",
+    "borrower":"0xc4c6e038c1a126c57f540a4c5d57f8b02d05fda0",
+    "seize_token":"BNB",
+    "repay_token":"USDC",
+    "seize_amount":0.9838679693230156,
+    "repay_amount":230.40480730108317,
+    "seize_usdvalue":253.84777476503123,
+    "repay_usdvalue":230.40404235712293,
+    "treasury_amount":0.04472127133286435,
+    "treasury_usdvalue":11.53853521659233
   }
 ]
