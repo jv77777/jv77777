@@ -79755,5 +79755,25 @@
     "asset":"BUSD",
     "amount":3299705.4317343445,
     "usdvalue":3299282.805462648
+  },
+  {
+    "id":"9584f47078ea",
+    "txtime":1686190077,
+    "tx":"0xf85f5e9c4b0275fba03b31314b38ad5b4ee1d3a8dad2a6b3290c590fb423dd8d",
+    "action":"repay",
+    "address":"0xdbd08d75a614567ff03f50e75b2a72ff9af35700",
+    "asset":"BTCB",
+    "amount":55.50145228728177,
+    "usdvalue":1467238.0577101496
+  },
+  {
+    "id":"36ebbb278b96",
+    "txtime":1686190445,
+    "tx":"0xcddc82ea070caffcb35c2fbfef0479a270cb484c4179a20c0cef70217d6a3c93",
+    "action":"withdraw",
+    "address":"0x42e3da8e7c1dbff7f9fe544fff5c4531ecd6f8a4",
+    "asset":"USDC",
+    "amount":1466456.8053551584,
+    "usdvalue":1466456.7466968861
   }
 ]
