@@ -302,5 +302,47 @@
     "actions":[
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d], [1300000000000000000000000])"
     ]
+  },
+  {
+    "id":"126",
+    "type":"Normal",
+    "title":"VIP-126 Price Feeds Configuration for Isolated Markets",
+    "description":"#### Summary\n\nIf passed, this VIP will configure the price feeds for <a href=\"https://app.venus.io/governance/proposal/123\">Venus Resilient Oracle</a> for the following markets soon to be launched on Venus Isolated Markets:\n\n- <b>Binance Oracle:</b> ANKR / ankrBNB / BTT / FLOKI / HAY / NFT / RACA/ stkBNB / USDD\n\n- <b>Chainlink:</b> ALPACA / BIFI / BNBx / BSW / WBNB / WIN / WOO\n\n#### Description\n\nProposed as a part of the Venus V4 Upgrade, Resilient Price Feeds is new logic eliminating a single point of failure while fetching asset prices from on-chain sources. It adds the capability to support multiple oracles and fallback mechanisms to return accurate prices and protect the protocol from oracle failures. Currently, it includes integrations with Chainlink, Pyth Network, Binance Oracle and TWAP (Time-Weighted Average Price) oracles, and more can be added in the future. TWAP uses PancakeSwap as the on-chain price source.\n\nWe query prices from the <a href=\"https://oracle.binance.com/\">Binance Oracle</a> by using just the asset string names, via the <a href=\"https://oracle.binance.com/docs/price-feeds/feed-registry/\">FeedRegistry</a>. So, no explicit price feed configuration is needed.\n\nPrice feeds used from Chainlink:\n\n- ALPACA: <a href=\"https://bscscan.com/address/0xe0073b60833249ffd1bb2af809112c2fbf221df6\">0xe0073b60833249ffd1bb2af809112c2fbf221df6</a> (<a href=\"https://data.chain.link/bsc/mainnet/crypto-usd/alpaca-usd\">source</a>)\n- BIFI: <a href=\"https://bscscan.com/address/0xab827b69dacd586a37e80a7d552a4395d576e645\">0xab827b69dacd586a37e80a7d552a4395d576e645</a> (<a href=\"https://data.chain.link/bsc/mainnet/crypto-usd/bifi-usd\">source</a>)\n- BNBx: <a href=\"https://bscscan.com/address/0xc4429B539397a3166eF3ef132c29e34715a3ABb4\">0xc4429B539397a3166eF3ef132c29e34715a3ABb4</a> (<a href=\"https://docs.chain.link/data-feeds/price-feeds/addresses?network=bnb-chain\">source</a>)\n- BSW: <a href=\"https://bscscan.com/address/0x08e70777b982a58d23d05e3d7714f44837c06a21\">0x08e70777b982a58d23d05e3d7714f44837c06a21</a> (<a href=\"https://data.chain.link/bsc/mainnet/crypto-usd/bsw-usd\">source</a>)\n- WBNB: <a href=\"https://bscscan.com/address/0x0567f2323251f0aab15c8dfb1967e4e8a7d42aee\">0x0567f2323251f0aab15c8dfb1967e4e8a7d42aee</a> (<a href=\"https://data.chain.link/bsc/mainnet/crypto-usd/bnb-usd\">source</a>)\n- WIN: <a href=\"https://bscscan.com/address/0x9e7377e194e41d63795907c92c3eb351a2eb0233\">0x9e7377e194e41d63795907c92c3eb351a2eb0233</a> (<a href=\"https://data.chain.link/bsc/mainnet/crypto-usd/win-usd\">source</a>)\n- WOO: <a href=\"https://bscscan.com/address/0x02bfe714e78e2ad1bb1c2bee93ec8dc5423b66d4\">0x02bfe714e78e2ad1bb1c2bee93ec8dc5423b66d4</a> (<a href=\"https://data.chain.link/bsc/mainnet/crypto-usd/woo-usd\">source</a>)\n\n#### Security and additional considerations\n\nThis VIP doesn\u2019t imply any changes in the code, only changes in the configuration of the already deployed contracts.\n\nPrices post set-up: in a simulation environment, validating the Venus Resilient Price Feeds returns the expected prices after applying this set-up.",
+    "endblock":28986418,
+    "eta":1686410793,
+    "actions":[
+      "0x1b2103441a0a108dad8848d8f5d790e4d402921f.setTokenConfig()",
+      "0x1b2103441a0a108dad8848d8f5d790e4d402921f.setTokenConfig()",
+      "0x1b2103441a0a108dad8848d8f5d790e4d402921f.setTokenConfig()",
+      "0x1b2103441a0a108dad8848d8f5d790e4d402921f.setTokenConfig()",
+      "0x1b2103441a0a108dad8848d8f5d790e4d402921f.setTokenConfig()",
+      "0x1b2103441a0a108dad8848d8f5d790e4d402921f.setTokenConfig()",
+      "0x1b2103441a0a108dad8848d8f5d790e4d402921f.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(ANKR, 1500)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(ankrBNB, 1500)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(BTT, 1500)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(FLOKI, 1500)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(HAY, 1500)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(NFT, 1500)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(RACA, 1500)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(stkBNB, 1500)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(USDD, 1500)",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig()"
+    ]
   }
 ]
