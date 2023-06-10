@@ -80495,5 +80495,15 @@
     "asset":"BUSD",
     "amount":2123012.5244046007,
     "usdvalue":2122307.40825487
+  },
+  {
+    "id":"d3b5e54e8c26",
+    "txtime":1686425147,
+    "tx":"0xfd23e77fad9264be85e9513a68ddb18f642864fe558623f30d6cf622b9db6575",
+    "action":"repay",
+    "address":"0xa15aef397f9dc9de23c8e3df8a289b21d4ca8fcd",
+    "asset":"BNB",
+    "amount":21645.25,
+    "usdvalue":5141396.2325
   }
 ]
