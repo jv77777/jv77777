@@ -80235,5 +80235,55 @@
     "asset":"USDC",
     "amount":1230000.855,
     "usdvalue":1230194.7769347993
+  },
+  {
+    "id":"8a9d57ee0f40",
+    "txtime":1686373839,
+    "tx":"0x8a323d1d53b40a1a44ec73b00b9eb1bc176e7f48d2a92f5cf24ebdc88bbedc6d",
+    "action":"repay",
+    "address":"0x51c9b8920c9eb54cad2166199184854ad234b37f",
+    "asset":"BUSD",
+    "amount":1221046.1946215287,
+    "usdvalue":1221490.655436371
+  },
+  {
+    "id":"c26653929a3a",
+    "txtime":1686374175,
+    "tx":"0xd14f2170c0ce367a61676a9265243ef6404f9d310d6f393a476f35a4a41eb104",
+    "action":"supply",
+    "address":"0x6e1355628b5cb34c3753c3f88d05160d393bca45",
+    "asset":"USDT",
+    "amount":3537620.054172367,
+    "usdvalue":3539714.1837396347
+  },
+  {
+    "id":"4a5508d3a7e0",
+    "txtime":1686374190,
+    "tx":"0xf24119c479e72f8ad87fa5e89101356824ecb00cc209f1dce7dd07398deb4e8c",
+    "action":"supply",
+    "address":"0x989536719a72cfd50348ccd5521256c7eb41a999",
+    "asset":"USDT",
+    "amount":4999999.71419,
+    "usdvalue":5002959.514020812
+  },
+  {
+    "id":"be4aff22166f",
+    "txtime":1686374193,
+    "tx":"0x9450f67f3fabe69cc7fffef891912696b970d7c2962a90dd6ade0497716807a0",
+    "action":"supply",
+    "address":"0x6e1355628b5cb34c3753c3f88d05160d393bca45",
+    "asset":"BUSD",
+    "amount":3155903.71041718,
+    "usdvalue":3155348.113568961
+  },
+  {
+    "id":"f0608ccff64f",
+    "txtime":1686374250,
+    "tx":"0xcc4ea1c18ea32a564fbac32f9521ad39d651f1848ffa8036af116db245d32e9a",
+    "action":"supply",
+    "address":"0x6e1355628b5cb34c3753c3f88d05160d393bca45",
+    "asset":"BNB",
+    "amount":26901.0,
+    "usdvalue":6443358.57612846
   }
 ]
