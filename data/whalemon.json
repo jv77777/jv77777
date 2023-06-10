@@ -80325,5 +80325,65 @@
     "asset":"ETH",
     "amount":4000.0,
     "usdvalue":7082810.8
+  },
+  {
+    "id":"f0f6069d7127",
+    "txtime":1686376163,
+    "tx":"0xa1cd53adc67825b8298f4905da88e9f274e53d183e7a4671b644d95147ca9033",
+    "action":"repay",
+    "address":"0x4637183365dbb892cee18a8caa4224fddf7b5b6f",
+    "asset":"USDT",
+    "amount":3955636.7694039037,
+    "usdvalue":3957262.1405524523
+  },
+  {
+    "id":"8ca910287122",
+    "txtime":1686376187,
+    "tx":"0x48a2c77118653c5956255ed9701656ef58617ddf3974eec38a319d5725399657",
+    "action":"withdraw",
+    "address":"0x4637183365dbb892cee18a8caa4224fddf7b5b6f",
+    "asset":"ETH",
+    "amount":4077.759461441348,
+    "usdvalue":7228737.5759090865
+  },
+  {
+    "id":"cecdcb0445f8",
+    "txtime":1686376523,
+    "tx":"0x3a1dc822c2b179cefb5d68229ad98f25d75dca87ed8719171ba81e2aafa516cd",
+    "action":"repay",
+    "address":"0x46fc492789b90a812c431942e757592f180b5252",
+    "asset":"USDT",
+    "amount":3104647.3792340965,
+    "usdvalue":3106898.2485840414
+  },
+  {
+    "id":"9d8864967a7b",
+    "txtime":1686376520,
+    "tx":"0xd764e9c988341db90761169ee2114e78996348fe7ffe0a61a1138842a0574d54",
+    "action":"supply",
+    "address":"0xa4e227aa97a10276b011c7e7b5a5ea5d96ba3b1e",
+    "asset":"BNB",
+    "amount":5318.0,
+    "usdvalue":1272650.75012282
+  },
+  {
+    "id":"d7bb02e3a63b",
+    "txtime":1686376721,
+    "tx":"0xb47a6dbaeff55bb8b48c55e791d3100aca0fb1689822be6bd8ce41517d7ebd17",
+    "action":"repay",
+    "address":"0x46fc492789b90a812c431942e757592f180b5252",
+    "asset":"USDT",
+    "amount":1897965.435877579,
+    "usdvalue":1899341.4608185904
+  },
+  {
+    "id":"74b9fe6ee539",
+    "txtime":1686376754,
+    "tx":"0x8b2b0dc9d7e5c2ef477eaabd5af437d803dd0ef06c6dcb223ba61e0a08d56d25",
+    "action":"withdraw",
+    "address":"0x46fc492789b90a812c431942e757592f180b5252",
+    "asset":"ETH",
+    "amount":4232.199268104637,
+    "usdvalue":7412717.332641758
   }
 ]
