@@ -80675,5 +80675,15 @@
     "asset":"BUSD",
     "amount":1097889.8352046625,
     "usdvalue":1097267.2109002196
+  },
+  {
+    "id":"300dced27c25",
+    "txtime":1686582380,
+    "tx":"0x40c966bb9c5ef1c47283a1007475119248425842a091adb1c0c2494bf6534a54",
+    "action":"withdraw",
+    "address":"0xf8587bfb4d3e0b31029efa09d595ee6179ddfeaa",
+    "asset":"BTCB",
+    "amount":100.0,
+    "usdvalue":2582480.159091
   }
 ]
