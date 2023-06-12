@@ -34828,5 +34828,35 @@
     "repay_usdvalue":96.62582476287939,
     "treasury_amount":0.00018814531581843954,
     "treasury_usdvalue":4.8408058823178965
+  },
+  {
+    "id":"299b8eef1417",
+    "txtime":1686537156,
+    "tx":"0x03d0730e921b31d3eab66debea8e7c41d662f9bc8d1748fac608e08494ab3381",
+    "liquidator":"0x5747657ace83173173f1f1acc3167b3438a25330",
+    "borrower":"0x15527e904456ac5c09ada5750c54477a3f7eac93",
+    "seize_token":"BTCB",
+    "repay_token":"BUSD",
+    "seize_amount":4.268488523170304e-05,
+    "repay_amount":1.0,
+    "seize_usdvalue":1.0982428269173061,
+    "repay_usdvalue":0.99962771,
+    "treasury_amount":1.9402220559865013e-06,
+    "treasury_usdvalue":0.049920128496241174
+  },
+  {
+    "id":"d0d22250ae7b",
+    "txtime":1686537170,
+    "tx":"0x25311e590655623ad362b89aaad3f8a54305284bae51c3c41a2d2883747519cd",
+    "liquidator":"0xa6595aa239072fcf25ded120dcbc4d94825c3792",
+    "borrower":"0x36a0afed94b71a5e5739ba02641bc5e4451314c2",
+    "seize_token":"BNB",
+    "repay_token":"VAI",
+    "seize_amount":0.8313048278198616,
+    "repay_amount":176.40867224672294,
+    "seize_usdvalue":189.37023565257599,
+    "repay_usdvalue":176.40867224672294,
+    "treasury_amount":0.03778658308272098,
+    "treasury_usdvalue":8.607737984207999
   }
 ]
