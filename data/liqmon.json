@@ -39358,5 +39358,20 @@
     "repay_usdvalue":422.03026641234396,
     "treasury_amount":0.012082615443336555,
     "treasury_usdvalue":21.114612139539496
+  },
+  {
+    "id":"7270cc5f48d8",
+    "txtime":1686660678,
+    "tx":"0x8d5147c3e740a9f32c87e65d54f49f38381e21b1f9a1c6459fc95be6b2023bbc",
+    "liquidator":"0x5e4d1f5bdef71dc9acbe07444162896aa7098a32",
+    "borrower":"0xf34420e5b2423cc4019ca2406efb40744ff54dbd",
+    "seize_token":"SXP",
+    "repay_token":"BUSD",
+    "seize_amount":88.73728922156273,
+    "repay_amount":26.521354410869474,
+    "seize_usdvalue":29.04371476221748,
+    "repay_usdvalue":26.51852484756738,
+    "treasury_amount":4.033513146434669,
+    "treasury_usdvalue":1.320168852828067
   }
 ]
