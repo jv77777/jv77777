@@ -40033,5 +40033,35 @@
     "repay_usdvalue":1946.0771960406573,
     "treasury_amount":0.41147805275145805,
     "treasury_usdvalue":97.3038548741775
+  },
+  {
+    "id":"36e96a2ee5bd",
+    "txtime":1686802784,
+    "tx":"0x68b1deddd00845c2e075af309feed9e27b161f523b21d9aada4baf8776a1f9c3",
+    "liquidator":"0x67ba9707e356d668c830a006198bfdf07b15855f",
+    "borrower":"0x66345ef533f86ee1257a1903ff188707661968ef",
+    "seize_token":"ADA",
+    "repay_token":"USDT",
+    "seize_amount":31.350631303788475,
+    "repay_amount":7.4787054041607535,
+    "seize_usdvalue":8.204460212201443,
+    "repay_usdvalue":7.473619884485924,
+    "treasury_amount":1.4250286956267488,
+    "treasury_usdvalue":0.37293000964552014
+  },
+  {
+    "id":"4db9fec29146",
+    "txtime":1686802925,
+    "tx":"0x17c469655484717c5b32729f6fcd9293e538e2d09ee96e225cab38f25fc92598",
+    "liquidator":"0x67ba9707e356d668c830a006198bfdf07b15855f",
+    "borrower":"0xdf30480324de1f6409ff72cddb719948405904c3",
+    "seize_token":"ADA",
+    "repay_token":"BUSD",
+    "seize_amount":74.38941377410706,
+    "repay_amount":17.711754289890486,
+    "seize_usdvalue":19.50884618660676,
+    "repay_usdvalue":17.698776356169656,
+    "treasury_amount":3.3813369897321386,
+    "treasury_usdvalue":0.8867657357548527
   }
 ]
