@@ -395,5 +395,29 @@
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x98bf4786d72aaef6c714425126dd92f149e3f334, setLastAccruingBlock(uint256), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
       "0x98bf4786d72aaef6c714425126dd92f149e3f334.setLastAccruingBlock(29108355)"
     ]
+  },
+  {
+    "id":"128",
+    "type":"Normal",
+    "title":"VIP-128 Add WBETH market to the Venus Core pool",
+    "description":"#### Summary\n\nAs part ot the BETH token deprecation and rebranding to WBETH as previously addressed in <a href=\"https://app.venus.io/governance/proposal/111\">VIP-111</a>, if passed this VIP will perform the following actions: \n\n* Add a new market in the Core pool for the token WBETH (wrapped Binance ETH).\n* Upgrade the BinanceOracle contract to support the new market\n\n#### Description\n\nA new market for WBETH will be added to the Core pool. \n\nThe risk parameters of the new market are:\n\n* Collateral factor: 50%\n* Supply cap: 300 WBETH\n* Borrow cap: 200 WBETH\n* Reserver factor: 20%\n* XVS Distributions: 34.34/Day\n\nThese parameters will be monitored and adjusted if needed in the future.\n\nMoreover, in order to support the new market, it was needed to upgrade the implementation of the BinanceOracle contract. This upgrade translates the wBETH symbol of the token to WBETH, as expected by the Binance Oracle system.\n\n#### Security and additional considerations\n\nWe applied the following security procedures for this upgrade:\n\n* <b>Add WBETH in a simulation environment</b>: we added the new market to the Core pool, and we verified everything works as expected\n* <b>Deployment on testnet</b>: the same market for WBETH has been deployed to testnet, and used in the Venus Protocol testnet deployment\n* <b>Security review</b>: Peckshield and Certik reviewed the change done in the BinanceOracle contract\n\n5.499943 WBETH will be initially provided, as bootstrap liquidity for this market.This mitigates potential attacks on empty pools previously observed in other Lending protocols. The vTokens minted with this bootstrap liquidity are sent to Binance Simple Earn, the liquidity provider.\n\n#### Deployed contracts on main net\n\n* vWBETH (new market): <a href=\"https://bscscan.com/address/0x6CFdEc747f37DAf3b87a35a1D9c8AD3063A1A8A0\">0x6CFdEc747f37DAf3b87a35a1D9c8AD3063A1A8A0</a>\n* BinanceOracle (new implementation): <a href=\"https://bscscan.com/address/0xe38AbE42948ef249E84f4e935e4f56483C1EE3B9\">0xe38AbE42948ef249E84f4e935e4f56483C1EE3B9</a>\n\n#### Fork tests (simulations)\n\n* https://github.com/VenusProtocol/vips/pull/26 \n\n#### References\n\n* <a href=\"https://github.com/VenusProtocol/venus-protocol\">Repository</a>\n* <a href=\"https://bscscan.com/address/0xa2E3356610840701BDf5611a53974510Ae27E2e1\">WBETH token in BNB chain</a>\n* vWBETH (new market) on testnet: <a href=\"https://testnet.bscscan.com/address/0x35566ED3AF9E537Be487C98b1811cDf95ad0C32b\">0x35566ED3AF9E537Be487C98b1811cDf95ad0C32b</a>\n* <a href=\"https://www.binance.com/en/support/announcement/binance-introduces-wrapped-beacon-eth-wbeth-on-eth-staking-a1197f34d832445db41654ad01f56b4d\">Binance Introduces Wrapped Beacon ETH (WBETH) on ETH Staking</a>\n    ",
+    "endblock":29186913,
+    "eta":1687013654,
+    "actions":[
+      "0x1bb765b741a5f3c2a338369dab539385534e3343.upgrade(0x594810b741d136f1960141c0d8fb4a91be78a820, 0xe38abe42948ef249e84f4e935e4f56483c1ee3b9)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._supportMarket(0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [300000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [200000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setVenusSpeeds([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [596440972222220], [596440972222220])",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(WBETH, 1500)",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig((0xa2e3356610840701bdf5611a53974510ae27e2e1, [0x594810b741d136f1960141c0d8fb4a91be78a820, 0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000], [False, False, True]))",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0, 500000000000000000)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xa2e3356610840701bdf5611a53974510ae27e2e1, 5499943000000000000, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xa2e3356610840701bdf5611a53974510ae27e2e1.approve(0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0, 0)",
+      "0xa2e3356610840701bdf5611a53974510ae27e2e1.approve(0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0, 5499943000000000000)",
+      "0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0.mint(5499943000000000000)",
+      "0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0.transfer(0x7d3217feb6f310f7e7b7c8ee130db59dcad1dd45, 549994300)",
+      "0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0._acceptAdmin()"
+    ]
   }
 ]
