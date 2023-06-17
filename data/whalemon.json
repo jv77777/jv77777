@@ -82836,5 +82836,15 @@
     "asset":"BUSD",
     "amount":1006236.9108263315,
     "usdvalue":1006148.3720405478
+  },
+  {
+    "id":"c8b3614daac9",
+    "txtime":1687018235,
+    "tx":"0x1a8b884318dbe45fa31a2cd482e7d5948c396613e6fc29a7a4099a5ceaa72868",
+    "action":"withdraw",
+    "address":"0x989536719a72cfd50348ccd5521256c7eb41a999",
+    "asset":"USDC",
+    "amount":1000000.0,
+    "usdvalue":1000246.0
   }
 ]
