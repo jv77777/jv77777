@@ -82826,5 +82826,15 @@
     "asset":"TUSD",
     "amount":1058346.3600569621,
     "usdvalue":1060522.0450031857
+  },
+  {
+    "id":"b51929ee868d",
+    "txtime":1687017215,
+    "tx":"0xecf74a91f3e587f09d794491146ac968fd2ee9a207c5166d3a4e18a75382352b",
+    "action":"supply",
+    "address":"0x4153382e3e4f9a0cdfec4dc9a5fa299e9265a048",
+    "asset":"BUSD",
+    "amount":1006236.9108263315,
+    "usdvalue":1006148.3720405478
   }
 ]
