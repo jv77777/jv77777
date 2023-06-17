@@ -40843,5 +40843,20 @@
     "repay_usdvalue":1310.943312102437,
     "treasury_amount":0.0024874987284335993,
     "treasury_usdvalue":65.89881631366292
+  },
+  {
+    "id":"3c0dfb53816d",
+    "txtime":1687022758,
+    "tx":"0x668bfa9da23553498413428f3226267a189363dab7eb7483c22d7a7274b5f936",
+    "liquidator":"0x09844cb359f768a2a7d185dbf2d972dfb019fe53",
+    "borrower":"0xf5770fd4aa0384284eace8ac58c4712719bc6413",
+    "seize_token":"TRX",
+    "repay_token":"AAVE",
+    "seize_amount":1289.8067150938841,
+    "repay_amount":1.6270106614405198,
+    "seize_usdvalue":92.02409766314636,
+    "repay_usdvalue":83.59493072844676,
+    "treasury_amount":58.62757795881291,
+    "treasury_usdvalue":4.182913530143016
   }
 ]
