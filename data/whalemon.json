@@ -83078,5 +83078,15 @@
     "asset":"BUSD",
     "amount":7016966.182214838,
     "usdvalue":7017035.299331734
+  },
+  {
+    "id":"092014aa1914",
+    "txtime":1687176621,
+    "tx":"0x25f9ee0b41d6cfeb3fa02de362e1c1b11cf5d9f7ac695ae8f35f9a403cb35cd7",
+    "action":"supply",
+    "address":"0x29fec057b86ef46d240bd271837369f5715335ef",
+    "asset":"BUSD",
+    "amount":2292038.034348799,
+    "usdvalue":2292060.6109234374
   }
 ]
