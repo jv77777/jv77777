@@ -41098,5 +41098,35 @@
     "repay_usdvalue":544.574539889422,
     "treasury_amount":26.56732687793333,
     "treasury_usdvalue":26.61918523730598
+  },
+  {
+    "id":"1e29a64963f6",
+    "txtime":1687293691,
+    "tx":"0x2852f22ca3f5069410e49305a72c8627902f611e2950ef70d87131c1164c466a",
+    "liquidator":"0x5e4d1f5bdef71dc9acbe07444162896aa7098a32",
+    "borrower":"0x8d655aaaa0ec224b17972df385e25325b9103332",
+    "seize_token":"XVS",
+    "repay_token":"BUSD",
+    "seize_amount":43.925308492756514,
+    "repay_amount":142.88446138007848,
+    "seize_usdvalue":157.25603584916777,
+    "repay_usdvalue":142.92312448648332,
+    "treasury_amount":1.9966049314889323,
+    "treasury_usdvalue":7.148001629507625
+  },
+  {
+    "id":"f58aa23ef530",
+    "txtime":1687293936,
+    "tx":"0xa5558577ba1cc0ea42bcc9262d2091dcc108f390ad2e2eda0081bc8bf8b4ba7d",
+    "liquidator":"0x0b24eaf2a0345d0b51b8351a706e5f785c380976",
+    "borrower":"0x2ceb31f8b202de9cd0909936d3cb10cf01b17776",
+    "seize_token":"TUSDOLD",
+    "repay_token":"AAVE",
+    "seize_amount":86.93299293610823,
+    "repay_amount":1.4962915131790777,
+    "seize_usdvalue":87.20145071159423,
+    "repay_usdvalue":79.23838918409791,
+    "treasury_amount":3.95149967891401,
+    "treasury_usdvalue":3.9637023050724647
   }
 ]
