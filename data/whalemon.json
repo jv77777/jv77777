@@ -83578,5 +83578,16 @@
     "asset":"ETH",
     "amount":1000.0,
     "usdvalue":1844889.113
+  },
+  {
+    "id":"f11732ddad02",
+    "txtime":1687361599,
+    "tx":"0xce248722d984a8140ce72da3ed21c9f6c684546cf6f0cefc3bd42ee24655c901",
+    "action":"withdraw",
+    "address":"0x3ddfa8ec3052539b6c9549f12cea2c295cff5296",
+    "addressname":"Justin Sun",
+    "asset":"TUSDOLD",
+    "amount":1000000.0,
+    "usdvalue":1000612.7000000001
   }
 ]
