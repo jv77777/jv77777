@@ -447,5 +447,20 @@
       "0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e.transfer(0xc444949e0054a23c44fc45789738bdf64aed2391, 1000000000000)",
       "0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e._acceptAdmin()"
     ]
+  },
+  {
+    "id":"130",
+    "type":"Normal",
+    "title":"VIP-130 Risk Parameters Adjustment ",
+    "description":"<b>Summary</b>\n\nIf passed this VIP will perform the following Risk Parameter actions as per Gauntlet Network\u2019s <a href=\"https://community.venus.io/t/risk-parameter-updates-06-20-2023/3614\">latest recommendations</a>:\n\n<b>XVS</b>: Raise supply cap from 1.3M XVS to 1.5M XVS\n\n<b>SXP</b>: Raise base multiplier to .15 to .30 (Raise borrow APR to ~100%)\n\n<b>TRX_OLD</b>: Raise base multiplier from .15 to 1.0 (Raise borrow APR to ~100%).\n\n<b>BETH</b>: Decrease collateral factor to 0.50 from 0.60 and decrease borrow and supply cap to 0.\n\n<b>WBETH</b>: Raise Supply Cap from 300 WBETH to 800 WBETH and Raise Borrow cap from 200 WBETH to 550 WBETH. \n\n\n<b>Description</b>\n\nGauntlet\u2019s parameter updates seek to maintain the overall risk tolerance of the protocol while making risk trade-offs between specific assets.\n\nGauntlet\u2019s parameter recommendations are driven by an optimization function that balances 3 core metrics: insolvencies, liquidations, and borrow usage. Parameter recommendations seek to optimize for this objective function. Gauntlet\u2019s agent-based simulations use a wide array of varied input data that changes daily (including but not limited to asset volatility, asset correlation, asset collateral usage, DEX / CEX liquidity, trading volume, the expected market impact of trades, and liquidator behavior). Gauntlet\u2019s simulations tease out complex relationships between these inputs that cannot be expressed as heuristics. \n\nThe individual collateral pages on the Venus Risk Dashboard cover other vital statistics and outputs from Gauntlet\u2019s simulations that can help with understanding interesting inputs and results related to their simulations. To learn more about Gauntlet\u2019s methodologies, please see the Quick Links section at the bottom of their <a href=\"https://community.venus.io/t/risk-parameter-updates-06-20-2023/3614\">Forum post</a>. \n",
+    "endblock":29332546,
+    "eta":1687452167,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384. _setMarketBorrowCaps([0x972207a639cc1b374b893cc33fa251b55ceb7c07, 0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [1, 550000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d, 0x972207a639cc1b374b893cc33fa251b55ceb7c07, 0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [1500000000000000000000000, 0, 800000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x972207a639cc1b374b893cc33fa251b55ceb7c07, 500000000000000000)",
+      "0x61edcfe8dd6ba3c891cb9bec2dc7657b3b422e93._setInterestRateModel(0x75947ff33c8a7e154280100f37d82b60518bd74b)",
+      "0x2ff3d0f6990a40261c66e1ff2017acbc282eb6d0._setInterestRateModel(0xdd0f61dc0ea1cf49f54a181ee1a4896f46eb1e91)"
+    ]
   }
 ]
