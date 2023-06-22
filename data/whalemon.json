@@ -83669,5 +83669,27 @@
     "asset":"USDC",
     "amount":1001929.1367414114,
     "usdvalue":1001527.2329067903
+  },
+  {
+    "id":"c9ce6938a65f",
+    "txtime":1687409195,
+    "tx":"0x4dfeca4a008c4e7b543968657e74ad29c7ee178a233e736f8ff11a35106396e2",
+    "action":"withdraw",
+    "address":"0x3ddfa8ec3052539b6c9549f12cea2c295cff5296",
+    "addressname":"Justin Sun",
+    "asset":"BUSD",
+    "amount":1257195.8130196587,
+    "usdvalue":1256944.3738570549
+  },
+  {
+    "id":"f323f8dc209c",
+    "txtime":1687409237,
+    "tx":"0xf21b801cb9ad7a06b00c2b31edd49cf0db2abb4f196af6e1b64e696effe68810",
+    "action":"withdraw",
+    "address":"0x3ddfa8ec3052539b6c9549f12cea2c295cff5296",
+    "addressname":"Justin Sun",
+    "asset":"USDT",
+    "amount":5389666.9,
+    "usdvalue":5388721.768012417
   }
 ]
