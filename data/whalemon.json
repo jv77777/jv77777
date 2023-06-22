@@ -83791,5 +83791,15 @@
     "asset":"BUSD",
     "amount":1000230.4790236731,
     "usdvalue":1000194.2706803324
+  },
+  {
+    "id":"c95d69b57cf8",
+    "txtime":1687476301,
+    "tx":"0x9e88802ae4434fe8fce892413b5b1ba35c12042040f1a118a9d5e80b4fa96300",
+    "action":"repay",
+    "address":"0x056c53fd34ed3f2668f91bf6f171f3d45cb7bd71",
+    "asset":"USDT",
+    "amount":999929.641,
+    "usdvalue":1000139.62622461
   }
 ]
