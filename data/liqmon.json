@@ -41428,5 +41428,35 @@
     "repay_usdvalue":128.06178845671934,
     "treasury_amount":1.6925817065433433,
     "treasury_usdvalue":6.403089421328529
+  },
+  {
+    "id":"19ba54a866f5",
+    "txtime":1687534326,
+    "tx":"0xfa3a846cafbb303f04dc235b3fcf6280e2f843b8e9dd1cfaab816e630a54eca6",
+    "liquidator":"0x5517912b7d2094c0925370e136429e72f5f7efd1",
+    "borrower":"0xe8ad3981395f103ac5e39364e84640ae8be7296e",
+    "seize_token":"ETH",
+    "repay_token":"USDT",
+    "seize_amount":0.05638541551640032,
+    "repay_amount":96.80679051842243,
+    "seize_usdvalue":107.29788780799072,
+    "repay_usdvalue":96.8338964197676,
+    "treasury_amount":0.002562973432563651,
+    "treasury_usdvalue":4.877176718545034
+  },
+  {
+    "id":"0bf0a13c734b",
+    "txtime":1687534687,
+    "tx":"0x9e98dca9d2d743c8c5a98c7bfc29d8d76ae2bdf47b221a0f89de97c97115d3c1",
+    "liquidator":"0x9f7e30341fd30cd0b4b3045cbb26db9ec2d98a67",
+    "borrower":"0xe8ad3981395f103ac5e39364e84640ae8be7296e",
+    "seize_token":"ETH",
+    "repay_token":"BCH",
+    "seize_amount":0.1463418658525454,
+    "repay_amount":1.6607152473802205,
+    "seize_usdvalue":277.6606562455197,
+    "repay_usdvalue":249.36097796822287,
+    "treasury_amount":0.006651902993297518,
+    "treasury_usdvalue":12.620938920250897
   }
 ]
