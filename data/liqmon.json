@@ -41548,5 +41548,20 @@
     "repay_usdvalue":350.37898082469246,
     "treasury_amount":0.009298793519293356,
     "treasury_usdvalue":17.75911482695203
+  },
+  {
+    "id":"849e790ea628",
+    "txtime":1687540852,
+    "tx":"0x9b3d26b98454b548192fae3bc6209ca3c9b864fe9d84fdf46583dc9d16ad7ca9",
+    "liquidator":"0x82ca11fdb47dd81efc9f6221f52d518103b74a11",
+    "borrower":"0x7bee050215db01913f12082936b7c8a3f44e8b76",
+    "seize_token":"BTCB",
+    "repay_token":"TUSDOLD",
+    "seize_amount":0.1748766264605279,
+    "repay_amount":4954.066709557324,
+    "seize_usdvalue":5451.079323401115,
+    "repay_usdvalue":4953.1359890446,
+    "treasury_amount":0.00794893756638763,
+    "treasury_usdvalue":247.7763328818688
   }
 ]
