@@ -84021,5 +84021,25 @@
     "asset":"USDT",
     "amount":1530000.711,
     "usdvalue":1530405.0136878819
+  },
+  {
+    "id":"becf24ea30f0",
+    "txtime":1687742113,
+    "tx":"0xf4fb91bbb7972efad837125258d6ea6544be06b775a5993191bde114d0c365bb",
+    "action":"supply",
+    "address":"0x0a639cb00c44705409c32b0f01f16bbc3b3c26eb",
+    "asset":"USDT",
+    "amount":2000104.88519066,
+    "usdvalue":2000884.926095884
+  },
+  {
+    "id":"b925d4dba2bd",
+    "txtime":1687742212,
+    "tx":"0x0a213b9d0b464f41588dbd181b02a8be749d2a9513b7944e734fd1807b375661",
+    "action":"borrow",
+    "address":"0x0a639cb00c44705409c32b0f01f16bbc3b3c26eb",
+    "asset":"BNB",
+    "amount":7000.0,
+    "usdvalue":1643834.03604
   }
 ]
