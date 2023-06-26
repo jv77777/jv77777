@@ -42988,5 +42988,20 @@
     "repay_usdvalue":820.5890204070256,
     "treasury_amount":42.703386621755556,
     "treasury_usdvalue":42.70446872557255
+  },
+  {
+    "id":"cc8074448a0b",
+    "txtime":1687806085,
+    "tx":"0x2ceee126766fa2dda47251d8011cdd1fbcee9a73b1b6aa50e135e621351e5359",
+    "liquidator":"0xa6595aa239072fcf25ded120dcbc4d94825c3792",
+    "borrower":"0x4ac522f4958475557dce1f8b1a3af330be0e0dca",
+    "seize_token":"ADA",
+    "repay_token":"VAI",
+    "seize_amount":786.4482056664156,
+    "repay_amount":206.3981,
+    "seize_usdvalue":221.77839399792916,
+    "repay_usdvalue":206.3981,
+    "treasury_amount":35.747645712109794,
+    "treasury_usdvalue":10.08083609081496
   }
 ]
