@@ -489,5 +489,16 @@
       "0x61edcfe8dd6ba3c891cb9bec2dc7657b3b422e93._setInterestRateModel(0x75947ff33c8a7e154280100f37d82b60518bd74b)",
       "0x2ff3d0f6990a40261c66e1ff2017acbc282eb6d0._setInterestRateModel(0xdd0f61dc0ea1cf49f54a181ee1a4896f46eb1e91)"
     ]
+  },
+  {
+    "id":"133",
+    "type":"Normal",
+    "title":"VIP-133 Enable Tokenomics v3.1 and Allocate Legacy XVS Rewards to the XVS Vault",
+    "description":"Summary\n\nThis VIP has for objective the ratification of the previous Snapshot vote: <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xc9d270ccecb7b91c75b95b8d9af24fc7c20cd38c0c0c44888ed4e7724f4e7ce9\">Venus Protocol Proposal: Update to Venus Protocol Tokenomics (3.1)</a> and if passed, it will also allocate legacy XVS market rewards to the XVS Vault Rewards smart contract.\n\n<b>Description</b>\n\nIt has been approximately one year since the last revision to Venus Tokenomics and given the continuing evolution of the market, Venus has re-evaluated and suggested an optimal distribution of income given the protocol\u2019s current and future needs that was voted and agreed to by the community. \n\nAlso, In preparation for our new Quarterly Buyback and Tokenomics allocation, this VIP Proposal will allocate legacy XVS market rewards to the XVS Vault in accordance with the new Tokenomics. The last legacy XVS rewards allocation was made in the early months of 2022 with VIP-91 for a period of 6 months, hence the necessity to top-up the Vault Rewards for another 6 months period.\n\nJune 30, 2023 to December 31, 2023 = 184 Days.\n\nThis VIP will allocate 184 x 1050 = 193,200 XVS to the vault rewards distribution contract.\n\nPlease note that the XVS vault daily emissions will be adjusted in a future VIP once our quarterly buyback is completed. \n\n<b>Conclusion</b>\n\nThe proposed revisions in Venus Protocol Tokenomics are expected to yield positive results for the Venus ecosystem, ensuring a fairer distribution of income and enhancing the platform\u2019s sustainability.\n",
+    "endblock":29471805,
+    "eta":1687870906,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._grantXVS(0x1e25cf968f12850003db17e0dba32108509c4359, 193200000000000000000000)"
+    ]
   }
 ]
