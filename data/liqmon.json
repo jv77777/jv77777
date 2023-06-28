@@ -43378,5 +43378,50 @@
     "repay_usdvalue":32.41797272294929,
     "treasury_amount":1.6209662567013512,
     "treasury_usdvalue":1.6210093419844545
+  },
+  {
+    "id":"e65a9939e7a1",
+    "txtime":1687980643,
+    "tx":"0xd95c385f7f6ae4f0f8f7ec6e8a7c284a4d35c4f9e30a47e14709d0bb432b50e9",
+    "liquidator":"0xd396eed9c4d31badc61d2512b8411b7bee255818",
+    "borrower":"0x28af80b94742e7f64631b075221598865757bf2a",
+    "seize_token":"BNB",
+    "repay_token":"BNB",
+    "seize_amount":0.4449895230289752,
+    "repay_amount":0.4045359808872242,
+    "seize_usdvalue":103.67944838898525,
+    "repay_usdvalue":94.25405584021684,
+    "treasury_amount":0.020226796501317056,
+    "treasury_usdvalue":4.71270219949933
+  },
+  {
+    "id":"237f0394b39d",
+    "txtime":1687980658,
+    "tx":"0xd2f3bf510447f545d9ba108e8961b53e13b845046829c40f916f22a6692152b9",
+    "liquidator":"0xe3c941ff0cda0dd6f0af092039012266ba620bb6",
+    "borrower":"0x8486275b2552abd0f3207e2372f1d4e000f38958",
+    "seize_token":"XRP",
+    "repay_token":"USDT",
+    "seize_amount":3012.233911428867,
+    "repay_amount":1248.8445000987424,
+    "seize_usdvalue":1420.0574328649109,
+    "repay_usdvalue":1248.7352886472088,
+    "treasury_amount":136.91972324676667,
+    "treasury_usdvalue":64.54806513022321
+  },
+  {
+    "id":"7bbad2fd1e26",
+    "txtime":1687981133,
+    "tx":"0x14effc1b2c54c5d8d78612348dadb92e422d283e2759238c07f5310d320a11af",
+    "liquidator":"0x25f1424bb72e3c8bacbfc2372b65b29931590430",
+    "borrower":"0x4d836d17e87af184fafead89ab13cbff6e4867bd",
+    "seize_token":"CAKE",
+    "repay_token":"VAI",
+    "seize_amount":74.18210739614172,
+    "repay_amount":100.17287683736811,
+    "seize_usdvalue":108.37636760409902,
+    "repay_usdvalue":100.17287683736811,
+    "treasury_amount":3.371913972551896,
+    "treasury_usdvalue":4.9261985274590465
   }
 ]
