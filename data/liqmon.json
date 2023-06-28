@@ -43363,5 +43363,20 @@
     "repay_usdvalue":110.31982615796643,
     "treasury_amount":0.0001815151898097681,
     "treasury_usdvalue":5.515989193476664
+  },
+  {
+    "id":"466443a918cc",
+    "txtime":1687973540,
+    "tx":"0x1f1e489e0ace95418a9a5a89826f24b0c33217f1f613d5186b45be521e344c8d",
+    "liquidator":"0xe8871c8ad85cf5c1c018638298838bf3c450b716",
+    "borrower":"0x5996391d43589be6e95a6c75cf02a40f59ed0bfb",
+    "seize_token":"USDC",
+    "repay_token":"TUSDOLD",
+    "seize_amount":35.66125764742973,
+    "repay_amount":32.45893427505769,
+    "seize_usdvalue":35.662205523658,
+    "repay_usdvalue":32.41797272294929,
+    "treasury_amount":1.6209662567013512,
+    "treasury_usdvalue":1.6210093419844545
   }
 ]
