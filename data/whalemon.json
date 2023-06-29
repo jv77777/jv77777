@@ -84681,5 +84681,25 @@
     "asset":"BTCB",
     "amount":63.95,
     "usdvalue":1929555.0365
+  },
+  {
+    "id":"45cd37a28e98",
+    "txtime":1688004583,
+    "tx":"0x5315587911b336d19e6f9bd279c64f1fbed371ae6b7188de71eb4d3330e12d10",
+    "action":"withdraw",
+    "address":"0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+    "asset":"ETH",
+    "amount":1000.48877601303,
+    "usdvalue":1836927.4074232036
+  },
+  {
+    "id":"8585f5929f59",
+    "txtime":1688005075,
+    "tx":"0x862a0a440e1f6b9f77ac4ff2925ea093e3fcd495f3f2c50b23f383b616e5b4cf",
+    "action":"borrow",
+    "address":"0x989536719a72cfd50348ccd5521256c7eb41a999",
+    "asset":"BNB",
+    "amount":7290.0,
+    "usdvalue":1691026.308
   }
 ]
