@@ -562,5 +562,16 @@
       "0xd17479997f34dd9156deef8f95a52d81d265be9c.approve(0x9f7b01a536afa00ef10310a162877fd792cd0666, 10000000000000000000000)",
       "0x9f7b01a536afa00ef10310a162877fd792cd0666.addMarket((0xc3a45ad8812189cab659ad99e64b1376f6acd035, 650000000000000000, 700000000000000000, 10000000000000000000000, 0x3ddfa8ec3052539b6c9549f12cea2c295cff5296, 1000000000000000000000000, 400000000000000000000000))"
     ]
+  },
+  {
+    "id":"135",
+    "type":"Normal",
+    "title":"VIP-135 Increase WBETH Supply Cap",
+    "description":"<b>Summary</b>\n\nIf passed, this VIP will perform the following action: \n\n- Increase WBETH Supply Cap from 800 to 4000. \n\n<b>Description</b>\n\nSince the supply cap for WBETH is getting reached almost immediately each time its increased, Gauntlet recommends an agressive approach (while still taking into account developing liquidity) is warranted.\n\nWBETH has adequate CEX liquidity to justify this increase without introducing significant liquidity concentration risk to the protocol, especially given that its CF is very conservatively set at 50% currently. \n\nFurther, WBETH price is 1:1 with BETH, both assets' supply balances on Venus are similar currently, and WBETH stands to offer a lot of value to Venus with users implementing a LSD-recursive strategy. Thus, Gauntlet feels a 4,000 WBETH supply cap is justified.\n\nThis recommendation intends to prevent the supply cap from being hit rapidly after the change. \n\nGauntlet will continue to monitor Venus markets and deliver their next set of recommendations on July 5 to incorporate additional cap adjustments, post-execution of the updated 4,000 supply cap should it be maxed out quickly again.\n\n\n\n",
+    "endblock":29557705,
+    "eta":1688129317,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [4000000000000000000000])"
+    ]
   }
 ]
