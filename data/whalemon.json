@@ -84851,5 +84851,25 @@
     "asset":"USDT",
     "amount":1300007.710236833,
     "usdvalue":1299881.7394897111
+  },
+  {
+    "id":"4ba32929b821",
+    "txtime":1688094413,
+    "tx":"0xadca791f78c17a85112088df1a713719bfe8d2b18679906fa49d6e150e215ff8",
+    "action":"supply",
+    "address":"0x6e1355628b5cb34c3753c3f88d05160d393bca45",
+    "asset":"BTCB",
+    "amount":59.52001386,
+    "usdvalue":1824610.3602811636
+  },
+  {
+    "id":"fbdd4f9911b1",
+    "txtime":1688094380,
+    "tx":"0x758cd10af53b6dad19bf15188150fb25b42e6e496cb264078bfed788fd313a09",
+    "action":"supply",
+    "address":"0x6e1355628b5cb34c3753c3f88d05160d393bca45",
+    "asset":"USDT",
+    "amount":3452799.9165813844,
+    "usdvalue":3452489.164588892
   }
 ]
