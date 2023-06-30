@@ -84931,5 +84931,15 @@
     "asset":"ETH",
     "amount":1200.0,
     "usdvalue":2253486.2399999998
+  },
+  {
+    "id":"1e4561d1ab35",
+    "txtime":1688103294,
+    "tx":"0x34c8335fc5b2ffcbcd704807bd7e80d39fc72caa911f48c3a03be8fa6c3b5044",
+    "action":"withdraw",
+    "address":"0x12de390382cc770e9dd7b467336b51fae7cd9a35",
+    "asset":"USDT",
+    "amount":2007637.0991873054,
+    "usdvalue":2007164.5214905278
   }
 ]
