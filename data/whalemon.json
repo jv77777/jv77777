@@ -85181,5 +85181,15 @@
     "asset":"LTC",
     "amount":10000.0,
     "usdvalue":1126000.0
+  },
+  {
+    "id":"79e279824f52",
+    "txtime":1688350465,
+    "tx":"0x50231d12d3fc98d29fcea8c3fc609d53e878c32b02b22e2d2fa3ed2f6de54880",
+    "action":"repay",
+    "address":"0xdbd08d75a614567ff03f50e75b2a72ff9af35700",
+    "asset":"BTCB",
+    "amount":36.0099961,
+    "usdvalue":1106143.076073098
   }
 ]
