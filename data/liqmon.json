@@ -45898,5 +45898,35 @@
     "repay_usdvalue":452.6059474918579,
     "treasury_amount":0.012031506260494594,
     "treasury_usdvalue":22.66999722282056
+  },
+  {
+    "id":"f91af1192438",
+    "txtime":1688666578,
+    "tx":"0x532a0efa7d7eaa43be08a4b9ddbc74b9172eda70c918f10154f6dccd0e13f266",
+    "liquidator":"0x6e7c90c493f253f574887bfc9731b151125a723f",
+    "borrower":"0x564f1cd217e7b63f13fa593eb3f6bcd0c723c8e4",
+    "seize_token":"BTCB",
+    "repay_token":"USDT",
+    "seize_amount":0.000488090176197855,
+    "repay_amount":13.45212478900815,
+    "seize_usdvalue":14.767826226423619,
+    "repay_usdvalue":13.452842056301899,
+    "treasury_amount":2.21859170999025e-05,
+    "treasury_usdvalue":0.6712648284738009
+  },
+  {
+    "id":"2811cf7daa31",
+    "txtime":1688666734,
+    "tx":"0x2a95e18c7b371b8bf00abdb3f802a2dbefba8701dc499571a64bf3dfbe6df6a8",
+    "liquidator":"0x6e7c90c493f253f574887bfc9731b151125a723f",
+    "borrower":"0x5f9afbf2808e60b8960c369bd757aa01bbee3419",
+    "seize_token":"BTCB",
+    "repay_token":"DAI",
+    "seize_amount":0.0005795504472699293,
+    "repay_amount":15.975509418963954,
+    "seize_usdvalue":17.571390010776987,
+    "repay_usdvalue":15.973591239548018,
+    "treasury_amount":2.6343202148633148e-05,
+    "treasury_usdvalue":0.7986995459444084
   }
 ]
