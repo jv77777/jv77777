@@ -46018,5 +46018,50 @@
     "repay_usdvalue":77.60704531781369,
     "treasury_amount":0.0020999839846168643,
     "treasury_usdvalue":3.8986202674412085
+  },
+  {
+    "id":"e65ab283d90c",
+    "txtime":1688688127,
+    "tx":"0x3d626fe8ea5ee233c7a551e54c49febfd5a4d14a5293ca8926c405a7fd46633d",
+    "liquidator":"0xe03db1bb76adb5c1170b62216eb3511f1f627cfb",
+    "borrower":"0x08980f8b217a9e69b878495a65f3443477bd729e",
+    "seize_token":"USDT",
+    "repay_token":"BUSD",
+    "seize_amount":1088.3375223003984,
+    "repay_amount":989.4379668121846,
+    "seize_usdvalue":1088.364338936948,
+    "repay_usdvalue":989.4220863328172,
+    "treasury_amount":49.46988737729083,
+    "treasury_usdvalue":49.4711063153158
+  },
+  {
+    "id":"7ed83f752bdc",
+    "txtime":1688688223,
+    "tx":"0xa9bb1ee4ff2428ed95d7278581a1ee3fd421022305d1d0b073b0f7d95c74d7e7",
+    "liquidator":"0x9f7e30341fd30cd0b4b3045cbb26db9ec2d98a67",
+    "borrower":"0x3d58159c3fff50282de4cf5533c02839fa86388e",
+    "seize_token":"ETH",
+    "repay_token":"TUSDOLD",
+    "seize_amount":6.187544567587398,
+    "repay_amount":10293.079248627484,
+    "seize_usdvalue":11344.945259014245,
+    "repay_usdvalue":10293.030150639468,
+    "treasury_amount":0.2812520257994272,
+    "treasury_usdvalue":515.6793299551929
+  },
+  {
+    "id":"9b75544696f7",
+    "txtime":1688688226,
+    "tx":"0x5e8eb062e2c6a5c1f6c1bf470a4736a30cb1113901c3c4ac836cd064ed70a652",
+    "liquidator":"0x0b24eaf2a0345d0b51b8351a706e5f785c380976",
+    "borrower":"0x2e6c8f4753e0db55f71fd1a08ecd6c5a068bb776",
+    "seize_token":"ETH",
+    "repay_token":"USDT",
+    "seize_amount":0.05362024829171068,
+    "repay_amount":89.19552987600436,
+    "seize_usdvalue":98.31343839215381,
+    "repay_usdvalue":89.1977276538605,
+    "treasury_amount":0.002437284013259576,
+    "treasury_usdvalue":4.4687926541888086
   }
 ]
