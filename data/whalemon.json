@@ -85511,5 +85511,15 @@
     "asset":"USDT",
     "amount":5006682.699521032,
     "usdvalue":5007383.635098965
+  },
+  {
+    "id":"8abddb77a130",
+    "txtime":1688705212,
+    "tx":"0xcc10474c88dd27438260fa33a37e5f599d78a7f01ebe6f3e0541c52d9518315c",
+    "action":"withdraw",
+    "address":"0x29fec057b86ef46d240bd271837369f5715335ef",
+    "asset":"USDT",
+    "amount":1000000.0,
+    "usdvalue":1000126.56
   }
 ]
