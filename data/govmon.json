@@ -772,5 +772,17 @@
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 20000000000000000000000, 0x083a394785f20b244e0697c08f0e01874fde801f)",
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 277200000000000000000000, 0x5e101fca7a2bab7877972bc85a1a07a2606a31b9)"
     ]
+  },
+  {
+    "id":"139",
+    "type":"Critical",
+    "title":"VIP-139 - Critical Update - Remove BIFI Market ",
+    "description":"<b>Summary</b>\n\nThis VIP if passed will perform the following actions: \n\n- Pause Supply on the BIFI Market\n- Pause Borrow on the BIFI market\n- Pause enter BIFI market function\n- Set the Reserve Factor to 100% on the BIFI Market\n\n<b>Description</b>\n\nBeefy\u2019s bridging provider Multichain has suffered a series of critical failures affecting all assets issued and supported by their protocol, $BIFI being one of those. As a preventative measure to avoid financial harm to $BIFI holders, Beefy is now recommending that all users exit any existing liquidity pool positions involving the $BIFI token. This directly affects the liquidation capabilities of Venus Markets. Beefy is working on a token re-issuance and the market will be launched as soon as possible.\n\nThe decision to cancel the market launch immediately and wait for the new $BIFI token to be issued will also avoid Venus and its users having to go through another contract swap.\n\n",
+    "endblock":29858484,
+    "eta":1689034784,
+    "actions":[
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setActionsPaused([0xc718c51958d3fd44f5f9580c9ffac2f89815c909], [0, 2, 7], True)",
+      "0xc718c51958d3fd44f5f9580c9ffac2f89815c909.setReserveFactor(1000000000000000000)"
+    ]
   }
 ]
