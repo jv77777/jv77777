@@ -85831,5 +85831,35 @@
     "asset":"USDT",
     "amount":1000000.4605459665,
     "usdvalue":1000100.4605920211
+  },
+  {
+    "id":"4af42ede9066",
+    "txtime":1688982013,
+    "tx":"0xa67522c65c691a8ddc0109f4ff00b25b108da9aefd7717d9dbc6c89528c843a7",
+    "action":"supply",
+    "address":"0x29fec057b86ef46d240bd271837369f5715335ef",
+    "asset":"BUSD",
+    "amount":7189106.11540537,
+    "usdvalue":7187385.115292403
+  },
+  {
+    "id":"79b186df1ef4",
+    "txtime":1688982316,
+    "tx":"0x125aa9f501c07bca42322d6be4a5219c4f7ebee56ca37f64a14a307d05a9c7d0",
+    "action":"supply",
+    "address":"0x85a3a1a6596227e9dd7ac19b8d9be6592d766d2a",
+    "asset":"USDT",
+    "amount":2443989.87685934,
+    "usdvalue":2444109.632363306
+  },
+  {
+    "id":"654ec171ca27",
+    "txtime":1688982430,
+    "tx":"0x70a8c9b88425bf53f34dafd5031572c001610159aae6f0f1804d029e7b75637c",
+    "action":"borrow",
+    "address":"0x85a3a1a6596227e9dd7ac19b8d9be6592d766d2a",
+    "asset":"BNB",
+    "amount":6000.0,
+    "usdvalue":1442504.6214
   }
 ]
