@@ -46813,5 +46813,35 @@
     "repay_usdvalue":24.067217235198807,
     "treasury_amount":1.659693603922734,
     "treasury_usdvalue":1.2033608475241782
+  },
+  {
+    "id":"3f6bbe8029ad",
+    "txtime":1689271374,
+    "tx":"0x470a1521c9156937dc5df78e42628c3f2fa944e8c14714077c8673c9364bb792",
+    "liquidator":"0xe03db1bb76adb5c1170b62216eb3511f1f627cfb",
+    "borrower":"0x3a7a79c801ef92f5ea777e42b909eefa30d2f9fd",
+    "seize_token":"USDC",
+    "repay_token":"XRP",
+    "seize_amount":71.27350339813398,
+    "repay_amount":83.8994978350225,
+    "seize_usdvalue":71.26026220667268,
+    "repay_usdvalue":60.74578278231559,
+    "treasury_amount":3.239704699915181,
+    "treasury_usdvalue":3.2391028275760307
+  },
+  {
+    "id":"309d02358df8",
+    "txtime":1689271737,
+    "tx":"0xe4070a16734cb0874b1465b5429e5cabeae0a1facdfb3495db7c5e04c45973a9",
+    "liquidator":"0xbc12b1ffe8c0c8aa0004ecfb6969b95aaa1727e0",
+    "borrower":"0xd8647c2e8ee29714ca82029b6d59c25ee851071d",
+    "seize_token":"TRX",
+    "repay_token":"MATIC",
+    "seize_amount":7440.733890394931,
+    "repay_amount":629.9766892722832,
+    "seize_usdvalue":599.5331152222708,
+    "repay_usdvalue":540.1420133820557,
+    "treasury_amount":338.21517683613325,
+    "treasury_usdvalue":27.251505237375945
   }
 ]
