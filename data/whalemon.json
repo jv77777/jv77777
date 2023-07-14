@@ -88011,5 +88011,15 @@
     "asset":"ETH",
     "amount":2500.0,
     "usdvalue":5024325.0
+  },
+  {
+    "id":"8f10832ae02f",
+    "txtime":1689318475,
+    "tx":"0xf8da5458ff9cb65e71a0193e5c0a1ea00e1d936d047c96a59487d5e9081a53ee",
+    "action":"repay",
+    "address":"0x45ebb1c54f223c5905a7683164656b63527bc11b",
+    "asset":"BTCB",
+    "amount":34.03580697,
+    "usdvalue":1065655.3301435153
   }
 ]
