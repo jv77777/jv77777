@@ -88181,5 +88181,25 @@
     "asset":"XVS",
     "amount":300746.6656218388,
     "usdvalue":1463391.4681218795
+  },
+  {
+    "id":"a8a1c39e2076",
+    "txtime":1689377570,
+    "tx":"0x458bce5fde1f4c02a766f1c2a124318e1806fabaa551e676c3c08067cc159edd",
+    "action":"repay",
+    "address":"0xa4159ea134253bac6da80fbc2f06cd727186a828",
+    "asset":"BNB",
+    "amount":4302.758790279387,
+    "usdvalue":1063728.0281328699
+  },
+  {
+    "id":"15913ccd2741",
+    "txtime":1689377597,
+    "tx":"0x3b0886d10f3000e4d1b894dabcfc71e2a6e51fcafda44655b14f17b128434688",
+    "action":"withdraw",
+    "address":"0xa4159ea134253bac6da80fbc2f06cd727186a828",
+    "asset":"USDT",
+    "amount":1800567.753341712,
+    "usdvalue":1801557.0032710757
   }
 ]
