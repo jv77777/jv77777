@@ -88551,5 +88551,25 @@
     "asset":"ETH",
     "amount":2003.4354301616404,
     "usdvalue":3862428.3193657896
+  },
+  {
+    "id":"fb7e8f0d985f",
+    "txtime":1689485824,
+    "tx":"0x816d23921ca97eeaaf9f81ae5c8564f5a3494466177c046f86343eb2015959f4",
+    "action":"repay",
+    "address":"0x46fc492789b90a812c431942e757592f180b5252",
+    "asset":"USDT",
+    "amount":3866808.97945178,
+    "usdvalue":3868044.4249207154
+  },
+  {
+    "id":"93fa7c879eee",
+    "txtime":1689485869,
+    "tx":"0x141274e1d2287de621c1a76323c0fccf68e51396d3bd0553457ab020f3d3953e",
+    "action":"withdraw",
+    "address":"0x46fc492789b90a812c431942e757592f180b5252",
+    "asset":"ETH",
+    "amount":3000.0,
+    "usdvalue":5780716.1127
   }
 ]
