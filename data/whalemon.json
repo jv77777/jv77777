@@ -88641,5 +88641,15 @@
     "asset":"BTCB",
     "amount":500.0,
     "usdvalue":15122500.0
+  },
+  {
+    "id":"603f04d2c5cd",
+    "txtime":1689495481,
+    "tx":"0x207d420e6ca32c4f38828059030112d848af2c35e0d3c7dc1193b72b1cdc429e",
+    "action":"withdraw",
+    "address":"0x1f356cc150608e4f1334d65bcc448db84cb7cfee",
+    "asset":"USDC",
+    "amount":1060000.0,
+    "usdvalue":1059710.1218
   }
 ]
