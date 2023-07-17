@@ -88951,5 +88951,65 @@
     "asset":"BTCB",
     "amount":69.74846320985705,
     "usdvalue":2109612.018245336
+  },
+  {
+    "id":"e4590ae5f6be",
+    "txtime":1689552538,
+    "tx":"0x2bc70da2bfe16ea40715a3af34f51e394bca740f2493c6a63bf0a05f25596c7f",
+    "action":"withdraw",
+    "address":"0xeecb52ef2acac2d2dacae212252544d61cc15baf",
+    "asset":"USDT",
+    "amount":2000263.25578796,
+    "usdvalue":2001243.3847832964
+  },
+  {
+    "id":"9e371ba6b3f3",
+    "txtime":1689552592,
+    "tx":"0x6b5865ff5b959ecec257c3a2752800b32af5044ee3950fd41e3a5b25ec883413",
+    "action":"repay",
+    "address":"0xf52f9884a057b4ad76d51a32af3f96742b2f0b1b",
+    "asset":"BNB",
+    "amount":6248.0,
+    "usdvalue":1514736.59563072
+  },
+  {
+    "id":"9d98a585cd22",
+    "txtime":1689552691,
+    "tx":"0xa257bb19a4b8fd67621ed3cad7618a733fbef5dd5ce93cd0e601ebf7bfc6a222",
+    "action":"supply",
+    "address":"0x85a3a1a6596227e9dd7ac19b8d9be6592d766d2a",
+    "asset":"BTCB",
+    "amount":34.9999961,
+    "usdvalue":1058609.8820405998
+  },
+  {
+    "id":"2f217678bf10",
+    "txtime":1689553081,
+    "tx":"0xb75d5ca767753c390c676f615ace253a0a306b5cb8a5bd247e61615de747fdc5",
+    "action":"repay",
+    "address":"0xb8b92767f681979fc1c1af75014adb51e4e4958b",
+    "asset":"BNB",
+    "amount":30005.7,
+    "usdvalue":7255931.3550681
+  },
+  {
+    "id":"a3bda7843663",
+    "txtime":1689553132,
+    "tx":"0x4e16c7ad54e3b87389bbe39cbf56c5a3f017d77df6c53590add7e2d35bc24776",
+    "action":"withdraw",
+    "address":"0xa501677470278d37d21e304010b0efbe1e3b9355",
+    "asset":"USDT",
+    "amount":2500820.0,
+    "usdvalue":2502120.4264
+  },
+  {
+    "id":"651a28efa375",
+    "txtime":1689553102,
+    "tx":"0x362c40ca8c83470eb5a7d951b8d4b27050fe548ec30ad9bda3c76a2f4fa576a0",
+    "action":"repay",
+    "address":"0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+    "asset":"BNB",
+    "amount":20000.0,
+    "usdvalue":4836368.66
   }
 ]
