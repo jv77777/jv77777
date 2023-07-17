@@ -47608,5 +47608,20 @@
     "repay_usdvalue":2142.7999800338625,
     "treasury_amount":0.05550957047024768,
     "treasury_usdvalue":107.33012658803764
+  },
+  {
+    "id":"85994381064f",
+    "txtime":1689585229,
+    "tx":"0xb19a265b195da5612ec35167666470df8b836a4c3d876c4c474ee847e135be4a",
+    "liquidator":"0xdb6b3ddbb078ada1d6af17a61acac20dca47a94f",
+    "borrower":"0x89e55eceb3a2efaa3cf9186f70cb66c55be302d3",
+    "seize_token":"LTC",
+    "repay_token":"BUSD",
+    "seize_amount":2.79857190180266,
+    "repay_amount":236.06765508934006,
+    "seize_usdvalue":261.0601696322387,
+    "repay_usdvalue":236.06826886524328,
+    "treasury_amount":0.1272078137183027,
+    "treasury_usdvalue":11.866371346919937
   }
 ]
