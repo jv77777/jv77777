@@ -902,5 +902,17 @@
       "0x281e5378f99a4bc55b295abc0a3e7ed32deba059.setInterestRateModel(0x009cdfb248e021f58a34b50dc2a7601ea72d14ac)",
       "0xf1da185cce5bed1bebbb3007ef738ea4224025f7.setInterestRateModel(0xd9d10f63d736dc2d5271ce7e94c4b07e114d7c76)"
     ]
+  },
+  {
+    "id":"143",
+    "type":"Normal",
+    "title":"VIP-143 Increase WBETH Supply and Borrow Caps ",
+    "description":"*Summary*\n\nIf passed, this proposal will perform the following actions as per Chaos Labs <a href=\"https://community.venus.io/t/chaos-labs-supply-and-borrow-cap-recommendations-for-wbeth/3655\">latest recommendations</a> for WBETH.\n\n<b>WBETH:</b> Increase Supply Cap from 4000 WBETH to 8000 WBETH and Increase Borrow Cap from 550 WBETH to 1100 WBETH.\n\nPlease note that while setting supply and borrow caps, Chaos Labs also take into account additional factors. These include the total on-chain supply of the asset, redemption process (where applicable), oracle setup, and the potential for price manipulation and long/short attacks, all of which could influence their recommendations.\n\n*Simulation*\nhttps://github.com/VenusProtocol/vips/pull/40\n",
+    "endblock":30074011,
+    "eta":1689682937,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [1100000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [8000000000000000000000])"
+    ]
   }
 ]
