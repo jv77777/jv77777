@@ -91451,5 +91451,35 @@
     "asset":"ETH",
     "amount":11739.521888587044,
     "usdvalue":22360126.46692908
+  },
+  {
+    "id":"9794e28a7082",
+    "txtime":1689678558,
+    "tx":"0x3d0ae8702dcfeaaa580430af393684fd4b60545dcedd67ec2b0fe5a227d887ad",
+    "action":"withdraw",
+    "address":"0x691cb02bf62a0bb2397bfae9a55f7380d415fff2",
+    "asset":"BTCB",
+    "amount":504.0446663250076,
+    "usdvalue":15128663.758751929
+  },
+  {
+    "id":"02922ee95cfd",
+    "txtime":1689678637,
+    "tx":"0xa7607934625448bc2c331c5e41fdf9c112274102c8aa4431f64362d5357020e7",
+    "action":"withdraw",
+    "address":"0x1948f38e8cd20af1387761f53852b348da2a887c",
+    "asset":"BTCB",
+    "amount":105.012,
+    "usdvalue":3151885.82436
+  },
+  {
+    "id":"36d6c9177859",
+    "txtime":1689678795,
+    "tx":"0x860921908333b11fc61e2679959303e7bd109919f02b5feb4bc178be498f05ce",
+    "action":"withdraw",
+    "address":"0xa00b0540f43e00a634d016a31b0a39d95170e6bf",
+    "asset":"USDT",
+    "amount":1985480.0,
+    "usdvalue":1985718.2576
   }
 ]
