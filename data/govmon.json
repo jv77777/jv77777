@@ -914,5 +914,17 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [1100000000000000000000])",
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [8000000000000000000000])"
     ]
+  },
+  {
+    "id":"144",
+    "type":"Normal",
+    "title":"VIP-144 Adjust XVS Vault Rewards Distributions Speed",
+    "description":"<b>Summary</b> \n\nIf passed, this VIP will perform the following actions: \n\nAdjust XVS Vault rewards distribution speed to 1780 XVS per day.\n\nRefund 9,216 USDT to the Community Wallet that were swapped and used to supply the missing TUSDOLD Reserves to allow for execution of the Buyback VIP. ([1](https://bscscan.com/tx/0xff2649076d4cb84f66313775bbde1a36bdabce66cccfd68d44ae87cd51e90ac5\n) [2](https://bscscan.com/tx/0xefbd207eee33e63f54180a0dd96c3300f932ae54ffbdde8e87a937aa5ec5da97\n))\n\n\n<b>Details</b>\n\nAs per our <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xc9d270ccecb7b91c75b95b8d9af24fc7c20cd38c0c0c44888ed4e7724f4e7ce9\">latest Tokenomics update</a>, Venus recently proceeded with its quarterly buyback and fund allocations.\n\n- Buyback Yield: 45,650 XVS (Received in the XVS rewards distribution contract in two transactions <a href=\"https://bscscan.com/tx/0x3c565cfe9d1ae51b11bf546c0c14112cbe1945bc4f399b6b96a2424b36f1bd50\">1</a> <a href=\"https://bscscan.com/tx/0x3c565cfe9d1ae51b11bf546c0c14112cbe1945bc4f399b6b96a2424b36f1bd50\">2</a>) \n\n- <b>Legacy rewards for this quarter</b>: 96,600 (As per new Tokenomics) \n\n- <b>Rewards to distribute</b>: 141,309 (considering current debt and time delays)\n\n<b>Daily distribution adjustment</b>:\n- 1780 XVS/Day (considering a 7 day buffer) \n- Estimated APR: 9.9%\n\n",
+    "endblock":30107576,
+    "eta":1689783990,
+    "actions":[
+      "0x051100480289e704d20e9db4804837068f3f9204.setRewardAmountPerBlock(0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63, 61805555555555555)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 9216000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
+    ]
   }
 ]
