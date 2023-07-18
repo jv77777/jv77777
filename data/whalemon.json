@@ -89721,5 +89721,35 @@
     "asset":"USDC",
     "amount":6678458.59666588,
     "usdvalue":6677893.331930258
+  },
+  {
+    "id":"7d6d8e6cd44d",
+    "txtime":1689649531,
+    "tx":"0x5e6d79827ce068243f1fd0c09044ab9c12b588f02e07dfdf84b611e0713a36a7",
+    "action":"supply",
+    "address":"0xd15a9a3a1b833552d57b5e11e963bdf1ecabe084",
+    "asset":"USDT",
+    "amount":999999.712,
+    "usdvalue":1000189.71194528
+  },
+  {
+    "id":"a9841f0c2548",
+    "txtime":1689649705,
+    "tx":"0xb9c10da23e40c6e9ff1eb8ff91326ca7f6d9bb7aaac1b0c2563686b10b0da3c4",
+    "action":"supply",
+    "address":"0x26336f1700f09d3471fc458577a48aca622c8877",
+    "asset":"BTCB",
+    "amount":34.5289922,
+    "usdvalue":1041021.184230147
+  },
+  {
+    "id":"b3598c47abbd",
+    "txtime":1689649732,
+    "tx":"0xa4ee6d575bc8c8665c42abd998663ef4ab480b936e3e1915be7a38aa42afc7f7",
+    "action":"supply",
+    "address":"0xd15a9a3a1b833552d57b5e11e963bdf1ecabe084",
+    "asset":"ETH",
+    "amount":1764.6784760944788,
+    "usdvalue":3370938.882099441
   }
 ]
