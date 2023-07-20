@@ -91911,5 +91911,15 @@
     "asset":"USDC",
     "amount":2000000.0,
     "usdvalue":2000000.0
+  },
+  {
+    "id":"ccab26dd3922",
+    "txtime":1689835943,
+    "tx":"0x161c95fd693ef142f12363b1158aa9200047f6b0ee2851c45721194b26db81f0",
+    "action":"withdraw",
+    "address":"0x1f356cc150608e4f1334d65bcc448db84cb7cfee",
+    "asset":"USDT",
+    "amount":1030130.0,
+    "usdvalue":1030253.9143376999
   }
 ]
