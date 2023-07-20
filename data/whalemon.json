@@ -91941,5 +91941,25 @@
     "asset":"BUSD",
     "amount":2000000.0,
     "usdvalue":2000013.8199999998
+  },
+  {
+    "id":"d0770b8ad481",
+    "txtime":1689837817,
+    "tx":"0x0e06a06118682bb348d3e004cd93e9f42d51366a780635fe470af9a17f31752d",
+    "action":"withdraw",
+    "address":"0x29fec057b86ef46d240bd271837369f5715335ef",
+    "asset":"BUSD",
+    "amount":1000000.0,
+    "usdvalue":1000014.2700000001
+  },
+  {
+    "id":"d03f7b5a88de",
+    "txtime":1689838033,
+    "tx":"0x0f09a9705c1f14bb1b430ca6f109e851f0146a7ab947a38a7705d11f34925b4d",
+    "action":"supply",
+    "address":"0x44477915c3741c09d1114a0722f16ef35edfcc68",
+    "asset":"USDT",
+    "amount":999999.716003,
+    "usdvalue":1000109.7159717605
   }
 ]
