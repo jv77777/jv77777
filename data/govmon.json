@@ -926,5 +926,26 @@
       "0x051100480289e704d20e9db4804837068f3f9204.setRewardAmountPerBlock(0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63, 61805555555555555)",
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 9216000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
     ]
+  },
+  {
+    "id":"145",
+    "type":"Normal",
+    "title":"VIP-145 Upgrade of the Resilient Price Feeds",
+    "description":"#### Summary\n\nIf passed, this VIP will perform the following actions:\n\n* Upgrade the contract\u2019s implementations of the Resilient Price Feeds\n* Configure the price feed for the SD token\n\n#### Description\n\nThis upgrade includes a new function in the Resilient Price Feeds (<a href=\"https://app-ipfs.venus.io/#/governance/proposal/123\">VIP-123</a>) that will allow anyone to get the price of an asset, providing the asset address. Previously, the vToken contract address associated with the asset had to be provided. This enables the possibility of configuring price feeds for assets not listed in the Venus markets. This is needed, for example, to calculate the Distribution APY of the rewards in the <a href=\"https://app.venus.io/\">Venus UI</a>.\n\nMoreover, this VIP configures the price feed of the SD token (<a href=\"https://bscscan.com/address/0x3bc5ac0dfdc871b365d159f728dd1b9a0b5481e8\">0x3bc5ac0dfdc871b365d159f728dd1b9a0b5481e8</a> in BNB chain), using the Binance Oracle as a provider.\n\n#### Security and additional considerations\n\nWe applied the following security procedures for this upgrade:\n\n* <b>Prices pre/post upgrade:</b> in a simulation environment, validating the asset prices pre-upgrade are the same as post-upgrade\n* <b>Deployment on testnet:</b> the same Oracles have been deployed to testnet, and used in the Venus Protocol testnet deployment\n* <b>Audit:</b> Peckshield and Certik have audited the updated code\n\n#### Audit reports\n\n* <a href=\"https://github.com/VenusProtocol/oracle/blob/fb02cdd3865fb5c34e0cd65cbeda02f87841371a/audits/045_getPrice_peckshield_20230712.pdf\">Peckshield audit report</a>\n* <a href=\"https://github.com/VenusProtocol/oracle/blob/fb02cdd3865fb5c34e0cd65cbeda02f87841371a/audits/043_getPrice_certik_20230717.pdf\">Certik audit report</a>\n\n#### References\n\n* <a href=\"https://github.com/VenusProtocol/oracle\">Repository</a>\n* <a href=\"https://github.com/VenusProtocol/vips/pull/38\">Simulation pre/post upgrade</a>\n* <a href=\"https://github.com/VenusProtocol/isolated-pools/commit/8c9053f75a8f0f3c0bf082cdb75a01a44ef29ca3\">Deployment on testnet</a>\n* <a href=\"https://docs-v4.venus.io\">Documentation</a>\n",
+    "endblock":30188136,
+    "eta":1690026289,
+    "actions":[
+      "0x1bb765b741a5f3c2a338369dab539385534e3343.upgrade(0x6592b5de802159f3e74b2486b091d11a8256ab8a, 0x95f9d968867e4fe89a1f768ce853db38d70eec2b)",
+      "0x1bb765b741a5f3c2a338369dab539385534e3343.upgrade(0x1b2103441a0a108dad8848d8f5d790e4d402921f, 0x38120f83734f719dc199109e09a822a80cd26ead)",
+      "0x1bb765b741a5f3c2a338369dab539385534e3343.upgrade(0x6e332ff0bb52475304494e4ae5063c1051c7d735, 0xcf0612ceafd63709d8f7efe71ecd0aabf075f6b1)",
+      "0x1bb765b741a5f3c2a338369dab539385534e3343.upgrade(0xb893e38162f55fb80b18aa44da76fadf8e9b2262, 0x1b8de8fe17735b80e30e1babcd78a20f573a3e9e)",
+      "0x1bb765b741a5f3c2a338369dab539385534e3343.upgrade(0xea2f042e1a4f057ef8a5220e57733ad747ea8867, 0x67c549a18abfad127b13f8d56738f43a21bb62a7)",
+      "0x1bb765b741a5f3c2a338369dab539385534e3343.upgrade(0x594810b741d136f1960141c0d8fb4a91be78a820, 0x8bf46792022126ae7f3ac8f4914ed66e7deb7388)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x594810b741d136f1960141c0d8fb4a91be78a820, setSymbolOverride(string,string), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setSymbolOverride(WBNB, BNB)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setSymbolOverride(wBETH, WBETH)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(SD, 1500)",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig((0x3bc5ac0dfdc871b365d159f728dd1b9a0b5481e8, [0x594810b741d136f1960141c0d8fb4a91be78a820, 0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000], [False, False, True]))"
+    ]
   }
 ]
