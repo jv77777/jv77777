@@ -947,5 +947,23 @@
       "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(SD, 1500)",
       "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig((0x3bc5ac0dfdc871b365d159f728dd1b9a0b5481e8, [0x594810b741d136f1960141c0d8fb4a91be78a820, 0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000], [False, False, True]))"
     ]
+  },
+  {
+    "id":"146",
+    "type":"Normal",
+    "title":"VIP-146 New ankrBNB market in the DeFi pool",
+    "description":"#### Summary\n\nIf passed, this VIP will add a new market for ankrBNB into the DeFi pool.\n\n#### Description\n\nRelated to <a href=\"https://app.venus.io/governance/proposal/134\">VIP-134</a> and <a href=\"https://app.venus.io/governance/proposal/136\">VIP-136</a>, this VIP will add a market for ankrBNB to the already existing DeFi pool.\n\n#### Risk parameters\n\nFollowing <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-recommendations-for-isolated-markets/3642\">Chaos Labs recommendations</a>, the risk parameters for the new market are:\n\nUnderlying token: <a href=\"https://bscscan.com/address/0x52f24a5e03aee338da5fd9df68d2b6fae1178827\">ankrBNB</a>\n\n* Borrow cap: 4,000\n* Supply cap: 5,000\n* Collateral factor: 0\n* Liquidation threshold: 0\n* Reserve factor: 0.25\n\nBootstrap liquidity: 39 ankrBNB - provided by the <a href=\"https://www.ankr.com/\">ANKR Treasury</a>.\n\nInterest rate curve for the new market:\n\n* kink: 0.8\n* base (yearly): 0.035\n* multiplier (yearly): 0.1\n* jump multiplier (yearly): 3\n\n#### Liquidity Mining Rewards\n\n500,000 <a href=\"https://bscscan.com/address/0xf307910A4c7bbc79691fD374889b36d8531B08e3\">ANKR</a> for 30 days, provided by the <a href=\"https://www.ankr.com/\">ANKR Treasury</a>. 50/50 for suppliers/borrowers in the new ankrBNB market.\n\n#### Security and additional considerations\n\nNo changes in the code are involved in this VIP. We applied the following security procedures for this upgrade:\n\n* <b>VIP execution simulation:</b> in a simulation environment, validating the new market is properly added to the DeFi pool with the right parameters and the expected bootstrap liquidity\n* <b>Deployment on testnet:</b> the same market has been deployed to testnet, and used in the Venus Protocol testnet deployment\n\n<b>Contracts on mainnet</b>\n\nNew market vankBNB_DeFi: <a href=\"https://bscscan.com/address/0x53728FD51060a85ac41974C6C3Eb1DaE42776723\">0x53728FD51060a85ac41974C6C3Eb1DaE42776723</a>\n\n<b>Contracts on testnet</b>\n\nNew market vankBNB_DeFi: <a href=\"https://testnet.bscscan.com/address/0xe507B30C41E9e375BCe05197c1e09fc9ee40c0f6\">0xe507B30C41E9e375BCe05197c1e09fc9ee40c0f6</a>\n\n#### References\n\n* <a href=\"https://github.com/VenusProtocol/isolated-pools\">Repository</a>\n* <a href=\"https://github.com/VenusProtocol/isolated-pools/tree/develop/tests/hardhat/Fork\">Fork tests of main operations</a>\n* <a href=\"https://github.com/VenusProtocol/vips/pull/41\">VIP simulation</a>\n* <a href=\"https://community.venus.io/t/isolated-lending-market-for-ankrbnb-on-venus/3367\">Forum proposals to add the ankrBNB market to Venus</a>\n* <a href=\"https://community.venus.io/t/proposing-venus-v4\">Community post about Venus V4, introducing Isolated Pools</a>\n* <a href=\"https://docs-v4.venus.io/whats-new/isolated-pools\">Documentation</a>\n",
+    "endblock":30278914,
+    "eta":1690299451,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x52f24a5e03aee338da5fd9df68d2b6fae1178827, 39000000000000000000, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x52f24a5e03aee338da5fd9df68d2b6fae1178827.approve(0x9f7b01a536afa00ef10310a162877fd792cd0666, 0)",
+      "0x52f24a5e03aee338da5fd9df68d2b6fae1178827.approve(0x9f7b01a536afa00ef10310a162877fd792cd0666, 39000000000000000000)",
+      "0x9f7b01a536afa00ef10310a162877fd792cd0666.addMarket((0x53728fd51060a85ac41974c6c3eb1dae42776723, 0, 0, 39000000000000000000, 0xae1c38847fb90a13a2a1d7e5552ccd80c62c6508, 5000000000000000000000, 4000000000000000000000))",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xf307910a4c7bbc79691fd374889b36d8531b08e3, 500000000000000000000000, 0x14d9a428d0f35f81a30ca8d8b2f3974d3cccb98b)",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.addRewardsDistributor(0x14d9a428d0f35f81a30ca8d8b2f3974d3cccb98b)",
+      "0x14d9a428d0f35f81a30ca8d8b2f3974d3cccb98b.acceptOwnership()",
+      "0x14d9a428d0f35f81a30ca8d8b2f3974d3cccb98b.setRewardTokenSpeeds([0x53728fd51060a85ac41974c6c3eb1dae42776723], [289351851851851851], [289351851851851851])"
+    ]
   }
 ]
