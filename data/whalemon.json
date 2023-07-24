@@ -92191,5 +92191,15 @@
     "asset":"USDT",
     "amount":1321073.805062076,
     "usdvalue":1320920.0056496907
+  },
+  {
+    "id":"c0f84ec2853d",
+    "txtime":1690197230,
+    "tx":"0x0d2bb280725b97f60cbb17f9e193082581b7953d568cb05a7b5778b1f11ab7f8",
+    "action":"withdraw",
+    "address":"0x015fd5b0e791bbcbe65cec906bfbb2940cbbb456",
+    "asset":"BTCB",
+    "amount":100.0,
+    "usdvalue":2931581.1595759997
   }
 ]
