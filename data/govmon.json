@@ -965,5 +965,16 @@
       "0x14d9a428d0f35f81a30ca8d8b2f3974d3cccb98b.acceptOwnership()",
       "0x14d9a428d0f35f81a30ca8d8b2f3974d3cccb98b.setRewardTokenSpeeds([0x53728fd51060a85ac41974c6c3eb1dae42776723], [289351851851851851], [289351851851851851])"
     ]
+  },
+  {
+    "id":"147",
+    "type":"Fasttrack",
+    "title":"VIP-147 Risk Parameters Adjustment for FLOKI",
+    "description":"<b>Summary</b>\n\nIf passed, this VIP will perform the following action as per the latest <a href=\"https://community.venus.io/t/chaos-labs-supply-and-borrow-cap-recommendations-for-floki/3662\">Chaos Labs recommendations</a>: \n\n- Increase supply cap for FLOKI from 22B to 44B.\n\n<b>Simulation</b>\nhttps://github.com/VenusProtocol/vips/pull/48\n",
+    "endblock":30300830,
+    "eta":1690365391,
+    "actions":[
+      "0x1b43ea8622e76627b81665b1ecebb4867566b963.setMarketSupplyCaps([0xc353b7a1e13ddba393b5e120d4169da7185aa2cb], [44000000000000000000])"
+    ]
   }
 ]
