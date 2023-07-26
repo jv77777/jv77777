@@ -50188,5 +50188,50 @@
     "repay_usdvalue":5.11918230590578,
     "treasury_amount":0.0010742369550988148,
     "treasury_usdvalue":0.25619477142151637
+  },
+  {
+    "id":"77e714a577db",
+    "txtime":1690399806,
+    "tx":"0xc49ec44625604aafaccb7cfd47ba403d80bedb660f6ad1ccefe612b411151a8a",
+    "liquidator":"0x0000000000d81255748d2173523d52518803ad99",
+    "borrower":"0x96784d30806e7241a8db35765000e337feadbb34",
+    "seize_token":"MATIC",
+    "repay_token":"BUSD",
+    "seize_amount":6.873503058867354,
+    "repay_amount":4.514324630582783,
+    "seize_usdvalue":4.943423399937401,
+    "repay_usdvalue":4.513926828296335,
+    "treasury_amount":0.31243195722124334,
+    "treasury_usdvalue":0.2247010636335182
+  },
+  {
+    "id":"ce7b260d2676",
+    "txtime":1690403180,
+    "tx":"0xca004e75a305dd77580d6ef2203e80cfaf6f52f31bdf236de35d201caf684395",
+    "liquidator":"0x39752ba0ad0c1478d5a6c80b4ddf6029b6f25cf2",
+    "borrower":"0xaaa85d882c0aa0d5bc070dadeeb730aed3fe11c1",
+    "seize_token":"BNB",
+    "repay_token":"LINK",
+    "seize_amount":0.00011547490980405814,
+    "repay_amount":0.003224202007265398,
+    "seize_usdvalue":0.027626340905772418,
+    "repay_usdvalue":0.025224882816083524,
+    "treasury_amount":5.248859536548097e-06,
+    "treasury_usdvalue":0.0012557427684442006
+  },
+  {
+    "id":"5eb3a094e0bd",
+    "txtime":1690403366,
+    "tx":"0x6b726715908b04d7e46b11f2bbfdb8f37fc2f8644de3a29649be7c36e2f66ecf",
+    "liquidator":"0x0000000000d81255748d2173523d52518803ad99",
+    "borrower":"0x5b979df92c2b7924460f46393c11cf55155dae83",
+    "seize_token":"BNB",
+    "repay_token":"XRP",
+    "seize_amount":0.025048955249094753,
+    "repay_amount":7.623354665429619,
+    "seize_usdvalue":5.9932933899468495,
+    "repay_usdvalue":5.44071961452513,
+    "treasury_amount":0.0011385888749588522,
+    "treasury_usdvalue":0.27242242681576584
   }
 ]
