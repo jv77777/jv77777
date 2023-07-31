@@ -1013,5 +1013,22 @@
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 12500000000000000000000, 0x083a394785f20b244e0697c08f0e01874fde801f)",
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 19000000000000000000000, 0x4cf605b238e9c3c72d0faed64d12426e4a54ee12)"
     ]
+  },
+  {
+    "id":"150",
+    "type":"Normal",
+    "title":"VIP-150 Risk Parameters Adjustments",
+    "description":"#### Summary\n\nThis VIP will perform the following Risk Parameters actions as per Chaos Labs latest recommendations in the following Venus community forum publications. \n\n<a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-07-24-2023/3667\">Risk Parameter Updates 07/24/2023</a>\n\n* <b>TUSDOLD:</b> Modify Interest rate curve kink to 0.40 \n* <b>TRXOLD:</b> Modify Interest rate curve kink to 0.01\n\nThese modifications are proposed to further incentivize borrowers to repay their loans involving these tokens.\n\n<a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-07-27-2023/3673\">Risk Parameter Updates - 07/27/2023</a>\n\n* <b>SXP:</b> Increase the borrow rate by increasing the Base rate to 0.5\n* <b>ankrBNB:</b> Increase borrow cap on LST isolated pool to 1,600\n* <b>BNBx:</b> Increase BNBx borrow cap on LST isolated pool to 1,920\n* <b>USDD:</b> Increase USDD supply cap in TRON IL Pool to 2,700,000 and increase borrow cap to 1,800,000 USDD.\n* <b>WBETH:</b> Set Collateral factor to 70% \n\nComplete analysis and details of these recommendations are available in the above publications.\n",
+    "endblock":30478180,
+    "eta":1690899062,
+    "actions":[
+      "0x61edcfe8dd6ba3c891cb9bec2dc7657b3b422e93._setInterestRateModel(0x6b7c3d1ced49604c66e2c8125989e78b1e5356f5)",
+      "0x08ceb3f4a7ed3500ca0982bcd0fc7816688084c3._setInterestRateModel(0x84645e886e6e8192921c2d9bff9882b55c6e7830)",
+      "0x2ff3d0f6990a40261c66e1ff2017acbc282eb6d0._setInterestRateModel(0x91475a3f288841bce074ec7edf27ec3fe58e18d1)",
+      "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setMarketBorrowCaps([0xbfe25459ba784e70e2d7a718be99a1f3521ca17f, 0x5e21bf67a6af41c74c1773e4b473ca5ce8fd3791], [1600000000000000000000, 1920000000000000000000])",
+      "0x23b4404e4e5ec5ff5a6ffb70b7d14e3fabf237b0.setMarketBorrowCaps([0xf1da185cce5bed1bebbb3007ef738ea4224025f7], [1800000000000000000000000])",
+      "0x23b4404e4e5ec5ff5a6ffb70b7d14e3fabf237b0.setMarketSupplyCaps([0xf1da185cce5bed1bebbb3007ef738ea4224025f7], [2700000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0, 700000000000000000)"
+    ]
   }
 ]
