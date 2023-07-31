@@ -92561,5 +92561,15 @@
     "asset":"USDC",
     "amount":1200000.0,
     "usdvalue":1200036.0
+  },
+  {
+    "id":"2b9ee246a605",
+    "txtime":1690780854,
+    "tx":"0x1bd23bf07fad87783d9dccd6a0c72f7f51b75768c1f8c78c3e7815ce2642d563",
+    "action":"withdraw",
+    "address":"0x1f356cc150608e4f1334d65bcc448db84cb7cfee",
+    "asset":"USDC",
+    "amount":1300269.7822,
+    "usdvalue":1300269.7822
   }
 ]
