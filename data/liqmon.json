@@ -50683,5 +50683,20 @@
     "repay_usdvalue":332.8612823107028,
     "treasury_amount":0.26566385661658315,
     "treasury_usdvalue":17.028112759070556
+  },
+  {
+    "id":"8e6de94d0b8d",
+    "txtime":1690873489,
+    "tx":"0x5eb6986b44bf005ab0e5be799b479cc9a5a5c3310c12476b92ec710eecfcce0f",
+    "liquidator":"0xe8871c8ad85cf5c1c018638298838bf3c450b716",
+    "borrower":"0x29294506f93d670b2cc1c18c63fd26b4ed1a3635",
+    "seize_token":"CAKE",
+    "repay_token":"USDC",
+    "seize_amount":17.43736486321392,
+    "repay_amount":24.40592136472624,
+    "seize_usdvalue":26.752745201757627,
+    "repay_usdvalue":24.403822699548087,
+    "treasury_amount":0.7926074937824508,
+    "treasury_usdvalue":1.2160338728071647
   }
 ]
