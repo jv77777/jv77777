@@ -1030,5 +1030,16 @@
       "0x23b4404e4e5ec5ff5a6ffb70b7d14e3fabf237b0.setMarketSupplyCaps([0xf1da185cce5bed1bebbb3007ef738ea4224025f7], [2700000000000000000000000])",
       "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0, 700000000000000000)"
     ]
+  },
+  {
+    "id":"151",
+    "type":"Normal",
+    "title":"VIP-151 Isolated Lending Pools: Configure Liquidity Mining",
+    "description":"#### Summary\n\nIf passed, this VIP will set the last block with rewards for the ankrBNB market in the DeFi pool\n\n#### Description\n\nThis VIP sets the last block with rewards for the ankrBNB market in the DeFi pool. Rewards were enabled at block 30336476 in the <a href=\"https://app.venus.io/governance/proposal/146\">VIP-146</a>.\n\nIn <a href=\"https://app.venus.io/isolated-pools/pool/0x3344417c9360b963ca93A4e8305361AEde340Ab9/market/0x53728FD51060a85ac41974C6C3Eb1DaE42776723\">vankrBNB_DeFi</a>, the last block with rewards will be <a href=\"https://bscscan.com/block/31200476\">31200476</a>. That means around 30 days (864,000 blocks) after being enabled.\n\nSimulation of the VIP: <a href=\"https://github.com/VenusProtocol/vips/pull/47\">https://github.com/VenusProtocol/vips/pull/47</a>\n",
+    "endblock":30507753,
+    "eta":1690988101,
+    "actions":[
+      "0x14d9a428d0f35f81a30ca8d8b2f3974d3cccb98b.setLastRewardingBlocks([0x53728fd51060a85ac41974c6c3eb1dae42776723])"
+    ]
   }
 ]
