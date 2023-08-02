@@ -93621,5 +93621,15 @@
     "asset":"WBETH",
     "amount":2450.0,
     "usdvalue":4572875.3126035
+  },
+  {
+    "id":"9641478000b5",
+    "txtime":1690989882,
+    "tx":"0xbfb82b6547af73a8cbf04e59e69e4301df00810b9a36abe230b92ca601a96095",
+    "action":"repay",
+    "address":"0x8d945aca57cbe793507bccaba8cd77bfe117f255",
+    "asset":"ETH",
+    "amount":1483.72739093,
+    "usdvalue":2726073.8494028575
   }
 ]
