@@ -51043,5 +51043,35 @@
     "repay_usdvalue":202.455787424664,
     "treasury_amount":137.04928730964366,
     "treasury_usdvalue":10.161611230596026
+  },
+  {
+    "id":"edd006899a77",
+    "txtime":1691174805,
+    "tx":"0xef29194953333e83888e9f8805223ab6ff81c5c6ec7b729597c1fbed73a5abb4",
+    "liquidator":"0xbc12b1ffe8c0c8aa0004ecfb6969b95aaa1727e0",
+    "borrower":"0x77e3688eabec5c3c12efd67c913a63ea46c53e6e",
+    "seize_token":"LTC",
+    "repay_token":"DAI",
+    "seize_amount":29.94059458301418,
+    "repay_amount":2210.5963663123744,
+    "seize_usdvalue":2449.4474435525594,
+    "repay_usdvalue":2210.375306675743,
+    "treasury_amount":1.3609361174097356,
+    "treasury_usdvalue":111.33852016147998
+  },
+  {
+    "id":"c7098f62f7a2",
+    "txtime":1691174805,
+    "tx":"0x15af2be42b39d70152350533b4c1b974fbf556c52964f8fb3f4591e8138eb48e",
+    "liquidator":"0xbc12b1ffe8c0c8aa0004ecfb6969b95aaa1727e0",
+    "borrower":"0x08b36d91bca1b623baae7b153f769a2686d94510",
+    "seize_token":"LTC",
+    "repay_token":"BUSD",
+    "seize_amount":17.02940822517136,
+    "repay_amount":1257.4679098182553,
+    "seize_usdvalue":1393.1800962303942,
+    "repay_usdvalue":1257.2682490635343,
+    "treasury_amount":0.7740640102350618,
+    "treasury_usdvalue":63.32636801047246
   }
 ]
