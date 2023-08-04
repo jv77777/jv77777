@@ -1041,5 +1041,25 @@
     "actions":[
       "0x14d9a428d0f35f81a30ca8d8b2f3974d3cccb98b.setLastRewardingBlocks([0x53728fd51060a85ac41974c6c3eb1dae42776723])"
     ]
+  },
+  {
+    "id":"152",
+    "type":"Normal",
+    "title":"VIP-152 Unlink BIFI market from DeFi pool",
+    "description":"#### Summary\n\nIf passed, this VIP will remove every record of the BIFI market from the DeFi pool\n\n#### Description\n\nIn the <a href=\"https://app.venus.io/governance/proposal/139\">VIP-139</a> the BIFI market was paused and at the same time it was removed from the <a href=\"https://app.venus.io\">Venus UI</a>. The only liquidity provided was the bootstrap liquidity, and the BIFI project has already withdrawn it. There isn\u2019t any loan in that market. So, now it\u2019s safe to remove this market from the list of markets in the DeFi Comptroller.\n\nVIP execution on testnet: <a href=\"https://testnet.venus.io/governance/proposal/266\">https://testnet.venus.io/governance/proposal/266</a>\n\nSimulation of the VIP: <a href=\"https://github.com/VenusProtocol/vips/pull/45\">https://github.com/VenusProtocol/vips/pull/45</a>\n",
+    "endblock":30591941,
+    "eta":1691241507,
+    "actions":[
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x3344417c9360b963ca93a4e8305361aede340ab9, removeMarket(address), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x38b4efab9ea1bacd19dc81f19c4d1c2f9deae1b2.upgradeTo(0x4e78a2a804f0c87fa9e1b08f70733fb775b4f920)",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.removeMarket(0xc718c51958d3fd44f5f9580c9ffac2f89815c909)",
+      "0x38b4efab9ea1bacd19dc81f19c4d1c2f9deae1b2.upgradeTo(0x939c05e2e694db68ce54d80bf29926b09190aa0f)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.revokeCallPermission(0x3344417c9360b963ca93a4e8305361aede340ab9, removeMarket(address), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x9f7b01a536afa00ef10310a162877fd792cd0666, removeMarket(address,address), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x6beb6d2695b67feb73ad4f172e8e2975497187e4.upgrade(0x9f7b01a536afa00ef10310a162877fd792cd0666, 0xa5501fedb2c265091123c6ef8ed5897a020b5590)",
+      "0x9f7b01a536afa00ef10310a162877fd792cd0666.removeMarket(0x3344417c9360b963ca93a4e8305361aede340ab9, 0xca3f508b8e4dd382ee878a314789373d80a5190a)",
+      "0x6beb6d2695b67feb73ad4f172e8e2975497187e4.upgrade(0x9f7b01a536afa00ef10310a162877fd792cd0666, 0xc4953e157d057941a9a71273b0af4d4477ed2770)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.revokeCallPermission(0x9f7b01a536afa00ef10310a162877fd792cd0666, removeMarket(address,address), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)"
+    ]
   }
 ]
