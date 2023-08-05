@@ -51133,5 +51133,35 @@
     "repay_usdvalue":104.63300512240521,
     "treasury_amount":5.239401241298379,
     "treasury_usdvalue":5.231646927461257
+  },
+  {
+    "id":"e008983e0612",
+    "txtime":1691244161,
+    "tx":"0xae0d71b091735ffdd5bf09160c7cbb61cc2dc92df109259d9c46087369d754c8",
+    "liquidator":"0xbc12b1ffe8c0c8aa0004ecfb6969b95aaa1727e0",
+    "borrower":"0xa8683d254eae73dd0389a336bbd2981e160ac6c3",
+    "seize_token":"CAKE",
+    "repay_token":"CAKE",
+    "seize_amount":3294.549255177758,
+    "repay_amount":2995.0450035573485,
+    "seize_usdvalue":4908.785714544311,
+    "repay_usdvalue":4462.532804684499,
+    "treasury_amount":149.7522388717163,
+    "treasury_usdvalue":223.1266233883778
+  },
+  {
+    "id":"0e0772ec1b7e",
+    "txtime":1691244446,
+    "tx":"0x18f502456409b125dc5de24eb6cd0361d1722dae024b92b9dd044cc9f14fa1e0",
+    "liquidator":"0x82ca11fdb47dd81efc9f6221f52d518103b74a11",
+    "borrower":"0xa8683d254eae73dd0389a336bbd2981e160ac6c3",
+    "seize_token":"CAKE",
+    "repay_token":"CAKE",
+    "seize_amount":1647.285908107785,
+    "repay_amount":1497.5329662770125,
+    "seize_usdvalue":2454.4096649280045,
+    "repay_usdvalue":2231.281994150407,
+    "treasury_amount":74.8766321867175,
+    "treasury_usdvalue":111.56407567854566
   }
 ]
