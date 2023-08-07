@@ -1061,5 +1061,18 @@
       "0x6beb6d2695b67feb73ad4f172e8e2975497187e4.upgrade(0x9f7b01a536afa00ef10310a162877fd792cd0666, 0xc4953e157d057941a9a71273b0af4d4477ed2770)",
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.revokeCallPermission(0x9f7b01a536afa00ef10310a162877fd792cd0666, removeMarket(address,address), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)"
     ]
+  },
+  {
+    "id":"153",
+    "type":"Fasttrack",
+    "title":"VIP-153 Risk Parameters Adjustments",
+    "description":"Summary\n\nThis VIP will perform the following Risk Parameters actions as per Chaos Labs latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-isolated-pools-risk-parameter-updates/3680\">Risk Parameter Updates 08/02/2023</a>\n\n- FLOKI:\nIncrease supply cap from 44,000,000,000 to 68,000,000,000 and\nBorrow cap, from 11,000,000,000 to 22,000,000,000.\n\n- stkBNB: Increase borrow cap, from 290 to 580.\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: https://github.com/VenusProtocol/vips/pull/52\n\n",
+    "endblock":30678421,
+    "eta":1691502131,
+    "actions":[
+      "0x1b43ea8622e76627b81665b1ecebb4867566b963.setMarketSupplyCaps([0xc353b7a1e13ddba393b5e120d4169da7185aa2cb], [68000000000000000000])",
+      "0x1b43ea8622e76627b81665b1ecebb4867566b963.setMarketBorrowCaps([0xc353b7a1e13ddba393b5e120d4169da7185aa2cb], [22000000000000000000])",
+      "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setMarketBorrowCaps([0xcc5d9e502574cda17215e70bc0b4546663785227], [580000000000000000000])"
+    ]
   }
 ]
