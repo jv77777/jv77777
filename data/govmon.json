@@ -1074,5 +1074,16 @@
       "0x1b43ea8622e76627b81665b1ecebb4867566b963.setMarketBorrowCaps([0xc353b7a1e13ddba393b5e120d4169da7185aa2cb], [22000000000000000000])",
       "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setMarketBorrowCaps([0xcc5d9e502574cda17215e70bc0b4546663785227], [580000000000000000000])"
     ]
+  },
+  {
+    "id":"154",
+    "type":"Normal",
+    "title":"Risk Parameters Adjustment",
+    "description":"<b>Summary</b>\n\nThis VIP will perform the following Risk Parameters actions as per Chaos Labs latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-supply-cap-recommendations-for-wbeth-07-08-2023/3689\">Risk Parameter Updates 08/07/2023</a>\n\n- WBETH: Increase supply cap from 8,000 to 16,000. \n\nsimulation: https://github.com/VenusProtocol/vips/pull/54\n\n\n",
+    "endblock":30733327,
+    "eta":1691667172,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [16000000000000000000000])"
+    ]
   }
 ]
