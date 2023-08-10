@@ -1085,5 +1085,17 @@
     "actions":[
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [16000000000000000000000])"
     ]
+  },
+  {
+    "id":"155",
+    "type":"Normal",
+    "title":"VIP-155 Isolated Lending Pools: Configure Liquidity Mining for BSW",
+    "description":"#### Summary\n\nIf passed, this VIP will extend the rewards for the BSW market in the DeFi pool for 30 days.\n\n#### Description\n\nFollowing up the <a href=\"https://app.venus.io/governance/proposal/140\">VIP-140</a>, this VIP will enable new rewards for the BSW market in the DeFi pool. The specific rewards are:\n\n* <a href=\"https://app.venus.io/#/isolated-pools/pool/0x3344417c9360b963ca93A4e8305361AEde340Ab9/market/0x8f657dFD3a1354DEB4545765fE6840cc54AFd379\">vBSW_DeFi</a>: 19,300 <a href=\"https://bscscan.com/address/0x965f527d9159dce6288a2219db51fc6eef120dd1\">BSW</a> for 30 days (until block <a href=\"https://bscscan.com/block/countdown/31692632\">31692632</a>), provided by the <a href=\"https://biswap.org/\">Biswap Team</a>. 50/50 for suppliers/borrowers\n\n#### Security and additional considerations\n\nNo changes in the code are involved in this VIP. We applied the following security procedures for this upgrade:\n\n* <b>VIP execution simulation</b>: in a simulation environment, validating the new rewards are  properly enabled. <a href=\"https://github.com/VenusProtocol/vips/pull/56\">VIP simulation</a>.\n",
+    "endblock":30760701,
+    "eta":1691749483,
+    "actions":[
+      "0x7524116cec937ef17b5998436f16d1306c4f7ef8.setRewardTokenSpeeds([0x8f657dfd3a1354deb4545765fe6840cc54afd379], [11168981481481481], [11168981481481481])",
+      "0x7524116cec937ef17b5998436f16d1306c4f7ef8.setLastRewardingBlocks([0x8f657dfd3a1354deb4545765fe6840cc54afd379])"
+    ]
   }
 ]
