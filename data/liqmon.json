@@ -51823,5 +51823,20 @@
     "repay_usdvalue":116.2467439881081,
     "treasury_amount":5.815715379903953,
     "treasury_usdvalue":5.8123351698108445
+  },
+  {
+    "id":"7db37d44cae7",
+    "txtime":1691941602,
+    "tx":"0x2a6599a9e9526de0b37d32e3dd55130030e5cf89b125f831ccdf59598a3693fb",
+    "liquidator":"0x0000000000d81255748d2173523d52518803ad99",
+    "borrower":"0xa1805583f58f645f60bc345972a4de0fcd9ea598",
+    "seize_token":"ETH",
+    "repay_token":"USDC",
+    "seize_amount":0.029909308158613323,
+    "repay_amount":50.23304455352692,
+    "seize_usdvalue":55.2647981421625,
+    "repay_usdvalue":50.23854557423598,
+    "treasury_amount":0.0013595140072096969,
+    "treasury_usdvalue":2.5120362791892052
   }
 ]
