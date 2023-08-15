@@ -1159,5 +1159,16 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e], [1500000000000000000000000])",
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e], [1200000000000000000000000])"
     ]
+  },
+  {
+    "id":"159",
+    "type":"Fasttrack",
+    "title":"VIP-159 Adjust the fee for swapping VAI to USDT",
+    "description":"#### Summary\n\nThis VIP is a continuation of the PSM VIP. If passed, this VIP will adjust the fee for swapping VAI to USDT in PSM from 1% to 0.1%, as planned originally.\n\n#### Details\n\nIn the PSM VIP, feeOut was set to 100bps, or 1%. The announced feeOut was 10bps, or 0.1%. This VIP adjusts the fee to correspond to the original intent.\n",
+    "endblock":30906374,
+    "eta":1692187874,
+    "actions":[
+      "0xc138aa4e424d1a8539e8f38af5a754a2b7c3cc36.setFeeOut(10)"
+    ]
   }
 ]
