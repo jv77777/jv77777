@@ -52273,5 +52273,35 @@
     "repay_usdvalue":160.24006161472164,
     "treasury_amount":1.2111472229151574,
     "treasury_usdvalue":8.287880446408423
+  },
+  {
+    "id":"25e8b84b326f",
+    "txtime":1692227560,
+    "tx":"0x678f4588fc812cebb28f9b1404272331a843cf427c600d9a017e41eeeeb8ddf7",
+    "liquidator":"0xdea0b46950ddc377e71800deba8f52456a7e42ee",
+    "borrower":"0xabc9b679f2fe5af0f438e57ab801b96dd1414d48",
+    "seize_token":"BETH",
+    "repay_token":"DAI",
+    "seize_amount":0.023790080109195137,
+    "repay_amount":39.10495524746814,
+    "seize_usdvalue":43.23212102608102,
+    "repay_usdvalue":39.10495524746814,
+    "treasury_amount":0.001081367277690688,
+    "treasury_usdvalue":1.9650964102764095
+  },
+  {
+    "id":"0fccfa549da4",
+    "txtime":1692227890,
+    "tx":"0xcd12f2f1136a89de303acd16e52054a7272e3442c58e0e4b6b9809e1c1e4ae09",
+    "liquidator":"0xdea0b46950ddc377e71800deba8f52456a7e42ee",
+    "borrower":"0xb8a7de41a8d28952a4d253f22c4786c6cd65122f",
+    "seize_token":"SXP",
+    "repay_token":"DAI",
+    "seize_amount":90.16157634602385,
+    "repay_amount":23.10217609495545,
+    "seize_usdvalue":26.366723357192804,
+    "repay_usdvalue":23.10217609495545,
+    "treasury_amount":4.098253470273811,
+    "treasury_usdvalue":1.1984874253269455
   }
 ]
