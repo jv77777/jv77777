@@ -52078,5 +52078,50 @@
     "repay_usdvalue":5.367446671297129,
     "treasury_amount":3.5162435828999934,
     "treasury_usdvalue":0.2683372414504328
+  },
+  {
+    "id":"139d4de9efc8",
+    "txtime":1692174120,
+    "tx":"0xb3a2b584e6b9817778c9e35d94f0f0f8407e5b1bce526fa465a4eeb9ce0024e2",
+    "liquidator":"0xd396eed9c4d31badc61d2512b8411b7bee255818",
+    "borrower":"0xf165fc6bd6a2ee937ab77311d1078f16711cf007",
+    "seize_token":"DOGE",
+    "repay_token":"DAI",
+    "seize_amount":3895.085912530599,
+    "repay_amount":248.4419152187062,
+    "seize_usdvalue":273.8362249086387,
+    "repay_usdvalue":248.41707102718433,
+    "treasury_amount":177.0493596604818,
+    "treasury_usdvalue":12.447101132210852
+  },
+  {
+    "id":"1761848ec11d",
+    "txtime":1692174213,
+    "tx":"0x0fc2d73223a6c68d71c37af2a9ae45b94fc024fd2eb2bd4dc7391eeb1b43c6b1",
+    "liquidator":"0x3897c29ab3a0d092e54a61c13cc593886b6690de",
+    "borrower":"0x9538ba6158bf23ce035e43f59dfd62c616e9d50c",
+    "seize_token":"BNB",
+    "repay_token":"TUSDOLD",
+    "seize_amount":3.0563337786135008,
+    "repay_amount":649.9063390556764,
+    "seize_usdvalue":714.8614336555071,
+    "repay_usdvalue":649.3854521230501,
+    "treasury_amount":0.13892426266425,
+    "treasury_usdvalue":32.49370152979577
+  },
+  {
+    "id":"354705a04384",
+    "txtime":1692174315,
+    "tx":"0x46ac8a4b39af0f7d313fe29cf5308c7ae322073b5258ac939f55eb6b4c63d2ed",
+    "liquidator":"0x82ca11fdb47dd81efc9f6221f52d518103b74a11",
+    "borrower":"0x698927ae46ed8e63240a0f11498455ea0cf50ccb",
+    "seize_token":"CAKE",
+    "repay_token":"USDT",
+    "seize_amount":4617.471951704413,
+    "repay_amount":6056.4458922769645,
+    "seize_usdvalue":6662.531393654016,
+    "repay_usdvalue":6048.723560377558,
+    "treasury_amount":209.88508871383692,
+    "treasury_usdvalue":302.84233607518246
   }
 ]
