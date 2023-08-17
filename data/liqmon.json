@@ -56293,5 +56293,50 @@
     "repay_usdvalue":12.512188139841085,
     "treasury_amount":0.00038570941320503895,
     "treasury_usdvalue":0.6247531586744663
+  },
+  {
+    "id":"ac3e41107377",
+    "txtime":1692310833,
+    "tx":"0xf439bf0af82156edcfd0f516bdf1b909d9ac76e3173356b6fe282a60a727449b",
+    "liquidator":"0xe8871c8ad85cf5c1c018638298838bf3c450b716",
+    "borrower":"0xec8b34312b6188b9e72cca8445a0047a4f00dd4a",
+    "seize_token":"XRP",
+    "repay_token":"USDT",
+    "seize_amount":66.17428896725637,
+    "repay_amount":30.222141766079023,
+    "seize_usdvalue":32.88795987383674,
+    "repay_usdvalue":30.213926179061332,
+    "treasury_amount":3.0079222257843803,
+    "treasury_usdvalue":1.4949072669925791
+  },
+  {
+    "id":"260906cccb08",
+    "txtime":1692310977,
+    "tx":"0xbe94cc7f79d414ca17b7cdd5a4df09f34a120b454920c837174c1695074ff261",
+    "liquidator":"0xe8871c8ad85cf5c1c018638298838bf3c450b716",
+    "borrower":"0x3eeebe5035e2c2bf568f04af77d945827f3a5d62",
+    "seize_token":"ADA",
+    "repay_token":"BUSD",
+    "seize_amount":127.77636456640671,
+    "repay_amount":29.08425870265569,
+    "seize_usdvalue":31.599989391824344,
+    "repay_usdvalue":29.078562550588774,
+    "treasury_amount":5.808016571200305,
+    "treasury_usdvalue":1.4363631541738338
+  },
+  {
+    "id":"425c0376db70",
+    "txtime":1692311184,
+    "tx":"0xa551955d2cbed3b3d7fa34bcb6eb7bc2998d4e9a4a077b8e592d1e196d933406",
+    "liquidator":"0x0000000000d81255748d2173523d52518803ad99",
+    "borrower":"0xd3f1070b46e2aad65733e5a6d1cfd029c67b0791",
+    "seize_token":"ADA",
+    "repay_token":"USDT",
+    "seize_amount":37.54621444917699,
+    "repay_amount":8.579407552733073,
+    "seize_usdvalue":9.406866114311253,
+    "repay_usdvalue":8.581530098161618,
+    "treasury_amount":1.7066461113262272,
+    "treasury_usdvalue":0.4275848233777843
   }
 ]
