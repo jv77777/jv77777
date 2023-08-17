@@ -95581,5 +95581,35 @@
     "asset":"USDT",
     "amount":3080505.5177375646,
     "usdvalue":3077067.057478666
+  },
+  {
+    "id":"2f622262cee4",
+    "txtime":1692247269,
+    "tx":"0x7e2259f64a1c9ab329e2b4628d19afd19f630e8a63d75434f6db1e52b72af3c7",
+    "action":"supply",
+    "address":"0x0f303ee26b55204c85c1d8948142469577d4652d",
+    "asset":"BUSD",
+    "amount":1502711.6775099572,
+    "usdvalue":1502559.738332244
+  },
+  {
+    "id":"1d567169af9d",
+    "txtime":1692247413,
+    "tx":"0x1e3570b136e1fac5e9fb47fa8950c4c7d4d4fe209c03ebd204c9747be75f0104",
+    "action":"withdraw",
+    "address":"0xbd7170971505828f17a48f0177f9203da7b57d14",
+    "asset":"USDC",
+    "amount":1002929.814423378,
+    "usdvalue":1002977.7344099112
+  },
+  {
+    "id":"2a0506e6e515",
+    "txtime":1692247593,
+    "tx":"0x107bd695cb45ee1af9db7ff82e43e0e1287bf19b2d3261528605f131c9f186a2",
+    "action":"withdraw",
+    "address":"0x0f303ee26b55204c85c1d8948142469577d4652d",
+    "asset":"BUSD",
+    "amount":1563520.0,
+    "usdvalue":1563361.5841536
   }
 ]
