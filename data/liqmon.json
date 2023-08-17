@@ -56338,5 +56338,20 @@
     "repay_usdvalue":8.581530098161618,
     "treasury_amount":1.7066461113262272,
     "treasury_usdvalue":0.4275848233777843
+  },
+  {
+    "id":"3b4f12707c56",
+    "txtime":1692311790,
+    "tx":"0xbe74b5f1301428ab872960ecf561f877c54d29e86c7edd6eaafd40edc7039391",
+    "liquidator":"0x0000000000d81255748d2173523d52518803ad99",
+    "borrower":"0xdd2cb4e8a7bf3d1234267852534764245786dcb1",
+    "seize_token":"BTCB",
+    "repay_token":"USDT",
+    "seize_amount":0.0006686113289923676,
+    "repay_amount":16.026722415463382,
+    "seize_usdvalue":17.63057201752,
+    "repay_usdvalue":16.027848132445847,
+    "treasury_amount":3.0391424045107616e-05,
+    "treasury_usdvalue":0.80138963716
   }
 ]
