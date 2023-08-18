@@ -95851,5 +95851,36 @@
     "asset":"BTCB",
     "amount":361.28804453440034,
     "usdvalue":9610887.012932094
+  },
+  {
+    "id":"b21019e6368d",
+    "txtime":1692321983,
+    "tx":"0xb007fe55c55cfa8e3dc11c5f48b702bbc4144410da022ad2c077913700b769ff",
+    "action":"repay",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"USDT",
+    "amount":5000000.0,
+    "usdvalue":4999436.45
+  },
+  {
+    "id":"6f7ff483e8b0",
+    "txtime":1692322079,
+    "tx":"0x3e20030cad0dc339122d6482c7dcd59f37f6e8c970d35bbd09b06e9e8d2a7861",
+    "action":"supply",
+    "address":"0x215462dc79523ac795216e1baa27586840fa9382",
+    "asset":"ETH",
+    "amount":990.0842783679329,
+    "usdvalue":1669453.9719590596
+  },
+  {
+    "id":"52d418d4cf0d",
+    "txtime":1692322472,
+    "tx":"0xec3671203b7b2abedf07e5b8b35a1feff968688156cb1967ee4c2015d967ed30",
+    "action":"repay",
+    "address":"0x42e3da8e7c1dbff7f9fe544fff5c4531ecd6f8a4",
+    "asset":"BNB",
+    "amount":4623.86,
+    "usdvalue":1011215.757296249
   }
 ]
