@@ -96413,5 +96413,16 @@
     "asset":"BTCB",
     "amount":72.96157549485741,
     "usdvalue":1895818.985343276
+  },
+  {
+    "id":"028ba10e104c",
+    "txtime":1692618925,
+    "tx":"0xc4bd0beaedfa6985c7976d6c1dd681ec1e4fa805067572e95beae32869c88cd7",
+    "action":"repay",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"USDT",
+    "amount":29999000.0,
+    "usdvalue":29985800.44
   }
 ]
