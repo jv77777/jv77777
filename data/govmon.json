@@ -1170,5 +1170,16 @@
     "actions":[
       "0xc138aa4e424d1a8539e8f38af5a754a2b7c3cc36.setFeeOut(10)"
     ]
+  },
+  {
+    "id":"160",
+    "type":"Normal",
+    "title":"VIP-160 Payment to ClearSign Technology ",
+    "description":"<b>Summary</b>\n\nThis VIP will transfer the sum of USDT $6000 to <a href=\"https://clearsign.tech\">ClearSign Technology</a> for engineering and development of the Venus Ledger Plugin. \n\n<b>Description</b>\n\nClearSign Tech has developed a Ledger Live plugin for Venus Protocol that will enable Ledger users to receive on screen information before signing a transaction. This VIP covers the cost of development of the plugin. We are now talking with Ledger to get the plugin approved and uploaded onto their platform.",
+    "endblock":31106969,
+    "eta":1692791972,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 6000000000000000000000, 0x4de06e28aea2c2c2a5a78d98aa659ca019b978ea)"
+    ]
   }
 ]
