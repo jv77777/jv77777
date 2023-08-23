@@ -96594,5 +96594,15 @@
     "asset":"BTCB",
     "amount":192.57906455241127,
     "usdvalue":4997234.14607052
+  },
+  {
+    "id":"adb3797e1912",
+    "txtime":1692800588,
+    "tx":"0x00994de9e4314cc6fea51292f7b4a3ba04f6d2d54372a0116174f59e193d9593",
+    "action":"supply",
+    "address":"0x59a661f1c909ca13ba3e9114bfdd81e5a420705d",
+    "asset":"WBETH",
+    "amount":4999.999943,
+    "usdvalue":8348155.139181031
   }
 ]
