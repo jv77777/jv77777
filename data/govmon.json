@@ -1181,5 +1181,22 @@
     "actions":[
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 6000000000000000000000, 0x4de06e28aea2c2c2a5a78d98aa659ca019b978ea)"
     ]
+  },
+  {
+    "id":"161",
+    "type":"Normal",
+    "title":"VIP-161 Initiate BUSD market deprecation and Risk Parameters Updates",
+    "description":"<b>Summary</b>\n\nIf passed this VIP will perform the following actions as per the latest Chaos Labs <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-08-21-2023/3707\">recommendations</a>:\n\n* BUSD: Pause MINT, Pause BORROW, Pause ENTER_MARKET - Users that have already enabled BUSD as collateral will not be affected by this update. Set XVS rewards in the BUSD market to 0.Freeze new supply and borrow by reducing supply and borrow caps to 0 and Increase BUSD Reserve Factor to 100%\n* TUSDOLD: Reduce jump multiplier from 2.5 to 0.5\n* ankrBNB (Defi Pool): Increase supply cap by 2X to 10,000\n\n<b>Rationale</b>\n\nGiven the ongoing deprecation of BUSD by Paxos leading to increasing risk due to reduced liquidity, Chaos Labs recommend gradually winding down the BUSD market on Venus. As announced by <a href=\"https://paxos.com/2023/02/13/paxos-will-halt-minting-new-busd-tokens/\">PAXOS</a>, the original issuer of BUSD, they have already halted minting New BUSD Tokens. Existing Tokens Remain Fully-Backed and Redeemable Through Binance or the Paxos Trust Company Through at Least February 2024.\n\n* Paxos Will Halt Minting New BUSD Tokens\n* Paxos will continue supporting BUSD until at least February 2024\n* Binance started delisting BUSD pairs\n* Coinbase has already stopped BUSD trading\n\nThis proposal aims to initiate the deprecation of BUSD from the Venus market. If the community agrees to deprecate BUSD, Chaos Labs proposes a phased plan comprising the following actions:\n\n* Limit exposure to BUSD on Venus\n* Freeze new supply and borrow\n* Gradually reduce Collateral Factors to allow users to repay or swap their collaterals\n* Encourage repayment of BUSD loans by amending IR curves\n* Encourage redemption of BUSD supply by reducing supply interest - increasing Reserve Factors\n\nFollowing each update, Chaos Labs will continue to monitor the market and the impact of the parameter updates on usage. Based on the observed effects and future market conditions, they will continue to supply recommendations as necessary.\n        ",
+    "endblock":31170834,
+    "eta":1692984325,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x95c78222b3d6e262426483d42cfa53685a67ab9d], [0])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x95c78222b3d6e262426483d42cfa53685a67ab9d], [1])",
+      "0x95c78222b3d6e262426483d42cfa53685a67ab9d._setReserveFactor(1000000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setActionsPaused([0x95c78222b3d6e262426483d42cfa53685a67ab9d], [0, 2, 7], True)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setVenusSpeeds([0x95c78222b3d6e262426483d42cfa53685a67ab9d], [0], [0])",
+      "0x08ceb3f4a7ed3500ca0982bcd0fc7816688084c3._setInterestRateModel(0x574f056c1751ed5f3aa30ba04e550f4e6090c992)",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketSupplyCaps([0x53728fd51060a85ac41974c6c3eb1dae42776723], [10000000000000000000000])"
+    ]
   }
 ]
