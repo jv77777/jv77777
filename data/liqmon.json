@@ -58768,5 +58768,35 @@
     "repay_usdvalue":21.840347692047857,
     "treasury_amount":0.0006642276519941456,
     "treasury_usdvalue":1.092187985146569
+  },
+  {
+    "id":"0515fc39cc95",
+    "txtime":1693073995,
+    "tx":"0x062485baa139583fae17ae2eafaacf297e6b417d22da8710c0c993f56e82146f",
+    "liquidator":"0x6f340b7c0b2a2ff21ac3d58644bb1aca0bea631c",
+    "borrower":"0x6f3390a9ec8125209d88062c14bad7dc0220251b",
+    "seize_token":"LUNA",
+    "repay_token":"BUSD",
+    "seize_amount":2200.3877595648096,
+    "repay_amount":2e-15,
+    "seize_usdvalue":2.2003877595648098e-15,
+    "repay_usdvalue":2.0003525e-15,
+    "treasury_amount":100.01762543476407,
+    "treasury_usdvalue":1.0001762543476408e-16
+  },
+  {
+    "id":"a1b35203ce12",
+    "txtime":1693089880,
+    "tx":"0x3003dc6261e686d07cdc7e490091f92edd5b02d5edc3f665ebe849beb894140e",
+    "liquidator":"0xe8871c8ad85cf5c1c018638298838bf3c450b716",
+    "borrower":"0x3ee8777184dee8af7a2a7c8ab8c8ed1f730d89ab",
+    "seize_token":"BNB",
+    "repay_token":"BUSD",
+    "seize_amount":0.09123380106941005,
+    "repay_amount":17.946341770687294,
+    "seize_usdvalue":19.73569584733478,
+    "repay_usdvalue":17.945767487750633,
+    "treasury_amount":0.004146990957700457,
+    "treasury_usdvalue":0.8970770839697628
   }
 ]
