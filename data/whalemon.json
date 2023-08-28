@@ -96924,5 +96924,45 @@
     "asset":"BUSD",
     "amount":1000000.0,
     "usdvalue":1000229.2699999999
+  },
+  {
+    "id":"9296e04bfdde",
+    "txtime":1693230037,
+    "tx":"0xd705443b2594a7d5a493ff63fb15ef01ec0f3bc694bca2dedb3b6e26cc6534a3",
+    "action":"supply",
+    "address":"0x29fec057b86ef46d240bd271837369f5715335ef",
+    "asset":"USDT",
+    "amount":2208853.68815724,
+    "usdvalue":2207620.706028511
+  },
+  {
+    "id":"81beef800968",
+    "txtime":1693230085,
+    "tx":"0xb083493e02901e96761a87a7011cf001c82eb4c6f4ce4e35fdeafd05b354d9f4",
+    "action":"withdraw",
+    "address":"0x29fec057b86ef46d240bd271837369f5715335ef",
+    "asset":"BUSD",
+    "amount":2000000.0,
+    "usdvalue":1999721.08
+  },
+  {
+    "id":"1729c56fcec3",
+    "txtime":1693230391,
+    "tx":"0x7c5c71abec961f63c92d7ea2e05e6b638099d14e6d4dc654be6d2c5c52539cd6",
+    "action":"supply",
+    "address":"0x29fec057b86ef46d240bd271837369f5715335ef",
+    "asset":"USDT",
+    "amount":2000799.712208,
+    "usdvalue":1999518.5201202848
+  },
+  {
+    "id":"771179b822a1",
+    "txtime":1693230442,
+    "tx":"0xd941c52dffebc1796b1b9266f921e0726a820a1f81773d9c6e74b62082eea7dd",
+    "action":"withdraw",
+    "address":"0x29fec057b86ef46d240bd271837369f5715335ef",
+    "asset":"BUSD",
+    "amount":2000000.0,
+    "usdvalue":1999721.08
   }
 ]
