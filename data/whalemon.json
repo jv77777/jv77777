@@ -97224,5 +97224,25 @@
     "asset":"BNB",
     "amount":50000.0,
     "usdvalue":11340500.0
+  },
+  {
+    "id":"6679f5f7a84c",
+    "txtime":1693353846,
+    "tx":"0xbedbbdf7f4a97d7a2a73a19a4ecc0aa616199747180a9894805f90b10b31cfff",
+    "action":"supply",
+    "address":"0xa4159ea134253bac6da80fbc2f06cd727186a828",
+    "asset":"USDC",
+    "amount":1751105.32617729,
+    "usdvalue":1751245.4146033842
+  },
+  {
+    "id":"486855d724db",
+    "txtime":1693353906,
+    "tx":"0x455303ba536d7249652191df985a4e29b50ff5fc8ed263a9033692eb9e5b6705",
+    "action":"borrow",
+    "address":"0xa4159ea134253bac6da80fbc2f06cd727186a828",
+    "asset":"BNB",
+    "amount":4800.0,
+    "usdvalue":1088448.0
   }
 ]
