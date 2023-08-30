@@ -1214,5 +1214,24 @@
       "0x4b0f1812e5df2a09796481ff14017e6005508003.approve(0x9f7b01a536afa00ef10310a162877fd792cd0666, 10000000000000000000000)",
       "0x9f7b01a536afa00ef10310a162877fd792cd0666.addMarket((0x736bf1d21a28b5dc19a1ac8ca71fc2856c23c03f, 500000000000000000, 600000000000000000, 10000000000000000000000, 0x0848db7cb495e7b9ada1d4dc972b9a526d014d84, 1000000000000000000000000, 500000000000000000000000))"
     ]
+  },
+  {
+    "id":"163",
+    "type":"Normal",
+    "title":"VIP-163 Isolated Lending Pools: Configure Liquidity Mining for BNBx and HAY",
+    "description":"<b>Summary</b>\n\nIf passed, this VIP will perform the following actions:\n\n* Enable rewards in the following markets:\n    * BNBx market in the Liquid Staked BNB pool for 30 days\n    * HAY market in the Stablecoins pool for 28 days\n* Upgrade the Comptroller implementation of the Isolated pools\n\n<b>Description</b>\n\nFollowing up on the <a href=\"https://app.venus.io/governance/proposal/140\">VIP-140</a>, this VIP will enable the following new rewards. The specific rewards are:\n\n* <a href=\"https://app.venus.io/#/isolated-pools/pool/0xd933909A4a2b7A4638903028f44D1d38ce27c352/market/0x5E21bF67a6af41c74C1773E4b473ca5ce8fd3791\">vBNBx_LiquidStakedBNB</a>: 2,000 <a href=\"https://bscscan.com/address/0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8\">SD</a> for 30 days, provided by the Stader labs team, only for the suppliers of the markets\n* <a href=\"https://app.venus.io/#/isolated-pools/pool/0x94c1495cD4c557f1560Cbd68EAB0d197e6291571/market/0xca2d81aa7c09a1a025de797600a7081146dceed9\">vHAY_Stablecoins</a>: 2,000 <a href=\"https://bscscan.com/address/0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5\">HAY</a> for 28 days, provided by the <a href=\"https://helio.money/\">Helio Protocol</a>. 50/50 for suppliers/borrowers\n\nThe exact blocks where the new rewards will stop will be defined in a new VIP in the future.\n\nThe upgrade of the Comptroller contract in the Isolated pools will allow several RewardsDistributor contracts in one pool using the same reward token.\n\n<b>Security and additional considerations</b>\n\nWe applied the following security procedures for this upgrade:\n\n* <b>Unit tests</b>: validating the Comptroller is able to have several RewardsDistributor contracts associated using the same reward token\n* <b>VIP simulation</b>: in a simulation environment, validating the VIP is executed as expected\n* <b>Deployment on testnet</b>: the same VIP has been executed on testnet, with similar rewards in the Venus Protocol testnet deployment\n* <b>Audit: Certik has audited the deployed code. <a href=\"https://github.com/VenusProtocol/isolated-pools/blob/ec1d8b32e120a0cc52acca8c8ca5bb922d805ac8/audits/069_comptroller_certik_20230824.pdf\">Report</a></b>\n\n<b>References</b>\n\n* <a href=\"https://github.com/VenusProtocol/isolated-pools\">Repository</a>\n* <a href=\"https://github.com/VenusProtocol/vips/pull/63\">VIP simulation</a>\n* <a href=\"https://github.com/VenusProtocol/isolated-pools/blob/develop/tests/hardhat/Rewards.ts\">Unit tests</a>\n* <a href=\"https://testnet.bscscan.com/tx/0xb06be6ed9813e4e4c675702bd74bb0f75c897c25365d9eea3387520c9ff39257\">VIP executed on testnet</a>\n* <a href=\"https://docs-v4.venus.io/whats-new/reward-distributor\">Documentation</a>",
+    "endblock":31336870,
+    "eta":1693484983,
+    "actions":[
+      "0x38b4efab9ea1bacd19dc81f19c4d1c2f9deae1b2.upgradeTo(0x17a6ac4f7f01387303deb1d78f01ac0a0c1a75b0)",
+      "0xa31185d804bf9209347698128984a43a67ce6d11.acceptOwnership()",
+      "0xbe607b239a8776b47159e2b0e9e65a7f1daa6478.acceptOwnership()",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x0782b6d8c4551b9760e74c0545a9bcd90bdc41e5, 2000000000000000000000, 0xa31185d804bf9209347698128984a43a67ce6d11)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x3bc5ac0dfdc871b365d159f728dd1b9a0b5481e8, 2000000000000000000000, 0xbe607b239a8776b47159e2b0e9e65a7f1daa6478)",
+      "0x94c1495cd4c557f1560cbd68eab0d197e6291571.addRewardsDistributor(0xa31185d804bf9209347698128984a43a67ce6d11)",
+      "0xd933909a4a2b7a4638903028f44d1d38ce27c352.addRewardsDistributor(0xbe607b239a8776b47159e2b0e9e65a7f1daa6478)",
+      "0xa31185d804bf9209347698128984a43a67ce6d11.setRewardTokenSpeeds([0xca2d81aa7c09a1a025de797600a7081146dceed9], [1240079365079365], [1240079365079365])",
+      "0xbe607b239a8776b47159e2b0e9e65a7f1daa6478.setRewardTokenSpeeds([0x5e21bf67a6af41c74c1773e4b473ca5ce8fd3791], [2314814814814814], [0])"
+    ]
   }
 ]
