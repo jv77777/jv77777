@@ -97504,5 +97504,16 @@
     "asset":"ETH",
     "amount":1720.6428881639988,
     "usdvalue":2926426.9742086353
+  },
+  {
+    "id":"fd6cb3c4acd8",
+    "txtime":1693457591,
+    "tx":"0x454a5fa6744b25f3afef5321a27cc477b076f385d25904fbcb9597d6a7956892",
+    "action":"withdraw",
+    "address":"0xf977814e90da44bfa03b6295a0616a897441acec",
+    "addressname":"Binance",
+    "asset":"USDT",
+    "amount":10000000.0,
+    "usdvalue":9998179.1
   }
 ]
