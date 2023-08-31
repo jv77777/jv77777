@@ -97585,5 +97585,45 @@
     "asset":"BNB",
     "amount":28860.0,
     "usdvalue":6432608.285999999
+  },
+  {
+    "id":"bd84d67a7ebf",
+    "txtime":1693492876,
+    "tx":"0xc8f5a10edef7d54ee3724439ecce45e26600944d97a711395bff9b9eb63e35dd",
+    "action":"repay",
+    "address":"0x6e1355628b5cb34c3753c3f88d05160d393bca45",
+    "asset":"ETH",
+    "amount":1900.0167910115056,
+    "usdvalue":3233192.7467645505
+  },
+  {
+    "id":"c00cd1e3f5e0",
+    "txtime":1693492906,
+    "tx":"0xa90543b86284e84d80cd5984c8986d1be030d436480383fc1014c08bba67a119",
+    "action":"borrow",
+    "address":"0x6e1355628b5cb34c3753c3f88d05160d393bca45",
+    "asset":"BNB",
+    "amount":15000.0,
+    "usdvalue":3343351.5
+  },
+  {
+    "id":"957f0e60c313",
+    "txtime":1693492939,
+    "tx":"0x54073aff1a1eb6ead3042cdb4e6a572e0c7b3661322fbb2c19cc86041fb97665",
+    "action":"supply",
+    "address":"0x989536719a72cfd50348ccd5521256c7eb41a999",
+    "asset":"USDC",
+    "amount":2000000.0,
+    "usdvalue":2000159.8199999998
+  },
+  {
+    "id":"074b9ea4b08c",
+    "txtime":1693493044,
+    "tx":"0xe42ea14e25d05d6329ff90f0e2e35a746f757e473da275962a0690443cf001fb",
+    "action":"borrow",
+    "address":"0x989536719a72cfd50348ccd5521256c7eb41a999",
+    "asset":"BNB",
+    "amount":16225.824487455588,
+    "usdvalue":3616575.6425914243
   }
 ]
