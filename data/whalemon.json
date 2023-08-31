@@ -97565,5 +97565,25 @@
     "asset":"USDC",
     "amount":4006172.887744774,
     "usdvalue":4006236.22533813
+  },
+  {
+    "id":"558655f4eba8",
+    "txtime":1693492525,
+    "tx":"0x53b8eb65aaa6cb4e09f1b90a09cc77a5554dd4c012b92176b85fb0b9f883d542",
+    "action":"withdraw",
+    "address":"0x989536719a72cfd50348ccd5521256c7eb41a999",
+    "asset":"USDC",
+    "amount":6000000.0,
+    "usdvalue":6000479.46
+  },
+  {
+    "id":"08cb0d77f485",
+    "txtime":1693492456,
+    "tx":"0xba961c0050acd246be6b75e122686b6d31ce35caf1df4e7ca4a460b5bbb2e2d7",
+    "action":"repay",
+    "address":"0x989536719a72cfd50348ccd5521256c7eb41a999",
+    "asset":"BNB",
+    "amount":28860.0,
+    "usdvalue":6432608.285999999
   }
 ]
