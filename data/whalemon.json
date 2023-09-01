@@ -98325,5 +98325,15 @@
     "asset":"USDC",
     "amount":1763395.6401005895,
     "usdvalue":1763386.823122389
+  },
+  {
+    "id":"1efa6f7a954a",
+    "txtime":1693568670,
+    "tx":"0xdbd74a572e63b35497a3450927fe119724f031bc6917bb6b06c31d2af817ddea",
+    "action":"supply",
+    "address":"0xec8e259978e19368a74715c6ea11cfe934b07333",
+    "asset":"USDC",
+    "amount":2999999.855,
+    "usdvalue":3000050.2849975624
   }
 ]
