@@ -62368,5 +62368,35 @@
     "repay_usdvalue":15.96922209956074,
     "treasury_amount":0.1354931442169993,
     "treasury_usdvalue":0.7984610988707768
+  },
+  {
+    "id":"bffe67b88c14",
+    "txtime":1693610229,
+    "tx":"0x69fb5171ea4d57478acd2012085d0fa0efc46cae37faf0c88f16ef3a47082d18",
+    "liquidator":"0x4fe67f24186ea7138641645dbfb084053d1ea1a5",
+    "borrower":"0x962a506de3e3c5c421696d5cbff6fb68014cec2e",
+    "seize_token":"DOT",
+    "repay_token":"USDT",
+    "seize_amount":4.051466532533064,
+    "repay_amount":15.489552243439926,
+    "seize_usdvalue":17.04532999567311,
+    "repay_usdvalue":15.48294223191556,
+    "treasury_amount":0.18415756966059382,
+    "treasury_usdvalue":0.7747877270760504
+  },
+  {
+    "id":"a7912a764c4b",
+    "txtime":1693610316,
+    "tx":"0x3fda905cfbe3db6be7007a0105e679492be92fd87303843c0528aaac974b0628",
+    "liquidator":"0x4fe67f24186ea7138641645dbfb084053d1ea1a5",
+    "borrower":"0xb126fc77b1a2f4520a45386cef6f68c18fb75cda",
+    "seize_token":"DOT",
+    "repay_token":"USDT",
+    "seize_amount":4.436292722628655,
+    "repay_amount":16.960811081288696,
+    "seize_usdvalue":18.6505474763342,
+    "repay_usdvalue":16.955043218264283,
+    "treasury_amount":0.20164966921039337,
+    "treasury_usdvalue":0.8477521580151908
   }
 ]
