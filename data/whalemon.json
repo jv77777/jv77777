@@ -98255,5 +98255,25 @@
     "asset":"BNB",
     "amount":5430.0,
     "usdvalue":1162482.9707595
+  },
+  {
+    "id":"b5272b906156",
+    "txtime":1693555751,
+    "tx":"0x6798fbabe4e4abe7a5d6fab013fd5c99fdd7f44affa5e7f9cd89b7bc8476b009",
+    "action":"repay",
+    "address":"0xcd40532686b94abc88b06b9705aacbc14c8364d6",
+    "asset":"BNB",
+    "amount":5015.15,
+    "usdvalue":1074321.0844467499
+  },
+  {
+    "id":"bd78d83cb1e8",
+    "txtime":1693555772,
+    "tx":"0x977439634f8757c3947705ee20b64e611f5ab0d5d2d331bd1099af7afa746286",
+    "action":"withdraw",
+    "address":"0xcd40532686b94abc88b06b9705aacbc14c8364d6",
+    "asset":"USDT",
+    "amount":3001223.6364737055,
+    "usdvalue":2999825.096271345
   }
 ]
