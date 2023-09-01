@@ -1233,5 +1233,20 @@
       "0xa31185d804bf9209347698128984a43a67ce6d11.setRewardTokenSpeeds([0xca2d81aa7c09a1a025de797600a7081146dceed9], [1240079365079365], [1240079365079365])",
       "0xbe607b239a8776b47159e2b0e9e65a7f1daa6478.setRewardTokenSpeeds([0x5e21bf67a6af41c74c1773e4b473ca5ce8fd3791], [2314814814814814], [0])"
     ]
+  },
+  {
+    "id":"164",
+    "type":"Normal",
+    "title":"VIP-164 Payments Issuance for performed Audits",
+    "description":"<b>Description</b>\n\nIf passed this VIP will perform the following actions:\n\n* Transfer 45,000 USDC to Quantstamp for the Automatic allocation of income audit\n* Transfer 30,000 USDC to Quantstamp for the Venus Prime audit\n* Transfer 10,000 USDT to Fairyproof for the Token converter audit\n* Transfer 12,000 USDC to Peckshield for the Token converter audit\n* Transfer 19,000 USDT to Certik for the retainer program\n\n<b>Details</b>\n\nQuantstamp - Automatic income allocation\n\n* Auditor: Quantstamp (<a href=\"https://quantstamp.com/\">https://quantstamp.com</a>)\n* Payload: Automatic income allocation. Distribute the reserves generated in the protocol, in an automatic way, following the agreed <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xc9d270ccecb7b91c75b95b8d9af24fc7c20cd38c0c0c44888ed4e7724f4e7ce9\">Tokenomics</a>\n* Status: audit started on August 28th, 2023. ETA: September 18th, 2023\n* Cost: 45,000 USDC, to be sent to the BEP20 address 0xf6323183A6537CAC30b95f4fAd2a236e0CbED2E2\n\nQuantstamp - Venus Prime\n\n* Auditor: Quantstamp (<a href=\"https://quantstamp.com/\">https://quantstamp.com</a>)\n* Payload: Venus Prime. <a href=\"https://github.com/VenusProtocol/venus-protocol/pull/196\">https://github.com/VenusProtocol/venus-protocol/pull/196</a>\n* Status: audit starts on September 27th, 2023. ETA: October 6th, 2023\n* Cost: 30,000 USDC, to be sent to the BEP20 address 0xf6323183A6537CAC30b95f4fAd2a236e0CbED2E2\n\nFairyproof - Token converter\n\n* Auditor: Fairyproof (<a href=\"https://www.fairyproof.com/\">https://www.fairyproof.com</a>)\n* Payload: Token converter. <a href=\"https://github.com/VenusProtocol/protocol-reserve/pull/9\">https://github.com/VenusProtocol/protocol-reserve/pull/9</a>\n* Status: audit started on August 21st, 2023, and it ended on August 25th, 2023\n* Cost: 10,000 USDT, to be sent to the BEP20 address 0x060a08fff78aedba4eef712533a324272bf68119\n\nPeckshield - Token converter\n\n* Auditor: Peckshield (<a href=\"https://peckshield.com/\">https://peckshield.com</a>)\n* Payload: Token converter. <a href=\"https://github.com/VenusProtocol/protocol-reserve/pull/9\">https://github.com/VenusProtocol/protocol-reserve/pull/9</a>\n* Status: audit starts on August 30th, 2023. ETA: September 5th, 2023\n* Cost: 12,000 USDC, to be sent to the BEP20 address 0x24ee02a67c64f66ca5bcf9352f6701b46dcedff1\n\nCertik - retainer program\n\n* Auditor: Certik (<a href=\"https://certik.com/\">https://certik.com</a>)\n* Concept: Retainer program - monthly payment of September 2023. Scheduled audits by Certik in September: Venus Prime\n* Cost: 19,000 USDT, to be sent to the BEP20 address 0x4cf605b238e9c3c72d0faed64d12426e4a54ee12",
+    "endblock":31395269,
+    "eta":1693660593,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 45000000000000000000000, 0xf6323183a6537cac30b95f4fad2a236e0cbed2e2)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 30000000000000000000000, 0xf6323183a6537cac30b95f4fad2a236e0cbed2e2)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 10000000000000000000000, 0x060a08fff78aedba4eef712533a324272bf68119)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 12000000000000000000000, 0x24ee02a67c64f66ca5bcf9352f6701b46dcedff1)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 19000000000000000000000, 0x4cf605b238e9c3c72d0faed64d12426e4a54ee12)"
+    ]
   }
 ]
