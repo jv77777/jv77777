@@ -62563,5 +62563,35 @@
     "repay_usdvalue":20.40733411673359,
     "treasury_amount":0.826592408464804,
     "treasury_usdvalue":1.0206981610756198
+  },
+  {
+    "id":"5a41b5281808",
+    "txtime":1693678862,
+    "tx":"0xd7730bc93b63bc4487b98c38c13dce56f2e36e491d2f48d98a13171f98c3ff75",
+    "liquidator":"0x4fe67f24186ea7138641645dbfb084053d1ea1a5",
+    "borrower":"0x94111d59edd7c5fe81850b5e156eeedc4b86676b",
+    "seize_token":"ETH",
+    "repay_token":"BUSD",
+    "seize_amount":0.013574824545241686,
+    "repay_amount":20.1212083918802,
+    "seize_usdvalue":22.15258286016501,
+    "repay_usdvalue":20.124904054225535,
+    "treasury_amount":0.0006170374793291674,
+    "treasury_usdvalue":1.0069355845529546
+  },
+  {
+    "id":"0ed92bc8aa5a",
+    "txtime":1693679000,
+    "tx":"0x8e43757f4e230459ad7c34b28d690c1a5f05530e74e93417d3663fd3868f2688",
+    "liquidator":"0x4fe67f24186ea7138641645dbfb084053d1ea1a5",
+    "borrower":"0xd508cb2c6ebbb7dc27eaab48abf2048574fdc4d6",
+    "seize_token":"DOT",
+    "repay_token":"DAI",
+    "seize_amount":3.660158276510702,
+    "repay_amount":14.00683808428283,
+    "seize_usdvalue":15.409105297145889,
+    "repay_usdvalue":14.008277987237895,
+    "treasury_amount":0.16637083075048642,
+    "treasury_usdvalue":0.7004138771429949
   }
 ]
