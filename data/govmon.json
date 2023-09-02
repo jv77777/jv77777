@@ -1248,5 +1248,24 @@
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 12000000000000000000000, 0x24ee02a67c64f66ca5bcf9352f6701b46dcedff1)",
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 19000000000000000000000, 0x4cf605b238e9c3c72d0faed64d12426e4a54ee12)"
     ]
+  },
+  {
+    "id":"165",
+    "type":"Normal",
+    "title":"VIP-165 Risk Parameters Adjustments",
+    "description":"<b>Summary</b>\n\nThis VIP will perform the following Risk Parameters actions as per Chaos Labs latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-08-28-2023/3720\">Risk Parameter Updates 08/28/2023</a>\n\n* Increase Collateral Factor of <b>MATIC</b> by 5% from 60% to 65%\n* Increase Collateral Factor of <b>DOGE</b> by 3% from 40% to 43%\n* Increase Collateral Factor of <b>LTC</b> by 2% from 60% to 62%\n* Increase Collateral Factor of <b>FIL</b> by 1% from 60% to 61%\n* Increase Collateral Factor of <b>DAI</b> by 15% from 60% to 75%\n* Increase Collateral Factor of <b>LINK</b> by 3% from 60% to 63%\n* Increase Collateral Factor of <b>DOT</b> by 5% from 60% to 65%\n* Set Collateral Factor of <b>TUSD</b> from 0 to 75%\n* Increase  supply cap of <b>WBETH</b> to 27,000\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/66\">https://github.com/VenusProtocol/vips/pull/66</a>",
+    "endblock":31424183,
+    "eta":1693747553,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x5c9476fcd6a4f9a3654139721c949c2233bbbbc8, 650000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0xec3422ef92b2fb59e84c8b02ba73f1fe84ed8d71, 430000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x57a5297f2cb2c0aac9d554660acd6d385ab50c6b, 620000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0xf91d58b5ae142dacc749f58a49fcbac340cb0343, 610000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x334b3ecb4dca3593bccc3c7ebd1a1c1d1780fbf1, 750000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x650b940a1033b8a1b1873f78730fcfc73ec11f1f, 630000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x1610bc33319e9398de5f57b33a5b184c806ad217, 650000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e, 750000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [27000000000000000000000])"
+    ]
   }
 ]
