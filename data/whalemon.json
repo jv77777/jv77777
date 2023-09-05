@@ -98645,5 +98645,15 @@
     "asset":"USDC",
     "amount":1325407.882,
     "usdvalue":1326069.923237059
+  },
+  {
+    "id":"cffdf603a67e",
+    "txtime":1693922757,
+    "tx":"0xb4d85d1a64f3b4c852486953cfa9143af698e0b26cba6bc3c655e817dcf8e31f",
+    "action":"withdraw",
+    "address":"0x59a661f1c909ca13ba3e9114bfdd81e5a420705d",
+    "asset":"WBETH",
+    "amount":7818.01999973577,
+    "usdvalue":12929991.227549631
   }
 ]
