@@ -98655,5 +98655,15 @@
     "asset":"WBETH",
     "amount":7818.01999973577,
     "usdvalue":12929991.227549631
+  },
+  {
+    "id":"90f63ffb6eb5",
+    "txtime":1693932718,
+    "tx":"0xef2a35a3593d9a70b5829d3a96ab8d44a641fc5180dea86c587eccb4c832bd55",
+    "action":"supply",
+    "address":"0x1f356cc150608e4f1334d65bcc448db84cb7cfee",
+    "asset":"USDC",
+    "amount":1325546.9626756,
+    "usdvalue":1325633.4943813237
   }
 ]
