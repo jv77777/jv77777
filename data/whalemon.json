@@ -98805,5 +98805,15 @@
     "asset":"BTCB",
     "amount":72.54252482225425,
     "usdvalue":1869618.9057622568
+  },
+  {
+    "id":"f5c4b2cf55b8",
+    "txtime":1694120644,
+    "tx":"0x72f5ec28b261f8115d32e3ded9cc0e036769d105eda745bd7245b96baf98ad8a",
+    "action":"supply",
+    "address":"0x1f356cc150608e4f1334d65bcc448db84cb7cfee",
+    "asset":"USDC",
+    "amount":1326161.865670028,
+    "usdvalue":1326303.4334491882
   }
 ]
