@@ -1278,5 +1278,16 @@
     "actions":[
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 220000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
     ]
+  },
+  {
+    "id":"167",
+    "type":"Normal",
+    "title":"Venus Ambassador program budget renewal.",
+    "description":"Re-Submission of the previous VIP due to a technical error.\n\n<b>Venus Stars</b>  is the Venus Ambassador program aimed at Generating adoption, education, growth and engagement. It is also what allows us to support our multiple communities in more than 18 different languages.\n\nVenus Stars is specifically designed to drive the growth, adoption and expansion of Venus all around the world. \n\nIt is based on three main areas: \n\n* Education\n* Information and guidance\n* Activities and In real life events.\n\nIt is imperative for our users to receive excellent and personalized attention directly from the hands of their local leaders. \n\nOur users deserve the best.\n\nI hereby kindly ask for the Venus Community to renew our annual budget based on last year's numbers which have been stretched to the extreme, up until today. \n",
+    "endblock":31584803,
+    "eta":1694231900,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 220000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
+    ]
   }
 ]
