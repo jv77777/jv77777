@@ -1289,5 +1289,21 @@
     "actions":[
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 220000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
     ]
+  },
+  {
+    "id":"168",
+    "type":"Normal",
+    "title":"VIP-168 Risk Parameters Adjustments",
+    "description":"<b>Summary</b>\n\nThis VIP will perform the following Risk Parameters actions as per Chaos Labs latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-09-05-2023/3749\">Risk Parameter Updates 09/05/2023</a>\n\n* Increase Collateral Factor of <b>XRP</b> by 5% from 60% to 65%\n* Increase Collateral Factor of <b>FIL</b> by 2% from 61% to 63%\n* Increase Collateral Factor of <b>LTC</b> by 1% from 62% to 63%\n* Increase Collateral Factor of <b>ADA</b> by 3% from 60% to 63%\n* Increase supply cap of <b>TUSD</b> to 3,000,000 TUSD\n* Increase borrow cap of <b>WBETH</b> to 2,200 WBETH\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/68\">https://github.com/VenusProtocol/vips/pull/68</a>\n",
+    "endblock":31677492,
+    "eta":1694510638,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0xb248a295732e0225acd3337607cc01068e3b9c10, 650000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0xf91d58b5ae142dacc749f58a49fcbac340cb0343, 630000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x9a0af7fdb2065ce470d72664de73cae409da28ec, 630000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x57a5297f2cb2c0aac9d554660acd6d385ab50c6b, 630000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e], [3000000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [2200000000000000000000])"
+    ]
   }
 ]
