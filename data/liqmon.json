@@ -64873,5 +64873,50 @@
     "repay_usdvalue":1046.6990137899668,
     "treasury_amount":0.002027235772120962,
     "treasury_usdvalue":52.316691119906174
+  },
+  {
+    "id":"dba0793b759a",
+    "txtime":1694419930,
+    "tx":"0xb91c6974a9b9c442c9fc1552b12035ea4b7eaab15559060d614000741672b9e9",
+    "liquidator":"0x3897c29ab3a0d092e54a61c13cc593886b6690de",
+    "borrower":"0xaee2d47bd358e31994d618cf409dc4206b3593a9",
+    "seize_token":"ETH",
+    "repay_token":"BTCB",
+    "seize_amount":0.07243787027018486,
+    "repay_amount":0.004106206279363905,
+    "seize_usdvalue":116.75898119499746,
+    "repay_usdvalue":106.00697104581678,
+    "treasury_amount":0.0032926304668265847,
+    "treasury_usdvalue":5.30722641795443
+  },
+  {
+    "id":"e825676c2735",
+    "txtime":1694420051,
+    "tx":"0xb3b70bbf0de012eeb2622ca6ea4ba9d3b9ede74fc286721418282c1338de511c",
+    "liquidator":"0x4fe67f24186ea7138641645dbfb084053d1ea1a5",
+    "borrower":"0x68a84edd2a64496fe2e170c3c331ab4db7ae3e9e",
+    "seize_token":"ADA",
+    "repay_token":"DAI",
+    "seize_amount":78.33760334836475,
+    "repay_amount":17.477981579415424,
+    "seize_usdvalue":19.31021922537191,
+    "repay_usdvalue":17.47448598309954,
+    "treasury_amount":3.560800152198399,
+    "treasury_usdvalue":0.8777372375169054
+  },
+  {
+    "id":"40239f69a6a1",
+    "txtime":1694420072,
+    "tx":"0x770407bfbe535bb232cf6a655c97cfefd676f31af243072d3b6ccf5bcbf74b97",
+    "liquidator":"0x4fe67f24186ea7138641645dbfb084053d1ea1a5",
+    "borrower":"0x6cc88eadce2d4052508616c6d62d9465c084e657",
+    "seize_token":"ADA",
+    "repay_token":"USDC",
+    "seize_amount":109.52416431374489,
+    "repay_amount":24.43335536889754,
+    "seize_usdvalue":26.997706503338115,
+    "repay_usdvalue":24.43384745667467,
+    "treasury_amount":4.978371105170222,
+    "treasury_usdvalue":1.2271684774244598
   }
 ]
