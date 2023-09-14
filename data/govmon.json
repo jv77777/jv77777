@@ -1305,5 +1305,17 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e], [3000000000000000000000000])",
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [2200000000000000000000])"
     ]
+  },
+  {
+    "id":"169",
+    "type":"Normal",
+    "title":"VIP-169: Isolated Lending Pools: Configure Liquidity Mining",
+    "description":"<b>Summary</b>\n\nIf passed, this VIP will set the last block with rewards for the BNBx market in the Liquid Staked BNB pool, and the HAY market in the Stablecoins pool.\n\n<b>Description</b>\n\nThis VIP sets the last block with rewards for the BNBx market in the DeFi pool, and the HAY market in the Stablecoins pool. Rewards were enabled at block 31394389 in the <a href=\"https://app.venus.io/#/governance/proposal/163\">VIP-163</a>.\n\nIn <a href=\"https://app.venus.io/#/isolated-pools/pool/0xd933909A4a2b7A4638903028f44D1d38ce27c352/market/0x5E21bF67a6af41c74C1773E4b473ca5ce8fd3791\">vBNBx_LiquidStakedBNB</a>, the last block with rewards will be 32258389. That means around 30 days (864,000 blocks) after being enabled.\n\nIn <a href=\"https://app.venus.io/#/isolated-pools/pool/0x94c1495cD4c557f1560Cbd68EAB0d197e6291571/market/0xCa2D81AA7C09A1a025De797600A7081146dceEd9\">vHAY_Stablecoins</a>, the last block with rewards will be 32200789. That means around 28 days (806,400 blocks) after being enabled.\n\nSimulation of the VIP: <a href=\"https://github.com/VenusProtocol/vips/pull/70\">https://github.com/VenusProtocol/vips/pull/70</a>",
+    "endblock":31770320,
+    "eta":1694789863,
+    "actions":[
+      "0xa31185d804bf9209347698128984a43a67ce6d11.setLastRewardingBlocks([0xca2d81aa7c09a1a025de797600a7081146dceed9])",
+      "0xbe607b239a8776b47159e2b0e9e65a7f1daa6478.setLastRewardingBlocks([0x5e21bf67a6af41c74c1773e4b473ca5ce8fd3791])"
+    ]
   }
 ]
