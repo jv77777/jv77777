@@ -99355,5 +99355,25 @@
     "asset":"ETH",
     "amount":2494.749809777481,
     "usdvalue":4032210.5345335556
+  },
+  {
+    "id":"6923e4d7523c",
+    "txtime":1695003090,
+    "tx":"0xeeddfaa526fa025b94f38b586b2b73c80c43441030f91426735c26fa6ec38dd7",
+    "action":"supply",
+    "address":"0x4f14485da248b71d3dd755a920d0ebfefce1d966",
+    "asset":"USDT",
+    "amount":2002495.813,
+    "usdvalue":2002819.4563732974
+  },
+  {
+    "id":"1d7cb1fa3b49",
+    "txtime":1695003189,
+    "tx":"0x34cf6b62e930b97692f6146586d5daa72f5d5253be6c3bde5afc240266ce091a",
+    "action":"borrow",
+    "address":"0x4f14485da248b71d3dd755a920d0ebfefce1d966",
+    "asset":"BNB",
+    "amount":8000.0,
+    "usdvalue":1738808.008
   }
 ]
