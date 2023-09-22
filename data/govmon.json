@@ -1426,5 +1426,17 @@
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xfd36e2c2a6789db23113685031d7f16329158384, _setForcedLiquidation(address,bool), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xfd36e2c2a6789db23113685031d7f16329158384, _setForcedLiquidation(address,bool), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)"
     ]
+  },
+  {
+    "id":"173",
+    "type":"Normal",
+    "title":"VIP-173 Payments Issuance for performed Audits",
+    "description":"If passed this VIP will perform the following actions:\n\n* Transfer 5,000 USDC to Peckshield for the Forced liquidations audit\n* Reimburse the community wallet for transfering 42,000 USDC to Code4rena for the Venus Prime audit\n\n<b>Details</b>\n\nPeckshield \u2014 Forced liquidations\n\n* Auditor: Peckshield (<a href=\"https://peckshield.com\">https://peckshield.com</a>)\n* Payload: Forced liquidations. <a href=\"https://github.com/VenusProtocol/venus-protocol/pull/332\">https://github.com/VenusProtocol/venus-protocol/pull/332</a> \n* Status: audit starts on September 8th, 2023. Ended: September 12th, 2023\n* Cost: 5,000 USDC, to be sent to the BEP20 address 0x24ee02a67c64f66ca5bcf9352f6701b46dcedff1\n\nCode4rena \u2014 Venus Prime\n\n* Auditor: Code4rena (<a href=\"https://code4rena.com\">https://code4rena.com</a>)\n* Payload: Venus Prime. <a href=\"https://github.com/VenusProtocol/venus-protocol/pull/196\">https://github.com/VenusProtocol/venus-protocol/pull/196</a> \n* Status: contest starts by the end of September, 2023. Duration: 6 days\n* Cost: 42,000 USDC, sent to the Ethereum mainnet address 0xC2bc2F890067C511215f9463a064221577a53E10 in this transaction: <a href=\"https://etherscan.io/tx/0xd3838f59a4ca52ed91fdf2373ff7b4e2148a7d3a78268532e675aadbc49ba6ba\">https://etherscan.io/tx/0xd3838f59a4ca52ed91fdf2373ff7b4e2148a7d3a78268532e675aadbc49ba6ba</a>\n    * 10,000 USDC will be refunded at the end of the contest, if the github repository is not modified during the contest\n",
+    "endblock":32003636,
+    "eta":1695492041,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 5000000000000000000000, 0x24ee02a67c64f66ca5bcf9352f6701b46dcedff1)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 42000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
+    ]
   }
 ]
