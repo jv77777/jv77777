@@ -68218,5 +68218,35 @@
     "repay_usdvalue":34.615622489494754,
     "treasury_amount":0.0010859322642249613,
     "treasury_usdvalue":1.7302664810331438
+  },
+  {
+    "id":"58530a17b465",
+    "txtime":1695517839,
+    "tx":"0x8ad5c82b17ec92df993d3ae2656a89018ae40f62d16f91536e886ac10c0af7e5",
+    "liquidator":"0x4fe67f24186ea7138641645dbfb084053d1ea1a5",
+    "borrower":"0xdfb9d81cb7e1933cec29233a84f6a5043adf3cfd",
+    "seize_token":"CAKE",
+    "repay_token":"SXP",
+    "seize_amount":4.052569656447633,
+    "repay_amount":13.29923954800798,
+    "seize_usdvalue":4.636172593841703,
+    "repay_usdvalue":4.170318616719077,
+    "treasury_amount":0.1842077116567106,
+    "treasury_usdvalue":0.21073511790189559
+  },
+  {
+    "id":"fc354782d718",
+    "txtime":1695555952,
+    "tx":"0xe28f5c358a2934790e186664f499c2b34ddb5912bd6b9adc8455aeff5b160317",
+    "liquidator":"0xe8871c8ad85cf5c1c018638298838bf3c450b716",
+    "borrower":"0x32d7c79423c5ba0b59106dd3d04dc89aec3f686d",
+    "seize_token":"BNB",
+    "repay_token":"USDT",
+    "seize_amount":0.17633339275546295,
+    "repay_amount":33.7761659947486,
+    "seize_usdvalue":37.15378088702228,
+    "repay_usdvalue":33.77940479130584,
+    "treasury_amount":0.008015154216157406,
+    "treasury_usdvalue":1.6888082221373761
   }
 ]
