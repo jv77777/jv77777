@@ -1459,5 +1459,17 @@
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.revokeCallPermission(0xfd36e2c2a6789db23113685031d7f16329158384, _setActionsPaused(address[],uint256[],bool), 0x1c2cac6ec528c20800b2fe734820d87b581eaa6b)",
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xfd36e2c2a6789db23113685031d7f16329158384, _setActionsPaused(address[],uint8[],bool), 0x1c2cac6ec528c20800b2fe734820d87b581eaa6b)"
     ]
+  },
+  {
+    "id":"175",
+    "type":"Normal",
+    "title":"VIP-175 Risk Parameters Adjustments",
+    "description":"#### Summary\n\nThis VIP will perform the following Risk Parameters actions as per Chaos Labs latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-09-18-2023/3808\">Risk Parameter Updates 09/18/2023</a>\n\n- Increase supply cap of <b>TUSD</b> to 5,000,000 TUSD\n- Increase borrow cap of <b>TUSD</b> to 4,000,000 TUSD\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/75\">https://github.com/VenusProtocol/vips/pull/75</a>\n",
+    "endblock":32081750,
+    "eta":1695726870,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e], [5000000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e], [4000000000000000000000000])"
+    ]
   }
 ]
