@@ -68533,5 +68533,20 @@
     "repay_usdvalue":18.494868613744163,
     "treasury_amount":0.014273902410328342,
     "treasury_usdvalue":0.9247247759214344
+  },
+  {
+    "id":"ca095c3e6a23",
+    "txtime":1695705093,
+    "tx":"0xf9cc07495da54ca7ef837816148aa42a044379c585d4c42f2cd3ea904d1900f1",
+    "liquidator":"0x3897c29ab3a0d092e54a61c13cc593886b6690de",
+    "borrower":"0xf165fc6bd6a2ee937ab77311d1078f16711cf007",
+    "seize_token":"XRP",
+    "repay_token":"USDT",
+    "seize_amount":642.590283067078,
+    "repay_amount":293.8238962269023,
+    "seize_usdvalue":323.12812389008496,
+    "repay_usdvalue":293.75284373231676,
+    "treasury_amount":29.208649230321722,
+    "treasury_usdvalue":14.687641995003862
   }
 ]
