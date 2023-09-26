@@ -1471,5 +1471,17 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e], [5000000000000000000000000])",
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e], [4000000000000000000000000])"
     ]
+  },
+  {
+    "id":"176",
+    "type":"Fasttrack",
+    "title":"VIP-176 Update VAI Floating and Base Rates",
+    "description":"#### Summary\n\nThis VIP will perform the following updates as per Steakhouse latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/vip-changing-the-interest-rate-parameters-for-vai/3735\">[VIP] Changing the interest rate parameters for VAI</a>\n\n- Set VAI Floating Rate: 4,000% (from 225%)\n- Set VAI Base Rate: 3% (from 4%)\n\nComplete analysis and details of these recommendations are available in the above publication. Snapshot: <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0x2c07b7e19032692e3193565ae43e06bf57a503729ca2c0919eb0b15cfb52331d\">here</a>\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/77\">https://github.com/VenusProtocol/vips/pull/77</a>",
+    "endblock":32112006,
+    "eta":1695817915,
+    "actions":[
+      "0x004065d34c6b18ce4370ced1cebde94865dbfafe.setBaseRate(30000000000000000)",
+      "0x004065d34c6b18ce4370ced1cebde94865dbfafe.setFloatRate(40000000000000000000)"
+    ]
   }
 ]
