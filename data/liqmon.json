@@ -68713,5 +68713,20 @@
     "repay_usdvalue":342.59314101989423,
     "treasury_amount":3.8468408071454525,
     "treasury_usdvalue":17.19285457262342
+  },
+  {
+    "id":"c1230845242b",
+    "txtime":1695808488,
+    "tx":"0xb1e6160ed1f687e6610bc0bed230f3f88a4ad6e401bcc4e0f1ec38d513d593ee",
+    "liquidator":"0x3897c29ab3a0d092e54a61c13cc593886b6690de",
+    "borrower":"0xaa728cd0e864e9c461332b564889dc0d3c295e11",
+    "seize_token":"USDT",
+    "repay_token":"TRXOLD",
+    "seize_amount":175.72717850945546,
+    "repay_amount":1862.202271908183,
+    "seize_usdvalue":175.58835403843298,
+    "repay_usdvalue":158.51896280695726,
+    "treasury_amount":7.987599023157063,
+    "treasury_usdvalue":7.9812888199287695
   }
 ]
