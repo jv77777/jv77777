@@ -68968,5 +68968,20 @@
     "repay_usdvalue":203.41446206398558,
     "treasury_amount":0.0003778186016398187,
     "treasury_usdvalue":10.1702762341244
+  },
+  {
+    "id":"0e06b3fa48ba",
+    "txtime":1696061357,
+    "tx":"0x04f84c234f85d9468217776d3fea9b0377ebbc23271b2136d4fe52468dac7fa0",
+    "liquidator":"0xed406036360c08f8ac91ea09e120b4e43d1202ce",
+    "borrower":"0xf165fc6bd6a2ee937ab77311d1078f16711cf007",
+    "seize_token":"XVS",
+    "repay_token":"USDC",
+    "seize_amount":41.52454538846282,
+    "repay_amount":175.01007215051564,
+    "seize_usdvalue":193.11799976785164,
+    "repay_usdvalue":175.03407128170963,
+    "treasury_amount":1.8874793358392183,
+    "treasury_usdvalue":8.778090898538707
   }
 ]
