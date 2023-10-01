@@ -69103,5 +69103,35 @@
     "repay_usdvalue":219.076523751242,
     "treasury_amount":10.951869700082655,
     "treasury_usdvalue":10.952394732716076
+  },
+  {
+    "id":"90e46bb23757",
+    "txtime":1696182543,
+    "tx":"0x14c42c3de1cfcc6ba3dd03cfd83d2cdc4213901474afc6a098bfc3821e4db306",
+    "liquidator":"0x10da275b2f99df1b2e7f5c8fec234fe5ed6cf737",
+    "borrower":"0xf165fc6bd6a2ee937ab77311d1078f16711cf007",
+    "seize_token":"XRP",
+    "repay_token":"TUSD",
+    "seize_amount":2645.700069275624,
+    "repay_amount":1241.074146731039,
+    "seize_usdvalue":1365.49623279647,
+    "repay_usdvalue":1239.4729873313754,
+    "treasury_amount":120.25909405798289,
+    "treasury_usdvalue":62.06801058165771
+  },
+  {
+    "id":"4120cbd461c4",
+    "txtime":1696182984,
+    "tx":"0x3269ea1a8e815ff7afe314a9acc2a7a697bcb70e48a2a12df23cfd3a30e023f9",
+    "liquidator":"0x611f3f8907155beb37ee6fc68c775e62fbc6a403",
+    "borrower":"0x7ce7822ed1da76386d5318f56c3cefa215aa075e",
+    "seize_token":"DOGE",
+    "repay_token":"USDT",
+    "seize_amount":1132.0191736440427,
+    "repay_amount":63.80329818081796,
+    "seize_usdvalue":70.18716979948452,
+    "repay_usdvalue":63.815420807472314,
+    "treasury_amount":51.455416983820136,
+    "treasury_usdvalue":3.1903258999765702
   }
 ]
