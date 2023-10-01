@@ -100045,5 +100045,26 @@
     "asset":"ETH",
     "amount":1196.4610802769173,
     "usdvalue":2018486.9136206887
+  },
+  {
+    "id":"649557fc84a5",
+    "txtime":1696189477,
+    "tx":"0xd197dce37f515ce7dd9152d866a08d0ce9e636781af718650dd55e6ce714d25a",
+    "action":"supply",
+    "address":"0x0848db7cb495e7b9ada1d4dc972b9a526d014d84",
+    "asset":"XVS",
+    "amount":298500.0,
+    "usdvalue":1430091.76323
+  },
+  {
+    "id":"5aa5c17cd556",
+    "txtime":1696189447,
+    "tx":"0x0a23f5dc7c23ad11f0a1f45fd9817cdbfc2c5e3afbcdab8b63faadfbd18d2855",
+    "action":"unstake",
+    "address":"0x0848db7cb495e7b9ada1d4dc972b9a526d014d84",
+    "vault":"XVS Vault",
+    "asset":"XVS",
+    "amount":298500.0,
+    "usdvalue":1430091.76323
   }
 ]
