@@ -1530,5 +1530,16 @@
       "0x94c1495cd4c557f1560cbd68eab0d197e6291571.addRewardsDistributor(0x177ed4625f57cea2804ea3a396c8ff78f314f1ca)",
       "0x177ed4625f57cea2804ea3a396c8ff78f314f1ca.setRewardTokenSpeeds([0x795de779be00ea46ea97a28bdd38d9ed570bcf0f], [0], [87549603174603174])"
     ]
+  },
+  {
+    "id":"179",
+    "type":"Normal",
+    "title":"VIP-179 DAO Operations & Funding Withdrawal",
+    "description":"<b>Summary</b>\n\nVIP-179 relates to the Quarterly Venus Protocol DAO Operations &amp; Funding allocation for the previous Q1 2023, as indicated in our Tokenomics. The allocation was not withdrawn yet from the Treasury.\n\nSpecifications\n\nThe Q1 2023 total income withdrawn in VIP-105: \n* Reserve Revenue: $1,672,206.28\n* Liquidation Revenue: $507,951.00\n\nAs per our Tokenomics:\n\n* 20% of reserve revenue will be sent to the Ops wallet for DAO  Operations &amp; Funding: $334,441.26. \n\n* 26% of liquidation revenue will be sent to the Ops wallet for DAO Operations &amp; Funding: $132,067.26.\n\nThe total amount to withdraw from the protocol treasury for DAO Operations &amp; Funding: $466,508.52 USDT\n",
+    "endblock":32316637,
+    "eta":1696433747,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 466508520000000000000000, 0x6657911f7411765979da0794840d671be55ba273)"
+    ]
   }
 ]
