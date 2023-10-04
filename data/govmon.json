@@ -1541,5 +1541,19 @@
     "actions":[
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 466508520000000000000000, 0x6657911f7411765979da0794840d671be55ba273)"
     ]
+  },
+  {
+    "id":"180",
+    "type":"Normal",
+    "title":"VIP-180 Risk Parameters Adjustments",
+    "description":"This VIP will perform the following Risk Parameters actions as per Chaos Labs latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-10-02-2023/3831\">Risk Parameter Updates 10/02/2023</a>\n\n- <b>SnBNB</b> (Liquid Staked BNB pool)\n    - Increase supply cap to 2,000 SnBNB\n    - Increase borrow cap to 400 SnBNB\n- <b>MATIC</b> (Core pool)\n    - Increase supply cap to 8,000,000 MATIC\n    - Increase borrow cap to 3,000,000 MATIC\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: https://github.com/VenusProtocol/vips/pull/84\n",
+    "endblock":32346237,
+    "eta":1696522980,
+    "actions":[
+      "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setMarketSupplyCaps([0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a], [2000000000000000000000])",
+      "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setMarketBorrowCaps([0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a], [400000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x5c9476fcd6a4f9a3654139721c949c2233bbbbc8], [8000000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x5c9476fcd6a4f9a3654139721c949c2233bbbbc8], [3000000000000000000000000])"
+    ]
   }
 ]
