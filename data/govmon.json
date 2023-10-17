@@ -1689,5 +1689,31 @@
       "0x94c1495cd4c557f1560cbd68eab0d197e6291571.setMarketSupplyCaps([0x795de779be00ea46ea97a28bdd38d9ed570bcf0f], [250000000000000000000000])",
       "0x94c1495cd4c557f1560cbd68eab0d197e6291571.setMarketBorrowCaps([0x795de779be00ea46ea97a28bdd38d9ed570bcf0f], [200000000000000000000000])"
     ]
+  },
+  {
+    "id":"186",
+    "type":"Normal",
+    "title":"VIP-186 Add forced liquidations feature into the Isolated pools",
+    "description":"#### Summary\n\nIf passed, this VIP will upgrade the implementation of the Comptroller contracts of the Isolated pools, including the feature \u201cforced liquidations\u201d. This feature was already added to the Comptroller contract of the Core pool in the <a href=\"https://app.venus.io/#/governance/proposal/172\">VIP-172</a>. Forced liquidations will be initially disabled for every market in Isolated pools. To enable it, a new VIP would be needed.\n\n#### Description\n\nThis VIP upgrades the implementation of the Comptroller contracts in the Isolated pools, including the feature \u201cforced liquidations\u201d, that will be <b>initially disabled for every market</b>.\n\nYou can read more about this feature in the <a href=\"https://app.venus.io/#/governance/proposal/172\">VIP-172</a>, and in the <a href=\"https://docs-v4.venus.io/guides/liquidation#forced-liquidations\">public documentation site</a>.\n\nFinally, this VIP will authorize Normal, Fast-track and Critical timelocks to enable and disable the forced liquidations on any market of the Isolated pools.\n\n<b>Security and additional considerations</b>\n\nWe applied the following security procedures for this upgrade:\n\n- <b>Behavior post upgrade</b>: in a simulation environment, validating \u201cforced liquidations\u201d work as expected after the upgrade\n- <b>Deployment on testnet</b>: the same implementation has been deployed to testnet, and used in the Venus Protocol testnet deployment\n- <b>Audit: Certik has audited the deployed code</b>\n\n<b>Audit reports</b>\n\n- <a href=\"https://github.com/VenusProtocol/isolated-pools/blob/41a96ca24b0e32b8087ea7b916ae2864cbf1a05f/audits/078_forcedLiquidations_certik_20231016.pdf\">Certik audit report (2023/10/16)</a>\n\n<b>Deployed contracts</b>\n\n- <a href=\"https://bscscan.com/address/0x69Ca940186C29b6a9D64e1Be1C59fb7A466354E2\">New Comptroller implementation - mainnet</a>\n- <a href=\"https://testnet.bscscan.com/address/0x11a92852fA7D70C220Dada69969b2f1C4e18e663\">New Comptroller implementation - testnet</a>\n\n<b>References</b>\n\n- <a href=\"https://github.com/VenusProtocol/isolated-pools/pull/305\">Pull request with the changeset</a>\n- <a href=\"https://github.com/VenusProtocol/vips/pull/74\">Simulation post upgrade</a>\n- <a href=\"https://bscscan.com/address/0x17a6ac4f7f01387303deb1d78f01ac0a0c1a75b0#code\">Old Comptroller implementation</a>\n- <a href=\"https://bscscan.com/address/0x38B4Efab9ea1bAcD19dC81f19c4D1C2F9DeAe1B2\">Beacon contract</a>\n- <a href=\"https://docs-v4.venus.io/guides/liquidation#forced-liquidations\">Documentation</a>",
+    "endblock":32710475,
+    "eta":1697619652,
+    "actions":[
+      "0x38b4efab9ea1bacd19dc81f19c4d1c2f9deae1b2.upgradeTo(0x69ca940186c29b6a9d64e1be1c59fb7a466354e2)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x94c1495cd4c557f1560cbd68eab0d197e6291571, setForcedLiquidation(address,bool), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x94c1495cd4c557f1560cbd68eab0d197e6291571, setForcedLiquidation(address,bool), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x94c1495cd4c557f1560cbd68eab0d197e6291571, setForcedLiquidation(address,bool), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x3344417c9360b963ca93a4e8305361aede340ab9, setForcedLiquidation(address,bool), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x3344417c9360b963ca93a4e8305361aede340ab9, setForcedLiquidation(address,bool), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x3344417c9360b963ca93a4e8305361aede340ab9, setForcedLiquidation(address,bool), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x1b43ea8622e76627b81665b1ecebb4867566b963, setForcedLiquidation(address,bool), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x1b43ea8622e76627b81665b1ecebb4867566b963, setForcedLiquidation(address,bool), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x1b43ea8622e76627b81665b1ecebb4867566b963, setForcedLiquidation(address,bool), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xd933909a4a2b7a4638903028f44d1d38ce27c352, setForcedLiquidation(address,bool), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xd933909a4a2b7a4638903028f44d1d38ce27c352, setForcedLiquidation(address,bool), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xd933909a4a2b7a4638903028f44d1d38ce27c352, setForcedLiquidation(address,bool), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x23b4404e4e5ec5ff5a6ffb70b7d14e3fabf237b0, setForcedLiquidation(address,bool), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x23b4404e4e5ec5ff5a6ffb70b7d14e3fabf237b0, setForcedLiquidation(address,bool), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x23b4404e4e5ec5ff5a6ffb70b7d14e3fabf237b0, setForcedLiquidation(address,bool), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)"
+    ]
   }
 ]
