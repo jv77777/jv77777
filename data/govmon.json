@@ -1715,5 +1715,17 @@
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x23b4404e4e5ec5ff5a6ffb70b7d14e3fabf237b0, setForcedLiquidation(address,bool), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x23b4404e4e5ec5ff5a6ffb70b7d14e3fabf237b0, setForcedLiquidation(address,bool), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)"
     ]
+  },
+  {
+    "id":"187",
+    "type":"Normal",
+    "title":"VIP-187 Risk Parameters Adjustments (ETH and USDT Stablecoins)",
+    "description":"#### Description\n\nThis VIP will perform the following Risk Parameters actions as per Chaos Labs latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-10-16-2023/3848\">Risk Parameter Updates 10/16/2023</a>. Changes to the IR\u2019s and Kink\u2019s are expected to facilitate new strategies and onboard more TVL.\n\n- <b>ETH</b> (Core pool)\n    - Interest rate multiplier: from 9% to 4.25%\n    - Interest rate Kink: from 75% to 85%\n- <b>USDT</b> (Stablecoins pool)\n    - Interest rate multiplier: from 10% to 5%\n    - Interest rate base: from 2% to 0%\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: https://github.com/VenusProtocol/vips/pull/87",
+    "endblock":32738767,
+    "eta":1697704818,
+    "actions":[
+      "0xf508fcd89b8bd15579dc79a6827cb4686a3592c8._setInterestRateModel(0x16412dbb7b2a4e119edfcb3b58b08d196ec733be)",
+      "0x5e3072305f9cae1c7a82f6fe9e38811c74922c3b.setInterestRateModel(0x7dc969122450749a8b0777c0e324522d67737988)"
+    ]
   }
 ]
