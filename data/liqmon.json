@@ -73018,5 +73018,35 @@
     "repay_usdvalue":6902.940307242492,
     "treasury_amount":344.8507635569488,
     "treasury_usdvalue":344.9645987939989
+  },
+  {
+    "id":"cc4036fdc941",
+    "txtime":1697732484,
+    "tx":"0xd65f8aea0164c95999edb0f6a9c99e7d01e8c94449b2627c4e354256b57a0e48",
+    "liquidator":"0x150708f7a1f7041f3dc50534c2dd6d48d8c1c748",
+    "borrower":"0xd1c83f6192de825c66f2e3219908ba7c1de1e787",
+    "seize_token":"CAKE",
+    "repay_token":"BUSD",
+    "seize_amount":14.939168395100019,
+    "repay_amount":14.461919912346488,
+    "seize_usdvalue":15.903286749613345,
+    "repay_usdvalue":14.469270183141939,
+    "treasury_amount":0.6790531088681825,
+    "treasury_usdvalue":0.72287667043697
+  },
+  {
+    "id":"8930b3bfd1ff",
+    "txtime":1697732757,
+    "tx":"0xd61db35283f00d0e69e031a86c21220ad887c36abdff1f566d9a9499c6851493",
+    "liquidator":"0xd755e4517d832e804734bac6f2ad15ba5784fccd",
+    "borrower":"0xee9d7e395c7e73ce224eb2f22e3c64ca849d2d4d",
+    "seize_token":"ETH",
+    "repay_token":"USDC",
+    "seize_amount":0.9103981190078747,
+    "repay_amount":1302.7922761577306,
+    "seize_usdvalue":1428.9608875947602,
+    "repay_usdvalue":1302.7702198844952,
+    "treasury_amount":0.04138173268217612,
+    "treasury_usdvalue":64.95276761794364
   }
 ]
