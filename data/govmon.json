@@ -1727,5 +1727,18 @@
       "0xf508fcd89b8bd15579dc79a6827cb4686a3592c8._setInterestRateModel(0x16412dbb7b2a4e119edfcb3b58b08d196ec733be)",
       "0x5e3072305f9cae1c7a82f6fe9e38811c74922c3b.setInterestRateModel(0x7dc969122450749a8b0777c0e324522d67737988)"
     ]
+  },
+  {
+    "id":"188",
+    "type":"Normal",
+    "title":"VIP-188 Update XVS Distributions APR based on Q3 Buyback results",
+    "description":"#### Summary\n\nThis VIP will perform the following actions:\n\n- Set the new XVS Vault distribution speed to 1,440 XVS/day\n- Authorize Fast-track and Critical timelock contracts to adjust the XVS Vault distribution speed in the future\n\n#### Description\n\nOur latest <a href=\"https://app.venus.io/#/governance/proposal/183\">buyback</a> earlier this month for the amount of approximately USD $191,000 resulted in the buyback of 39,844.98 XVS at an average buy price of $4.79. These XVS were <a href=\"https://bscscan.com/tx/0xccc066ce68a82e7df1ed66002d376f0dc3772f1074cdcf707fcabe3f64b0a7a9\">already sent</a> to the XVS Vault rewards distribution wallet.\n\nDue to the slight delay in performing the buyback off-chain, we were not able to adjust the XVS Vault distribution APR until this VIP and more XVS have been distributed in the earlier weeks, thus the need to further lower the APR for the remainder of this quarter to compensate for the extra XVS that were already distributed.\n\nThe new distribution speed will be 1,440 XVS per day for a period of 81 Days. resulting in an APR of 7.91%.",
+    "endblock":32769529,
+    "eta":1697797319,
+    "actions":[
+      "0x051100480289e704d20e9db4804837068f3f9204.setRewardAmountPerBlock(0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63, 50000000000000000)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x051100480289e704d20e9db4804837068f3f9204, setRewardAmountPerBlock(address,uint256), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x051100480289e704d20e9db4804837068f3f9204, setRewardAmountPerBlock(address,uint256), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)"
+    ]
   }
 ]
