@@ -73723,5 +73723,35 @@
     "repay_usdvalue":34.417361047864176,
     "treasury_amount":0.007161315841091694,
     "treasury_usdvalue":1.7208679457780163
+  },
+  {
+    "id":"70f136022687",
+    "txtime":1697980923,
+    "tx":"0xcc28ddee9c386d76467054873d90ab50292f2f19ad8e9b22b964682b2c065367",
+    "liquidator":"0x150708f7a1f7041f3dc50534c2dd6d48d8c1c748",
+    "borrower":"0xb94d0975f6ad08a41c45fe37c799d795485f518d",
+    "seize_token":"AAVE",
+    "repay_token":"TUSDOLD",
+    "seize_amount":0.4508347982423995,
+    "repay_amount":31.12501787459131,
+    "seize_usdvalue":34.159269367922896,
+    "repay_usdvalue":31.10899004663679,
+    "treasury_amount":0.02049249082919998,
+    "treasury_usdvalue":1.5526940621783138
+  },
+  {
+    "id":"f0ce26488880",
+    "txtime":1697981013,
+    "tx":"0xc8fb238717e7872516f9e0537371e4f8af625e13a329ac9f0cc396bc025ac8fe",
+    "liquidator":"0x150708f7a1f7041f3dc50534c2dd6d48d8c1c748",
+    "borrower":"0xb94d0975f6ad08a41c45fe37c799d795485f518d",
+    "seize_token":"DAI",
+    "repay_token":"USDT",
+    "seize_amount":23.789716729345585,
+    "repay_amount":21.617026386561232,
+    "seize_usdvalue":23.78900327574087,
+    "repay_usdvalue":21.626970218699046,
+    "treasury_amount":1.0813507604247992,
+    "treasury_usdvalue":1.0813183307154939
   }
 ]
