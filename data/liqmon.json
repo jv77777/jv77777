@@ -73693,5 +73693,35 @@
     "repay_usdvalue":17.22603827210099,
     "treasury_amount":0.004028985439195612,
     "treasury_usdvalue":0.8616945468949976
+  },
+  {
+    "id":"790707821a96",
+    "txtime":1697980209,
+    "tx":"0xbde89e088ef8fc8a591e8f3cfc04f63b63becd67d2a4bff1253088cd80bef609",
+    "liquidator":"0x150708f7a1f7041f3dc50534c2dd6d48d8c1c748",
+    "borrower":"0xc4be9d273e7260e84313da5c99facb7b70df7f5e",
+    "seize_token":"BCH",
+    "repay_token":"BCH",
+    "seize_amount":0.12333579575714965,
+    "repay_amount":0.11212345932615725,
+    "seize_usdvalue":29.63765629043221,
+    "repay_usdvalue":26.94332597607025,
+    "treasury_amount":0.005606172534415893,
+    "treasury_usdvalue":1.347166195019646
+  },
+  {
+    "id":"6262eb9598f5",
+    "txtime":1697980674,
+    "tx":"0x2bfdcc10ab64b3f17707af1b800d3c27db7ad475aa2e294abdc74267ec917afb",
+    "liquidator":"0x150708f7a1f7041f3dc50534c2dd6d48d8c1c748",
+    "borrower":"0xc4be9d273e7260e84313da5c99facb7b70df7f5e",
+    "seize_token":"BCH",
+    "repay_token":"TUSDOLD",
+    "seize_amount":0.15754894850401732,
+    "repay_amount":34.4350933992101,
+    "seize_usdvalue":37.85909480711637,
+    "repay_usdvalue":34.417361047864176,
+    "treasury_amount":0.007161315841091694,
+    "treasury_usdvalue":1.7208679457780163
   }
 ]
