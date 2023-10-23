@@ -73918,5 +73918,35 @@
     "repay_usdvalue":5532.301023259297,
     "treasury_amount":278.553493457223,
     "treasury_usdvalue":278.60985597108913
+  },
+  {
+    "id":"7acfe070f9e7",
+    "txtime":1698025179,
+    "tx":"0x67be61014308252f2397c52a8dc714432bfdd0d2e5a164179258fa9c885256fb",
+    "liquidator":"0xd915cb4a5384b473378939e671a243c6e93a08a5",
+    "borrower":"0x41010d11dce4afd9840db66d647ffa7201727b6c",
+    "seize_token":"ETH",
+    "repay_token":"LINK",
+    "seize_amount":0.015879427511681865,
+    "repay_amount":2.2378264571173494,
+    "seize_usdvalue":26.72239330209785,
+    "repay_usdvalue":23.49166965844715,
+    "treasury_amount":0.0007217921596219029,
+    "treasury_usdvalue":1.2146542410044476
+  },
+  {
+    "id":"50b2a9ad89e2",
+    "txtime":1698025206,
+    "tx":"0x8b98ac5ad70ef7bada2c0b523638ebf480cab9270e4d5a79baf7012a0a32462b",
+    "liquidator":"0x0000000000d81255748d2173523d52518803ad99",
+    "borrower":"0xf5062c72c15137bf4148930742ced42e291cab3a",
+    "seize_token":"BTCB",
+    "repay_token":"LINK",
+    "seize_amount":0.000495003988216809,
+    "repay_amount":1.2603444485377964,
+    "seize_usdvalue":15.057298615732533,
+    "repay_usdvalue":13.23051452302812,
+    "treasury_amount":2.2500181282582226e-05,
+    "treasury_usdvalue":0.6844226643514788
   }
 ]
