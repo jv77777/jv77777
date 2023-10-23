@@ -101216,5 +101216,16 @@
     "asset":"USDC",
     "amount":1808070.0,
     "usdvalue":1807834.9147386001
+  },
+  {
+    "id":"937a24bab696",
+    "txtime":1698068030,
+    "tx":"0x4dec952ceb22830ad3d0e3b495cbde3953ac065188d47ed8b55753d14081f7dc",
+    "action":"withdraw",
+    "address":"0xf977814e90da44bfa03b6295a0616a897441acec",
+    "addressname":"Binance",
+    "asset":"USDT",
+    "amount":3000000.0,
+    "usdvalue":3000540.0
   }
 ]
