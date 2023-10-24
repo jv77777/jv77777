@@ -74458,5 +74458,35 @@
     "repay_usdvalue":825.6056895871656,
     "treasury_amount":76.43916601617136,
     "treasury_usdvalue":41.59742975434029
+  },
+  {
+    "id":"cd03ae793161",
+    "txtime":1698129276,
+    "tx":"0x712d217ba82db7334acc03987b85ad7cb3ce61d25d8ac6b89b73a3b1e680b2f0",
+    "liquidator":"0xbb6c5d189ea41e2919213b6f9c3b7064b9c5ea2c",
+    "borrower":"0xa9f06e57c66e2504a02a7cdd3e3448795b388d22",
+    "seize_token":"USDC",
+    "repay_token":"BUSD",
+    "seize_amount":0.013872863664224303,
+    "repay_amount":0.01261275934385171,
+    "seize_usdvalue":0.01387186481804048,
+    "repay_usdvalue":0.012610791753394069,
+    "treasury_amount":0.0006305847120101955,
+    "treasury_usdvalue":0.0006305393099109307
+  },
+  {
+    "id":"1c3ab3827590",
+    "txtime":1698131547,
+    "tx":"0xc6bac7813b3c282c7de4b04c64aa3ecbe177858297f6de68f0f00e0908623f22",
+    "liquidator":"0x7fdb0d18eb66a93cd56b2afa874d4e5134283bbe",
+    "borrower":"0xf165fc6bd6a2ee937ab77311d1078f16711cf007",
+    "seize_token":"XRP",
+    "repay_token":"USDC",
+    "seize_amount":1595.7829943063227,
+    "repay_amount":785.5972874998783,
+    "seize_usdvalue":861.7240137626601,
+    "repay_usdvalue":785.5584004341471,
+    "treasury_amount":72.53559065028739,
+    "treasury_usdvalue":39.16927335284818
   }
 ]
