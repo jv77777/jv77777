@@ -101567,5 +101567,15 @@
     "asset":"ETH",
     "amount":1891.8094979399837,
     "usdvalue":3374866.572541367
+  },
+  {
+    "id":"c88636deccd0",
+    "txtime":1698421461,
+    "tx":"0x16cb59304389e415e0e186b83d7814e22f1b6df6e7d4f5a6cc10c71a03bf9a9f",
+    "action":"borrow",
+    "address":"0x59a661f1c909ca13ba3e9114bfdd81e5a420705d",
+    "asset":"WBETH",
+    "amount":1641.0,
+    "usdvalue":2985744.6650660397
   }
 ]
