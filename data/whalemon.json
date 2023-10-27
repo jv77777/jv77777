@@ -101617,5 +101617,15 @@
     "asset":"WBETH",
     "amount":784.82737719,
     "usdvalue":1421354.4696105989
+  },
+  {
+    "id":"8d646572c2d6",
+    "txtime":1698444059,
+    "tx":"0xf0c83324d96717a9b8f20ac4f7a83a47d6faf24df7aa8bbb05279da53a575ccf",
+    "action":"supply",
+    "address":"0x59a661f1c909ca13ba3e9114bfdd81e5a420705d",
+    "asset":"BTCB",
+    "amount":962.9999922,
+    "usdvalue":32594660.7359934
   }
 ]
