@@ -102567,5 +102567,25 @@
     "asset":"WBETH",
     "amount":631.84458,
     "usdvalue":1158504.0398811274
+  },
+  {
+    "id":"e76548c4c2d9",
+    "txtime":1698707728,
+    "tx":"0x644e0fa9700716ef5102702c01b8e50b133ca66012efb7ece40aae9c0067431b",
+    "action":"borrow",
+    "address":"0x67aa7498283646dcdb079032a94117b14d975dac",
+    "asset":"USDT",
+    "amount":1014800.0,
+    "usdvalue":1015205.9199999999
+  },
+  {
+    "id":"9d46562f9e18",
+    "txtime":1698707800,
+    "tx":"0x1b325797b082597805910050fdcdfce5413150952154ba6ce736733b41f2393a",
+    "action":"repay",
+    "address":"0x998ceef61d4864dd3ce0fd37251021ac420b67c3",
+    "asset":"BNB",
+    "amount":11000.668075807902,
+    "usdvalue":2512902.8717873944
   }
 ]
