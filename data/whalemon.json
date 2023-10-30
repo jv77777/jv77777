@@ -102537,5 +102537,35 @@
     "asset":"BNB",
     "amount":20000.0,
     "usdvalue":4543360.0
+  },
+  {
+    "id":"2fefed8e57fa",
+    "txtime":1698690429,
+    "tx":"0xbb3d4693effc6cf41bb82aac6ccc7a0152acf9948ff3a6a524d5504ed7260a58",
+    "action":"supply",
+    "address":"0x687c6280f5fbe0530e9b1020c4c27f12579e8caa",
+    "asset":"USDC",
+    "amount":3000000.055,
+    "usdvalue":3000062.9650011538
+  },
+  {
+    "id":"e9314f6fea61",
+    "txtime":1698690468,
+    "tx":"0x77f735e827ae59ffbb7aff64178e38c45451fd9f537a62c37d976af865db7671",
+    "action":"borrow",
+    "address":"0x687c6280f5fbe0530e9b1020c4c27f12579e8caa",
+    "asset":"BNB",
+    "amount":10000.0,
+    "usdvalue":2270939.02
+  },
+  {
+    "id":"e40bd29aee77",
+    "txtime":1698688597,
+    "tx":"0x0e3a87501b9542cb0205f7fbd48aaf495e1f65b249f8cc21478ef5d6c43ac62a",
+    "action":"withdraw",
+    "address":"0x57a6b6932bcbd5ecf3a2aacd26ecc2bfb1bbd470",
+    "asset":"WBETH",
+    "amount":631.84458,
+    "usdvalue":1158504.0398811274
   }
 ]
