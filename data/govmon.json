@@ -2059,5 +2059,34 @@
       "0xf1da185cce5bed1bebbb3007ef738ea4224025f7.setProtocolShareReserve(0xca01d5a9a248a830e9d93231e791b1affed7c446)",
       "0x281e5378f99a4bc55b295abc0a3e7ed32deba059.setProtocolShareReserve(0xca01d5a9a248a830e9d93231e791b1affed7c446)"
     ]
+  },
+  {
+    "id":"195",
+    "type":"Normal",
+    "title":"VIP-195 Add support for UNI on Venus Core Pool",
+    "description":"#### Summary\n\nIf passed, this VIP will add a new market for the <a href=\"https://bscscan.com/address/0xBf5140A22578168FD562DCcF235E5D43A02ce9B1\">UNI token</a> on Venus Core Pool.\n\n#### Description\n\n<b>Risk parameters</b>\n\nFollowing <a href=\"https://community.venus.io/t/proposal-add-support-for-mkr-and-uni-on-venus-core-pool/3847\">Chaos Labs recommendations</a>, the risk parameters for the new markets are:\n\n- Underlying token: <a href=\"https://bscscan.com/address/0xBf5140A22578168FD562DCcF235E5D43A02ce9B1\">UNI</a>\n- Borrow cap: 30,000 UNI\n- Supply cap: 50,000 UNI\n- Collateral factor: 55%\n- Reserve factor: 25%\n\nBootstrap liquidity: 2454.88 UNI - provided by the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a>.\n\nInterest rate curve for the new market:\n\n- kink: 50%\n- base (yearly): 0\n- multiplier (yearly): 20%\n- jump multiplier (yearly): 300%\n\n<b>Security and additional considerations</b>\n\nNo changes in the code are involved in this VIP. We applied the following security procedures for this upgrade:\n\n- <b>VIP execution simulation</b>: in a simulation environment, validating the new market is properly added to the core pool with the right parameters and the expected bootstrap liquidity\n- <b>Deployment on testnet</b>: the same market has been deployed to testnet, and used in the Venus Protocol testnet deployment\n\n<b>Deployed contracts:</b>\n\n- Mainnet UNI market (vUNI): <a href=\"https://bscscan.com/address/0x27FF564707786720C71A2e5c1490A63266683612\">0x27FF564707786720C71A2e5c1490A63266683612</a>\n- Testnet UNI market (vUNI): <a href=\"https://testnet.bscscan.com/address/0x171B468b52d7027F12cEF90cd065d6776a25E24e\">0x171B468b52d7027F12cEF90cd065d6776a25E24e</a>\n\n<b>References</b>\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/97\">VIP simulation</a>\n- <a href=\"https://testnet.bscscan.com/tx/0x33d1c69dea454c5b0325161a249aef76510d2132edcde547a3cbaf086b6f62a9\">Testnet deployment</a>\n- <a href=\"https://docs-v4.venus.io/\">Documentation</a>",
+    "endblock":33115765,
+    "eta":1698843678,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._supportMarket(0x27ff564707786720c71a2e5c1490a63266683612)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x27ff564707786720c71a2e5c1490a63266683612], [50000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x27ff564707786720c71a2e5c1490a63266683612], [30000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setVenusSpeeds([0x27ff564707786720c71a2e5c1490a63266683612], [81250000000000], [81250000000000])",
+      "0x1b2103441a0a108dad8848d8f5d790e4d402921f.setTokenConfig((0xbf5140a22578168fd562dccf235e5d43a02ce9b1, 0xb57f259e7c24e56a1da00f66b55a5640d9f9e7e4, 1500))",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig((0xbf5140a22578168fd562dccf235e5d43a02ce9b1, [0x1b2103441a0a108dad8848d8f5d790e4d402921f, 0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000], [False, False, True]))",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x27ff564707786720c71a2e5c1490a63266683612, 550000000000000000)",
+      "0x27ff564707786720c71a2e5c1490a63266683612.setAccessControlManager(0x4788629abc6cfca10f9f969efdeaa1cf70c23555)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x27ff564707786720c71a2e5c1490a63266683612, setReduceReservesBlockDelta(uint256), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x27ff564707786720c71a2e5c1490a63266683612, _setReserveFactor(uint256), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x27ff564707786720c71a2e5c1490a63266683612.setProtocolShareReserve(0xca01d5a9a248a830e9d93231e791b1affed7c446)",
+      "0x27ff564707786720c71a2e5c1490a63266683612.setReduceReservesBlockDelta(28800)",
+      "0x27ff564707786720c71a2e5c1490a63266683612._setReserveFactor(250000000000000000)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xbf5140a22578168fd562dccf235e5d43a02ce9b1, 2454888640001000000020, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xbf5140a22578168fd562dccf235e5d43a02ce9b1.approve(0x27ff564707786720c71a2e5c1490a63266683612, 0)",
+      "0xbf5140a22578168fd562dccf235e5d43a02ce9b1.approve(0x27ff564707786720c71a2e5c1490a63266683612, 2454888640001000000020)",
+      "0x27ff564707786720c71a2e5c1490a63266683612.mint(2454888640001000000020)",
+      "0x27ff564707786720c71a2e5c1490a63266683612.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 245488864000)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 10000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
+    ]
   }
 ]
