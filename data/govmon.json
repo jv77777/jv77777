@@ -2103,5 +2103,17 @@
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 95000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)",
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 25000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
     ]
+  },
+  {
+    "id":"197",
+    "type":"Fasttrack",
+    "title":"VIP-197 Risk Parameters Adjustments (CAKE and WBETH)",
+    "description":"#### Description\n\nThis VIP will perform the following Risk Parameters actions as per Chaos Labs latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-10-31-2023/3874\">Risk Parameter Updates 10/31/2023</a>.\n\n- <b>CAKE</b> (Core pool)\n    - Increase supply cap to 14M (from 7M)\n- <b>WBETH</b> (Core pool)\n    - Increase Collateral Factor to 0.8 (from 0.7)\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: https://github.com/VenusProtocol/vips/pull/101",
+    "endblock":33207004,
+    "eta":1699118555,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x86ac3974e2bd0d60825230fa6f355ff11409df5c], [14000000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0, 800000000000000000)"
+    ]
   }
 ]
