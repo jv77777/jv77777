@@ -2136,5 +2136,16 @@
       "0xd86fcff6ccf5c4e277e49e1dc01ed4bcab8260ba.acceptOwnership()",
       "0xd86fcff6ccf5c4e277e49e1dc01ed4bcab8260ba.setRewardTokenSpeeds([0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be], [1860119047619047], [1860119047619047])"
     ]
+  },
+  {
+    "id":"199",
+    "type":"Normal",
+    "title":"VIP-199 BUSD shortfall repayment preparation",
+    "description":"#### Summary\n\nIf approved, this VIP will initiate the necessary steps to repay an estimated $6,486,776 of the $13,521,179 total shortfall in the BUSD market. This repayment will be financed by the treasury's BNB funds, 26,438.87 BNB, valued at approximately $6,486,776. This value closely matches the risk fund accrued for 2023 according to our tokenomics. The required steps are as follows:\n\n1. Transfer 26,438.87 BNB from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a> to <a href=\"https://bscscan.com/address/0x6657911F7411765979Da0794840D671Be55bA273\">Binance</a> for the conversion to BUSD.\n2. Transfer the funds from Binance to the protocol\u2019s treasury.\n3. Use the BUSD in the treasury to make the repayment.\n\nThis VIP will cover step 1. Once the funds are received from Binance, another VIP will be required to execute step 3.\n\n#### Description\n\n*Considerations: All USD values consider token prices for Nov 8, 2023*\n\nThe estimated protocol revenues for 2023 are $6,831,206, taking into account the closing prices of underlying tokens for each quarter. Out of this total, $3,187,349 will be allocated to the risk fund. Furthermore, the fees generated from the liquidation of the exploiter\u2019s 14,092 BNB, equivalent to $3,459,600 USD, will also be entirely dedicated to the risk fund. As a result, the total risk fund allocation for 2023 amounts to $6,646,949. With this, the idea is to utilize the BNB balance held in the treasury, which is estimated at $6,486,776 (98% of the risk fund allocation), to simplify the repayment process as only 1 token conversion will be required.\n\nFuture proposals will look to complete this repayment process and underlying token conversions for proper treasury management.\n\n<b>References</b>\n\n- <a href=\"https://docs-v4.venus.io/governance/tokenomics\">Venus Tokenomics</a>",
+    "endblock":33351201,
+    "eta":1699552296,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBNB(26438868831443265017372, 0x6657911f7411765979da0794840d671be55ba273)"
+    ]
   }
 ]
