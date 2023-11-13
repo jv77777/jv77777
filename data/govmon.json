@@ -2147,5 +2147,16 @@
     "actions":[
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBNB(26438868831443265017372, 0x6657911f7411765979da0794840d671be55ba273)"
     ]
+  },
+  {
+    "id":"200",
+    "type":"Normal",
+    "title":"VIP-200 Isolated Lending Pools: Configure Liquidity Mining (PLANET)",
+    "description":"#### Summary\n\nIf passed, this VIP will set the last block with rewards for the PLANET market in the DeFi pool.\n\n#### Description\n\nThis VIP sets the last block with rewards for the PLANET market in the DeFi pool.\n\nIn <a href=\"https://app.venus.io/#/isolated-pools/pool/0x3344417c9360b963ca93A4e8305361AEde340Ab9/market/0xFf1112ba7f88a53D4D23ED4e14A117A2aE17C6be\">vPLANET_DeFi</a>, the last block with rewards will be 34150223. That means around 28 days (806,400 blocks) after <a href=\"https://app.venus.io/#/governance/proposal/198\">being enabled</a>.\n\nSimulation of the VIP: <a href=\"https://github.com/VenusProtocol/vips/pull/106\">https://github.com/VenusProtocol/vips/pull/106</a>",
+    "endblock":33487641,
+    "eta":1699963316,
+    "actions":[
+      "0xd86fcff6ccf5c4e277e49e1dc01ed4bcab8260ba.setLastRewardingBlocks([0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be])"
+    ]
   }
 ]
