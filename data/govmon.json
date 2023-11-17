@@ -2264,5 +2264,23 @@
       "0xe9e7cea3dedca5984780bafc599bd69add087d56.approve(0x95c78222b3d6e262426483d42cfa53685a67ab9d, 6400762218100000000000000)",
       "0x95c78222b3d6e262426483d42cfa53685a67ab9d.repayBorrowBehalf(0x8d655aaaa0ec224b17972df385e25325b9103332, 6400762218100000000000000)"
     ]
+  },
+  {
+    "id":"205",
+    "type":"Normal",
+    "title":"VIP-205 Risk Parameters Adjustments (Stablecoins and PLANET)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-11-14-2023/3900\">Risk Parameter Updates 11/14/2023</a>.\n\n- <b>Stablecoin IR Curve Recommendations</b>\n    - Multiplier Parameter Adjustment: Increase the multiplier parameter (until 6.875% yearly) to reflect a 5.5% borrow rate at the 80% utilization kink point for USDT, USDC, DAI, and TUSD in the Core Pool and USDT in the Stablecoins Pool.\n- <b>PLANET (DeFi Pool)</b>\n    - <b>Increase supply cap to 2,000,000,000 PLANET</b>\n    - <b>Increase borrow cap to 1,000,000,000 PLANET</b>\n- <b>TUSDOLD Borrow Rate</b>\n    - <b>Reduce borrow rate to 0</b>\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: https://github.com/VenusProtocol/vips/pull/110",
+    "endblock":33607909,
+    "eta":1700325605,
+    "actions":[
+      "0xfd5840cd36d94d7229439859c0112a4185bc0255._setInterestRateModel(0x8c2651590ece4ffe8e722ef6f80cc7407f537bba)",
+      "0xeca88125a5adbe82614ffc12d0db554e2e2867c8._setInterestRateModel(0x8c2651590ece4ffe8e722ef6f80cc7407f537bba)",
+      "0x334b3ecb4dca3593bccc3c7ebd1a1c1d1780fbf1._setInterestRateModel(0x8c2651590ece4ffe8e722ef6f80cc7407f537bba)",
+      "0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e._setInterestRateModel(0x8c2651590ece4ffe8e722ef6f80cc7407f537bba)",
+      "0x7dc969122450749a8b0777c0e324522d67737988.updateJumpRateModel(0, 68750000000000000, 2500000000000000000, 800000000000000000)",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketBorrowCaps([0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be], [1000000000000000000000000000])",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketSupplyCaps([0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be], [2000000000000000000000000000])",
+      "0x08ceb3f4a7ed3500ca0982bcd0fc7816688084c3._setInterestRateModel(0x93fbc248e83bc8931141ffc7f457ec882595135a)"
+    ]
   }
 ]
