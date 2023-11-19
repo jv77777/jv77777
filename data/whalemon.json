@@ -105987,5 +105987,15 @@
     "asset":"BUSD",
     "amount":6400762.2181,
     "usdvalue":6401061.837779429
+  },
+  {
+    "id":"9c840eb14626",
+    "txtime":1700372053,
+    "tx":"0xc8d279a3c554b771f52151a746c9d2fc68e4ca2bf61eeb4a41425332761984b2",
+    "action":"repay",
+    "address":"0x8d945aca57cbe793507bccaba8cd77bfe117f255",
+    "asset":"ETH",
+    "amount":924.9796867659488,
+    "usdvalue":1812435.9659687683
   }
 ]
