@@ -106317,5 +106317,16 @@
     "asset":"BNB",
     "amount":5620.955182062866,
     "usdvalue":1307688.6900625033
+  },
+  {
+    "id":"95be0693bd62",
+    "txtime":1700922023,
+    "tx":"0x1f17db9733b02488a8c7dd5b85ede1be9d7d705f2f92430d6276aecd47b0c349",
+    "action":"unstake",
+    "address":"0x456f91c29493fef172b2736d8c7c8116c95e0bc9",
+    "vault":"XVS Vault",
+    "asset":"XVS",
+    "amount":600297.967,
+    "usdvalue":4294561.226595854
   }
 ]
