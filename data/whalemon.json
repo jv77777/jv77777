@@ -106328,5 +106328,25 @@
     "asset":"XVS",
     "amount":600297.967,
     "usdvalue":4294561.226595854
+  },
+  {
+    "id":"fc018f904f25",
+    "txtime":1701028192,
+    "tx":"0xd972f567c0e9869ea336243a3cbc19c527a9cae04641fb5b07b1db3bc9501ae2",
+    "action":"repay",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"BNB",
+    "amount":12000.0,
+    "usdvalue":2767320.0
+  },
+  {
+    "id":"245aa398e8ee",
+    "txtime":1701028381,
+    "tx":"0x1118cee6d2e7b2fff483588315a9db98924b9c6c16469cd5c73bf4cbc737c790",
+    "action":"repay",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"BNB",
+    "amount":15000.0,
+    "usdvalue":3459150.0
   }
 ]
