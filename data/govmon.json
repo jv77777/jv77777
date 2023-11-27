@@ -2459,5 +2459,31 @@
       "0x23c4f844ffddc6161174eb32c770d4d8c07833f2.resumeFundsTransfer()",
       "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.togglePause()"
     ]
+  },
+  {
+    "id":"211",
+    "type":"Normal",
+    "title":"VIP-211 Set RedStone as the PIVOT oracle for TRX and TRX_OLD",
+    "description":"#### Summary\n\nIf passed, this VIP will perform the following actions:\n\n- Configure <a href=\"https://redstone.finance/\">RedStone</a> as the PIVOT oracle of the <a href=\"https://app.venus.io/#/core-pool/market/0xC5D3466aA484B040eE977073fcF337f2c00071c1\">TRX</a> and <a href=\"https://app.venus.io/#/core-pool/market/0x61eDcFe8Dd6bA3c891CB9bEc2dc7657B3B422E93\">TRX_OLD</a> tokens\n- Upgrade the address of the BoundValidator contract used by the ResilientOracle contract\n\n#### Description\n\nEnabled at <a href=\"https://app.venus.io/#/governance/proposal/123\">VIP-123</a>, Resilient Price Feeds is the logic used by the Venus Protocol to eliminate a single point of failure while fetching asset prices from on-chain sources. Read more about it in the <a href=\"https://docs-v4.venus.io/risk/resilient-price-oracle\">published documentation</a>.\n\nThis VIP configures the price feed provided by <a href=\"https://redstone.finance/\">RedStone</a> as the PIVOT oracle of <a href=\"https://app.venus.io/#/core-pool/market/0xC5D3466aA484B040eE977073fcF337f2c00071c1\">TRX</a> and <a href=\"https://app.venus.io/#/core-pool/market/0x61eDcFe8Dd6bA3c891CB9bEc2dc7657B3B422E93\">TRX_OLD</a> tokens. The price obtained from the MAIN oracle of these tokens (currently Chainlink) will be compared with the PIVOT price, and it will be discarded if the difference is too large.\n\nThe difference in the prices will be considered too large if the ratio \u201cpivot_price / main_price\u201d is not between 0.99 and 1.01. These thresholds have been calculated analysing historical data of both (RedStone and Chainlink) price feeds. It can be modified in the future via VIP.\n\n#### Security and additional considerations\n\nThere were not any changes in the deployed codebase. We applied the following security procedures for this upgrade:\n\n- <b>Prices pre/post upgrade</b>: in a simulation environment, validating the asset prices pre-upgrade are the same as post-upgrade\n- <b>Deployment on testnet</b>: the same setup has been deployed to testnet, and used in the Venus Protocol testnet deployment\n\n#### Deployed contracts on main net\n\n- <a href=\"https://bscscan.com/address/0xB5d7A073d77102ad56B7482b18E7204c1a71C8B9\">New ResilientOracle implementation</a>\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/oracle\">Repository</a>\n- <a href=\"https://github.com/VenusProtocol/vips/pull/93\">Simulation pre/post upgrade</a>\n- <a href=\"https://testnet.bscscan.com/tx/0x38481a7f28d9ffb3bde1f32b4d78fd064c0496e8686619ff3d714808bf551486\">Deployment on testnet</a>\n- <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xa9cb9de5934ef245bbbdfde5badfd2f5128879417ffada1278e96231e3f09818\">Snapshot with the RedStone proposal</a>\n- <a href=\"https://community.venus.io/t/adding-redstone-oracles-to-the-venus-oracle-interface/3620\">Community post with the RedStone proposal</a>",
+    "endblock":33889842,
+    "eta":1701174542,
+    "actions":[
+      "0x1bb765b741a5f3c2a338369dab539385534e3343.upgrade(0x6592b5de802159f3e74b2486b091d11a8256ab8a, 0xb5d7a073d77102ad56b7482b18e7204c1a71c8b9)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x8455efa4d7ff63b8bfd96add889483ea7d39b70a, setDirectPrice(address,uint256), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x8455efa4d7ff63b8bfd96add889483ea7d39b70a, setDirectPrice(address,uint256), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x8455efa4d7ff63b8bfd96add889483ea7d39b70a, setDirectPrice(address,uint256), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x8455efa4d7ff63b8bfd96add889483ea7d39b70a, setTokenConfig(TokenConfig), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x8455efa4d7ff63b8bfd96add889483ea7d39b70a, setTokenConfig(TokenConfig), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x8455efa4d7ff63b8bfd96add889483ea7d39b70a, setTokenConfig(TokenConfig), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x8455efa4d7ff63b8bfd96add889483ea7d39b70a.acceptOwnership()",
+      "0x8455efa4d7ff63b8bfd96add889483ea7d39b70a.setTokenConfig((0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3, 0xa17362dd9ad6d0af646d7c8f8578fddbfc90b916, 1500))",
+      "0x8455efa4d7ff63b8bfd96add889483ea7d39b70a.setTokenConfig((0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b, 0xa17362dd9ad6d0af646d7c8f8578fddbfc90b916, 1500))",
+      "0x6e332ff0bb52475304494e4ae5063c1051c7d735.setValidateConfig((0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3, 1010000000000000000, 990000000000000000))",
+      "0x6e332ff0bb52475304494e4ae5063c1051c7d735.setValidateConfig((0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b, 1010000000000000000, 990000000000000000))",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setOracle(0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3, 0x8455efa4d7ff63b8bfd96add889483ea7d39b70a)",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.enableOracle(0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3, True)",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setOracle(0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b, 0x8455efa4d7ff63b8bfd96add889483ea7d39b70a)",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.enableOracle(0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b, True)"
+    ]
   }
 ]
