@@ -2485,5 +2485,18 @@
       "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setOracle(0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b, 0x8455efa4d7ff63b8bfd96add889483ea7d39b70a)",
       "0x6592b5de802159f3e74b2486b091d11a8256ab8a.enableOracle(0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b, True)"
     ]
+  },
+  {
+    "id":"212",
+    "type":"Normal",
+    "title":"VIP-212 Payments Issuance for audits and other expenses",
+    "description":"#### Description\n\nIf passed this VIP will perform the following actions:\n\n- Transfer 19,000 USDT to Certik for the retainer program\n- Transfer 15,000 USDT to the Community wallet (refund for the ProBit Listing)\n- Transfer 36,000 USDT to Binance Oracle\n\n#### Details\n\nCertik - retainer program\n\n- Auditor: Certik (<a href=\"https://certik.com/\">https://certik.com</a>)\n- Concept: Retainer program - monthly payment of December 2023. Scheduled audits by Certik in December: XVS bridge and Prime upgrade\n- Cost: 19,000 USDT, to be sent to the BEP20 address 0x4cf605b238e9c3c72d0faed64d12426e4a54ee12\n\nProBit Listing\n\n- Concept: XVS Listing and marketing fees in <a href=\"https://www.probit.com/\">Probit.com</a>\n- Cost: 15,000 USDT, to be refunded to the Community wallet. BEP20 address 0xc444949e0054A23c44Fc45789738bdF64aed2391\n\nBinance Oracle\n\n- Concept: Integration, customization and Development Fees. Binance Oracle will support Venus 30+ assets on opBNB in 4 terms in 2024.\n- Cost: 36,000 USDT, to be transferred to the BEP20 address 0x9c492e6c087b50f9191e671b6781be81579942ab",
+    "endblock":34003829,
+    "eta":1701517540,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 19000000000000000000000, 0x4cf605b238e9c3c72d0faed64d12426e4a54ee12)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 15000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 36000000000000000000000, 0x9c492e6c087b50f9191e671b6781be81579942ab)"
+    ]
   }
 ]
