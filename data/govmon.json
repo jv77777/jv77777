@@ -2498,5 +2498,18 @@
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 15000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)",
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 36000000000000000000000, 0x9c492e6c087b50f9191e671b6781be81579942ab)"
     ]
+  },
+  {
+    "id":"213",
+    "type":"Fasttrack",
+    "title":"VIP-213 Risk Parameters Adjustments (MATIC and PLANET)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-12-06-23/3958\">Risk Parameter Updates 12/06/2023</a>.\n\n- <a href=\"https://bscscan.com/address/0x5c9476FcD6a4F9a3654139721c949c2233bBbBc8\">MATIC (Core pool)</a>\n    - Increase supply cap to 16,000,000 MATIC (from 8,000,000 MATIC)\n- <a href=\"https://bscscan.com/address/0xFf1112ba7f88a53D4D23ED4e14A117A2aE17C6be\">PLANET (DeFi pool)</a>\n    - Increase supply cap to 4,000,000,000 PLANET (from 2,000,000,000 PLANET)\n    - Increase borrow cap to 1,500,000,000 PLANET (from 1,000,000,000 PLANET)\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/122\">https://github.com/VenusProtocol/vips/pull/122</a>",
+    "endblock":34182507,
+    "eta":1702054966,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x5c9476fcd6a4f9a3654139721c949c2233bbbbc8], [16000000000000000000000000])",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketSupplyCaps([0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be], [4000000000000000000000000000])",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketBorrowCaps([0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be], [1500000000000000000000000000])"
+    ]
   }
 ]
