@@ -106869,5 +106869,15 @@
     "asset":"XVS",
     "amount":99000.0,
     "usdvalue":1058511.31452
+  },
+  {
+    "id":"95e214b32827",
+    "txtime":1702089234,
+    "tx":"0x505fdeb3481235189d156cec7216167dc95eedc6a932c239c45630a526c40a5e",
+    "action":"supply",
+    "address":"0xa9ff08af55b24bb5d064d776a078e8a292b8dfe2",
+    "asset":"BNB",
+    "amount":8900.0,
+    "usdvalue":2145790.0
   }
 ]
