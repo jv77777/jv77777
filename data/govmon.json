@@ -2511,5 +2511,16 @@
       "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketSupplyCaps([0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be], [4000000000000000000000000000])",
       "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketBorrowCaps([0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be], [1500000000000000000000000000])"
     ]
+  },
+  {
+    "id":"214",
+    "type":"Normal",
+    "title":"VIP-214 Repayment of the insolvency in the Liquid Staked BNB pool - stage 1",
+    "description":"#### Summary\n\nIf passed this VIP will perform the following actions:\n\n- Transfer 300,000 USDT to the <a href=\"https://bscscan.com/address/0xc444949e0054a23c44fc45789738bdf64aed2391\">Community wallet</a>\n\n#### Details\n\nDue to the <a href=\"https://community.venus.io/t/lst-isolated-pool-oracle-incident/3961\">incident explained by Chaos Labs in the Community forum</a>, the following insolvencies have been generated in the <a href=\"https://app.venus.io/#/isolated-pools/pool/0xd933909A4a2b7A4638903028f44D1d38ce27c352\">Liquid Staked BNB market</a> (defined in full tokens):\n\n- ankrBNB: 108.890115080027695179 ($28,089.03 assuming the price $257.95758234)\n- BNBx: 654.859606916027127141 ($169,444.84 assuming the price $258.74987025)\n- stkBNB: 46.88799297198450373 ($11,733.84 assuming the price $250.2525884)\n- WBNB: 275.071884556669618361 ($66,127.28 assuming the price $240.4)\n\nThe USD prices are the valid ones at block 34241940, <a href=\"https://bscscan.com/tx/0x9b76f9a17c48bd744038a2adfd657cb36d2c4d452a251f0a35132534fd1d22d3\">when the insolvency was recorded</a>. The total insolvency, considering those USD prices, is $275,394.99. This VIP proposes to send 300,000 USDT to the Community wallet to have some margin and absorb potential changes in the USD prices before the VIP is executed.\n\nThis VIP is part of the mitigation plan. Specifically, this step is:\n\n1. Transfer USDT tokens to the Community wallet (this VIP)\n2. The Community wallet will swap needed assets to cover the generated insolvency. If due to price fluctuations some USDT are not needed, they will be sent to the Venus Treasury. If the USDT transferred is not enough to buy 100% of the needed tokens, the new scenario will be reevaluated.\n3. The Community wallet will send the swapped tokens to the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a>\n4. A new VIP will be proposed to remove the insolvency from the affected markets, injecting into the markets the tokens previously received in the Venus Treasury",
+    "endblock":34274596,
+    "eta":1702331745,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 300000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
+    ]
   }
 ]
