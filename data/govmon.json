@@ -2540,5 +2540,16 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._setPendingImplementation(0xd93bfed40466c9a9c3e7381ab335a08807318a1b)",
       "0xd93bfed40466c9a9c3e7381ab335a08807318a1b._become(0xfd36e2c2a6789db23113685031d7f16329158384)"
     ]
+  },
+  {
+    "id":"216",
+    "type":"Normal",
+    "title":"VIP-216: Conversion of BUSD to USDT to Mitigate BUSD Depreciation Risks",
+    "description":"#### Summary\n\nIf passed, this VIP will transfer 125,281.2 BUSD from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Community Treasury</a>\nto <a href=\"https://bscscan.com/address/0x6657911F7411765979Da0794840D671Be55bA273\">Binance</a>, \nwhere it will be exchanged for USDT. The converted USDT will then be sent back to the Community Treasury.\n\n#### Details\n\nThe Community Treasury currently holds <a href=\"https://bscscan.com/token/0xe9e7cea3dedca5984780bafc599bd69add087d56?a=0xf322942f644a996a617bd29c16bd7d231d9f35e9\">125,281.2 BUSD</a> (block 34286811).\nThis VIP will withdraw all available balances to Binance for the conversion to USDT. The converted USDT will then be redeposited into our Treasury.\n\nIt's important to note that this VIP does not include the <a href=\"https://bscscan.com/token/0x95c78222b3d6e262426483d42cfa53685a67ab9d?a=0xf322942f644a996a617bd29c16bd7d231d9f35e9\">147,085.4 BUSD</a> currently held in vBUSD.\nThese funds will be claimed after <a href=\"https://app.venus.io/#/governance/proposal/215\">VIP-215</a> is executed and will be later sent to Binance for the conversion to USDT in another VIP.\n\n<b>The proposed process is as follows:</b>\n\n1. Withdraw 125,281.2 BUSD from the Community Treasury (<a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">0xf322942f644a996a617bd29c16bd7d231d9f35e9</a>) to Binance (<a href=\"https://bscscan.com/address/0x6657911F7411765979Da0794840D671Be55bA273\">0x6657911F7411765979Da0794840D671Be55bA273</a>)\n2. Convert the withdrawn BUSD into USDT through Binance.\n3. Redeposit the converted USDT back into the Community Treasury.\n\n#### References\n\n- <a href=\"https://app.venus.io/#/governance/proposal/215\">VIP-215 BUSD debt mitigation</a>\n- <a href=\"https://www.binance.com/en/support/announcement/notice-regarding-the-removal-of-busd-and-conversion-of-busd-to-fdusd-1c98ce7bb464422dbbaeda7066ae445b\">Binance will cease support for BUSD products on 2023-12-15</a>",
+    "endblock":34328244,
+    "eta":1702492972,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xe9e7cea3dedca5984780bafc599bd69add087d56, 125281198522370512074148, 0x6657911f7411765979da0794840d671be55ba273)"
+    ]
   }
 ]
