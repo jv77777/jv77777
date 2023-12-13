@@ -107489,5 +107489,15 @@
     "asset":"ETH",
     "amount":650.0484753244804,
     "usdvalue":1417457.6501027157
+  },
+  {
+    "id":"9a807c716196",
+    "txtime":1702434021,
+    "tx":"0x446e00f9201c2e5db27faddbd588b78bb79498e0c51a11d4ab04784c6c011822",
+    "action":"borrow",
+    "address":"0x4e516eed9931f0ec00bbd92a2441ca75e23d567b",
+    "asset":"BNB",
+    "amount":9000.0,
+    "usdvalue":2253011.4
   }
 ]
