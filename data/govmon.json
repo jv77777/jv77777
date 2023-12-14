@@ -2551,5 +2551,31 @@
     "actions":[
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xe9e7cea3dedca5984780bafc599bd69add087d56, 125281198522370512074148, 0x6657911f7411765979da0794840d671be55ba273)"
     ]
+  },
+  {
+    "id":"217",
+    "type":"Normal",
+    "title":"VIP-217: Repayment of the insolvency in the Liquid Staked BNB pool - stage 2",
+    "description":"#### Summary\n\nIf passed, this VIP will reduce the following insolvencies using funds from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Community Treasury</a>:\n\n- 108.890115080027695179 <a href=\"https://bscscan.com/address/0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827\">ankrBNB</a> in the <a href=\"https://app.venus.io/#/isolated-pools/pool/0xd933909A4a2b7A4638903028f44D1d38ce27c352/market/0xBfe25459BA784e70E2D7a718Be99a1f3521cA17f\">ankrBNB market</a>\n- 654.859606916027127141 <a href=\"https://bscscan.com/address/0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275\">BNBx</a> in the <a href=\"https://app.venus.io/#/isolated-pools/pool/0xd933909A4a2b7A4638903028f44D1d38ce27c352/market/0x5E21bF67a6af41c74C1773E4b473ca5ce8fd3791\">BNBx market</a>\n- 46.88799297198450373 <a href=\"https://bscscan.com/address/0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16\">stkBNB</a> in the <a href=\"https://app.venus.io/#/isolated-pools/pool/0xd933909A4a2b7A4638903028f44D1d38ce27c352/market/0xcc5D9e502574cda17215E70bC0B4546663785227\">stkBNB market</a>\n- 275.071884556669618361 <a href=\"https://bscscan.com/address/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c\">WBNB</a> in the <a href=\"https://app.venus.io/#/isolated-pools/pool/0xd933909A4a2b7A4638903028f44D1d38ce27c352/market/0xe10E80B7FD3a29fE46E16C30CC8F4dd938B742e2\">WBNB market</a>\n\nThe <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a> was funded with enough tokens using the USDT tokens previously transferred to the <a href=\"https://bscscan.com/address/0xc444949e0054a23c44fc45789738bdf64aed2391\">Community wallet</a> in the <a href=\"https://app.venus.io/#/governance/proposal/214\">VIP-214 Repayment of the insolvency in the Liquid Staked BNB pool - stage 1</a>.\n\nAfter executing this VIP, no insolvency will be in the mentioned markets.\n\n#### Description\n\nThis VIP is part of the mitigation plan for the <a href=\"https://community.venus.io/t/lst-isolated-pool-oracle-incident/3961\">incident explained by Chaos Labs in the Community forum</a>:\n\n1. Transfer USDT tokens to the Community wallet (<a href=\"https://app.venus.io/#/governance/proposal/214\">VIP-214</a>)\n2. The Community wallet swaps needed assets to cover the generated insolvency\n3. The Community wallet sends the swapped tokens to the Venus Treasury. Transfers:\n    - ankrBNB: <a href=\"https://bscscan.com/tx/0xab2e480e0fb06b2857e80bcd0a3f074ffe168565127f5ca4af285ca083414821\">108.903345571239252255 ankrBNB</a>\n    - BNBx: <a href=\"https://bscscan.com/tx/0x8dd2b693baad5ce416ecdace2a654cd79bb77c0957f648110b1ae48df0cf4af5\">654.862039688757794697 BNBx</a>\n    - stkBNB: <a href=\"https://bscscan.com/tx/0xf041278b0338f6fa28916c3178710654115fa9ae5ac3032331df09492318acac\">46.898413035334849728 stkBNB</a>\n    - WBNB: <a href=\"https://bscscan.com/tx/0x8ce2cf034ae4d685cf5219ce28c66a6d7e182849b23a768975099a06f55cdb6b\">275.072 WBNB</a>\n    - USDT: <a href=\"https://bscscan.com/tx/0x89c0c941f5ad733e12a0cd8b8cefd1a938a80e2ae4456561c9fb213db2380250\">12,140.65 USDT</a> (refund to the Community Treasury the USDT not spent)\n4. VIP to remove the insolvency from the affected markets, injecting into the markets the tokens previously received in the Venus Treasury (<a href=\"https://app.venus.io/#/governance/proposal/217\">this VIP</a>)",
+    "endblock":34379629,
+    "eta":1702647598,
+    "actions":[
+      "0xbfe25459ba784e70e2d7a718be99a1f3521ca17f.setShortfallContract(0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x52f24a5e03aee338da5fd9df68d2b6fae1178827, 108890115080027695179, 0xbfe25459ba784e70e2d7a718be99a1f3521ca17f)",
+      "0xbfe25459ba784e70e2d7a718be99a1f3521ca17f.badDebtRecovered(108890115080027695179)",
+      "0xbfe25459ba784e70e2d7a718be99a1f3521ca17f.setShortfallContract(0xf37530a8a810fcb501aa0ecd0b0699388f0f2209)",
+      "0x5e21bf67a6af41c74c1773e4b473ca5ce8fd3791.setShortfallContract(0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x1bdd3cf7f79cfb8edbb955f20ad99211551ba275, 654859606916027127141, 0x5e21bf67a6af41c74c1773e4b473ca5ce8fd3791)",
+      "0x5e21bf67a6af41c74c1773e4b473ca5ce8fd3791.badDebtRecovered(654859606916027127141)",
+      "0x5e21bf67a6af41c74c1773e4b473ca5ce8fd3791.setShortfallContract(0xf37530a8a810fcb501aa0ecd0b0699388f0f2209)",
+      "0xcc5d9e502574cda17215e70bc0b4546663785227.setShortfallContract(0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xc2e9d07f66a89c44062459a47a0d2dc038e4fb16, 46887992971984503730, 0xcc5d9e502574cda17215e70bc0b4546663785227)",
+      "0xcc5d9e502574cda17215e70bc0b4546663785227.badDebtRecovered(46887992971984503730)",
+      "0xcc5d9e502574cda17215e70bc0b4546663785227.setShortfallContract(0xf37530a8a810fcb501aa0ecd0b0699388f0f2209)",
+      "0xe10e80b7fd3a29fe46e16c30cc8f4dd938b742e2.setShortfallContract(0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c, 275071884556669618361, 0xe10e80b7fd3a29fe46e16c30cc8f4dd938b742e2)",
+      "0xe10e80b7fd3a29fe46e16c30cc8f4dd938b742e2.badDebtRecovered(275071884556669618361)",
+      "0xe10e80b7fd3a29fe46e16c30cc8f4dd938b742e2.setShortfallContract(0xf37530a8a810fcb501aa0ecd0b0699388f0f2209)"
+    ]
   }
 ]
