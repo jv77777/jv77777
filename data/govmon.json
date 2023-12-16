@@ -2603,5 +2603,16 @@
       "0xe10e80b7fd3a29fe46e16c30cc8f4dd938b742e2.badDebtRecovered(275071884556669618361)",
       "0xe10e80b7fd3a29fe46e16c30cc8f4dd938b742e2.setShortfallContract(0xf37530a8a810fcb501aa0ecd0b0699388f0f2209)"
     ]
+  },
+  {
+    "id":"219",
+    "type":"Fasttrack",
+    "title":"VIP-219 Risk Parameters Adjustments (CAKE)",
+    "description":"#### Description\n\nThis VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-12-13-23/3969\">Risk Parameter Updates 12/13/2023</a>.\n\n- <a href=\"https://bscscan.com/address/0x86aC3974e2BD0d60825230fa6F355fF11409df5c\">CAKE (Core pool)</a>\n    - Increase supply cap from 14,000,000 CAKE to 21,000,000 CAKE\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/132\">https://github.com/VenusProtocol/vips/pull/132</a>",
+    "endblock":34438927,
+    "eta":1702825830,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x86ac3974e2bd0d60825230fa6f355ff11409df5c], [21000000000000000000000000])"
+    ]
   }
 ]
