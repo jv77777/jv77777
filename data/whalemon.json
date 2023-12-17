@@ -108279,5 +108279,15 @@
     "asset":"BNB",
     "amount":5285.400564431942,
     "usdvalue":1276148.6449540835
+  },
+  {
+    "id":"a2c2cc6ea7d9",
+    "txtime":1702848203,
+    "tx":"0x957516ca620e8c3d0864b9f92e5c2122e50f3e4a30c27fef63cd70cf56f748fe",
+    "action":"borrow",
+    "address":"0x3565e13189a603d4f49219617408d8f25cce0414",
+    "asset":"CAKE",
+    "amount":443463.0932111634,
+    "usdvalue":1006363.2631716434
   }
 ]
