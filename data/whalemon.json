@@ -108839,5 +108839,25 @@
     "asset":"ETH",
     "amount":500.0,
     "usdvalue":1082222.537785
+  },
+  {
+    "id":"fb50c7c61749",
+    "txtime":1702922155,
+    "tx":"0x76972d4e67cb34e3c94e70c6e0b57d05e7603add824434cf97e764fe90764edc",
+    "action":"borrow",
+    "address":"0x3565e13189a603d4f49219617408d8f25cce0414",
+    "asset":"CAKE",
+    "amount":504256.0,
+    "usdvalue":1101900.2112
+  },
+  {
+    "id":"a69babc41589",
+    "txtime":1702924142,
+    "tx":"0x4a5b43c1030885ac2411ff2c019a9944339e7e7241846a842653895fdf7a473f",
+    "action":"borrow",
+    "address":"0xa15aef397f9dc9de23c8e3df8a289b21d4ca8fcd",
+    "asset":"BNB",
+    "amount":5000.0,
+    "usdvalue":1187650.0
   }
 ]
