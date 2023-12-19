@@ -109089,5 +109089,35 @@
     "asset":"BNB",
     "amount":18666.5,
     "usdvalue":4705637.985
+  },
+  {
+    "id":"a24662cbc085",
+    "txtime":1703028794,
+    "tx":"0x13ec01143b5378a33273285a4c1926a7936889ac3b5b10fbb096213d98c50342",
+    "action":"repay",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"ETH",
+    "amount":600.0,
+    "usdvalue":1306046.907474
+  },
+  {
+    "id":"04e0c421fcdc",
+    "txtime":1703029103,
+    "tx":"0xbd76e52ba4c4b9113d3e705918b11c34184b32b40ea0bea62f88b2519f5a81ab",
+    "action":"borrow",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"BNB",
+    "amount":10000.0,
+    "usdvalue":2522669.2058
+  },
+  {
+    "id":"a2c89bcd299d",
+    "txtime":1703029119,
+    "tx":"0x4eb9d7cb3a777d38ab177710c943df0538ceaba1ffc6b33e832c454d57a5f90e",
+    "action":"borrow",
+    "address":"0xe2c396050cf5bebd3418568242118561abe4bd23",
+    "asset":"BNB",
+    "amount":8000.0,
+    "usdvalue":2018135.36464
   }
 ]
