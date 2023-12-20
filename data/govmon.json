@@ -2625,5 +2625,17 @@
     "actions":[
       "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x95c78222b3d6e262426483d42cfa53685a67ab9d, 720000000000000000)"
     ]
+  },
+  {
+    "id":"221",
+    "type":"Fasttrack",
+    "title":"VIP-221 Risk Parameters Adjustments (BUSD, XVS)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-12-19-23/3994\">Risk Parameter Updates 12/19/2023</a>.\n\n- <a href=\"https://bscscan.com/address/0x95c78222B3D6e262426483D42CfA53685A67Ab9D\">BUSD (Core pool)</a>\n    - Reduce collateral factor, from 0.72 to 0.3\n- <a href=\"https://bscscan.com/address/0x151B1e2635A717bcDc836ECd6FbB62B674FE3E1D\">XVS (Core pool)</a>\n    - Increase supply cap, from 1,500,000 XVS to 1,750,000 XVS\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/138\">https://github.com/VenusProtocol/vips/pull/138</a>",
+    "endblock":34552702,
+    "eta":1703169465,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0x95c78222b3d6e262426483d42cfa53685a67ab9d, 300000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d], [1750000000000000000000000])"
+    ]
   }
 ]
