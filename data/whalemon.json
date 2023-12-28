@@ -111519,5 +111519,15 @@
     "asset":"FDUSD",
     "amount":1000448.5547774091,
     "usdvalue":1001032.1164194107
+  },
+  {
+    "id":"fef6d5ef4f82",
+    "txtime":1703734487,
+    "tx":"0x74b8c429053c7fb5d37c253173c2f63687a5ef2e35017bc11f7781a09ec4491a",
+    "action":"borrow",
+    "address":"0x1e7ffb649152ce1306314e531a98e91d76a861ae",
+    "asset":"BNB",
+    "amount":4000.0,
+    "usdvalue":1297520.0
   }
 ]
