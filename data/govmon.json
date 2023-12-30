@@ -2722,5 +2722,38 @@
       "0x89621c48eec04a85afadfd37d32077e65afe2226.setRepaymentAllowed(0xeca88125a5adbe82614ffc12d0db554e2e2867c8, 0x1e85d99e182557960e2b86bb53ca417007eed16a, True)",
       "0x89621c48eec04a85afadfd37d32077e65afe2226.setRepaymentAllowed(0x08ceb3f4a7ed3500ca0982bcd0fc7816688084c3, 0x5cf9f8a81eb9a3eff4c72326903b27782eb47be2, True)"
     ]
+  },
+  {
+    "id":"225",
+    "type":"Normal",
+    "title":"VIP-225 Enable VAI minting for Prime holders",
+    "description":"#### Summary\n\nIf passed, this VIP will:\n\n- Upgrade the VAIController implementation\n- Upgrade the implementations of the Comptroller contracts in the Isolated pools\n- Upgrade the implementations of the VToken contracts in the Isolated pools\n- Update the Prime and PrimeLiquidityProvider implementations\n- Enable VAI minting, only for Prime holders\n- Set mintCap to 10M VAI (from zero) and increase the VAI baseRate to 7% (from 3%).\n\nThese actions implement the changes proposed in the Community post <a href=\"https://community.venus.io/t/vip-re-enable-vai-minting-and-adjust-vai-base-rate/3935\">[VIP] Re-enable VAI Minting and Adjust VAI Base Rate</a>.\n\n#### Description\n\nThis VIP upgrades the <a href=\"https://bscscan.com/address/0x004065D34C6b18cE4370ced1CeBDE94865DbFAFE\">VAIController</a> implementation, adding the integration with the <a href=\"https://bscscan.com/address/0xBbCD063efE506c3D42a0Fa2dB5C08430288C71FC\">Prime contract</a>, to allow only Prime holders to mint VAI. This behavior can be disabled in the future with a VIP, not requiring to hold a Prime token to mint VAI.\n\nThe parameters related to minting VAI updated in this VIP are:\n\n- mintCap, the maximum number of VAI that can be minted: 10M\n- baseRatio, the fixed interest rate applied to the minted VAI: 7%\n\nThe Comptroller and VToken contracts of the Isolated pools are upgraded to support Prime. New Isolated pools markets could be added to the Prime program with a new VIP. This codebase will be used in the new chains where Venus will be deployed.\n\nPrime contract is upgraded to add more information in the view functions used to estimate the APR of the users. This will facilitate the development of rich estimators in the Venus UI (<a href=\"https://app.venus.io/\">https://app.venus.io</a>), for example. Moreover, the new codebase is ready to be used in new chains, where the blocks are not minted in regular periods, like Arbitrum.\n\n#### Security and additional considerations\n\nWe applied the following security procedures for this VIP:\n\n- <b>Check post upgrade</b>: in a simulation environment, validating the behaviors of the Comptroller and VAIController contracts were the expected one after the VIP\n- <b>Deployment on testnet</b>: the same changes were performed on BNB testnet, and the upgrade contracts are used in the Venus Protocol testnet deployment\n- <b>Audit</b>: Certik has audited the deployed code\n\n#### Audit reports\n\n- <a href=\"https://github.com/VenusProtocol/venus-protocol/blob/9afe804f18cd02318626aea46686522542aa5e4d/audits/087_prime_certik_20231219.pdf\">Certik audit audit report</a>\n\n#### Deployed contracts on mainnet\n\n- <a href=\"https://bscscan.com/address/0x9817823d5C4023EFb6173099928F17bb77CD1d69\">New VAIController implementation</a>\n- <a href=\"https://bscscan.com/address/0x7A2e3481F345367045539896e5Bf385910fB5C2C\">New Prime implementation</a>\n- <a href=\"https://bscscan.com/address/0x208068AE8A619FCc851659791659B1aA40d796dA\">New PrimeLiquidityProviderImplementation</a>\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/venus-protocol/pull/407\">Pull request with the deployed changes</a>\n- <a href=\"https://github.com/VenusProtocol/vips/pull/137\">VIP simulations</a>\n- <a href=\"https://testnet.bscscan.com/tx/0xb513a9daa63954e7f552c073914d36a3833c2e78be6287134bf94d9cf7a461d7\">VIP executed on testnet</a>\n- <a href=\"https://docs-v4.venus.io/whats-new/prime-yield\">Documentation</a>\n- <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/prime\">Technical article about Venus Prime</a>",
+    "endblock":34841782,
+    "eta":1704038994,
+    "actions":[
+      "0x6beb6d2695b67feb73ad4f172e8e2975497187e4.upgrade(0xbbcd063efe506c3d42a0fa2db5c08430288c71fc, 0x7a2e3481f345367045539896e5bf385910fb5c2c)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.initializeV2(0x9f7b01a536afa00ef10310a162877fd792cd0666)",
+      "0x004065d34c6b18ce4370ced1cebde94865dbfafe._setPendingImplementation(0x9817823d5c4023efb6173099928f17bb77cd1d69)",
+      "0x9817823d5c4023efb6173099928f17bb77cd1d69._become(0x004065d34c6b18ce4370ced1cebde94865dbfafe)",
+      "0x6beb6d2695b67feb73ad4f172e8e2975497187e4.upgrade(0x23c4f844ffddc6161174eb32c770d4d8c07833f2, 0x208068ae8a619fcc851659791659b1aa40d796da)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x004065d34c6b18ce4370ced1cebde94865dbfafe, toggleOnlyPrimeHolderMint(), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x004065d34c6b18ce4370ced1cebde94865dbfafe, toggleOnlyPrimeHolderMint(), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x004065d34c6b18ce4370ced1cebde94865dbfafe, toggleOnlyPrimeHolderMint(), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x004065d34c6b18ce4370ced1cebde94865dbfafe, setMintCap(uint256), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x004065d34c6b18ce4370ced1cebde94865dbfafe, setBaseRate(uint256), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x004065d34c6b18ce4370ced1cebde94865dbfafe, setFloatRate(uint256), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x004065d34c6b18ce4370ced1cebde94865dbfafe, setMintCap(uint256), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xbbcd063efe506c3d42a0fa2db5c08430288c71fc, addMarket(address,address,uint256,uint256), 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xbbcd063efe506c3d42a0fa2db5c08430288c71fc, addMarket(address,address,uint256,uint256), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xbbcd063efe506c3d42a0fa2db5c08430288c71fc, addMarket(address,address,uint256,uint256), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x004065d34c6b18ce4370ced1cebde94865dbfafe.setPrimeToken(0xbbcd063efe506c3d42a0fa2db5c08430288c71fc)",
+      "0x004065d34c6b18ce4370ced1cebde94865dbfafe.setVAIToken(0x4bd17003473389a42daf6a0a729f6fdb328bbbd7)",
+      "0x004065d34c6b18ce4370ced1cebde94865dbfafe.toggleOnlyPrimeHolderMint()",
+      "0x004065d34c6b18ce4370ced1cebde94865dbfafe.setBaseRate(70000000000000000)",
+      "0x004065d34c6b18ce4370ced1cebde94865dbfafe.setMintCap(10000000000000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setVAIMintRate(1000000000000000000)",
+      "0x38b4efab9ea1bacd19dc81f19c4d1c2f9deae1b2.upgradeTo(0x3f66e044dfd1ccc834e55624b5f6e9e75ab36000)",
+      "0x2b8a1c539abac89cbf7e2bc6987a0a38a5e660d4.upgradeTo(0x9a8ade92b2d71497b6f19607797f2697cf30f03a)"
+    ]
   }
 ]
