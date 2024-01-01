@@ -2772,5 +2772,17 @@
       "0x29171f17bf7f3691908ed55bac2014a632b87dd3.redeemAndTransfer(0x95c78222b3d6e262426483d42cfa53685a67ab9d, 0x6657911f7411765979da0794840d671be55ba273)",
       "0x1b2103441a0a108dad8848d8f5d790e4d402921f.setDirectPrice(0xe9e7cea3dedca5984780bafc599bd69add087d56, 1000000000000000000)"
     ]
+  },
+  {
+    "id":"227",
+    "type":"Fasttrack",
+    "title":"VIP-227 Risk Parameters Adjustments (UNI)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-12-27-23/4006\">Risk Parameter Updates 12/27/2023</a>.\n\n- <b><a href=\"https://bscscan.com/address/0x27FF564707786720C71A2e5c1490A63266683612\">UNI (Core pool)</a></b>\n    - Increase supply cap from 100,000 UNI to 200,000 UNI\n    - Increase borrow cap from 50,000 UNI to 100,000 UNI\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/149\">https://github.com/VenusProtocol/vips/pull/149</a>",
+    "endblock":34897630,
+    "eta":1704207008,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x27ff564707786720c71a2e5c1490a63266683612], [200000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x27ff564707786720c71a2e5c1490a63266683612], [100000000000000000000000])"
+    ]
   }
 ]
