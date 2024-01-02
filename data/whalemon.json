@@ -112472,5 +112472,57 @@
     "asset":"BTCB",
     "amount":25.0,
     "usdvalue":1101854.90462475
+  },
+  {
+    "id":"093c571a089d",
+    "txtime":1704152994,
+    "tx":"0xe87d9f9223484b33d533553f29b9c0519bc291d1d82337cd92ca61741311c96d",
+    "action":"repay",
+    "address":"0xef044206db68e40520bfa82d45419d498b4bc7bf",
+    "asset":"BTCB",
+    "amount":25.0,
+    "usdvalue":1101854.90462475
+  },
+  {
+    "id":"be80de0eda1c",
+    "txtime":1704152994,
+    "tx":"0xe87d9f9223484b33d533553f29b9c0519bc291d1d82337cd92ca61741311c96d",
+    "action":"borrow",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"BTCB",
+    "amount":25.0,
+    "usdvalue":1101854.90462475
+  },
+  {
+    "id":"435cac448e60",
+    "txtime":1704153045,
+    "tx":"0x4489dab6278af164b3b7f4590cbf86a920a5e1faeb21b80e07aa4132ccd63985",
+    "action":"repay",
+    "address":"0xef044206db68e40520bfa82d45419d498b4bc7bf",
+    "asset":"BTCB",
+    "amount":25.0,
+    "usdvalue":1101854.90462475
+  },
+  {
+    "id":"99aa7de6158e",
+    "txtime":1704153045,
+    "tx":"0x4489dab6278af164b3b7f4590cbf86a920a5e1faeb21b80e07aa4132ccd63985",
+    "action":"borrow",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"BTCB",
+    "amount":25.0,
+    "usdvalue":1101854.90462475
+  },
+  {
+    "id":"fcf73d7b7c0f",
+    "txtime":1704153300,
+    "tx":"0xb2a95dd235f7b0d441ddbdd791e9cb1775a95a43cb56e1c5349540934a015b2b",
+    "action":"borrow",
+    "address":"0xbd7170971505828f17a48f0177f9203da7b57d14",
+    "asset":"BNB",
+    "amount":5000.0,
+    "usdvalue":1570449.9999999998
   }
 ]
