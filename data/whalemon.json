@@ -112684,5 +112684,15 @@
     "asset":"ETH",
     "amount":1140.0,
     "usdvalue":2493780.6659999997
+  },
+  {
+    "id":"beafd4b03c27",
+    "txtime":1704284967,
+    "tx":"0x1905b7677708a25ab378bd468413febed342f17258f043f3ba62cab678902151",
+    "action":"borrow",
+    "address":"0x563617b87d8bb3f2f14bb5a581f2e19f80b52008",
+    "asset":"BTCB",
+    "amount":60.0,
+    "usdvalue":2522190.6
   }
 ]
