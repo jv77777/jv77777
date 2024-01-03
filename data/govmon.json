@@ -2795,5 +2795,17 @@
     "actions":[
       "0x004065d34c6b18ce4370ced1cebde94865dbfafe.setMintCap(0)"
     ]
+  },
+  {
+    "id":"229",
+    "type":"Normal",
+    "title":"VIP-229 Adjust minting VAI for Prime holders (2/2)",
+    "description":"If passed, this VIP will set the minting cap of VAI to 10M, following the proposal in the Community post <a href=\"https://community.venus.io/t/vip-re-enable-vai-minting-and-adjust-vai-base-rate/3935\">[VIP] Re-enable VAI Minting and Adjust VAI Base Rate</a>. Moreover, it will adjust the VAI mint rate to 100%.\n\nRelated to <a href=\"https://app.venus.io/#/governance/proposal/228\">VIP-228</a>.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/153\">https://github.com/VenusProtocol/vips/pull/153</a>",
+    "endblock":34939297,
+    "eta":1704332201,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setVAIMintRate(10000)",
+      "0x004065d34c6b18ce4370ced1cebde94865dbfafe.setMintCap(10000000000000000000000000)"
+    ]
   }
 ]
