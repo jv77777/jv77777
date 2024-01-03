@@ -112734,5 +112734,26 @@
     "asset":"USDT",
     "amount":4700387.25403399,
     "usdvalue":4705331.497378763
+  },
+  {
+    "id":"1c00250641f2",
+    "txtime":1704304224,
+    "tx":"0x78ad9a7d399c4dcc981e1ae2a0175b968028462f7161b5b5e977595cf829dd16",
+    "action":"repay",
+    "address":"0xef044206db68e40520bfa82d45419d498b4bc7bf",
+    "asset":"BTCB",
+    "amount":30.0,
+    "usdvalue":1285937.564862
+  },
+  {
+    "id":"5489b644d487",
+    "txtime":1704304224,
+    "tx":"0x78ad9a7d399c4dcc981e1ae2a0175b968028462f7161b5b5e977595cf829dd16",
+    "action":"borrow",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"BTCB",
+    "amount":30.0,
+    "usdvalue":1285937.564862
   }
 ]
