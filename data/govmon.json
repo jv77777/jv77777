@@ -2807,5 +2807,16 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._setVAIMintRate(10000)",
       "0x004065d34c6b18ce4370ced1cebde94865dbfafe.setMintCap(10000000000000000000000000)"
     ]
+  },
+  {
+    "id":"230",
+    "type":"Normal",
+    "title":"VIP-230 Allocate Legacy XVS Rewards to the XVS Vault",
+    "description":"#### Summary\n\nIf passed, this VIP will allocate legacy XVS market rewards to the <a href=\"https://bscscan.com/address/0x1e25CF968f12850003Db17E0Dba32108509C4359\">XVS Vault Rewards smart contract</a>.\n\n#### Description\n\nIn preparation for our new Quarterly Buyback, this VIP Proposal will allocate legacy XVS market rewards to the XVS Vault in accordance with the <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xc9d270ccecb7b91c75b95b8d9af24fc7c20cd38c0c0c44888ed4e7724f4e7ce9\">Tokenomics</a>. The last legacy XVS rewards allocation was made in June 2023 with <a href=\"https://app.venus.io/#/governance/proposal/133\">VIP-133</a> for a period of 6 months hence, the necessity to top-up the Vault Rewards for another 6 months period.\n\nJanuary 1, 2024 to June 30, 2024 = 182 Days. This VIP will allocate 182 days x 1,050 XVS/day = <b>191,100 XVS</b> to the vault rewards distribution contract",
+    "endblock":34968174,
+    "eta":1704418952,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._grantXVS(0x1e25cf968f12850003db17e0dba32108509c4359, 191100000000000000000000)"
+    ]
   }
 ]
