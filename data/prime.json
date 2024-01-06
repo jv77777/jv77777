@@ -1,10 +1,5 @@
 [
   {
-    "addr":"0xbD8988199622Ea016c8Fb6ff87a43E1F17f80C63",
-    "eligible_time":1704481420,
-    "staked":2007
-  },
-  {
     "addr":"0xb952b6b2E1c0b24D38BC43b11Dd8F260820a88d6",
     "eligible_time":1704745118,
     "staked":1123
@@ -157,7 +152,7 @@
   {
     "addr":"0x491AB9be45B968369fD04f79b1244cc4a80F58B2",
     "eligible_time":1707669470,
-    "staked":1255
+    "staked":1258
   },
   {
     "addr":"0x3BA867a0D224d19535E1544D282DD748f3AD1900",
@@ -187,7 +182,7 @@
   {
     "addr":"0x3a4C3F00d216Fcc47Ac8Ef18eFBfa8AD7e3cB92F",
     "eligible_time":1708036851,
-    "staked":3068
+    "staked":3080
   },
   {
     "addr":"0x58AA43cF3872351b12e362e1cAc5f2B28646f09b",
@@ -422,7 +417,7 @@
   {
     "addr":"0x44C496963B50CF11bd595c3d104A6DD41c06d6BE",
     "eligible_time":1708587430,
-    "staked":1193
+    "staked":1195
   },
   {
     "addr":"0x11b0c209d5D7C525ae082738B4fBccbdc16696fa",
@@ -472,7 +467,7 @@
   {
     "addr":"0x5fAcd592c10f3cE87615611EC5017D9c9b51E102",
     "eligible_time":1708654766,
-    "staked":1130
+    "staked":1144
   },
   {
     "addr":"0x386Cf1c0b8E7DAc6700982A6dF172e56d832237C",
@@ -592,7 +587,7 @@
   {
     "addr":"0xDF51A4E2D09c8dd2535542286746d3402B48604E",
     "eligible_time":1709013507,
-    "staked":1260
+    "staked":1568
   },
   {
     "addr":"0x9f127B66B1620D97de98746C27e245612E40285c",
@@ -657,7 +652,7 @@
   {
     "addr":"0x6987e0eB72b1b875EeCEd1319249Df495A34c67E",
     "eligible_time":1709221646,
-    "staked":1055
+    "staked":1060
   },
   {
     "addr":"0x0DEec730468D37e3FAb51d52383b763c48c694b5",
@@ -742,7 +737,7 @@
   {
     "addr":"0x11F99D78850015e6B8217Ea856f90AD89900e6C6",
     "eligible_time":1709629310,
-    "staked":1004
+    "staked":1017
   },
   {
     "addr":"0xBC623262D1E5BBAD7855081Ae5FD59571Ab0B37d",
@@ -1283,5 +1278,10 @@
     "addr":"0x7c3e0a14673f889cbf127c3660937f0417a2553F",
     "eligible_time":1712226903,
     "staked":1001
+  },
+  {
+    "addr":"0x3DF3925EF911b1f1f16401861692e209D3392dd5",
+    "eligible_time":1712325740,
+    "staked":3381
   }
 ]
