@@ -114566,5 +114566,55 @@
     "asset":"BNB",
     "amount":9000.0,
     "usdvalue":2709289.5715799998
+  },
+  {
+    "id":"95b5fc8678a0",
+    "txtime":1704763905,
+    "tx":"0xedb3ec161304d9b1c11f392e8f62bc1056a54c306c679b05f14baf1e63bb55f9",
+    "action":"borrow",
+    "address":"0xd620aadabaa20d2af700853c4504028cba7c3333",
+    "asset":"WBETH",
+    "amount":600.0,
+    "usdvalue":1421710.7475
+  },
+  {
+    "id":"e3adb043a72f",
+    "txtime":1704763434,
+    "tx":"0xdc74ae195bfaff10063c150aff84bb296cb83db055ac73930e65a0799c26b430",
+    "action":"borrow",
+    "address":"0xd620aadabaa20d2af700853c4504028cba7c3333",
+    "asset":"FDUSD",
+    "amount":2600000.0,
+    "usdvalue":2600371.1240000003
+  },
+  {
+    "id":"42ee062e00ff",
+    "txtime":1704763599,
+    "tx":"0xdb184bb39d66d4c9b12898b71ecf9bfcba7345aa50c009873a5b4e7b98f0ee71",
+    "action":"repay",
+    "address":"0xd620aadabaa20d2af700853c4504028cba7c3333",
+    "asset":"FDUSD",
+    "amount":1600000.0,
+    "usdvalue":1600228.384
+  },
+  {
+    "id":"f8a8a9c89412",
+    "txtime":1704763710,
+    "tx":"0x76dc7e831130564222bedb4ba95e09a7f9ea3778add2215aae6c8c0a57519b5d",
+    "action":"repay",
+    "address":"0xd620aadabaa20d2af700853c4504028cba7c3333",
+    "asset":"FDUSD",
+    "amount":1000000.5988867797,
+    "usdvalue":1000143.3389722649
+  },
+  {
+    "id":"0f594e9fc3ec",
+    "txtime":1704764205,
+    "tx":"0x30202aecc76f579bda0db89c18604c32ac38aef3f868d1a522f50a9d0863e977",
+    "action":"repay",
+    "address":"0x66364bef617514b745339d67f981b0f3de0463f2",
+    "asset":"BNB",
+    "amount":12000.0,
+    "usdvalue":3600751.6799999997
   }
 ]
