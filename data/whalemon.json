@@ -115306,5 +115306,15 @@
     "asset":"BNB",
     "amount":5700.0,
     "usdvalue":1738820.894667
+  },
+  {
+    "id":"80588cab1488",
+    "txtime":1705079998,
+    "tx":"0xece0e09c4eab8031911228a3dd6061f838c2d38c162d74877e22ba460fcb6368",
+    "action":"repay",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"USDC",
+    "amount":3500000.68446202,
+    "usdvalue":3500609.929581165
   }
 ]
