@@ -115316,5 +115316,25 @@
     "asset":"USDC",
     "amount":3500000.68446202,
     "usdvalue":3500609.929581165
+  },
+  {
+    "id":"cbaa0d96e86f",
+    "txtime":1705080070,
+    "tx":"0x42d3dd26780ed63f584e2f270812b9b472d63d96d0ffa8c79a4d567c8b9e50de",
+    "action":"borrow",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"WBETH",
+    "amount":500.0,
+    "usdvalue":1334102.9825699998
+  },
+  {
+    "id":"4d5a2b6c3787",
+    "txtime":1705080760,
+    "tx":"0x09a8b3741c66d503ef541f172395d5cd4a595747fe03d0fbf43001965174580d",
+    "action":"borrow",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"USDC",
+    "amount":4000000.0,
+    "usdvalue":4000696.2800000007
   }
 ]
