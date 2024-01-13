@@ -115386,5 +115386,15 @@
     "asset":"USDC",
     "amount":4000058.4457859863,
     "usdvalue":4000773.5362343392
+  },
+  {
+    "id":"5747516dc720",
+    "txtime":1705116167,
+    "tx":"0x47baa7184c9ce50d71c92887883ad52bb8c9314e4434a6967b87dc4b3cbc3e5b",
+    "action":"repay",
+    "address":"0xa15aef397f9dc9de23c8e3df8a289b21d4ca8fcd",
+    "asset":"ETH",
+    "amount":535.0,
+    "usdvalue":1360259.11503255
   }
 ]
