@@ -2958,5 +2958,18 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba], [10000000000000000000000000])",
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba], [8000000000000000000000000])"
     ]
+  },
+  {
+    "id":"236",
+    "type":"Normal",
+    "title":"VIP-236 Bootstrap liquidity for the Ethereum deployment",
+    "description":"#### Summary\n\nIf passed, this VIP will transfer from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a> to the <a href=\"https://bscscan.com/address/0xc444949e0054A23c44Fc45789738bdF64aed2391\">Community wallet</a> these tokens:\n\n- 0.3 BTCB\n- 15 ETH\n- 40,000 USDT\n\nThese tokens will be used for the bootstrap liquidity of the new Venus markets on Ethereum.\n\n#### Description\n\nThe transferred tokens will be partially used by the Community wallet to get the rest of the needed tokens for the bootstrap liquidity in the new Venus markets to be deployed to Ethereum.\n\nThe next steps will be:\n\n- Transfer BTC, ETH and USDT to the Community wallet. This VIP\n- The Community wallet:\n    - swaps 20,000 USDT for 20,000 USDC\n    - stakes 5 ETH on <a href=\"https://lido.fi/\">Lido</a>, getting <a href=\"https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84\">stETH</a> tokens\n    - wraps the stETH tokens to get <a href=\"https://etherscan.io/address/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0\">wstETH</a> tokens, using <a href=\"https://stake.lido.fi/wrap\">https://stake.lido.fi/wrap</a>\n- The Community wallet sends to the <a href=\"https://etherscan.io/address/0xFD9B071168bC27DBE16406eC3Aba050Ce8Eb22FA\">Venus Treasury on Ethereum</a>:\n    - 0.3 BTC\n    - 20,000 USDT\n    - 20,000 USDC (obtained in the previous step)\n    - 10 ETH\n    - 100% of the wstETH tokens obtained in the previous step\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/token-bridge\">Repository</a>\n- <a href=\"https://github.com/VenusProtocol/vips/pull/162\">VIP simulation</a>\n- <a href=\"https://community.venus.io/t/vrc-deploy-venus-protocol-on-ethereum-mainnet/3885\">[VRC] Deploy Venus Protocol on Ethereum Mainnet</a>\n- Snapshot <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0x68be3a2cf0d4e72459c286ecb3dfae7d6f489ba9d962747987be3a46771a0df2\">\"Deploy Venus Protocol on Ethereum Mainnet\"</a>\n- <a href=\"https://community.venus.io/t/proposal-support-wsteth-and-steth-collateral-on-venus-on-eth-mainnet/3914/1\">Proposal: Support wstETH and stETH collateral on Venus on ETH Mainnet</a>\n- Snapshot \u201c<a href=\"https://snapshot.org/#/venus-xvs.eth\">Proposal: Support wstETH as collateral on Venus on ETH Mainnet</a>\u201d\n- <a href=\"https://docs-v4.venus.io/\">Documentation</a>",
+    "endblock":35239264,
+    "eta":1705233769,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c, 300000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x2170ed0880ac9a755fd29b2688956bd959f933f8, 15000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 40000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
+    ]
   }
 ]
