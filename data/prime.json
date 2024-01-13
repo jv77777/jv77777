@@ -7,7 +7,7 @@
   {
     "addr":"0xB47be7126009a70f4F304d4Fb8E342Bbc2fA10ce",
     "eligible_time":1705471899,
-    "staked":1151
+    "staked":1168
   },
   {
     "addr":"0xcc622c9B2a74374eaF4f5Ba46A442455C5c5F88c",
@@ -42,7 +42,7 @@
   {
     "addr":"0xa7DF5a0Dd755bAF70f8229CfBc7f032Dd6476391",
     "eligible_time":1706373726,
-    "staked":1017
+    "staked":1023
   },
   {
     "addr":"0x68755ccd6AB641ddE678857d68FE7F0B8607fB6B",
@@ -337,7 +337,7 @@
   {
     "addr":"0xe003ECCeE85c524e7B1F6B393f2Fae594DbC17F3",
     "eligible_time":1708560322,
-    "staked":1005
+    "staked":2777
   },
   {
     "addr":"0x2Ea7CcE60d849870aa21659190CC747edE2BEbA1",
@@ -382,7 +382,7 @@
   {
     "addr":"0x09ed22a8F03A636854638CC7A0613D62c3698D1B",
     "eligible_time":1708585326,
-    "staked":1358
+    "staked":1811
   },
   {
     "addr":"0x36A050412491e75c0C15A0A12e12Eb287ffc5a26",
@@ -392,7 +392,7 @@
   {
     "addr":"0x44C496963B50CF11bd595c3d104A6DD41c06d6BE",
     "eligible_time":1708587430,
-    "staked":1197
+    "staked":1198
   },
   {
     "addr":"0x11b0c209d5D7C525ae082738B4fBccbdc16696fa",
@@ -972,7 +972,7 @@
   {
     "addr":"0x0F89DeF402B8Ffa30eC805BeA36216876cC3E318",
     "eligible_time":1710477200,
-    "staked":5783
+    "staked":5798
   },
   {
     "addr":"0x55b1F689d30b6E8E56a2ca26bad7b65F2492d66F",
@@ -1067,7 +1067,7 @@
   {
     "addr":"0xa080F2B4Ff0cB48424acef1DC12f4282F0041b5F",
     "eligible_time":1710847497,
-    "staked":1025
+    "staked":1027
   },
   {
     "addr":"0x4D497e29838A4b09A791C2D931109Df5a5B7ded9",
@@ -1313,5 +1313,20 @@
     "addr":"0x2C8EEDA98a84a393e2DB66B013A0cDCA2F3693f2",
     "eligible_time":1712829207,
     "staked":1001
+  },
+  {
+    "addr":"0xDfAdb49BD730396152E6c654E1F2C6a1dF6191Ae",
+    "eligible_time":1712871750,
+    "staked":4499
+  },
+  {
+    "addr":"0xEbaDC5E08b1764826be36e93A515becC226710EA",
+    "eligible_time":1712929618,
+    "staked":10000
+  },
+  {
+    "addr":"0xAd63B47467145aD4f8159B415978aeF29452a442",
+    "eligible_time":1712939232,
+    "staked":1100
   }
 ]
