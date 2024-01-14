@@ -115456,5 +115456,16 @@
     "asset":"ADA",
     "amount":1900000.0,
     "usdvalue":1030755.7000000002
+  },
+  {
+    "id":"6757bfc2dfc0",
+    "txtime":1705246208,
+    "tx":"0x14ff51f035b806cc360664b1c10a72996ff8b99aac6e499629d08435dac4e1ad",
+    "action":"repay",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"BTCB",
+    "amount":168.0,
+    "usdvalue":7202506.08
   }
 ]
