@@ -2971,5 +2971,16 @@
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x2170ed0880ac9a755fd29b2688956bd959f933f8, 15000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)",
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 40000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
     ]
+  },
+  {
+    "id":"237",
+    "type":"Normal",
+    "title":"VIP-237 Treasury management",
+    "description":"If passed, this VIP will transfer from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a> 296,719 DAI to <a href=\"https://bscscan.com/address/0x6657911F7411765979Da0794840D671Be55bA273\">Binance</a> ($296,719 approximately)\n\nThese tokens will be converted to USDC and sent back to the Venus Treasury. The received USDC tokens will be partially used to fund the Prime program with a different VIP in the future.",
+    "endblock":35269605,
+    "eta":1705325033,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3, 296719647459765628937553, 0x6657911f7411765979da0794840d671be55ba273)"
+    ]
   }
 ]
