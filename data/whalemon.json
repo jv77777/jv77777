@@ -115651,5 +115651,15 @@
     "asset":"FDUSD",
     "amount":2520928.291968881,
     "usdvalue":2526183.0157377925
+  },
+  {
+    "id":"10ed51ca617f",
+    "txtime":1705323395,
+    "tx":"0x48db663792373a61a8a009bafe7ae4711bc03b2c0bd691ea28ac6c4d1de65fb1",
+    "action":"repay",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"USDT",
+    "amount":2500037.867734847,
+    "usdvalue":2499106.428626465
   }
 ]
