@@ -115631,5 +115631,25 @@
     "asset":"USDT",
     "amount":2000000.0,
     "usdvalue":1999220.0
+  },
+  {
+    "id":"43563e958789",
+    "txtime":1705322354,
+    "tx":"0x25279033cb29305ac55c77628f30e138a6a48eda8444a12e9571e52f5aee5a5b",
+    "action":"repay",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"WBETH",
+    "amount":499.99507115998716,
+    "usdvalue":1306888.4907044328
+  },
+  {
+    "id":"12b6c842ab78",
+    "txtime":1705322327,
+    "tx":"0x33546355e97ef65c685f63860defb6ded2d7e4a160a5f40d849993ccedb2b855",
+    "action":"borrow",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"FDUSD",
+    "amount":2520928.291968881,
+    "usdvalue":2526183.0157377925
   }
 ]
