@@ -115497,5 +115497,26 @@
     "asset":"WBETH",
     "amount":499.8534100519151,
     "usdvalue":1293415.1587556573
+  },
+  {
+    "id":"b941992fcc05",
+    "txtime":1705304780,
+    "tx":"0x9f67a245d910f8285901ce66f0dd27f07fc8d674ce29001d20f4a755b3ee2f82",
+    "action":"repay",
+    "address":"0xef044206db68e40520bfa82d45419d498b4bc7bf",
+    "asset":"BTCB",
+    "amount":30.0,
+    "usdvalue":1277951.1
+  },
+  {
+    "id":"cecda21345d3",
+    "txtime":1705304780,
+    "tx":"0x9f67a245d910f8285901ce66f0dd27f07fc8d674ce29001d20f4a755b3ee2f82",
+    "action":"borrow",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"BTCB",
+    "amount":30.0,
+    "usdvalue":1277951.1
   }
 ]
