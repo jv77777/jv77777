@@ -115861,5 +115861,36 @@
     "asset":"BNB",
     "amount":105000.0,
     "usdvalue":33181291.499999996
+  },
+  {
+    "id":"2da0766d2104",
+    "txtime":1705360187,
+    "tx":"0xefad891b7d451b3c508f5e5faa2dab1b7b582c856969247f718b3d276872e1c7",
+    "action":"borrow",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"BNB",
+    "amount":14000.0,
+    "usdvalue":4424172.2
+  },
+  {
+    "id":"0708e44adf67",
+    "txtime":1705359227,
+    "tx":"0x23613608435702c687a4ff4af7b99271a930f062a7cdc1cf8d66ad2f3f1c9503",
+    "action":"unstake",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "vault":"VAI Vault",
+    "asset":"VAI",
+    "amount":1600000.0,
+    "usdvalue":1600000.0
+  },
+  {
+    "id":"b6a47600baaa",
+    "txtime":1705360466,
+    "tx":"0xa6aef6c6a2dee45aab38eaba18c5bc8fa9328266fb171668fdb5c5ea3c99dc27",
+    "action":"borrow",
+    "address":"0x73dceb7987d3ec588a77dcc8070ad88c34830163",
+    "asset":"BNB",
+    "amount":3553.0,
+    "usdvalue":1126076.1685405099
   }
 ]
