@@ -3005,5 +3005,19 @@
     "actions":[
       "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.issue(True, [0x4252bf89d4225c587c797820028f7fef080c33f4, 0x51e76fd862d563d58b7a807b01eabe0f3b07ac1a, 0x53beb1e70d3d051d1e8b061ab93a6212c728317d, 0x604e1c7b92409106ef857ae72993d1f389d4da08, 0x63ad17144252dc8e757f629bea4d060074ece4e6, 0x87b9d6e007fac40716877101d5dd5950e7321f14, 0x8dcb8c40f0337399efc9ac543d8c18f6c9e8bde1, 0x8dd7b41c2a54f4ae983b5240eff60977494e65ed, 0xa7df5a0dd755baf70f8229cfbc7f032dd6476391, 0xaad950242f130d590fdb96f95b53fa9c0fa74dea, 0xaee09af04285e02d19f05ff608c7548c3ca56730, 0xb48df2de5833abf4dd5bd1f7fcad1b1f023cb8db, 0xb9056d39efa7d60dbc7e0b2b872e154dd7869c5f])"
     ]
+  },
+  {
+    "id":"240",
+    "type":"Normal",
+    "title":"VIP-240 Pause and reduce protocol exposure to the TUSD market",
+    "description":"If passed, this VIP will perform the following actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-tusd-01-16-2023/4053\">Risk Parameter Updates - TUSD - 01/16/2023</a>.\n\n- Pause supply, borrow and enter market actions in the <a href=\"https://bscscan.com/address/0xBf762cd5991cA1DCdDaC9ae5C638F5B5Dc3Bee6E\">vTUSD market</a>\n- Set XVS rewards in the vTUSD market to 0\n- Increase vTUSD Reserve Factor to 100%\n- Reduce CF from 75% to 65%\n\nReview the Chaos Labs\u2019 recommendations <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-tusd-01-16-2023/4053\">Risk Parameter Updates - TUSD - 01/16/2023</a>, for a deeper analysis.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/176\">https://github.com/VenusProtocol/vips/pull/176</a>",
+    "endblock":35362784,
+    "eta":1705605108,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setActionsPaused([0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e], [0, 2, 7], True)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setVenusSpeeds([0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e], [0], [0])",
+      "0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e._setReserveFactor(1000000000000000000)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e, 650000000000000000)"
+    ]
   }
 ]
