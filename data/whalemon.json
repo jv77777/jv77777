@@ -117382,5 +117382,37 @@
     "asset":"BNB",
     "amount":4300.0,
     "usdvalue":1324314.0
+  },
+  {
+    "id":"3b8f02489e75",
+    "txtime":1705551128,
+    "tx":"0x083ef2fce4dc88996811896a38b00ac1e7927368ef3c943057338d3e7f77f0db",
+    "action":"repay",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"BTCB",
+    "amount":600.0,
+    "usdvalue":25558842.0
+  },
+  {
+    "id":"0e59181b4b8d",
+    "txtime":1705551350,
+    "tx":"0x0e893c26ccaf66254e3a40c00d921ecbae9c155204cee421cebe3f83ba9784a9",
+    "action":"repay",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"BTCB",
+    "amount":300.0,
+    "usdvalue":12779421.0
+  },
+  {
+    "id":"7b53aaf28026",
+    "txtime":1705551446,
+    "tx":"0x4390c6612856a13b49debe85f407c347b5456f1a77c748c341ec1df835902302",
+    "action":"withdraw",
+    "address":"0x1934057d1de58cf65fb59277a91f26ac9f8a4282",
+    "asset":"BNB",
+    "amount":130151.7096568938,
+    "usdvalue":40274145.036229216
   }
 ]
