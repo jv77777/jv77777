@@ -117588,5 +117588,15 @@
     "asset":"USDC",
     "amount":1000000.0,
     "usdvalue":1000187.27
+  },
+  {
+    "id":"6ae0f2fc9116",
+    "txtime":1705585037,
+    "tx":"0xe42f415f2c5fb182cd021b3caf3c120a05c8819675909b4d1a6080036590cf1c",
+    "action":"borrow",
+    "address":"0xbd7170971505828f17a48f0177f9203da7b57d14",
+    "asset":"ETH",
+    "amount":400.0,
+    "usdvalue":1004308.0
   }
 ]
