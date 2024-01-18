@@ -117424,5 +117424,57 @@
     "asset":"ETH",
     "amount":3000.0,
     "usdvalue":7592490.0
+  },
+  {
+    "id":"be1b3fd1026c",
+    "txtime":1705552403,
+    "tx":"0x62844052521cd8a15b2ad3f6a7cd09440a691a2db14d7d62d7e1db9d90b36ed4",
+    "action":"repay",
+    "address":"0xef044206db68e40520bfa82d45419d498b4bc7bf",
+    "asset":"BTCB",
+    "amount":25.0,
+    "usdvalue":1064815.75
+  },
+  {
+    "id":"c738e3ab02ff",
+    "txtime":1705552403,
+    "tx":"0x62844052521cd8a15b2ad3f6a7cd09440a691a2db14d7d62d7e1db9d90b36ed4",
+    "action":"borrow",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"BTCB",
+    "amount":25.0,
+    "usdvalue":1064815.75
+  },
+  {
+    "id":"c0f05e4f3320",
+    "txtime":1705552535,
+    "tx":"0x12440677ea3ffafb22b9e57e757aae1bf7ef0e0aa679fb402184286f5238ef91",
+    "action":"repay",
+    "address":"0xef044206db68e40520bfa82d45419d498b4bc7bf",
+    "asset":"BTCB",
+    "amount":25.0,
+    "usdvalue":1064815.75
+  },
+  {
+    "id":"8f833c625f29",
+    "txtime":1705552535,
+    "tx":"0x12440677ea3ffafb22b9e57e757aae1bf7ef0e0aa679fb402184286f5238ef91",
+    "action":"borrow",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"BTCB",
+    "amount":25.0,
+    "usdvalue":1064815.75
+  },
+  {
+    "id":"aa71983c9636",
+    "txtime":1705552577,
+    "tx":"0x26571825ecea9b63a3220ae1b5b1c0f1e6f003133ed829e351235447a757f4a4",
+    "action":"borrow",
+    "address":"0x563617b87d8bb3f2f14bb5a581f2e19f80b52008",
+    "asset":"BTCB",
+    "amount":120.0,
+    "usdvalue":5111115.6
   }
 ]
