@@ -3019,5 +3019,20 @@
       "0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e._setReserveFactor(1000000000000000000)",
       "0xfd36e2c2a6789db23113685031d7f16329158384._setCollateralFactor(0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e, 650000000000000000)"
     ]
+  },
+  {
+    "id":"241",
+    "type":"Normal",
+    "title":"VIP-241 Prime Adjustment",
+    "description":"If passed, this VIP will follow the recommendations from the <a href=\"https://community.venus.io/t/prime-adjustment-proposal/4054\">Prime Adjustment Proposal</a> and transfer funds from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a> to the <a href=\"https://bscscan.com/address/0x23c4F844ffDdC6161174eB32c770D4D8C07833F2\">PrimeLiquidityProvider</a> contract. These funds will be distributed among the Prime holders for the next 3 months.\n\nThe token amounts have been adjusted based on token prices for January 18 2024, block number: 35354264\n\n- BTC: 0.8837559297\n- ETH: 74.547052111\n- USDC: 224,932.52\n- USDT: 300,300.30",
+    "endblock":35392285,
+    "eta":1705693858,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c, 883755929700000000, 0x23c4f844ffddc6161174eb32c770d4d8c07833f2)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x2170ed0880ac9a755fd29b2688956bd959f933f8, 74547052111000000000, 0x23c4f844ffddc6161174eb32c770d4d8c07833f2)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 224932520000000000000000, 0x23c4f844ffddc6161174eb32c770d4d8c07833f2)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 300300300000000000000000, 0x23c4f844ffddc6161174eb32c770d4d8c07833f2)",
+      "0x23c4f844ffddc6161174eb32c770d4d8c07833f2.setTokensDistributionSpeed([0x2170ed0880ac9a755fd29b2688956bd959f933f8, 0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c, 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 0x55d398326f99059ff775485246999027b3197955], [28760436771219, 340955219791, 86779521604938271, 115856597222222222])"
+    ]
   }
 ]
