@@ -117072,5 +117072,45 @@
     "asset":"BNB",
     "amount":9856.475296114344,
     "usdvalue":3045620.1734352605
+  },
+  {
+    "id":"e4554259f475",
+    "txtime":1705536656,
+    "tx":"0xddf80f21438935c9186f24f5ef1a110a98b7de8b765cb251186ec52428946648",
+    "action":"repay",
+    "address":"0x4f14485da248b71d3dd755a920d0ebfefce1d966",
+    "asset":"BNB",
+    "amount":15000.0,
+    "usdvalue":4632511.8237
+  },
+  {
+    "id":"91b535f663ea",
+    "txtime":1705536677,
+    "tx":"0xd57c6bd75260aaa4761b2585545abd49a479e8644daaa3943cab388ebe627d5f",
+    "action":"borrow",
+    "address":"0x9edcb464c0afdd01a5ffbd09309b437c7dadeab3",
+    "asset":"BNB",
+    "amount":5800.0,
+    "usdvalue":1791237.9051639999
+  },
+  {
+    "id":"5565f36ab007",
+    "txtime":1705536716,
+    "tx":"0x7c07b4f4fbdeb4e193d225693c07126a55b0ae02ccdc4b5d8de8dd4d1ec9e78d",
+    "action":"borrow",
+    "address":"0x38fee735744655f4eb3b3dd827a9eeb9ae167e2e",
+    "asset":"USDC",
+    "amount":1000000.0,
+    "usdvalue":1000140.5300000001
+  },
+  {
+    "id":"8ce92580e6be",
+    "txtime":1705536890,
+    "tx":"0xe1e1a0f49c94836e3155c302a49960a2839e9b2cfc98e771b51d9563af112b4e",
+    "action":"repay",
+    "address":"0x38fee735744655f4eb3b3dd827a9eeb9ae167e2e",
+    "asset":"USDT",
+    "amount":1000899.81,
+    "usdvalue":1000042.529303737
   }
 ]
