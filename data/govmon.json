@@ -3208,5 +3208,17 @@
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xd5b9ae835f4c59272032b3b954417179573331e0, pauseConversion(), 0x1c2cac6ec528c20800b2fe734820d87b581eaa6b)",
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xd5b9ae835f4c59272032b3b954417179573331e0, resumeConversion(), 0x1c2cac6ec528c20800b2fe734820d87b581eaa6b)"
     ]
+  },
+  {
+    "id":"246",
+    "type":"Fasttrack",
+    "title":"VIP-246 Update VAI Float and Base Rates",
+    "description":"#### Summary\n\nThis VIP will perform the following updates as per Steakhouse latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/vip-adjust-vai-base-and-float-rate/4056\">[VIP] Adjust VAI Base and Float Rate</a>\n\n- Set VAI Base Rate: 3% (from 7%)\n- Set Float Rate: 5,000% (from 4,000%)\n\nComplete analysis and details of these recommendations are available in the above publication.\n\n#### References\n* <a href=\"https://github.com/VenusProtocol/vips/pull/180\">VIP Simulation</a>\n  ",
+    "endblock":35569309,
+    "eta":1706226464,
+    "actions":[
+      "0x004065d34c6b18ce4370ced1cebde94865dbfafe.setBaseRate(30000000000000000)",
+      "0x004065d34c6b18ce4370ced1cebde94865dbfafe.setFloatRate(50000000000000000000)"
+    ]
   }
 ]
