@@ -119058,5 +119058,15 @@
     "asset":"BNB",
     "amount":5000.0,
     "usdvalue":1475599.335
+  },
+  {
+    "id":"d24adeafb887",
+    "txtime":1706261927,
+    "tx":"0x0e9b3fd01c26686707f37b6523ed0d2749532617576aee2288422c34ee4d7294",
+    "action":"withdraw",
+    "address":"0xaed399a5625ae5b3b5e1a7ce725f62e0f369f4f8",
+    "asset":"BNB",
+    "amount":4399.00030034668,
+    "usdvalue":1302213.6363272967
   }
 ]
