@@ -119355,5 +119355,16 @@
     "asset":"BTCB",
     "amount":470.0,
     "usdvalue":19659227.209999997
+  },
+  {
+    "id":"1e074a26f53c",
+    "txtime":1706323120,
+    "tx":"0xf6546dda271ac641af4a717e02597b6bbe9633456b066dd0847d1205c05a787f",
+    "action":"repay",
+    "address":"0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+    "addressname":"BNB Bridge Exploiter",
+    "asset":"ETH",
+    "amount":7467.491,
+    "usdvalue":16959194.94233666
   }
 ]
