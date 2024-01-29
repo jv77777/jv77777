@@ -119436,5 +119436,15 @@
     "asset":"BNB",
     "amount":4781.529308743502,
     "usdvalue":1456308.1820605265
+  },
+  {
+    "id":"236afacf0d68",
+    "txtime":1706515373,
+    "tx":"0x13bdbcfdb5b179b71da62d0f33e3ae8e901b40356773c622421d88a54562cbde",
+    "action":"borrow",
+    "address":"0x68905445e7b9a4f1f01a537bed3f569764ad0de1",
+    "asset":"BTCB",
+    "amount":50.0,
+    "usdvalue":2101130.681097
   }
 ]
