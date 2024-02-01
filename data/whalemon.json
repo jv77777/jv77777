@@ -119576,5 +119576,15 @@
     "asset":"USDC",
     "amount":2276226.313116,
     "usdvalue":2276431.17348418
+  },
+  {
+    "id":"8929eb666c3f",
+    "txtime":1706799615,
+    "tx":"0x3f55ad9a451a6eb05cc791e97a8d8059f751b635ac5b1b7de0f5bb88a387181b",
+    "action":"borrow",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"USDT",
+    "amount":2000000.0,
+    "usdvalue":1998648.66
   }
 ]
