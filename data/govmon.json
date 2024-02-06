@@ -3294,5 +3294,20 @@
     "actions":[
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba], [15000000000000000000000000])"
     ]
+  },
+  {
+    "id":"250",
+    "type":"Critical",
+    "title":"VIP-250 Rebrand of HAY and SnBNB to lisUSD and slisBNB",
+    "description":"#### Summary\n\nIf passed, this VIP will configure the price feeds of the lisUSD and slisBNB tokens, reusing the configuration previously set for HAY and SnBNB, taking into account the already performed rebrand.\n\n#### Details\n\nHelio Protocol has been rebranded to Lista DAO, and then token symbols of <a href=\"https://bscscan.com/token/0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5\">HAY</a> &amp; <a href=\"https://bscscan.com/address/0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B\">SnBNB</a> have been changed to lisUSD and slisBNB respectively. See the official announcement <a href=\"https://medium.com/listadao/lista-is-coming-product-update-ae37b3869db0\">here</a>.\n\nAfter executing this VIP, the markets for the lisUSD and slisBNB tokens should be available again in the Venus Protocol.\n\nIt\u2019s needed to configure the maximum stale period for the new symbols in the BinanceOracle contract. This can be done only with a Normal VIP, not a Critical VIP. To reduce the time without access to the markets, this (Critical) VIP would set a new BinanceOracle contract instance for the tokens lisUSD and slisBNB, with the expected maximum stale periods configured. Another (Normal) VIP will be proposed in the following days to restore the use of the usual <a href=\"https://bscscan.com/address/0x594810b741d136f1960141C0d8Fb4a91bE78A820\">BinanceOracle instance</a> for these symbols.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/198\">VIP simulation</a>\n- <a href=\"https://bscscan.com/address/0x1AD1A94550308f9f85871c8b68ac8442C39EE60b\">New (temporary) BinanceOracle contract instance</a>",
+    "endblock":35903825,
+    "eta":1707232033,
+    "actions":[
+      "0x1ad1a94550308f9f85871c8b68ac8442c39ee60b.acceptOwnership()",
+      "0x1ad1a94550308f9f85871c8b68ac8442c39ee60b.setMaxStalePeriod(lisUSD, 1500)",
+      "0x1ad1a94550308f9f85871c8b68ac8442c39ee60b.setMaxStalePeriod(slisBNB, 1500)",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig((0xb0b84d294e0c75a6abe60171b70edeb2efd14a1b, [0x1ad1a94550308f9f85871c8b68ac8442c39ee60b, 0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000], [False, False, True]))",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig((0x0782b6d8c4551b9760e74c0545a9bcd90bdc41e5, [0x1ad1a94550308f9f85871c8b68ac8442c39ee60b, 0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000], [False, False, True]))"
+    ]
   }
 ]
