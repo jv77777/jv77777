@@ -119746,5 +119746,15 @@
     "asset":"USDT",
     "amount":1200000.0,
     "usdvalue":1199735.9999999998
+  },
+  {
+    "id":"79afda4b5d10",
+    "txtime":1707260546,
+    "tx":"0xf0fb2dee8c915097b3cb999ae970d305629872f9fcba2b1e8a701b6507dd7935",
+    "action":"repay",
+    "address":"0x38fee735744655f4eb3b3dd827a9eeb9ae167e2e",
+    "asset":"USDC",
+    "amount":1199519.7,
+    "usdvalue":1199618.5404232799
   }
 ]
