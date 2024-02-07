@@ -119796,5 +119796,45 @@
     "asset":"USDC",
     "amount":1000000.0,
     "usdvalue":1000100.0
+  },
+  {
+    "id":"e1f5f12f5e70",
+    "txtime":1707309054,
+    "tx":"0x09896f33ef10ef2985bbaea487dba250d2d2e8e4f42fc5a396a4c3df13aa50ef",
+    "action":"borrow",
+    "address":"0x38fee735744655f4eb3b3dd827a9eeb9ae167e2e",
+    "asset":"USDC",
+    "amount":1000000.0,
+    "usdvalue":1000100.0
+  },
+  {
+    "id":"deba3ea6ca72",
+    "txtime":1707309025,
+    "tx":"0x3be47532bf7797a6530e5d8cc688753ae88fae94db3361aba824805bcc306260",
+    "action":"repay",
+    "address":"0x38fee735744655f4eb3b3dd827a9eeb9ae167e2e",
+    "asset":"USDT",
+    "amount":1000700.1124,
+    "usdvalue":1000081.6497095334
+  },
+  {
+    "id":"dfac301af810",
+    "txtime":1707309270,
+    "tx":"0x10564ff30ed3206b963b88bd26ff439fcb598764db919517cceab1d96d83aaba",
+    "action":"borrow",
+    "address":"0x38fee735744655f4eb3b3dd827a9eeb9ae167e2e",
+    "asset":"USDC",
+    "amount":1000000.0,
+    "usdvalue":1000100.0
+  },
+  {
+    "id":"ed5e64ced02e",
+    "txtime":1707309237,
+    "tx":"0x1b528b52e1679d21f931d00c85dec9c3f997df7b59d3b6503fe879be4e478a35",
+    "action":"repay",
+    "address":"0x38fee735744655f4eb3b3dd827a9eeb9ae167e2e",
+    "asset":"USDT",
+    "amount":1000699.81,
+    "usdvalue":1000081.3474964258
   }
 ]
