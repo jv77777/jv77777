@@ -3325,5 +3325,19 @@
       "0x70d644877b7b73800e9073bcfce981eaab6dbc21.setMaxDailyReceiveLimit()",
       "0x70d644877b7b73800e9073bcfce981eaab6dbc21.setMaxSingleReceiveTransactionLimit()"
     ]
+  },
+  {
+    "id":"252",
+    "type":"Normal",
+    "title":"VIP-252 Payments Issuance for audits & Refunds to Community Wallet",
+    "description":"#### Description\n\nIf passed this VIP will perform the following actions:\n\n- Transfer 19,000 USDT to Certik for the retainer program\n- Transfer 32,500 USDC to Quantstamp for the retainer program\n- Transfer 8,000 USDT to the Community Wallet for the CakePie Bribes\n- Transfer 15,000 USDT to the Community Wallet for Venus 3rd Anniversary Campaign refund\n\n#### Details\n\nCertik - retainer program\n\n- Auditor: Certik (<a href=\"https://certik.com/\">https://certik.com</a>)\n- Concept: Retainer program - monthly payment of February 2024. Scheduled audits by Certik in February: NativeTokenGateway\n- Cost: 19,000 USDT, to be sent to the BEP20 address: 0x4cf605b238e9c3c72d0faed64d12426e4a54ee12\n\nQuantstamp - retainer program\n\n- Provider: Quantstamp (<a href=\"https://quantstamp.com/\">https://quantstamp.com</a>)\n- Concept: Retainer program - 1/4 monthly payment. Scheduled audits by Quantstamp in February: wstETH oracle and NativeTokenGateway\n- References:\n    - <a href=\"https://community.venus.io/t/quantstamp-retainer-proposal-for-ongoing-audits/4083\">Proposal in the community forum</a>\n    - <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xdc7b9c9893f6766a15cdda3dc4d819e840f59d651aca3c83b0b04d76aaa8b349\">Snapshot vote</a>\n- Cost: 32,500 USDC, to be sent to the BEP20 address: 0xd88139f832126b465a0d7A76be887912dc367016\n\nCakePie Bribes\n\n- Provider: CakePie (https://www.pancake.magpiexyz.io/)\n- Concept: (4) $2,000 Bribes for 4 epochs\n- References:\n    - <a href=\"https://community.venus.io/t/join-cakepie-as-a-bribery-market-participant/4063\">Proposal in the community forum</a>\n    - <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0x898af459638c29f03c6dc6ac779029d5a46bb61b747753a50d0627ea18573ecd\">Snapshot vote</a>\n- Cost: 8,000 USDT to be sent to the BEP20 address: 0xc444949e0054A23c44Fc45789738bdF64aed2391\n\nVenus 3rd Anniversary campaign\n\n- Provider: Arculus (<a href=\"https://www.getarculus.com/\">Arculus Secure Crypto Cold Storage Wallet (getarculus.com)</a>)\n- Concept: Setup cost of white label Venus-Polyhedra Custom Hardware Wallets\n- References: Venus <a href=\"https://galxe.com/Venus/campaign/GCgmDtUSmG\">3rd Anniversary campaign</a> on Galxe.\n- Cost: 15,000 USDT to be sent to the BEP20 Address: 0xc444949e0054A23c44Fc45789738bdF64aed2391",
+    "endblock":35962497,
+    "eta":1707408232,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 19000000000000000000000, 0x4cf605b238e9c3c72d0faed64d12426e4a54ee12)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 32500000000000000000000, 0xd88139f832126b465a0d7a76be887912dc367016)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 8000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 15000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
+    ]
   }
 ]
