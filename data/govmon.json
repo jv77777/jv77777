@@ -3420,5 +3420,35 @@
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3, 11124310320, 0x6657911f7411765979da0794840d671be55ba273)",
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBNB(21502340000000000000000, 0x6657911f7411765979da0794840d671be55ba273)"
     ]
+  },
+  {
+    "id":"254",
+    "type":"Normal",
+    "title":"VIP-254 Bootstrap liquidity for the opBNB deployment",
+    "description":"If passed, this VIP will performance the following actions:\n\n- withdraw 0.3 BTCB, 5 ETH, 10,000 USDT and 45 BNB from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a> on BNB chain, and bridge them to the <a href=\"https://opbnbscan.com/address/0xDDc9017F3073aa53a4A8535163b0bf7311F72C52\">Venus Treasury on opBNB</a>\n- withdraw 10,000 USDT from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a> (on BNB chain) to the <a href=\"https://bscscan.com/address/0xc444949e0054A23c44Fc45789738bdF64aed2391\">Community wallet</a>. These tokens will be converted by the Community wallet to FDUSD and sent to the <a href=\"https://opbnbscan.com/address/0xDDc9017F3073aa53a4A8535163b0bf7311F72C52\">Venus Treasury on opBNB</a>\n\nThese tokens will be used for the bootstrap liquidity of the new Venus markets on opBNB.\n\nAfter the execution of this VIP, and the manual operation by the Community wallet, the balance of the Venus Treasury on opBNB will be:\n\n- 0.3 <a href=\"https://opbnbscan.com/token/0x7c6b91d9be155a6db01f749217d76ff02a7227f2\">BTCB</a>\n- 5 <a href=\"https://opbnbscan.com/token/0xe7798f023fc62146e8aa1b36da45fb70855a77ea\">ETH</a>\n- 10,000 <a href=\"https://opbnbscan.com/token/0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3\">USDT</a>\n- 10,000 <a href=\"https://opbnbscan.com/token/0x50c5725949a6f0c72e6c4a641f24049a917db0cb\">FDUSD</a>\n- 45 BNB\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/token-bridge\">Repository</a>\n- <a href=\"https://github.com/VenusProtocol/vips/pull/203\">VIP simulation</a>\n- <a href=\"https://community.venus.io/t/deploy-venus-protocol-on-opbnb/3995\">Deploy Venus Protocol on opBNB - community proposal</a>\n- Snapshot <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xbde3c7b8acf4bba025ad838f3f515c9d9e6f4c2eb0e68fca7f37234baf4ed103\">\"Deploy Venus Protocol on opBNB\"</a>\n- <a href=\"https://docs-v4.venus.io/\">Documentation</a>",
+    "endblock":36136591,
+    "eta":1707931464,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 10000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c, 300000000000000000, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x2170ed0880ac9a755fd29b2688956bd959f933f8, 5000000000000000000, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 10000000000000000000000, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xc5f0f7b66764f6ec8c8dff7ba683102295e16409, 1000000000000000000000, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.approve(0xf05f0e4362859c3331cb9395cbc201e3fa6757ea, 300000000000000000)",
+      "0x2170ed0880ac9a755fd29b2688956bd959f933f8.approve(0xf05f0e4362859c3331cb9395cbc201e3fa6757ea, 5000000000000000000)",
+      "0x55d398326f99059ff775485246999027b3197955.approve(0xf05f0e4362859c3331cb9395cbc201e3fa6757ea, 10000000000000000000000)",
+      "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.approve(0xf05f0e4362859c3331cb9395cbc201e3fa6757ea, 1000000000000000000000)",
+      "0xf05f0e4362859c3331cb9395cbc201e3fa6757ea.bridgeERC20To(0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c, 0x7c6b91d9be155a6db01f749217d76ff02a7227f2, 0xf322942f644a996a617bd29c16bd7d231d9f35e9, 300000000000000000)",
+      "0xf05f0e4362859c3331cb9395cbc201e3fa6757ea.bridgeERC20To(0x2170ed0880ac9a755fd29b2688956bd959f933f8, 0xe7798f023fc62146e8aa1b36da45fb70855a77ea, 0xf322942f644a996a617bd29c16bd7d231d9f35e9, 5000000000000000000)",
+      "0xf05f0e4362859c3331cb9395cbc201e3fa6757ea.bridgeERC20To(0x55d398326f99059ff775485246999027b3197955, 0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3, 0xf322942f644a996a617bd29c16bd7d231d9f35e9, 10000000000000000000000)",
+      "0xf05f0e4362859c3331cb9395cbc201e3fa6757ea.bridgeERC20To(0xc5f0f7b66764f6ec8c8dff7ba683102295e16409, 0x50c5725949a6f0c72e6c4a641f24049a917db0cb, 0xf322942f644a996a617bd29c16bd7d231d9f35e9, 1000000000000000000000)",
+      "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.approve(0xf05f0e4362859c3331cb9395cbc201e3fa6757ea, 0)",
+      "0x2170ed0880ac9a755fd29b2688956bd959f933f8.approve(0xf05f0e4362859c3331cb9395cbc201e3fa6757ea, 0)",
+      "0x55d398326f99059ff775485246999027b3197955.approve(0xf05f0e4362859c3331cb9395cbc201e3fa6757ea, 0)",
+      "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.approve(0xf05f0e4362859c3331cb9395cbc201e3fa6757ea, 0)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c, 45000000000000000000, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.withdraw(45000000000000000000)",
+      "0xf05f0e4362859c3331cb9395cbc201e3fa6757ea.bridgeETHTo(0xf322942f644a996a617bd29c16bd7d231d9f35e9)"
+    ]
   }
 ]
