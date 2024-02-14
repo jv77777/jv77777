@@ -3471,5 +3471,31 @@
       "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0x3b1897657d4a37ba2aabdf31e5cc7d0d70521152)",
       "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.setLimit(13, 500)"
     ]
+  },
+  {
+    "id":"256",
+    "type":"Normal",
+    "title":"VIP-256 Rebrand of VTokens for HAY and SnBNB",
+    "description":"#### Summary\n\nIf passed, this VIP will perform the following actions:\n\n- Update the symbol of the VTokens for <a href=\"https://bscscan.com/address/0xCa2D81AA7C09A1a025De797600A7081146dceEd9\">HAY</a> and <a href=\"https://bscscan.com/address/0xd3CC9d8f3689B83c91b7B59cAB4946B063EB894A\">SnBNB</a>:\n    - vHAY_StableCoins -&gt; vlisUSD_Stablecoins\n    - vSnBNB_LiquidStakedBNB -&gt; vslisBNB_LiquidStakedBNB\n- Update the name of the same VTokens:\n    - Venus HAY (Stable Coins) -&gt; Venus lisUSD (Stablecoins)\n    - Venus SnBNB (Liquid Staked BNB) -&gt; Venus slisBNB (Liquid Staked BNB)\n- Configure the price feeds of the lisUSD and slisBNB tokens, using the <a href=\"https://bscscan.com/address/0x594810b741d136f1960141C0d8Fb4a91bE78A820\">original BinanceOracle</a> (follow-up of the <a href=\"https://app.venus.io/#/governance/proposal/250\">VIP-250</a>)\n- Grant <a href=\"https://bscscan.com/address/0x555ba73dB1b006F3f2C7dB7126d6e4343aDBce02\">Fast-track</a> and <a href=\"https://bscscan.com/address/0x213c446ec11e45b15a6E29C1C1b402B8897f606d\">Critical</a> timelocks, and <a href=\"https://bscscan.com/address/0x3a3284dC0FaFfb0b5F0d074c4C704D14326C98cF\">guardian</a>, to execute more privilege functions on the Binance oracle, to be able to react quicker to similar situations in the future\n\n#### Details\n\nHelio Protocol has been rebranded to Lista DAO, and the token symbols of <a href=\"https://bscscan.com/token/0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5\">HAY</a> &amp; <a href=\"https://bscscan.com/address/0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B\">SnBNB</a> have been changed to lisUSD and slisBNB respectively. See the official announcement <a href=\"https://medium.com/listadao/lista-is-coming-product-update-ae37b3869db0\">here</a>.\n\nIn the Critical <a href=\"https://app.venus.io/#/governance/proposal/250\">VIP-250</a>, a <a href=\"https://bscscan.com/address/0x1AD1A94550308f9f85871c8b68ac8442C39EE60b\">temporary BinanceOracle contract</a> was configured for the symbols lisUSD and slisBNB. This VIP applies the same config on the BinanceOracle contract used for the rest of the symbols on Venus. To allow Governance to execute similar changes in a faster way in the future, needed permissions are granted to the Fast-track and Critical timelock contracts.\n\nFinally, the names and the symbols of the VTokens for lisUSD and slisBNB are updated, to reflect the rebranding initiated by the Helio Protocol.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/198\">VIP simulation</a>\n- <a href=\"https://testnet.bscscan.com/tx/0x2a27fa0156bcca2eea566504ffb2c481736ede1122d130092a4c12bd1d741beb\">VIP executed on BNB testnet</a>",
+    "endblock":36166056,
+    "eta":1708019985,
+    "actions":[
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(lisUSD, 1500)",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(slisBNB, 1500)",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig((0xb0b84d294e0c75a6abe60171b70edeb2efd14a1b, [0x594810b741d136f1960141c0d8fb4a91be78a820, 0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000], [False, False, True]))",
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig((0x0782b6d8c4551b9760e74c0545a9bcd90bdc41e5, [0x594810b741d136f1960141c0d8fb4a91be78a820, 0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000], [False, False, True]))",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x594810b741d136f1960141c0d8fb4a91be78a820, setSymbolOverride(string,string), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x594810b741d136f1960141c0d8fb4a91be78a820, setSymbolOverride(string,string), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x594810b741d136f1960141c0d8fb4a91be78a820, setSymbolOverride(string,string), 0x3a3284dc0faffb0b5f0d074c4c704d14326c98cf)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x594810b741d136f1960141c0d8fb4a91be78a820, setMaxStalePeriod(string,uint256), 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x594810b741d136f1960141c0d8fb4a91be78a820, setMaxStalePeriod(string,uint256), 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x594810b741d136f1960141c0d8fb4a91be78a820, setMaxStalePeriod(string,uint256), 0x3a3284dc0faffb0b5f0d074c4c704d14326c98cf)",
+      "0x2b8a1c539abac89cbf7e2bc6987a0a38a5e660d4.upgradeTo(0xd2e69514f33111093586a25d75a306b66f75f658)",
+      "0xca2d81aa7c09a1a025de797600a7081146dceed9.setName(Venus lisUSD (Stablecoins))",
+      "0xca2d81aa7c09a1a025de797600a7081146dceed9.setSymbol(vlisUSD_Stablecoins)",
+      "0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a.setName(Venus slisBNB (Liquid Staked BNB))",
+      "0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a.setSymbol(vslisBNB_LiquidStakedBNB)",
+      "0x2b8a1c539abac89cbf7e2bc6987a0a38a5e660d4.upgradeTo(0x9a8ade92b2d71497b6f19607797f2697cf30f03a)"
+    ]
   }
 ]
