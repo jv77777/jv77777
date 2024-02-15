@@ -3497,5 +3497,29 @@
       "0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a.setSymbol(vslisBNB_LiquidStakedBNB)",
       "0x2b8a1c539abac89cbf7e2bc6987a0a38a5e660d4.upgradeTo(0x9a8ade92b2d71497b6f19607797f2697cf30f03a)"
     ]
+  },
+  {
+    "id":"257",
+    "type":"Fasttrack",
+    "title":"VIP-257 Burn Prime tokens of the Venus 3rd Anniversary x Polyhedra Campaign winners (2/2)",
+    "description":"If passed, this VIP will burn the remaining 13 (30 days) Prime tokens minted in the <a href=\"https://app.venus.io/#/governance/proposal/239\">VIP-239</a>, related to the <a href=\"https://community.venus.io/t/venus-3rd-anniversary-x-polyhedra-campaign-results/4020\">Venus 3rd Anniversary x Polyhedra Campaign</a>.",
+    "endblock":36194342,
+    "eta":1708104969,
+    "actions":[
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0x4252bf89d4225c587c797820028f7fef080c33f4)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0x51e76fd862d563d58b7a807b01eabe0f3b07ac1a)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0x53beb1e70d3d051d1e8b061ab93a6212c728317d)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0x604e1c7b92409106ef857ae72993d1f389d4da08)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0x63ad17144252dc8e757f629bea4d060074ece4e6)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0x87b9d6e007fac40716877101d5dd5950e7321f14)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0x8dcb8c40f0337399efc9ac543d8c18f6c9e8bde1)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0x8dd7b41c2a54f4ae983b5240eff60977494e65ed)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0xa7df5a0dd755baf70f8229cfbc7f032dd6476391)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0xaad950242f130d590fdb96f95b53fa9c0fa74dea)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0xaee09af04285e02d19f05ff608c7548c3ca56730)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0xb48df2de5833abf4dd5bd1f7fcad1b1f023cb8db)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.burn(0xb9056d39efa7d60dbc7e0b2b872e154dd7869c5f)",
+      "0xbbcd063efe506c3d42a0fa2db5c08430288c71fc.setLimit(0, 500)"
+    ]
   }
 ]
