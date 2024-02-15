@@ -121046,5 +121046,15 @@
     "asset":"USDC",
     "amount":1500000.0,
     "usdvalue":1499931.24
+  },
+  {
+    "id":"d066af77fb80",
+    "txtime":1708013663,
+    "tx":"0xcd06d31851c4d641bf94f997606d4d36f015c586529bee4aa3bd4215b073579d",
+    "action":"repay",
+    "address":"0xd0f55895d8357e9c6b2742a34debc095e2e31570",
+    "asset":"BNB",
+    "amount":2800.0,
+    "usdvalue":1005928.0
   }
 ]
