@@ -121918,5 +121918,16 @@
     "asset":"BNB",
     "amount":5800.2,
     "usdvalue":2039751.678991488
+  },
+  {
+    "id":"615a9aa0de8e",
+    "txtime":1708343592,
+    "tx":"0x104471ad790b6103db9c437186940bcb6f175c21ad0d347825b0a69be915128a",
+    "action":"stake",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "vault":"VAI Vault",
+    "asset":"VAI",
+    "amount":1500000.0,
+    "usdvalue":1500000.0
   }
 ]
