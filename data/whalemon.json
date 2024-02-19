@@ -121940,5 +121940,15 @@
     "asset":"VAI",
     "amount":1500000.0,
     "usdvalue":1500000.0
+  },
+  {
+    "id":"070ef2ecc902",
+    "txtime":1708380926,
+    "tx":"0xfda30203fb5ea1e5e1feb5aa31d8f9829f2ca55e6f78bc0a69643f84b4323cb2",
+    "action":"repay",
+    "address":"0xd0e8cd88689ac53438de37bdfca7718ed106930b",
+    "asset":"BNB",
+    "amount":3545.0,
+    "usdvalue":1254610.3495479
   }
 ]
