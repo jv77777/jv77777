@@ -1,40 +1,5 @@
 [
   {
-    "addr":"0x306a76cc320e12033902Fbf0de2fC09F3dca0453",
-    "eligible_time":1708378636,
-    "staked":2786
-  },
-  {
-    "addr":"0xD911C0EaE3f7c7e0a7775A9b008db4093DB94399",
-    "eligible_time":1708393614,
-    "staked":37095
-  },
-  {
-    "addr":"0xE45fc2510d06610499954AEB89BF4FE109e3698F",
-    "eligible_time":1708411251,
-    "staked":1000
-  },
-  {
-    "addr":"0x8ab5c308903fa622E7daEEE75271DD14179c3E71",
-    "eligible_time":1708416182,
-    "staked":1023
-  },
-  {
-    "addr":"0x57608850aF61399ECCeb1ddd2FC7f3e324271bFB",
-    "eligible_time":1708420158,
-    "staked":1047
-  },
-  {
-    "addr":"0x0dE9AD96503eE7771733920c683322Cf6D3048c6",
-    "eligible_time":1708425894,
-    "staked":6557
-  },
-  {
-    "addr":"0xd7840E9e875134bE8CA8D712C714F7Fc05083B11",
-    "eligible_time":1708436998,
-    "staked":1051
-  },
-  {
     "addr":"0x449710aadf0a1d8275445436e40451411613eB22",
     "eligible_time":1708518116,
     "staked":1035
@@ -87,7 +52,7 @@
   {
     "addr":"0x38fee735744655F4eB3b3DD827a9eEb9aE167E2E",
     "eligible_time":1708560505,
-    "staked":5338
+    "staked":5457
   },
   {
     "addr":"0x921994d2c6f0a17900Ef9D66247218bF41aBBe96",
@@ -697,7 +662,7 @@
   {
     "addr":"0x0F89DeF402B8Ffa30eC805BeA36216876cC3E318",
     "eligible_time":1710477200,
-    "staked":5878
+    "staked":5889
   },
   {
     "addr":"0x55b1F689d30b6E8E56a2ca26bad7b65F2492d66F",
@@ -987,7 +952,7 @@
   {
     "addr":"0xe105F1540f3d0CcC12660A2d28bEE9367680649f",
     "eligible_time":1712559759,
-    "staked":2155
+    "staked":2179
   },
   {
     "addr":"0x7682cc67CD39aD8b2e18EC5f102EF4028FbC1371",
@@ -1087,7 +1052,7 @@
   {
     "addr":"0x777999bE819FfEceE44A995560A9D0e97780a30c",
     "eligible_time":1713698793,
-    "staked":3091
+    "staked":3152
   },
   {
     "addr":"0x264709375A58A9bAa1Fc4ff2aa9F9aF83EB0EF8E",
@@ -1132,7 +1097,7 @@
   {
     "addr":"0x88888888Ad8A8801aA83d728845e4847Bc2CD8be",
     "eligible_time":1714138516,
-    "staked":7160
+    "staked":7249
   },
   {
     "addr":"0xb35B90E03F5d7DBd746914Ee7E7EDA8647Cb3a14",
