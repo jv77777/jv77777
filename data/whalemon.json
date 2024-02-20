@@ -122112,5 +122112,16 @@
     "asset":"VAI",
     "amount":1500000.0,
     "usdvalue":1500000.0
+  },
+  {
+    "id":"abba25b266d4",
+    "txtime":1708471243,
+    "tx":"0x46cb966c72a49fa8d2c287ec91327cce9c215fd9919844c5c1a5db1eb852c5c2",
+    "action":"stake",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "vault":"VAI Vault",
+    "asset":"VAI",
+    "amount":1500000.0,
+    "usdvalue":1500000.0
   }
 ]
