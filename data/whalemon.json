@@ -122703,5 +122703,76 @@
     "asset":"BNB",
     "amount":5800.0,
     "usdvalue":2194140.471946
+  },
+  {
+    "id":"bf19aee90ce0",
+    "txtime":1708559875,
+    "tx":"0x8f3483fc5b6e885482420274d672d3c10cf27325c285ba9589beeec66812b49b",
+    "action":"borrow",
+    "address":"0x88a0954cef0574ccce8c4003c984b552fd9f8857",
+    "asset":"BNB",
+    "amount":5000.0,
+    "usdvalue":1891500.40685
+  },
+  {
+    "id":"302cabec381a",
+    "txtime":1708559887,
+    "tx":"0xcfd89be3b84eed7fc84d71ca0deef7b2ad674fca7b32b9a09d5c4e57b5576933",
+    "action":"borrow",
+    "address":"0x732b8e1c64b38df2363ae575f835d3c64264a1d2",
+    "asset":"BNB",
+    "amount":24700.0,
+    "usdvalue":9344012.009839
+  },
+  {
+    "id":"b2fdb8a9db66",
+    "txtime":1708560061,
+    "tx":"0x036f0970a672c4997096f3e32e3a20159033a72716b574b478f54ddebfabddca",
+    "action":"borrow",
+    "address":"0x97d23a9eefbd0d4f774bd10733992be11c9af182",
+    "asset":"BNB",
+    "amount":8000.0,
+    "usdvalue":3026400.6509599998
+  },
+  {
+    "id":"27feb0382fa3",
+    "txtime":1708559251,
+    "tx":"0x70997b6f0ff1c64360569624aae912179b398aaaba9257328dd8047eb01846f8",
+    "action":"unstake",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "vault":"VAI Vault",
+    "asset":"VAI",
+    "amount":1500000.0,
+    "usdvalue":1500000.0
+  },
+  {
+    "id":"ae97a2178762",
+    "txtime":1708560265,
+    "tx":"0xd8b46341b6c3fd3e4ba2d44f7d857ae8980c58f1d20a524978c6b765ad04d89b",
+    "action":"borrow",
+    "address":"0x563617b87d8bb3f2f14bb5a581f2e19f80b52008",
+    "asset":"BNB",
+    "amount":8000.0,
+    "usdvalue":3045610.61664
+  },
+  {
+    "id":"fe624180a768",
+    "txtime":1708560430,
+    "tx":"0xcd59e922f08a921e98922ca131f5169dfafdee43210b397561b7cdaae91d7190",
+    "action":"borrow",
+    "address":"0xe2bc8ce68b92ec64ce434c214ea76e49579cf523",
+    "asset":"BNB",
+    "amount":6400.0,
+    "usdvalue":2436488.493312
+  },
+  {
+    "id":"9487ea841621",
+    "txtime":1708560469,
+    "tx":"0x320882b063bc731dc050f93bb28ed7d794496638f38e0eb679e8c834ef8c5017",
+    "action":"borrow",
+    "address":"0x8ea8212a240306b44efc9383ac1908ea73c55d02",
+    "asset":"BNB",
+    "amount":2800.0,
+    "usdvalue":1065963.715824
   }
 ]
