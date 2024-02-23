@@ -3587,5 +3587,16 @@
     "actions":[
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 105000000000000000000000, 0x6657911f7411765979da0794840d671be55ba273)"
     ]
+  },
+  {
+    "id":"261",
+    "type":"Fasttrack",
+    "title":"VIP-261 Risk Parameters Adjustments (WBETH)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-02-20-24/4125\">Risk Parameter Updates 02/20/2024</a>.\n\n- <a href=\"https://bscscan.com/address/0x6CFdEc747f37DAf3b87a35a1D9c8AD3063A1A8A0\">WBETH (Core pool)</a>\n    - Increase borrow cap, from 2K WBETH to 4K WBETH\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/214\">https://github.com/VenusProtocol/vips/pull/214</a>",
+    "endblock":36423517,
+    "eta":1708793906,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [4000000000000000000000])"
+    ]
   }
 ]
