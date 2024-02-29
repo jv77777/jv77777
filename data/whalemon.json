@@ -124465,5 +124465,35 @@
     "asset":"VAI",
     "amount":1500000.0,
     "usdvalue":1500000.0
+  },
+  {
+    "id":"10fcaadf9e1c",
+    "txtime":1709170847,
+    "tx":"0x7933bd7624765369729e2b7a518abb01a7476a56b07cf495c7dd8961ce0dfb5a",
+    "action":"repay",
+    "address":"0x88a0954cef0574ccce8c4003c984b552fd9f8857",
+    "asset":"BNB",
+    "amount":3000.0,
+    "usdvalue":1243612.07256
+  },
+  {
+    "id":"7d5506b072bb",
+    "txtime":1709170955,
+    "tx":"0x8e5487b702305b1d32c648e40bc7c61af0dee681c10a7eeaf0af9f1dfc49cbd5",
+    "action":"repay",
+    "address":"0x20b3df3b0dca3b72cbc5f210c920a87bf4132775",
+    "asset":"BNB",
+    "amount":12000.1,
+    "usdvalue":4974489.743975752
+  },
+  {
+    "id":"8590c8268e5a",
+    "txtime":1709171189,
+    "tx":"0xee5ee5133855b4aed95e834fc3675226cd3d4311dc7f67b57f0b330a0ab51ed2",
+    "action":"borrow",
+    "address":"0x20b3df3b0dca3b72cbc5f210c920a87bf4132775",
+    "asset":"BTCB",
+    "amount":50.0,
+    "usdvalue":3073510.9123975
   }
 ]
