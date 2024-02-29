@@ -124424,5 +124424,46 @@
     "asset":"BNB",
     "amount":5605.1,
     "usdvalue":2319539.747227095
+  },
+  {
+    "id":"a4faa72177a8",
+    "txtime":1709170622,
+    "tx":"0xba09207199ac8dd51852bedbe5dbd8c36b7125b2c58abb1585c461726f926e61",
+    "action":"repay",
+    "address":"0x88a0954cef0574ccce8c4003c984b552fd9f8857",
+    "asset":"BNB",
+    "amount":3000.0,
+    "usdvalue":1241381.22
+  },
+  {
+    "id":"eb7d4cab4c74",
+    "txtime":1709170673,
+    "tx":"0x4bb1ed57292bc8215e68681ef23637f8fe8d9b024ee57656e123a461ba55b333",
+    "action":"repay",
+    "address":"0xea429b84046415006096082b90c68a50a41a4c09",
+    "asset":"BNB",
+    "amount":5257.6676,
+    "usdvalue":2175589.939880824
+  },
+  {
+    "id":"b19268746ec5",
+    "txtime":1709170691,
+    "tx":"0x49d614e663aa0af0b0040e70ca0e0a8223eef830d464a66f55aa4e8371040216",
+    "action":"repay",
+    "address":"0x47ce50339162b2374dfb1dff0d7915804a2be665",
+    "asset":"BNB",
+    "amount":19280.0,
+    "usdvalue":7977943.307200001
+  },
+  {
+    "id":"b27ef72146ea",
+    "txtime":1709169874,
+    "tx":"0xd07f17494efbe57466b0c709d4f8ed80f06d592f1a09258d069c2c492e55d969",
+    "action":"stake",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "vault":"VAI Vault",
+    "asset":"VAI",
+    "amount":1500000.0,
+    "usdvalue":1500000.0
   }
 ]
