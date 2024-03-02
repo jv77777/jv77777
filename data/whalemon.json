@@ -125125,5 +125125,15 @@
     "asset":"USDC",
     "amount":4000000.0,
     "usdvalue":3999371.8400000003
+  },
+  {
+    "id":"cf60e72a55cd",
+    "txtime":1709410820,
+    "tx":"0x45581de5e7a311395b5a0f65be25c02dc1ed654a938f6e2532f06b1dfdcaa54b",
+    "action":"repay",
+    "address":"0xfe681735ac7f6a171f221bfc7ca2c344a98fba73",
+    "asset":"USDC",
+    "amount":3000797.69133304,
+    "usdvalue":3000385.4717541817
   }
 ]
