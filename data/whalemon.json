@@ -125075,5 +125075,15 @@
     "asset":"USDT",
     "amount":1950000.0,
     "usdvalue":1951738.0544999999
+  },
+  {
+    "id":"a354d11ee097",
+    "txtime":1709379116,
+    "tx":"0xfe482325d5f764206a87365c22b99c5f780a91422347a4dbf080964d3661e759",
+    "action":"borrow",
+    "address":"0xaaf5feaa9e5694b2b293e67558e2da8ea4b1fb13",
+    "asset":"ETH",
+    "amount":601.0,
+    "usdvalue":2050666.8668225498
   }
 ]
