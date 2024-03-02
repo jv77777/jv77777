@@ -3639,5 +3639,16 @@
       "0xf8f46791e3db29a029ec6c9d946226f3c613e854.sendFrom(0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
       "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63.approve(0xf8f46791e3db29a029ec6c9d946226f3c613e854, 0)"
     ]
+  },
+  {
+    "id":"264",
+    "type":"Normal",
+    "title":"VIP-264 Risk Parameters Adjustments (BNB)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/core-pool-bnb-ir-curve-update/4159\">Core Pool BNB IR Curve Update</a>.\n\n- <a href=\"https://bscscan.com/address/0xA07c5b74C9B40447a954e1466938b865b6BBea36\">BNB (Core pool)</a>\n    - Increase kink, from 0.6 to 0.8\n    - Increase multiplier (annualized), from 0.15 to 0.225\n    - Increase jump multiplier (annualized), from 4 to 6.8\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/223\">https://github.com/VenusProtocol/vips/pull/223</a>",
+    "endblock":36636227,
+    "eta":1709433442,
+    "actions":[
+      "0x9a7890534d9d91d473f28cb97962d176e2b65f1d._setInterestRateModel(0xf558be24f2cacb65a4bb41a155631c83b15388f1)"
+    ]
   }
 ]
