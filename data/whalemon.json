@@ -125165,5 +125165,15 @@
     "asset":"USDC",
     "amount":2000000.0,
     "usdvalue":1999794.0
+  },
+  {
+    "id":"798039e2dd3a",
+    "txtime":1709436137,
+    "tx":"0x21a5c68bc2075fc427070cf53d21951d0b5070c8269bd58f6bbf3ef200156eff",
+    "action":"borrow",
+    "address":"0x8c517a8429bc2ed66bdf7c7dab515a51f68aecb3",
+    "asset":"FDUSD",
+    "amount":1100000.0,
+    "usdvalue":1098460.374
   }
 ]
