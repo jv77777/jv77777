@@ -125226,5 +125226,15 @@
     "asset":"VAI",
     "amount":1500000.0,
     "usdvalue":1500000.0
+  },
+  {
+    "id":"140721ac3299",
+    "txtime":1709538404,
+    "tx":"0x854d0ac2bfddf13ceeba24fa19a99acaa01e747d733449be03f6ef0c6ab68479",
+    "action":"repay",
+    "address":"0xaaf5feaa9e5694b2b293e67558e2da8ea4b1fb13",
+    "asset":"ETH",
+    "amount":599.99986,
+    "usdvalue":2087141.5130002
   }
 ]
