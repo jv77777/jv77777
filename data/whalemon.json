@@ -125215,5 +125215,16 @@
     "asset":"USDT",
     "amount":2300000.0,
     "usdvalue":2301319.947
+  },
+  {
+    "id":"09ffb7cb424f",
+    "txtime":1709534107,
+    "tx":"0xbd34f1e2e75c171df120a9bbb30a33a09cba1c33167a954cc6fef6cfc36aca62",
+    "action":"unstake",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "vault":"VAI Vault",
+    "asset":"VAI",
+    "amount":1500000.0,
+    "usdvalue":1500000.0
   }
 ]
