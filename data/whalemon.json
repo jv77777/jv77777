@@ -125898,5 +125898,15 @@
     "asset":"VAI",
     "amount":1500000.0,
     "usdvalue":1500000.0
+  },
+  {
+    "id":"83a72e8c6c5e",
+    "txtime":1709765306,
+    "tx":"0x3e8ad53d5da6112f2801814d471fd66012d0f66560eed4c947f0237e50edad56",
+    "action":"repay",
+    "address":"0x864e996c3143026b6c230945dd917de1922347b3",
+    "asset":"USDC",
+    "amount":5000122.9184072185,
+    "usdvalue":4999569.254796464
   }
 ]
