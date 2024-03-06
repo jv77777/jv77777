@@ -125887,5 +125887,16 @@
     "asset":"USDC",
     "amount":5000000.0,
     "usdvalue":4999363.2
+  },
+  {
+    "id":"094e775c2d45",
+    "txtime":1709763058,
+    "tx":"0xccb4864f5a57a483b562ee6e91b3160c2f5425f432ee75f445f0d17fce51eaca",
+    "action":"unstake",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "vault":"VAI Vault",
+    "asset":"VAI",
+    "amount":1500000.0,
+    "usdvalue":1500000.0
   }
 ]
