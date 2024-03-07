@@ -125928,5 +125928,15 @@
     "asset":"FDUSD",
     "amount":1000000.0,
     "usdvalue":1002419.3800000001
+  },
+  {
+    "id":"4ce24f091393",
+    "txtime":1709793322,
+    "tx":"0x959501b29c93791bddbcbd818ca4942cf9cdbce9dcd9ce3f5dc8a72002b5b597",
+    "action":"borrow",
+    "address":"0x4f14485da248b71d3dd755a920d0ebfefce1d966",
+    "asset":"USDT",
+    "amount":4000000.0,
+    "usdvalue":4001680.0000000005
   }
 ]
