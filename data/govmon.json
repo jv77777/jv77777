@@ -3685,5 +3685,21 @@
       "0x67b10f3bc6b141d67c598c73cee45e6635292acd.redeemUnderlyingAndRepayBorrowBehalf(0xfd5840cd36d94d7229439859c0112a4185bc0255, 0x0f2577ccb1e895ed1e8bfd4e709706595831e78a, 22680500000000000000000, 0xf322942f644a996a617bd29c16bd7d231d9f35e9)",
       "0x14016e85a25aeb13065688cafb43044c2ef86784.approve(0x08ceb3f4a7ed3500ca0982bcd0fc7816688084c3, 0)"
     ]
+  },
+  {
+    "id":"267",
+    "type":"Normal",
+    "title":"VIP-267 Fund the XVSVestingProxy contract and bridge XVS to Ethereum",
+    "description":"#### Summary\n\nIf passed this VIP will perform the following actions:\n\n- Transfer 12,270.35 XVS to the <a href=\"https://bscscan.com/address/0xb28Dec7C7Ac80f4D0B6a1B711c39e444cDE8B2cE\">XVSVestingProxy</a> contract\n- Transfer 277,729.65 XVS back to the <a href=\"https://bscscan.com/address/0xfD36E2c2a6789Db23113685031d7F16329158384\">XVS Distribution contract</a>\n- Bridge 1,000 XVS to the <a href=\"https://etherscan.io/address/0xFD9B071168bC27DBE16406eC3Aba050Ce8Eb22FA\">Venus Treasury on Ethereum</a>\n\n#### Details\n\nThe <a href=\"https://bscscan.com/address/0xb28Dec7C7Ac80f4D0B6a1B711c39e444cDE8B2cE\">XVSVestingProxy</a> contract is where the XVS tokens are waiting to be withdrawn by the users who sent VRT tokens to the <a href=\"https://bscscan.com/address/0x92572fB60f4874d37917C53599cAe5b085B9Facd\">VRTConverter contract</a>.\n\nUsers sent 5,667,244,158.75 VRT to the VRTConverter contract. Considering the <a href=\"https://bscscan.com/address/0x92572fB60f4874d37917C53599cAe5b085B9Facd#readProxyContract#F6\">conversion ratio</a>, these users are allowed to get from the XVSVestingProxy contract 472,270.35 XVS.\n\nIn the <a href=\"https://app.venus.io/#/governance/proposal/55\">VIP-55</a>, 750,000 XVS were sent to the multisig wallet <a href=\"https://bscscan.com/address/0xbc6343132981df72b4dfefab8f3847a40f5ce6b5\">0xbc6343132981df72b4dfefab8f3847a40f5ce6b5</a>, to fund the XVSVestingProxy contract. Only 460,000 XVS were transferred from the multisig wallet to the XVSVestingProxy contract, for that purpose.\n\nAfter sending back the rest 290,000 XVS from the multisig wallet to the Venus Treasury (<a href=\"https://bscscan.com/tx/0x402bf96e4f8ec6bbd7d5e51fa77bbefebd74db45dd22c41ecff51003354ea0bc\">TX</a>), this VIP will fund the XVSVestingProxy contract with 12,270.35 XVS, and it will send the rest 277,729.65 XVS to the XVS Distribution contract.\n\nMoreover, 1,000 XVS from the Distribution contract would be sent to the Venus Treasury on Ethereum using the XVS bridge enabled at <a href=\"https://app.venus.io/#/governance/proposal/232\">VIP-232</a>. This is the second and last test for bridging XVS via VIP. The first one was in <a href=\"https://app.venus.io/#/governance/proposal/263\">VIP-263</a>, where 10 XVS were bridged successfully. These XVS will be used for the rewards on Ethereum.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/225\">VIP simulation</a>",
+    "endblock":36795384,
+    "eta":1709911773,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63, 12270350000000000000000, 0xb28dec7c7ac80f4d0b6a1b711c39e444cde8b2ce)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63, 277729650000000000000000, 0xfd36e2c2a6789db23113685031d7f16329158384)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._grantXVS(0x939bd8d64c0a9583a7dcea9933f7b21697ab6396, 1000000000000000000000)",
+      "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63.approve(0xf8f46791e3db29a029ec6c9d946226f3c613e854, 1000000000000000000000)",
+      "0xf8f46791e3db29a029ec6c9d946226f3c613e854.sendFrom(0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63.approve(0xf8f46791e3db29a029ec6c9d946226f3c613e854, 0)"
+    ]
   }
 ]
