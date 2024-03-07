@@ -125908,5 +125908,25 @@
     "asset":"USDC",
     "amount":5000122.9184072185,
     "usdvalue":4999569.254796464
+  },
+  {
+    "id":"3b24d522e2c9",
+    "txtime":1709775887,
+    "tx":"0xf32c264a7ea5c215ea362e91e63baa9e29300ed59aeedb07cb5772137438c66e",
+    "action":"repay",
+    "address":"0x8c517a8429bc2ed66bdf7c7dab515a51f68aecb3",
+    "asset":"FDUSD",
+    "amount":1000000.0,
+    "usdvalue":1002419.3800000001
+  },
+  {
+    "id":"989c6a99cd35",
+    "txtime":1709775932,
+    "tx":"0x07865a6a0a4d38f8b7f4363bceec922d11f6f14a56deb1c69af923b6e0a10869",
+    "action":"repay",
+    "address":"0x8c517a8429bc2ed66bdf7c7dab515a51f68aecb3",
+    "asset":"FDUSD",
+    "amount":1000000.0,
+    "usdvalue":1002419.3800000001
   }
 ]
