@@ -125958,5 +125958,55 @@
     "asset":"BNB",
     "amount":5395.0,
     "usdvalue":2305607.7811494
+  },
+  {
+    "id":"56fa6c2f30cf",
+    "txtime":1709799573,
+    "tx":"0x98dd89ce2fb8e04beb9a785402d9bc1e1bee9e0f0c45a579672dea0647243bb1",
+    "action":"repay",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"ETH",
+    "amount":490.0,
+    "usdvalue":1864606.8
+  },
+  {
+    "id":"bb17e6f8eada",
+    "txtime":1709799642,
+    "tx":"0x657ecae509b773a584d90d8a46dded0453ef9627baf63effb43badfd77428ef1",
+    "action":"withdraw",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"BNB",
+    "amount":4189.05786256235,
+    "usdvalue":1821653.7021138638
+  },
+  {
+    "id":"28d8e5bc8f49",
+    "txtime":1709799891,
+    "tx":"0x98ed6532cfef228ee3d5daf9cffebbd7038967c81d3b66ab8001463402a1e4c0",
+    "action":"repay",
+    "address":"0x1abe7f510dd4cc2b017ef78f4757b83ae334862d",
+    "asset":"ETH",
+    "amount":300.0,
+    "usdvalue":1142152.4453130001
+  },
+  {
+    "id":"7553ada07060",
+    "txtime":1709799987,
+    "tx":"0xc5f932cbe29a2ad0438c9934b078578c4fdc4bb2688542d36bf62a578e2330fd",
+    "action":"withdraw",
+    "address":"0x1abe7f510dd4cc2b017ef78f4757b83ae334862d",
+    "asset":"BNB",
+    "amount":3000.019263158304,
+    "usdvalue":1304798.3781254413
+  },
+  {
+    "id":"c4f9ca21b0a9",
+    "txtime":1709800146,
+    "tx":"0x109bba4aed917987ca24ad1c42a49e330e18417195f78656b036bd6001add6db",
+    "action":"repay",
+    "address":"0xfce889ba7afde7428acaa3ef146b1bd526e78a19",
+    "asset":"ETH",
+    "amount":300.37307402890184,
+    "usdvalue":1143572.8033609767
   }
 ]
