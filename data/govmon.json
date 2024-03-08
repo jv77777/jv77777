@@ -3701,5 +3701,18 @@
       "0xf8f46791e3db29a029ec6c9d946226f3c613e854.sendFrom(0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
       "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63.approve(0xf8f46791e3db29a029ec6c9d946226f3c613e854, 0)"
     ]
+  },
+  {
+    "id":"268",
+    "type":"Normal",
+    "title":"VIP-268 Treasury Management (BNB)",
+    "description":"Following the community proposal for <a href=\"https://community.venus.io/t/treasury-management-proposal/4134\">Treasury Management</a>, and the <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xb58cdfa3dba5459e9279a06065033c327f239afb834b27e06c5474954e51b30d\">associated snapshot</a>, this VIP, if approved, will supply 2,431.06 WBNB from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a> to the <a href=\"https://bscscan.com/address/0xA07c5b74C9B40447a954e1466938b865b6BBea36\">Venus BNB market</a>.\n\nThe minted vTokens will be held by the <a href=\"https://bscscan.com/address/0x939bD8d64c0A9583A7Dcea9933f7b21697ab6396\">Normal Timelock</a> contract, and they will be transferred to the Venus Treasury in a different VIP (it cannot be pre-calculated how many vBNB\u2019s will be minted).",
+    "endblock":36824487,
+    "eta":1709999245,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c, 2431068422494325838291, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.withdraw(2431068422494325838291)",
+      "0xa07c5b74c9b40447a954e1466938b865b6bbea36.mint(2431068422494325838291)"
+    ]
   }
 ]
