@@ -126628,5 +126628,55 @@
     "asset":"BNB",
     "amount":11000.0,
     "usdvalue":5235403.1587
+  },
+  {
+    "id":"7f97d901775e",
+    "txtime":1709856021,
+    "tx":"0x59792288ccc6f47c338fefb52797d29cdb3b0ff8a72f90c5d33978b9b56c726d",
+    "action":"borrow",
+    "address":"0xf295dd5a2bb06bcae21d110a25bd64f818f2112c",
+    "asset":"BNB",
+    "amount":3050.0,
+    "usdvalue":1451634.5121849999
+  },
+  {
+    "id":"4dedf77755ae",
+    "txtime":1709856057,
+    "tx":"0x70948e38d5a25d96a9dd98f087f5a843b7aba6093882685d8f091d0bcdb80448",
+    "action":"borrow",
+    "address":"0x66364bef617514b745339d67f981b0f3de0463f2",
+    "asset":"BNB",
+    "amount":9000.0,
+    "usdvalue":4283511.6753
+  },
+  {
+    "id":"1c6a7d468481",
+    "txtime":1709856084,
+    "tx":"0x0a22c0fea5db62a42e64b7084883111235ff1b3366ea479dae4789085a0402e6",
+    "action":"borrow",
+    "address":"0xe8ce04898a5b56f5291324e6676a342db95d3faa",
+    "asset":"BNB",
+    "amount":2610.0,
+    "usdvalue":1242218.3858369999
+  },
+  {
+    "id":"c13793400d39",
+    "txtime":1709856318,
+    "tx":"0x8fef90a92ef94192ec32d9ebee892ca5eff4ff188124c47c3269175d71931a50",
+    "action":"borrow",
+    "address":"0x732b8e1c64b38df2363ae575f835d3c64264a1d2",
+    "asset":"BNB",
+    "amount":10000.0,
+    "usdvalue":4759457.416999999
+  },
+  {
+    "id":"96f21166a447",
+    "txtime":1709856402,
+    "tx":"0x5ce08f1372ac6561908bebdc0b72f4d46bbd007ed7eed75c5a96e444d61435fe",
+    "action":"borrow",
+    "address":"0x70bcb4bcdf8d07fd0b8a1919e6fafadb0ea8851c",
+    "asset":"BNB",
+    "amount":7307.064005047,
+    "usdvalue":3477765.997531467
   }
 ]
