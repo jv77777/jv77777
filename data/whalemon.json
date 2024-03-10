@@ -127388,5 +127388,45 @@
     "asset":"BNB",
     "amount":2000.0,
     "usdvalue":1021340.0
+  },
+  {
+    "id":"960af421ff2f",
+    "txtime":1710064402,
+    "tx":"0x57e238e799c24d916ada756755dcb41da6f216e64a144709a3060252e3be9f81",
+    "action":"repay",
+    "address":"0x4f14485da248b71d3dd755a920d0ebfefce1d966",
+    "asset":"BNB",
+    "amount":3500.0,
+    "usdvalue":1826469.23116
+  },
+  {
+    "id":"9f2b8cdc2831",
+    "txtime":1710064483,
+    "tx":"0x6783c55fe00963a4fd910f4bb6aaefd0487b5e3a7cdf4f6752139999b5bcf336",
+    "action":"repay",
+    "address":"0x29fec057b86ef46d240bd271837369f5715335ef",
+    "asset":"BNB",
+    "amount":5000.0,
+    "usdvalue":2609241.7588
+  },
+  {
+    "id":"1cff10a0fbb3",
+    "txtime":1710064426,
+    "tx":"0xc3163b61422d05792b303a9d4c04880f4877954f33415d213304de58a67b0099",
+    "action":"borrow",
+    "address":"0x4f14485da248b71d3dd755a920d0ebfefce1d966",
+    "asset":"USDT",
+    "amount":1000000.0,
+    "usdvalue":1002500.0
+  },
+  {
+    "id":"9e314f28a3ca",
+    "txtime":1710064561,
+    "tx":"0x0f2ecd46a8804dacafc8320a528f85a8ff5be79810c729d0e2b3a1bb7e286fcd",
+    "action":"repay",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"BNB",
+    "amount":2000.0,
+    "usdvalue":1043696.70352
   }
 ]
