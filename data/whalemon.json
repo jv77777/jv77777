@@ -127898,5 +127898,15 @@
     "asset":"BNB",
     "amount":2000.0,
     "usdvalue":1079321.70954
+  },
+  {
+    "id":"0933ed7e1f2a",
+    "txtime":1710258465,
+    "tx":"0xdd9c8790efa089f64fe55b8263617fb44a2e4a4fe6cefb197ca1cc3aa3868559",
+    "action":"repay",
+    "address":"0xd0f55895d8357e9c6b2742a34debc095e2e31570",
+    "asset":"BNB",
+    "amount":2700.0,
+    "usdvalue":1465700.2920000001
   }
 ]
