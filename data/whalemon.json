@@ -129080,5 +129080,25 @@
     "asset":"VAI",
     "amount":2000000.0,
     "usdvalue":2000000.0
+  },
+  {
+    "id":"06de63a4b22c",
+    "txtime":1710368607,
+    "tx":"0xcb3245390c84bef30f55e4b5e17d333b85c82d82de0d1fd1d471913aa5eb4c5f",
+    "action":"repay",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"ETH",
+    "amount":490.40807455428893,
+    "usdvalue":1961239.9717575123
+  },
+  {
+    "id":"c5f6ade26595",
+    "txtime":1710368790,
+    "tx":"0x0b02675f1aed5cf43e00fd814731e246441f24439c5bc5297599a45372f78ed4",
+    "action":"borrow",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"BNB",
+    "amount":14000.0,
+    "usdvalue":8477674.799999999
   }
 ]
