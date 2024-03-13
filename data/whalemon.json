@@ -128899,5 +128899,15 @@
     "asset":"VAI",
     "amount":2000000.0,
     "usdvalue":2000000.0
+  },
+  {
+    "id":"a8c5c591cb8f",
+    "txtime":1710331446,
+    "tx":"0xc766a6bfac2b006dba8ed998a9b023415623a68b32d8709b9ef7d64731614a02",
+    "action":"borrow",
+    "address":"0x4f14485da248b71d3dd755a920d0ebfefce1d966",
+    "asset":"USDT",
+    "amount":2000000.0,
+    "usdvalue":2000849.2000000002
   }
 ]
