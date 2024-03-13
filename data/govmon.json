@@ -3745,5 +3745,38 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e, 0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba], [1500000000000000000000000, 20000000000000000000000000])",
       "0x94c1495cd4c557f1560cbd68eab0d197e6291571.setMarketSupplyCaps([0xca2d81aa7c09a1a025de797600a7081146dceed9], [1000000000000000000000000])"
     ]
+  },
+  {
+    "id":"271",
+    "type":"Normal",
+    "title":"VIP-271 Treasury Management",
+    "description":"If passed, this VIP will transfer to the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a> the vBNB tokens minted in the <a href=\"https://app.venus.io/#/governance/proposal/268?chainId=56\">VIP-268</a>, currently held by the <a href=\"https://bscscan.com/address/0x939bD8d64c0A9583A7Dcea9933f7b21697ab6396\">Normal Timelock</a>. Moreover, it will transfer to the Venus Treasury the BNB and the tokens currently held by the Normal Timelock, that were not transferred in the past.\n\nAfter the execution of this VIP, the Normal Timelock will only hold the VAI tokens not used in the \u201c<a href=\"https://app.venus.io/#/governance/proposal/108?chainId=56\">VIP-108 Deploy the VAI PEG Stability module and Supply Liquidity to PancakeSwap</a>\u201d, that will be used in the future in the process of moving the VAI liquidity from PancakeSwap v2 to PancakeSwap v3 (in a different VIP).\n\nDetails of funds transferred to the Venus Treasury in this VIP (around $1.42M, on March 13th, 2024):\n\n- <a href=\"https://bscscan.com/address/0xA07c5b74C9B40447a954e1466938b865b6BBea36\">vBNB</a>: 101,674.60269267 ($1,403,326)\n- BNB: 39.861304218347259946 ($22,995.99)\n- <a href=\"https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955\">USDT</a>: 682.670937428452997471 ($682)\n- <a href=\"https://bscscan.com/address/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c\">BTCB</a>: 0.003788200825741047 ($277.64)\n- <a href=\"https://bscscan.com/address/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d\">USDC</a>: 153.734823368539881682 ($153)\n- <a href=\"https://bscscan.com/address/0x2170Ed0880ac9A755fd29B2688956BD959F933F8\">ETH</a>: 0.028593370594306869 ($115.71)\n- <a href=\"https://bscscan.com/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82\">CAKE</a>: 6.243408803767688955 ($28.37)\n- <a href=\"https://bscscan.com/address/0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402\">DOT</a>: 1.3782203986471427 ($15.43)\n- <a href=\"https://bscscan.com/address/0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47\">ADA</a>: 19.442955289847041083 ($14.88)\n- <a href=\"https://bscscan.com/address/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3\">DAI</a>: 8.646943362773478519 ($8.65)\n- <a href=\"https://bscscan.com/address/0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153\">FIL</a>: 0.640374289898314985 ($7.10)\n- <a href=\"https://bscscan.com/address/0x250632378E573c6Be1AC2f97Fcdf00515d0Aa91B\">BETH</a>: 0.000999999999828933 ($4.16)\n- <a href=\"https://bscscan.com/address/0x4338665CBB7B2485A8855A139b75D5e34AB0DB94\">LTC</a>: 0.022150049934158296 ($2.18)\n- <a href=\"https://bscscan.com/address/0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE\">XRP</a>: 2.914230156293050047 ($2.03)\n- <a href=\"https://bscscan.com/address/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD\">LINK</a>: 0.061129510689970706 ($1.27)\n- <a href=\"https://bscscan.com/address/0xCC42724C6683B7E57334c4E856f4c9965ED682bD\">MATIC</a>: 0.519642261679984454 ($0.64)\n- <a href=\"https://bscscan.com/address/0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3\">TRX</a>: 4.373524 ($0.58)\n- <a href=\"https://bscscan.com/address/0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A\">SXP</a>: 1 ($0.12)\n- <a href=\"https://bscscan.com/address/0xbA2aE424d960c26247Dd6c32edC70B295c744C43\">DOGE</a>: 2.65529355 ($0.46)\n- <a href=\"https://bscscan.com/address/0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf\">BCH</a>: 0.000408728703365916 ($0.18)\n- <a href=\"https://bscscan.com/address/0xfb6115445Bff7b52FeB98650C87f44907E58f802\">AAVE</a>: 0.000822116396879251 ($0.12)\n- <a href=\"https://bscscan.com/address/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63\">XVS</a>: 0.000000001232038486 (&lt;$0.01)\n- <a href=\"https://bscscan.com/address/0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B\">TRXOLD</a>: 1 ($0.13)",
+    "endblock":36969935,
+    "eta":1710436385,
+    "actions":[
+      "0xa07c5b74c9b40447a954e1466938b865b6bbea36.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 10167460269267)",
+      "0x55d398326f99059ff775485246999027b3197955.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 682670937428452997471)",
+      "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 3788200825741047)",
+      "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 153734823368539881682)",
+      "0x2170ed0880ac9a755fd29b2688956bd959f933f8.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 28593370594306869)",
+      "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 6243408803767688955)",
+      "0x7083609fce4d1d8dc0c979aab8c869ea2c873402.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 1378220398647142700)",
+      "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 19442955289847041083)",
+      "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 8646943362773478519)",
+      "0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 640374289898314985)",
+      "0x250632378e573c6be1ac2f97fcdf00515d0aa91b.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 999999999828933)",
+      "0x4338665cbb7b2485a8855a139b75d5e34ab0db94.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 22150049934158296)",
+      "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 2914230156293050047)",
+      "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 61129510689970706)",
+      "0xcc42724c6683b7e57334c4e856f4c9965ed682bd.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 519642261679984454)",
+      "0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 4373524)",
+      "0x47bead2563dcbf3bf2c9407fea4dc236faba485a.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 1000000000000000000)",
+      "0xba2ae424d960c26247dd6c32edc70b295c744c43.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 265529355)",
+      "0x8ff795a6f4d97e7887c79bea79aba5cc76444adf.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 408728703365916)",
+      "0xfb6115445bff7b52feb98650c87f44907e58f802.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 822116396879251)",
+      "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 1232038486)",
+      "0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b.transfer(0xf322942f644a996a617bd29c16bd7d231d9f35e9, 1000000000000000000)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.()"
+    ]
   }
 ]
