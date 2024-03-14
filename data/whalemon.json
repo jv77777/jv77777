@@ -129950,5 +129950,65 @@
     "asset":"BNB",
     "amount":2000.0,
     "usdvalue":1176600.0
+  },
+  {
+    "id":"0a9cfc8c6457",
+    "txtime":1710426565,
+    "tx":"0xc847abcbaa794276ec71f5eddbf55381cf99eb1163dcfb18447be4f516dc9499",
+    "action":"repay",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"BNB",
+    "amount":10000.0,
+    "usdvalue":6025797.3185
+  },
+  {
+    "id":"85c9e49cc6e8",
+    "txtime":1710426601,
+    "tx":"0x1baebcad043561ba3964f4576b9d711f543f3b02e3b033a8848ebf7541b8e3be",
+    "action":"borrow",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"BNB",
+    "amount":10000.0,
+    "usdvalue":6025797.3185
+  },
+  {
+    "id":"7f9244185904",
+    "txtime":1710426628,
+    "tx":"0x03443cfc89aafd08b3c324a50006bf3c5d02965c4d7691ffac5b30c46c6945e3",
+    "action":"repay",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"BNB",
+    "amount":10000.0,
+    "usdvalue":6025797.3185
+  },
+  {
+    "id":"9885b0ccb35e",
+    "txtime":1710426664,
+    "tx":"0x367ef8daed5611d58ea7a463ffca4fc4d9a380ea110c067bc6fe77f32b4d9fe2",
+    "action":"borrow",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"USDC",
+    "amount":4000000.0,
+    "usdvalue":3999668.0
+  },
+  {
+    "id":"05bf7f0ba158",
+    "txtime":1710426685,
+    "tx":"0xdbfeb8a87cfe2e13c910c8cfd6afdbda8ce7ead05f70166852ccccb643a0cc0c",
+    "action":"repay",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"USDC",
+    "amount":4000000.001015,
+    "usdvalue":3999668.0010149158
+  },
+  {
+    "id":"9a59c5fa0570",
+    "txtime":1710426721,
+    "tx":"0x8ed9a4e503b4ab91b99708f250902cadc1cd8fd5425e1f2fc509ffe4d14164a2",
+    "action":"borrow",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"BNB",
+    "amount":10000.0,
+    "usdvalue":6025797.3185
   }
 ]
