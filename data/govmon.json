@@ -3795,5 +3795,19 @@
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xf508fcd89b8bd15579dc79a6827cb4686a3592c8, 145328319000, 0x67b10f3bc6b141d67c598c73cee45e6635292acd)",
       "0x67b10f3bc6b141d67c598c73cee45e6635292acd.redeemAndTransfer(0xf508fcd89b8bd15579dc79a6827cb4686a3592c8, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
     ]
+  },
+  {
+    "id":"273",
+    "type":"Fasttrack",
+    "title":"VIP-273 Risk Parameters Adjustments (XVS Ethereum bridge limits)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in the Venus community forum publication <a href=\"https://community.venus.io/t/xvs-bridge-limits-increase-recommendation/4209\">XVS Bridge Limits Increase Recommendation</a>\n\n- Single transaction limit: increase from 10,000 USD to 100,000 USD\n- 24-hour limit: increase from 50,000 USD to 1,000,000 USD\n\nComplete analysis and details of these recommendations are available in the above publication.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/231\">VIP simulation</a>\n- <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/xvs-bridge\">Documentation about XVS bridge</a>",
+    "endblock":37056560,
+    "eta":1710697418,
+    "actions":[
+      "0x70d644877b7b73800e9073bcfce981eaab6dbc21.setMaxDailyLimit()",
+      "0x70d644877b7b73800e9073bcfce981eaab6dbc21.setMaxSingleTransactionLimit()",
+      "0x70d644877b7b73800e9073bcfce981eaab6dbc21.setMaxDailyReceiveLimit()",
+      "0x70d644877b7b73800e9073bcfce981eaab6dbc21.setMaxSingleReceiveTransactionLimit()"
+    ]
   }
 ]
