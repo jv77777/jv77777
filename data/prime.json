@@ -1,15 +1,5 @@
 [
   {
-    "addr":"0xc3BF9018576560AfEC2236A47CA1F8874Ff733e4",
-    "eligible_time":1710706419,
-    "staked":1033
-  },
-  {
-    "addr":"0x642d272CAd571f0C8Ce2E27453c392b73673d9E2",
-    "eligible_time":1710775974,
-    "staked":1001
-  },
-  {
     "addr":"0xa5309AB126E2b1f52d200EB7bf3b694748be7e6f",
     "eligible_time":1710789403,
     "staked":1000
@@ -232,7 +222,7 @@
   {
     "addr":"0x4FAf1E116F2e9DDBcD399F0D131737Ac0ecd2323",
     "eligible_time":1712747379,
-    "staked":2115
+    "staked":2130
   },
   {
     "addr":"0x6d6dae90836cF9A1136E772CFbb0E69beC68e76e",
@@ -627,7 +617,7 @@
   {
     "addr":"0x1E93313ffF8862001e3E9E7ebF65292D76b0948C",
     "eligible_time":1717119650,
-    "staked":1007
+    "staked":1009
   },
   {
     "addr":"0xFadedC3d39410f9A099Ad0b440e106909Ea9D1E2",
@@ -772,7 +762,7 @@
   {
     "addr":"0x12ba8Df85018bd6EB047d93d174bE6df85DE044f",
     "eligible_time":1718109082,
-    "staked":1050
+    "staked":1211
   },
   {
     "addr":"0xfaCcCc36814841b9fA886AED4386B6294A5C0C14",
@@ -810,13 +800,38 @@
     "staked":1001
   },
   {
-    "addr":"0xA8a8af7b1170F3Fd7D582007CB1DD8e1201e9739",
-    "eligible_time":1718397098,
-    "staked":1007
-  },
-  {
     "addr":"0xb1CCF81aF23C05B99D5AaEa9F521a5e912E17767",
     "eligible_time":1718452573,
     "staked":3763
+  },
+  {
+    "addr":"0xD98a1b4082052b57e5688A69d07263c4b7963C5D",
+    "eligible_time":1718526499,
+    "staked":1010
+  },
+  {
+    "addr":"0x9236C6859905921015603d420C3EC28289ebB9Dc",
+    "eligible_time":1718527720,
+    "staked":1125
+  },
+  {
+    "addr":"0x84E66F8402D531FD0017ceE5E17C9c750a14f6b1",
+    "eligible_time":1718531131,
+    "staked":2694
+  },
+  {
+    "addr":"0x75f047253a2BAf70275780F7f72E181462061e14",
+    "eligible_time":1718537515,
+    "staked":1001
+  },
+  {
+    "addr":"0x6f33c3C5E3Dd39894696242C5c63e111048c7888",
+    "eligible_time":1718537758,
+    "staked":1001
+  },
+  {
+    "addr":"0x4A7095c3fF70Cb309C17f3c1203C5c095927b795",
+    "eligible_time":1718542454,
+    "staked":10979
   }
 ]
