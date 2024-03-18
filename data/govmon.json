@@ -3809,5 +3809,16 @@
       "0x70d644877b7b73800e9073bcfce981eaab6dbc21.setMaxDailyReceiveLimit()",
       "0x70d644877b7b73800e9073bcfce981eaab6dbc21.setMaxSingleReceiveTransactionLimit()"
     ]
+  },
+  {
+    "id":"274",
+    "type":"Critical",
+    "title":"VIP-274 Rebrand agEUR into EURA (1/2)",
+    "description":"#### Summary\n\nIf passed, this VIP will configure the price feeds of the EURA token, reusing the configuration previously set for agEUR, taking into account the already performed rebrand.\n\n#### Details\n\nAngle Protocol rebranded agEUR into EURA (<a href=\"https://snapshot.org/#/anglegovernance.eth/proposal/0x67b1a428cf8f0a6242c6649dab34acc6c59ac15de4198cc0e7e7796fb15c1455\">snapshot</a>), including the token symbol of the <a href=\"https://bscscan.com/address/0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89\">underlying token</a>.\n\nAfter executing this VIP, the agEUR market will be available again in the Venus Protocol.\n\nAnother (Normal) VIP will be proposed in the following days to complete the rebranding on Venus.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/232\">VIP simulation</a>",
+    "endblock":37071022,
+    "eta":1710741033,
+    "actions":[
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setSymbolOverride(EURA, AGEUR)"
+    ]
   }
 ]
