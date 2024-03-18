@@ -130870,5 +130870,45 @@
     "asset":"BNB",
     "amount":5000.0,
     "usdvalue":2837753.47465
+  },
+  {
+    "id":"da57db8fc11b",
+    "txtime":1710719129,
+    "tx":"0x8ae1f0241024d4d7c6a4c31235dbcd1cd0b70a53f3ea0cef787eb23226db8de3",
+    "action":"borrow",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"WBETH",
+    "amount":500.0,
+    "usdvalue":1875485.1407800002
+  },
+  {
+    "id":"28198d2dfce6",
+    "txtime":1710719696,
+    "tx":"0x0d2962852929dd656f64dfb9dad08a5854954254b2078cdbe2174c9c32820b74",
+    "action":"repay",
+    "address":"0x6178378c576e98ffbcb878a41e9c29c9ec6be18d",
+    "asset":"BNB",
+    "amount":2350.0,
+    "usdvalue":1343932.161711
+  },
+  {
+    "id":"26b0bbcd6c52",
+    "txtime":1710719702,
+    "tx":"0x8c0766ad79d1b01853c4113e7cec7d2c7854795afea7342d257d84404eafd514",
+    "action":"repay",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"BNB",
+    "amount":20030.99268024168,
+    "usdvalue":11455444.805946562
+  },
+  {
+    "id":"fd83d12c0b3a",
+    "txtime":1710719881,
+    "tx":"0xcaaedfeb87e9b4e0013c803dd9b3efdfeda1b7e7253b02da6a53660a366827eb",
+    "action":"repay",
+    "address":"0xe2bc8ce68b92ec64ce434c214ea76e49579cf523",
+    "asset":"BNB",
+    "amount":2400.0,
+    "usdvalue":1372526.463024
   }
 ]
