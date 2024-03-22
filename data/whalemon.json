@@ -132352,5 +132352,15 @@
     "asset":"CAKE",
     "amount":470000.0,
     "usdvalue":2007604.4641999998
+  },
+  {
+    "id":"e7dafa178fee",
+    "txtime":1711103818,
+    "tx":"0xde4bb751bf93fdcc0944c4858cc57470d49ddde915744526a54b45157dbb7bef",
+    "action":"borrow",
+    "address":"0x822f316c664e0527e7fab2533bf0f90ff01f9bae",
+    "asset":"USDT",
+    "amount":1200000.0,
+    "usdvalue":1200171.48
   }
 ]
