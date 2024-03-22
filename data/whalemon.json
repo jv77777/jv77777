@@ -132392,5 +132392,35 @@
     "asset":"USDT",
     "amount":3002999.0,
     "usdvalue":3002838.85006333
+  },
+  {
+    "id":"5106b4cec96e",
+    "txtime":1711119785,
+    "tx":"0x728ce6b18a15812d14e34abff795012bb0504183061d23d11ededbe3653f5c9c",
+    "action":"repay",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"CAKE",
+    "amount":750000.0,
+    "usdvalue":3018300.0
+  },
+  {
+    "id":"2e3a7116742e",
+    "txtime":1711120473,
+    "tx":"0xecc2862220ebd0b2de9ef5340f3a55e5448de828d26e82afe6f6046d6a0c331f",
+    "action":"repay",
+    "address":"0xb729dbf1b0dce96ed77453e5f2c6b49525ae7929",
+    "asset":"CAKE",
+    "amount":470000.0,
+    "usdvalue":1891468.0
+  },
+  {
+    "id":"ad5bd7d5f50f",
+    "txtime":1711121826,
+    "tx":"0x98280019b477bb22f2fe27a7c563dc6a510ba9043e6d70e602acb86a3491012f",
+    "action":"repay",
+    "address":"0x25b9ed9c22fa8ae729a0f451e504c5a241cbaa57",
+    "asset":"BNB",
+    "amount":3000.0328243322188,
+    "usdvalue":1677637.6573977666
   }
 ]
