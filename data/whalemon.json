@@ -132572,5 +132572,15 @@
     "asset":"ETH",
     "amount":999.9998,
     "usdvalue":3383055.601808744
+  },
+  {
+    "id":"19cc96964ef7",
+    "txtime":1711290869,
+    "tx":"0x6edaccaa091d254fb22b6425088905df4000ce7ff2ce3420ba5e52c958b4de7d",
+    "action":"borrow",
+    "address":"0x8c517a8429bc2ed66bdf7c7dab515a51f68aecb3",
+    "asset":"FDUSD",
+    "amount":1166023.0,
+    "usdvalue":1165346.26357126
   }
 ]
