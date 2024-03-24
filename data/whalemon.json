@@ -132582,5 +132582,25 @@
     "asset":"FDUSD",
     "amount":1166023.0,
     "usdvalue":1165346.26357126
+  },
+  {
+    "id":"a3f0dac6e464",
+    "txtime":1711322721,
+    "tx":"0x1d7078f62eab6e705c158c7d899181a4438617ad73884f69d65edc18a7ac1aed",
+    "action":"repay",
+    "address":"0x9edcb464c0afdd01a5ffbd09309b437c7dadeab3",
+    "asset":"BNB",
+    "amount":2000.0,
+    "usdvalue":1142872.7464400001
+  },
+  {
+    "id":"450d61f4ab27",
+    "txtime":1711322763,
+    "tx":"0xd97b664814a1ff53ef5ded11868e25c5cbc1bb237419fb32086b75d66583332c",
+    "action":"borrow",
+    "address":"0x9edcb464c0afdd01a5ffbd09309b437c7dadeab3",
+    "asset":"USDC",
+    "amount":1500000.0,
+    "usdvalue":1500107.91
   }
 ]
