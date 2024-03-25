@@ -3882,5 +3882,19 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384.seizeVenus([0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec, 0xef044206db68e40520bfa82d45419d498b4bc7bf, 0x7589dd3355dae848fdbf75044a3495351655cb1a], 0xfd36e2c2a6789db23113685031d7f16329158384)",
       "0xfd36e2c2a6789db23113685031d7f16329158384.seizeVenus([0x24e77e5b74b30b026e9996e4bc3329c881e24968, 0x33df7a7f6d44307e1e5f3b15975b47515e5524c0, 0x1f6d66ba924ebf554883cf84d482394013ed294b], 0xfd36e2c2a6789db23113685031d7f16329158384)"
     ]
+  },
+  {
+    "id":"277",
+    "type":"Fasttrack",
+    "title":"VIP-277 Risk Parameters Adjustments (UNI, WBETH, ETH, USDC, FDUSD, TWT, USDT)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-03-21-24/4218\">Risk Parameter Updates 03/21/2024</a>.\n\n- <a href=\"https://bscscan.com/address/0x27FF564707786720C71A2e5c1490A63266683612\">UNI (Core pool)</a>\n    - Increase supply cap, from 300K UNI to 400K UNI\n- <a href=\"https://bscscan.com/address/0x6CFdEc747f37DAf3b87a35a1D9c8AD3063A1A8A0\">WBETH (Core pool)</a>\n    - Increase borrow cap, from 4K WBETH to 8K WBETH\n- <a href=\"https://bscscan.com/address/0xf508fCD89b8bd15579dc79A6827cB4686A3592c8\">ETH (Code pool)</a>\n    - Increase borrow cap, from 40K ETH to 60K ETH\n- <a href=\"https://bscscan.com/address/0xecA88125a5ADbe82614ffC12D0DB554E2e2867C8\">USDC (Code pool)</a>\n    - Increase borrow cap, from 124.7M USDC to 200M USDC\n- <a href=\"https://bscscan.com/address/0xC4eF4229FEc74Ccfe17B2bdeF7715fAC740BA0ba\">FDUSD (Code pool)</a>\n    - Increase supply cap, from 20M FDUSD to 30M FDUSD\n- <a href=\"https://bscscan.com/address/0x736bf1D21A28b5DC19A1aC8cA71Fc2856C23c03F\">TWT (DeFi pool)</a>\n    - Increase supply cap, from 1.5M TWT to 3M TWT\n- <a href=\"https://bscscan.com/address/0x4978591f17670A846137d9d613e333C38dc68A37\">USDT (GameFi pool)</a>\n    - Increase borrow cap, from 800K USDT to 1.1M USDT\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/242\">https://github.com/VenusProtocol/vips/pull/242</a>",
+    "endblock":37308754,
+    "eta":1711455601,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x27ff564707786720c71a2e5c1490a63266683612, 0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba], [400000000000000000000000, 30000000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0, 0xf508fcd89b8bd15579dc79a6827cb4686a3592c8, 0xeca88125a5adbe82614ffc12d0db554e2e2867c8], [8000000000000000000000, 60000000000000000000000, 200000000000000000000000000])",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketSupplyCaps([0x736bf1d21a28b5dc19a1ac8ca71fc2856c23c03f], [3000000000000000000000000])",
+      "0x1b43ea8622e76627b81665b1ecebb4867566b963.setMarketBorrowCaps([0x4978591f17670a846137d9d613e333c38dc68a37], [1100000000000000000000000])"
+    ]
   }
 ]
