@@ -132892,5 +132892,15 @@
     "asset":"BTCB",
     "amount":30.0,
     "usdvalue":2092566.2508537
+  },
+  {
+    "id":"4e89b4f7571a",
+    "txtime":1711540248,
+    "tx":"0x9eb45b6be01939f958b033c8645ef2b29cae770bdbb02a9cbde0859637d3771e",
+    "action":"borrow",
+    "address":"0xe98f127778fa76d8d69738f8171cde24657ef632",
+    "asset":"WBETH",
+    "amount":2500.0,
+    "usdvalue":9274081.509725
   }
 ]
