@@ -132862,5 +132862,15 @@
     "asset":"WBETH",
     "amount":1500.0,
     "usdvalue":5570167.246575
+  },
+  {
+    "id":"0f93c7e3ab9f",
+    "txtime":1711507799,
+    "tx":"0x0c866236bf77d0329cdef03b7aef4127a471c92ebe74614a5a83cec8cf368f4e",
+    "action":"supply",
+    "address":"0x6bea3918cb4f221b2408daf16a314e2c1509fdfc",
+    "asset":"BNB",
+    "amount":8270.0,
+    "usdvalue":4829298.7152061
   }
 ]
