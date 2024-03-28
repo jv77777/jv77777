@@ -132953,5 +132953,15 @@
     "asset":"VAI",
     "amount":1800000.0,
     "usdvalue":1800000.0
+  },
+  {
+    "id":"3daab63c9091",
+    "txtime":1711607821,
+    "tx":"0x482abab9d7beb3ebb5125d2238108626e619b3e159fcb7e99a773ceae489dc87",
+    "action":"repay",
+    "address":"0xc7555293af17aca821e1f0fc3e5d3112a85d3ebe",
+    "asset":"BTCB",
+    "amount":15.000134484187853,
+    "usdvalue":1050694.4250346392
   }
 ]
