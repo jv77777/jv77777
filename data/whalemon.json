@@ -133243,5 +133243,65 @@
     "asset":"ETH",
     "amount":335.2607333499799,
     "usdvalue":1186890.0482055987
+  },
+  {
+    "id":"bebd933948ed",
+    "txtime":1711717817,
+    "tx":"0x606fe9d8f03843b691f3191aabf214ae74d30a40aae0ce3b6056afb677cd3685",
+    "action":"supply",
+    "address":"0x267ec71dcca16ca3c459fb189c68d6c6db2bccbc",
+    "asset":"BTCB",
+    "amount":15.97773333336838,
+    "usdvalue":1119991.6151992856
+  },
+  {
+    "id":"ded502641e00",
+    "txtime":1711718480,
+    "tx":"0x34d904e15eeb71ca7ef69540817dac4b9d4721736f0726c7e753411415eb1dbd",
+    "action":"supply",
+    "address":"0xea3bc22db9d845e8f10dd854b4bcf1b52d2eee83",
+    "asset":"BTCB",
+    "amount":22.0,
+    "usdvalue":1544213.63716774
+  },
+  {
+    "id":"5e5684c8ed12",
+    "txtime":1711718642,
+    "tx":"0xa05e3ca8f15d0c50243f97c175d00ce534bb6e71fd1a781d4946ceead6efd855",
+    "action":"withdraw",
+    "address":"0x46f4a6bf81a41d2b5ada059d43b959b8e6068fe2",
+    "asset":"USDT",
+    "amount":2003276.5185116054,
+    "usdvalue":2003467.7312552973
+  },
+  {
+    "id":"e46a2b782417",
+    "txtime":1711719450,
+    "tx":"0x8636984980dd809bfd5b04de34fe76d3c3f92935f2322616873872fde5d12d54",
+    "action":"supply",
+    "address":"0x00310178657ccc268dfe50c8061af62f0f07e761",
+    "asset":"BTCB",
+    "amount":116.66100107069978,
+    "usdvalue":8234328.244470555
+  },
+  {
+    "id":"a6d3e82d86ef",
+    "txtime":1711720189,
+    "tx":"0x83e0e6fbde027e4bd930303bf3c4b19d7c2643bfd50fc4e1fad65e5e429f2260",
+    "action":"withdraw",
+    "address":"0xa00b0540f43e00a634d016a31b0a39d95170e6bf",
+    "asset":"USDT",
+    "amount":1933313.1885461782,
+    "usdvalue":1933568.7918828358
+  },
+  {
+    "id":"ca6bfaec2399",
+    "txtime":1711720862,
+    "tx":"0x69c288cb0bc0628a5a2a0b358bf2bde7694dcb776a9a73ae2571d9ee8cc5a68a",
+    "action":"supply",
+    "address":"0x29fec057b86ef46d240bd271837369f5715335ef",
+    "asset":"USDT",
+    "amount":4999999.67,
+    "usdvalue":5000794.569947537
   }
 ]
