@@ -3896,5 +3896,21 @@
       "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketSupplyCaps([0x736bf1d21a28b5dc19a1ac8ca71fc2856c23c03f], [3000000000000000000000000])",
       "0x1b43ea8622e76627b81665b1ecebb4867566b963.setMarketBorrowCaps([0x4978591f17670a846137d9d613e333c38dc68a37], [1100000000000000000000000])"
     ]
+  },
+  {
+    "id":"278",
+    "type":"Normal",
+    "title":"VIP-278 Rebrand agEUR into EURA (2/2)",
+    "description":"#### Summary\n\nIf passed, this VIP will perform the following actions:\n\n- Update the symbol of the VToken for <a href=\"https://bscscan.com/address/0x795DE779Be00Ea46eA97a28BDD38d9ED570BCF0F\">agEUR</a>:\n    - vagEUR_StableCoins -&gt; vEURA_Stablecoins\n- Update the name of the same VToken:\n    - Venus agEUR (Stable Coins) -&gt; Venus EURA (Stablecoins)\n- Configure the price feeds of the EURA token, using the <a href=\"https://bscscan.com/address/0x594810b741d136f1960141C0d8Fb4a91bE78A820\">BinanceOracle</a>\n\n#### Details\n\nAngle Protocol rebranded agEUR into EURA (<a href=\"https://snapshot.org/#/anglegovernance.eth/proposal/0x67b1a428cf8f0a6242c6649dab34acc6c59ac15de4198cc0e7e7796fb15c1455\">snapshot</a>), including the token symbol of the <a href=\"https://bscscan.com/address/0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89\">underlying token</a>. This is a follow up of the <a href=\"https://app.venus.io/#/governance/proposal/274?chainId=56\">VIP-274</a>, to complete the rebranding of the VTokens associated with the renamed underlying token.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/234\">VIP simulation</a>\n- <a href=\"https://testnet.bscscan.com/tx/0xcfcc1577dcfa09470dcac1b6d3e3d4ea5e03d6c86c6022d7b5b8254b43b6a4ea\">VIP executed on BNB testnet</a>",
+    "endblock":37513563,
+    "eta":1712078515,
+    "actions":[
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setSymbolOverride(\"EURA\", \"\")",
+      "0x594810b741d136f1960141c0d8fb4a91be78a820.setMaxStalePeriod(\"EURA\", 1500)",
+      "0x2b8a1c539abac89cbf7e2bc6987a0a38a5e660d4.upgradeTo(0xd2e69514f33111093586a25d75a306b66f75f658)",
+      "0x795de779be00ea46ea97a28bdd38d9ed570bcf0f.setName(\"Venus EURA (Stablecoins)\")",
+      "0x795de779be00ea46ea97a28bdd38d9ed570bcf0f.setSymbol(\"vEURA_Stablecoins\")",
+      "0x2b8a1c539abac89cbf7e2bc6987a0a38a5e660d4.upgradeTo(0x1ec822383805ffdb9dc2ae456df8c0ca2bf14d7d)"
+    ]
   }
 ]
