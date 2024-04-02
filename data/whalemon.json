@@ -138847,5 +138847,35 @@
     "asset":"BTCB",
     "amount":41.41921265255945,
     "usdvalue":2721840.3647038587
+  },
+  {
+    "id":"a9fb2869a88b",
+    "txtime":1712057091,
+    "tx":"0xf5c84674f121cc0bc4fced3405880960db912608f3ed670b47b4d90dcccb2400",
+    "action":"supply",
+    "address":"0x9439f84748aab84d802a333a524cde238c36ff80",
+    "asset":"USDT",
+    "amount":3999999.34,
+    "usdvalue":4000199.339967
+  },
+  {
+    "id":"b5107a55a160",
+    "txtime":1712057694,
+    "tx":"0x55456689e3c29eaf3b2508c5386f3f2545e0a7a82587daafd4b39f764fe024b8",
+    "action":"borrow",
+    "address":"0x997bf89e5e068f375edf0134514f40b83833dedd",
+    "asset":"BNB",
+    "amount":6000.0,
+    "usdvalue":3323280.0
+  },
+  {
+    "id":"f99d3729d531",
+    "txtime":1712057934,
+    "tx":"0xa554be47ad113e849b6d478f27e83e366684879e53a7455186ef14328005e95f",
+    "action":"withdraw",
+    "address":"0x9b8238e959d70f15cc838b06ba7c1135aa0f2381",
+    "asset":"DOGE",
+    "amount":8000148.11513146,
+    "usdvalue":1455146.9406612613
   }
 ]
