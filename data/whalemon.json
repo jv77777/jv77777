@@ -138595,5 +138595,77 @@
     "asset":"BTCB",
     "amount":30.0,
     "usdvalue":2006884.5378
+  },
+  {
+    "id":"d0d24e7e6eb6",
+    "txtime":1712043168,
+    "tx":"0x3426407549f14728de86b941821cff2770c7fd485609ac6c3bfe59bf0d96a731",
+    "action":"repay",
+    "address":"0xe47eeb71b194fb65f83c4bdfd2eb7dc10fe0dea4",
+    "asset":"BNB",
+    "amount":2108.0499606516096,
+    "usdvalue":1187843.4437349793
+  },
+  {
+    "id":"0488a16247cc",
+    "txtime":1712043346,
+    "tx":"0x22504b20826e899417c198e077be580ef0b8b656b5c20b325f9c4fe7960b4a45",
+    "action":"repay",
+    "address":"0xc6396e4dd7642208f83b4bf955bbd2a602432c1d",
+    "asset":"BNB",
+    "amount":3514.9335,
+    "usdvalue":1980593.81469729
+  },
+  {
+    "id":"58108d6b8b30",
+    "txtime":1712043716,
+    "tx":"0x3e179dbf0a977d44240386a90b0a0ab1c6220985b9c6f202e27d3185881703b6",
+    "action":"unstake",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "vault":"VAI Vault",
+    "asset":"VAI",
+    "amount":1000000.0,
+    "usdvalue":1000000.0
+  },
+  {
+    "id":"20bc1a726c50",
+    "txtime":1712043875,
+    "tx":"0xe018b6cfb292a1cc0f279ef5017e69a12d41e0159aea136a7592febec91ea3db",
+    "action":"unstake",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "vault":"VAI Vault",
+    "asset":"VAI",
+    "amount":1000000.0,
+    "usdvalue":1000000.0
+  },
+  {
+    "id":"3ac3b94db585",
+    "txtime":1712043974,
+    "tx":"0xfdb0712c736bc0e37e035638c8a8ac9a2897f93b911c42af0950bbe27c6970fa",
+    "action":"withdraw",
+    "address":"0xe47eeb71b194fb65f83c4bdfd2eb7dc10fe0dea4",
+    "asset":"USDC",
+    "amount":2371665.20767137,
+    "usdvalue":2371708.4431281057
+  },
+  {
+    "id":"ae0073ab79fa",
+    "txtime":1712044563,
+    "tx":"0xbcedc9efc724cafc38c97262be1cb0a3842650752d21462ec9ca69eb09f811de",
+    "action":"repay",
+    "address":"0x60618d7f1966310d90177640880edaed41e15f2d",
+    "asset":"BNB",
+    "amount":2620.0,
+    "usdvalue":1468565.1772
+  },
+  {
+    "id":"04d82e715c69",
+    "txtime":1712044902,
+    "tx":"0xfd754d508eb4955829ef19b8cd8ad9ffa4e366b7854c3aa2c1b76c573d8cc95e",
+    "action":"repay",
+    "address":"0xc3b44e0a944c61faf26afa288ca5ca979c63dd6d",
+    "asset":"BNB",
+    "amount":7017.0,
+    "usdvalue":3935564.78110719
   }
 ]
