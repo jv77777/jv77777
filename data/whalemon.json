@@ -138757,5 +138757,55 @@
     "asset":"BTCB",
     "amount":29.999998178367942,
     "usdvalue":1995708.0789664655
+  },
+  {
+    "id":"03512cc16e03",
+    "txtime":1712048451,
+    "tx":"0x1dc9c39790724e2765518a0a04fed368058e4fd43be9df6566aa25e6d38ce04c",
+    "action":"supply",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"BTCB",
+    "amount":29.99999285,
+    "usdvalue":1988568.126057817
+  },
+  {
+    "id":"6dcc437555ac",
+    "txtime":1712049873,
+    "tx":"0x8b604cfbd684382a407af1c3a33ce79d5fa554c520f2d31e5214139e9d8c873d",
+    "action":"withdraw",
+    "address":"0x1eb8e8ed26a5c8d7fe913677e278c92d13e50b99",
+    "asset":"BTCB",
+    "amount":52.400469806752845,
+    "usdvalue":3485514.714070006
+  },
+  {
+    "id":"e02ac74f1d57",
+    "txtime":1712049957,
+    "tx":"0xae156d8182c86382d5935a4c6d1d069655a636d1dfa2dc2b1c6818ada2091b2d",
+    "action":"withdraw",
+    "address":"0x1eb8e8ed26a5c8d7fe913677e278c92d13e50b99",
+    "asset":"ETH",
+    "amount":1450.080704944751,
+    "usdvalue":4859743.453521306
+  },
+  {
+    "id":"5d32f44788ca",
+    "txtime":1712050962,
+    "tx":"0x9f88028788480d74dbd2dd52bd8d9140578e2f038e129eb02631dcc89d0f6415",
+    "action":"repay",
+    "address":"0x46f4a6bf81a41d2b5ada059d43b959b8e6068fe2",
+    "asset":"BNB",
+    "amount":3312.5331003866,
+    "usdvalue":1858322.6223574765
+  },
+  {
+    "id":"d1de41fd6c65",
+    "txtime":1712051614,
+    "tx":"0x20aee7ee124fdb1080de4dc00df45d1633144065e5cc7bebde2eef79700e517a",
+    "action":"borrow",
+    "address":"0xee439ee079ac05d9d33a6926a16e0c820fb2713a",
+    "asset":"USDT",
+    "amount":2500000.0,
+    "usdvalue":2501500.0
   }
 ]
