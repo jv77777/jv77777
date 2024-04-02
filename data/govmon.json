@@ -3912,5 +3912,19 @@
       "0x795de779be00ea46ea97a28bdd38d9ed570bcf0f.setSymbol(\"vEURA_Stablecoins\")",
       "0x2b8a1c539abac89cbf7e2bc6987a0a38a5e660d4.upgradeTo(0x1ec822383805ffdb9dc2ae456df8c0ca2bf14d7d)"
     ]
+  },
+  {
+    "id":"279",
+    "type":"Fasttrack",
+    "title":"VIP-279 Recover XVS rewards from bad debtors",
+    "description":"Related to the <a href=\"https://app.venus.io/#/governance/proposal/276\">VIP-276</a>, if this VIP passes, it will recover all XVS rewards allocated to the pending 12 wallets whose bad debt was removed in the <a href=\"https://app.venus.io/#/governance/proposal/244\">VIP-244</a>, for an estimated total of 125 XVS.\n\nThe recovered XVS will be sent to the <a href=\"https://bscscan.com/address/0xfD36E2c2a6789Db23113685031d7F16329158384\">XVS Distributor contract</a>, on BNB Chain.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/195\">VIP simulation</a>",
+    "endblock":37544004,
+    "eta":1712170038,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384.seizeVenus([0xbd043882d36b6def4c30f20c613cfa70d3af8bb7, 0x0f2577ccb1e895ed1e8bfd4e709706595831e78a, 0x7eb163e6d0562d8534ab198551b7bf8815371152], 0xfd36e2c2a6789db23113685031d7f16329158384)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384.seizeVenus([0x1e85d99e182557960e2b86bb53ca417007eed16a, 0x7b899b97afacd8b9654a447b4db016ba430f6d11, 0x4f381fb46dfde2bc9dcae2d881705749b1ed6e1a], 0xfd36e2c2a6789db23113685031d7f16329158384)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384.seizeVenus([0x3b7f525dc67cca55251abb5d04c81a83a6005269, 0x55f6dc97d739f52d66c7332c2f93016a4c9d852d, 0xb38a6184069cf136ee9d145c6acf564dd10fd195], 0xfd36e2c2a6789db23113685031d7f16329158384)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384.seizeVenus([0xe62721e908b7cbd4f92a014d5ccf07adbf71933b, 0x8dcf5f960c38fd1861a4d036513adde829d63d81, 0x3762e67e24b9b44cea8e89163aba9d4015e27d40], 0xfd36e2c2a6789db23113685031d7f16329158384)"
+    ]
   }
 ]
