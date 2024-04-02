@@ -138807,5 +138807,45 @@
     "asset":"USDT",
     "amount":2500000.0,
     "usdvalue":2501500.0
+  },
+  {
+    "id":"e75144429922",
+    "txtime":1712052520,
+    "tx":"0xc50c8dc2a0ee50b5189b25298e2a3fed002a260c9d2c08324e4103bd34a26123",
+    "action":"repay",
+    "address":"0x2e1f4e7782030d5a14930448294be30f4e1a8b17",
+    "asset":"BNB",
+    "amount":4215.0,
+    "usdvalue":2354551.6131474
+  },
+  {
+    "id":"4beb9bdb6680",
+    "txtime":1712053513,
+    "tx":"0xb1bf080d3856f6206e305c57733d865c66402f1b855b51e1141ea7ab6b73de1f",
+    "action":"withdraw",
+    "address":"0xcdc8bbc2c740e44e9231dc3a8842800aa2433d18",
+    "asset":"USDT",
+    "amount":5652976.405249206,
+    "usdvalue":5654682.473528311
+  },
+  {
+    "id":"74b73d7eacfe",
+    "txtime":1712053441,
+    "tx":"0xb1804ce0ff95a1ca3f1f990158c2f5e1fc2a7a046420435eeb801f9736fe01a2",
+    "action":"withdraw",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"CAKE",
+    "amount":278773.5987178036,
+    "usdvalue":1125796.2317646563
+  },
+  {
+    "id":"c91b689114b7",
+    "txtime":1712055129,
+    "tx":"0x26ece4370320f6a861b48cf90e50561b40e1bf0c223b1ae97b13c0b4d1160f8a",
+    "action":"withdraw",
+    "address":"0x2e1f4e7782030d5a14930448294be30f4e1a8b17",
+    "asset":"BTCB",
+    "amount":41.41921265255945,
+    "usdvalue":2721840.3647038587
   }
 ]
