@@ -139187,5 +139187,46 @@
     "asset":"ETH",
     "amount":860.000946,
     "usdvalue":2846947.1316384
+  },
+  {
+    "id":"11a543122e69",
+    "txtime":1712149379,
+    "tx":"0x7d2de90b79f5c63a54da5bfe69eaaa5c9c4c7021df7195e52e23cdb816e57ff8",
+    "action":"supply",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"CAKE",
+    "amount":478839.9035327288,
+    "usdvalue":1872719.1409876815
+  },
+  {
+    "id":"5fbf6d06857d",
+    "txtime":1712149420,
+    "tx":"0x989b6842ea6050c69c0ea7d04a2f318521ec94f66289cf36584b2ed453d7e81e",
+    "action":"withdraw",
+    "address":"0xd620aadabaa20d2af700853c4504028cba7c3333",
+    "asset":"FDUSD",
+    "amount":4840037.318240821,
+    "usdvalue":4834835.439732669
+  },
+  {
+    "id":"00f8d2e8cf74",
+    "txtime":1712149488,
+    "tx":"0xe076b6a3e275c7bb8b7acd87cd850f344d741c2f323dd474cf7a73ba7ab7496b",
+    "action":"stake",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "vault":"VAI Vault",
+    "asset":"VAI",
+    "amount":1000000.0,
+    "usdvalue":1000000.0
+  },
+  {
+    "id":"a1420d55d84b",
+    "txtime":1712152347,
+    "tx":"0x66fbe3aa307704bff187f7499c722a0069b8d76d2c8be3738240d6afc6c3b04f",
+    "action":"borrow",
+    "address":"0x68905445e7b9a4f1f01a537bed3f569764ad0de1",
+    "asset":"BNB",
+    "amount":6000.0,
+    "usdvalue":3325796.856
   }
 ]
