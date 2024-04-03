@@ -139288,5 +139288,35 @@
     "asset":"FDUSD",
     "amount":4860046.3484677905,
     "usdvalue":4854822.965054312
+  },
+  {
+    "id":"9cba3c0fa86f",
+    "txtime":1712169827,
+    "tx":"0x3456a1063bd7d98886150e73dc4f28f4cd59225bf3edc97f016c682b6b2e8063",
+    "action":"supply",
+    "address":"0x160f6ef9fcdde6ff3febc7a57edbfd476a8aab5b",
+    "asset":"BTCB",
+    "amount":63.51743208,
+    "usdvalue":4180602.8418232366
+  },
+  {
+    "id":"693a2ceb9380",
+    "txtime":1712169852,
+    "tx":"0xdc0357274e280980f471816446c3fb0fb96f1f59443976e8f490e0c3dccd2314",
+    "action":"borrow",
+    "address":"0x160f6ef9fcdde6ff3febc7a57edbfd476a8aab5b",
+    "asset":"USDT",
+    "amount":3000000.0,
+    "usdvalue":3001273.17
+  },
+  {
+    "id":"bb088eade05d",
+    "txtime":1712169800,
+    "tx":"0x09def7c4fe446bd89c2ea3ddc63334dd00f65a7d8063ecd0dacca430b2589e00",
+    "action":"repay",
+    "address":"0x160f6ef9fcdde6ff3febc7a57edbfd476a8aab5b",
+    "asset":"FDUSD",
+    "amount":1184151.676502905,
+    "usdvalue":1182878.9976470668
   }
 ]
