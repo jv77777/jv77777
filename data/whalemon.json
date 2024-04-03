@@ -139318,5 +139318,16 @@
     "asset":"FDUSD",
     "amount":1184151.676502905,
     "usdvalue":1182878.9976470668
+  },
+  {
+    "id":"0973f6f8420c",
+    "txtime":1712183421,
+    "tx":"0x3a99fed05433d678abe83940b58e1ca19f05c43d2dd18e0f77c9c8707c8047e7",
+    "action":"unstake",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "vault":"VAI Vault",
+    "asset":"VAI",
+    "amount":1000000.0,
+    "usdvalue":1000000.0
   }
 ]
