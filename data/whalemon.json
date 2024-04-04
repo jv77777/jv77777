@@ -139329,5 +139329,15 @@
     "asset":"VAI",
     "amount":1000000.0,
     "usdvalue":1000000.0
+  },
+  {
+    "id":"c502dfc9483b",
+    "txtime":1712186025,
+    "tx":"0x9941832247cd7d1241e5fa650b17a8e01c8d9f6384bd80cad1a114396b57c21c",
+    "action":"withdraw",
+    "address":"0x3e319ec2f4bb55ee716a05ced471059b971552be",
+    "asset":"USDC",
+    "amount":1201737.9579737117,
+    "usdvalue":1201753.8329321365
   }
 ]
