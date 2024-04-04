@@ -139679,5 +139679,25 @@
     "asset":"ETH",
     "amount":940.0,
     "usdvalue":3106897.4
+  },
+  {
+    "id":"ab3e933ec478",
+    "txtime":1712214189,
+    "tx":"0x3c9c5bd4b066d3a7aaf5428e50f7b366ee75f0d866bb4b4dfc3ca09357d36736",
+    "action":"repay",
+    "address":"0xd620aadabaa20d2af700853c4504028cba7c3333",
+    "asset":"ETH",
+    "amount":939.9996,
+    "usdvalue":3112192.245122511
+  },
+  {
+    "id":"7dfb24e7eefc",
+    "txtime":1712217168,
+    "tx":"0xe46da1d34bcc0fced15f4b93d86e13f7675f86f1d052c9bce068fb4fbafd41f9",
+    "action":"supply",
+    "address":"0x1da8b0b739190837716cfbe656b2b55b06efea75",
+    "asset":"USDT",
+    "amount":1457150.4129983,
+    "usdvalue":1456865.7003791044
   }
 ]
