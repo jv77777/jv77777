@@ -139339,5 +139339,15 @@
     "asset":"USDC",
     "amount":1201737.9579737117,
     "usdvalue":1201753.8329321365
+  },
+  {
+    "id":"255bbee0618e",
+    "txtime":1712189351,
+    "tx":"0xb522143912b9ffbece046178bec09579fe1074c88f8ed1ce86e774cb9ab4840e",
+    "action":"withdraw",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"CAKE",
+    "amount":500000.0,
+    "usdvalue":1992430.06
   }
 ]
