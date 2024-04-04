@@ -140489,5 +140489,55 @@
     "asset":"WBETH",
     "amount":1000.0312609578539,
     "usdvalue":3427220.90854924
+  },
+  {
+    "id":"4c418a0d044f",
+    "txtime":1712269091,
+    "tx":"0x07e6dd4b2d3a6c8339a6bbda0e7cfa801c07365993becade50d13ee4f1ff4aef",
+    "action":"borrow",
+    "address":"0x15f688feed7f014b933d306a74bc5d11506f54b9",
+    "asset":"BNB",
+    "amount":9000.0,
+    "usdvalue":5256383.73084
+  },
+  {
+    "id":"e7c0be339bea",
+    "txtime":1712269349,
+    "tx":"0x480451495e5820d763629043b3237588f2d901f71aaecfb24451d96b99cda4c4",
+    "action":"borrow",
+    "address":"0x47ce50339162b2374dfb1dff0d7915804a2be665",
+    "asset":"BNB",
+    "amount":14000.0,
+    "usdvalue":8219382.26956
+  },
+  {
+    "id":"80b3405bc4cb",
+    "txtime":1712269421,
+    "tx":"0xd63f1e6462b4cadbe189bd5f6aabfdbe954d74ccdcc74e62956f5fc7ff7bbb8e",
+    "action":"borrow",
+    "address":"0x47ce50339162b2374dfb1dff0d7915804a2be665",
+    "asset":"BNB",
+    "amount":14500.0,
+    "usdvalue":8512931.63633
+  },
+  {
+    "id":"8a082a855fc2",
+    "txtime":1712270807,
+    "tx":"0xa7bd06d7561a4ed2ce8821e30c19ae270b8d863258186ca016f0273a9bb0d0e5",
+    "action":"borrow",
+    "address":"0xc6396e4dd7642208f83b4bf955bbd2a602432c1d",
+    "asset":"BNB",
+    "amount":2200.0,
+    "usdvalue":1283539.669126
+  },
+  {
+    "id":"86f492a13d92",
+    "txtime":1712271693,
+    "tx":"0x84069df182c4822941954309058883cd6bf5b3dae4b56f0e5a1f5f20e4f490dd",
+    "action":"supply",
+    "address":"0x26bc7ad08ad06da041c11ab4e28a7137d476b904",
+    "asset":"BTCB",
+    "amount":34.75858715,
+    "usdvalue":2360059.5204558666
   }
 ]
