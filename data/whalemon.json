@@ -139349,5 +139349,25 @@
     "asset":"CAKE",
     "amount":500000.0,
     "usdvalue":1992430.06
+  },
+  {
+    "id":"83f882c0ee1f",
+    "txtime":1712195275,
+    "tx":"0x2143c7f34cf22cfacd1f27593717ce49c035c08d8dbd24d095bd73c7be1a852d",
+    "action":"supply",
+    "address":"0x9236c6859905921015603d420c3ec28289ebb9dc",
+    "asset":"USDT",
+    "amount":2000014.52847842,
+    "usdvalue":2000809.454252909
+  },
+  {
+    "id":"55b47f2506cf",
+    "txtime":1712195500,
+    "tx":"0x3cdb9b8b3110f8ee1af17be62b7fce0c98b7374919a16a97587b6c7f3f327e45",
+    "action":"supply",
+    "address":"0x9236c6859905921015603d420c3ec28289ebb9dc",
+    "asset":"USDC",
+    "amount":2000000.37125496,
+    "usdvalue":2000037.371261828
   }
 ]
