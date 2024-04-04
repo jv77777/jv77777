@@ -139629,5 +139629,45 @@
     "asset":"USDT",
     "amount":3479595.67,
     "usdvalue":3479734.8538268
+  },
+  {
+    "id":"c10dc0d67913",
+    "txtime":1712207261,
+    "tx":"0xab10095a08ac39af73e6a78bb68dca8b2c9e7cf7dd1f061dad52b4e077685668",
+    "action":"withdraw",
+    "address":"0x4d6ddfee047195528734026780f69b0604492855",
+    "asset":"USDT",
+    "amount":3002206.275200831,
+    "usdvalue":3002326.3634518385
+  },
+  {
+    "id":"45b7e19489d7",
+    "txtime":1712208140,
+    "tx":"0xa3fa25eb73e687f742fd0244717a39a76b324884a83bb193a1d9ed02bb5e1783",
+    "action":"withdraw",
+    "address":"0x1da8b0b739190837716cfbe656b2b55b06efea75",
+    "asset":"USDC",
+    "amount":4730627.719774622,
+    "usdvalue":4730391.188388633
+  },
+  {
+    "id":"dbd761bc2203",
+    "txtime":1712209333,
+    "tx":"0xe1dd8cef81d557caa3dc48a2d6f8e6c5787f0616e99e69f7f1861b78d3dadcfa",
+    "action":"supply",
+    "address":"0x1da8b0b739190837716cfbe656b2b55b06efea75",
+    "asset":"USDT",
+    "amount":3273029.67,
+    "usdvalue":3273422.4335604
+  },
+  {
+    "id":"aa928b4b363e",
+    "txtime":1712209620,
+    "tx":"0x442e658a5a0f5d17ac62551b9d80c96f1a6c87bfa63dfdb3d3ff008040979327",
+    "action":"supply",
+    "address":"0xc72f3295b7fe847ec99e3a3c6dd6e90db5e1061b",
+    "asset":"CAKE",
+    "amount":2000195.3216452794,
+    "usdvalue":7873290.936984535
   }
 ]
