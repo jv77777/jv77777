@@ -140119,5 +140119,45 @@
     "asset":"BTCB",
     "amount":19.99999,
     "usdvalue":1356208.463695829
+  },
+  {
+    "id":"b4c06b07f665",
+    "txtime":1712247357,
+    "tx":"0xa12b724fc69e66f80c3960d1490b4b42931ccba9d55e4dd9df3422b8b37875b0",
+    "action":"borrow",
+    "address":"0xda63c095d885567e606e05b8fe0a21a625cb190b",
+    "asset":"BNB",
+    "amount":11000.0,
+    "usdvalue":6510828.17242
+  },
+  {
+    "id":"6e78bfe7d715",
+    "txtime":1712247759,
+    "tx":"0x3137d6f60d9a39d26211f7987893bd22a2ec0c68ae71c0e046e04355df998b3b",
+    "action":"supply",
+    "address":"0xcaa21f48f663b8bac43b80aaad6a1cc4b5bef35d",
+    "asset":"BTCB",
+    "amount":58.63,
+    "usdvalue":3970461.100748228
+  },
+  {
+    "id":"4ff29e22b857",
+    "txtime":1712247771,
+    "tx":"0xd224eaf6211c11a65c528575695ca9541c6a9e7e4c3fe919e556bb59eb252c0e",
+    "action":"supply",
+    "address":"0xc3e0cb5d51d7653c26aab3236d6c2d6487f58712",
+    "asset":"BTCB",
+    "amount":20.42931265,
+    "usdvalue":1383486.119594895
+  },
+  {
+    "id":"43165505dcfb",
+    "txtime":1712247846,
+    "tx":"0x0ab4ea4542cf1f1497735cb5911ebb23b997ad2a62c8b2ea48aeceec40dfdb52",
+    "action":"borrow",
+    "address":"0xc3e0cb5d51d7653c26aab3236d6c2d6487f58712",
+    "asset":"BNB",
+    "amount":2100.0,
+    "usdvalue":1242976.287462
   }
 ]
