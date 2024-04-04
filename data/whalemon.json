@@ -139669,5 +139669,15 @@
     "asset":"CAKE",
     "amount":2000195.3216452794,
     "usdvalue":7873290.936984535
+  },
+  {
+    "id":"676ae4d04621",
+    "txtime":1712212719,
+    "tx":"0x99c2d6944688acc6bc9b89a4214a951eff102ce3b66e93fc2e59c3904e560148",
+    "action":"borrow",
+    "address":"0xd620aadabaa20d2af700853c4504028cba7c3333",
+    "asset":"ETH",
+    "amount":940.0,
+    "usdvalue":3106897.4
   }
 ]
