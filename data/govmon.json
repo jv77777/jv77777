@@ -4514,5 +4514,16 @@
       "0xd039b647603219d6d39c051c25f945c0e53d75f3.redeemAndBatchRepay(0xfd5840cd36d94d7229439859c0112a4185bc0255, [0x4258ddfdec7538c70edc3189e81e779a6f9f4629, 0xf6ada09f201691a5372ec2bb31e00d86c65fd0e2, 0xf4f66e38c5d9234a5bf66bc310047d59c4ae571f, 0x8d655aaaa0ec224b17972df385e25325b9103332, 0x913453a769713a692ee97ee9dce5e097a5768a95, 0x0150bc2a8df90328c6b957ed03a8725462d0b4bb, 0x967a6c838893f77a645bbfc4375a2cdceb6ac267, 0x1f6d66ba924ebf554883cf84d482394013ed294b, 0xdd03adbffdddf04cb2485b61c869c75ed47e7d55], 0xf322942f644a996a617bd29c16bd7d231d9f35e9)",
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 3500000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
     ]
+  },
+  {
+    "id":"282",
+    "type":"Normal",
+    "title":"VIP-282 Upgrade the XVSVaultTreasury contract",
+    "description":"#### Summary\n\nIf passed, this VIP will upgrade the implementation of the <a href=\"https://bscscan.com/address/0x269ff7818DB317f60E386D2be0B259e1a324a40a\">XVSVaultTreasury</a> contract, allowing <a href=\"https://bscscan.com/address/0x939bD8d64c0A9583A7Dcea9933f7b21697ab6396\">Governance</a> to transfer any tokens held by that contract to arbitrary wallets.\n\n#### Details\n\nThe current implementation of the <a href=\"https://bscscan.com/address/0x269ff7818DB317f60E386D2be0B259e1a324a40a\">XVSVaultTreasury</a> contract only allows the transfer of XVS tokens to the <a href=\"https://bscscan.com/address/0x1e25CF968f12850003Db17E0Dba32108509C4359\">XVSStore</a> contract (used by the <a href=\"https://bscscan.com/address/0x051100480289e704d20e9DB4804837068f3f9204\">XVSVault</a> contract as the source of rewards). If any token is sent to the XVSVaultTreasury by mistake, or if the Venus Community wants to transfer some XVS tokens from the XVSVaultTreasury to any other wallet, it would need the new function added with the new implementation.\n\n#### Security and additional considerations\n\nWe applied the following security procedures for this upgrade:\n\n- <b>VIP execution simulation</b>: in a simulation environment, validating the new implementation is properly configured after the execution\n- <b>Deployment on testnet</b>: the same contract has been upgraded on BNB testnet, using the same new implementation, and used in the Venus Protocol testnet environment\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/253\">VIP simulation</a>\n- <a href=\"https://bscscan.com/address/0xA95a4F34337d8FaC283C3e3D2a605b95DA916cD6\">New XVSVaultTreasury implementation</a>\n- <a href=\"https://github.com/VenusProtocol/protocol-reserve/pull/84/\">Code of the new XVSVaultTreasury contract</a>\n- <a href=\"https://testnet.bscscan.com/tx/0x6572038297b7974531a9858dbf141c132778659f343615da9bd0f4bb583bbc58\">VIP executed on BNB testnet</a>",
+    "endblock":37625183,
+    "eta":1712413996,
+    "actions":[
+      "0x6beb6d2695b67feb73ad4f172e8e2975497187e4.upgrade(0x269ff7818db317f60e386d2be0b259e1a324a40a, 0xa95a4f34337d8fac283c3e3d2a605b95da916cd6)"
+    ]
   }
 ]
