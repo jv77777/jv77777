@@ -4538,5 +4538,17 @@
       "0x051100480289e704d20e9db4804837068f3f9204.setRewardAmountPerBlock(0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63, 63888888888888888)",
       "0x269ff7818db317f60e386d2be0b259e1a324a40a.sweepToken(0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63, 0xf322942f644a996a617bd29c16bd7d231d9f35e9, 21789170000000000000000)"
     ]
+  },
+  {
+    "id":"284",
+    "type":"Fasttrack",
+    "title":"VIP-284 Risk Parameters Adjustments (FDUSD, USDT, WBETH)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-04-01-24/4238\">Risk Parameter Updates 04/01/24</a>.\n\n- <a href=\"https://bscscan.com/address/0xC4eF4229FEc74Ccfe17B2bdeF7715fAC740BA0ba\">FDUSD (Core pool)</a>\n    - Increase borrow cap, from 16M FDUSD to 24M FDUSD\n- <a href=\"https://bscscan.com/address/0xfD5840Cd36d94D7229439859C0112a4185BC0255\">USDT (Core pool)</a>\n    - Increase supply cap, from 400M USDT to 500M USDT\n    - Increase borrow cap, from 300M USDT to 450M USDT\n- <a href=\"https://bscscan.com/address/0x6CFdEc747f37DAf3b87a35a1D9c8AD3063A1A8A0\">WBETH (Core pool)</a>\n    - Increase borrow cap, from 8K WBETH to 16K WBETH\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/254\">https://github.com/VenusProtocol/vips/pull/254</a>",
+    "endblock":37661591,
+    "eta":1712523477,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xfd5840cd36d94d7229439859c0112a4185bc0255], [500000000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba, 0xfd5840cd36d94d7229439859c0112a4185bc0255, 0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [24000000000000000000000000, 450000000000000000000000000, 16000000000000000000000])"
+    ]
   }
 ]
