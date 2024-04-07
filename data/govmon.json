@@ -4550,5 +4550,18 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xfd5840cd36d94d7229439859c0112a4185bc0255], [500000000000000000000000000])",
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba, 0xfd5840cd36d94d7229439859c0112a4185bc0255, 0x6cfdec747f37daf3b87a35a1d9c8ad3063a1a8a0], [24000000000000000000000000, 450000000000000000000000000, 16000000000000000000000])"
     ]
+  },
+  {
+    "id":"285",
+    "type":"Normal",
+    "title":"VIP-285 Move from PancakeSwap V2 to PancakeSwap V3 the protocol USDT/VAI liquidity",
+    "description":"#### Summary\n\nIf passed, this VIP will perform the following actions:\n\n* Redeem PancakeSwap v2 LP tokens from the <a href=\"https://pancakeswap.finance/info/pairs/0xD94FeFc80a7d10d4708b140c7210569061a7eddb?chain=bsc\">v2 pool</a>, supplied at <a href=\"https://app.venus.io/#/governance/proposal/108?chainId=56\">VIP-108</a>\n* Deposit the received USDT/VAI to a PCS v3 pool (plus 1,598 VAI held by the Normal Timelock, not used at VIP-108)\n\n#### Specifications\n\nThis VIP redeems PancakeSwap v2 LP tokens from the <a href=\"https://pancakeswap.finance/info/pairs/0xD94FeFc80a7d10d4708b140c7210569061a7eddb?chain=bsc\">v2 pool</a> (previously supplied at <a href=\"https://app.venus.io/#/governance/proposal/108?chainId=56\">VIP-108</a>) and deposits the received USDT/VAI to a PCS v3 pool. The range is 500 ticks concentrated somewhere between [0.966, 1.036] depending on the current spot price.\n\n* The lowest possible range is if the spot price is 0.990 USDT/VAI, it's equal to [0.966, 1.015]\n* The highest possible range is if the spot price is 1.010 USDT/VAI, it's equal to [0.985, 1.035]\n* If the spot price is lower than 0.990 USDT/VAI or higher than 1.010 USDT/VAI, the VIP will not be executable until the spot price is back to expected values\n\nThis approach allows for maximizing the supplied amount since the tokens are added proportionally and no excess of a single token is required.\n\nThe minted NFT token will be sent to the <a href=\"https://bscscan.com/address/0x939bD8d64c0A9583A7Dcea9933f7b21697ab6396\">Normal Timelock</a>. The <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a> will receive the surplus liquidity.\n\nThis VIP uses a intermediary contract to perform the movement: <a href=\"https://bscscan.com/address/0xcE18DA58f469A2dA9decDf1B168494240430D1D4\">LiquidityMover</a>\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/213\">https://github.com/VenusProtocol/vips/pull/213</a>\n",
+    "endblock":37690417,
+    "eta":1712610104,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xd94fefc80a7d10d4708b140c7210569061a7eddb, 176508405573652762506292, 0xce18da58f469a2da9decdf1b168494240430d1d4)",
+      "0x4bd17003473389a42daf6a0a729f6fdb328bbbd7.transfer(0xce18da58f469a2da9decdf1b168494240430d1d4, 1598336577715436018042)",
+      "0xce18da58f469a2da9decdf1b168494240430d1d4.moveLiquidity((0xd94fefc80a7d10d4708b140c7210569061a7eddb, 180000000000000000000000, 180000000000000000000000, 100, -100, 100, 250, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396, 0xf322942f644a996a617bd29c16bd7d231d9f35e9, 1712790000))"
+    ]
   }
 ]
