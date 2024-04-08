@@ -4563,5 +4563,16 @@
       "0x4bd17003473389a42daf6a0a729f6fdb328bbbd7.transfer(0xce18da58f469a2da9decdf1b168494240430d1d4, 1598336577715436018042)",
       "0xce18da58f469a2da9decdf1b168494240430d1d4.moveLiquidity((0xd94fefc80a7d10d4708b140c7210569061a7eddb, 180000000000000000000000, 180000000000000000000000, 100, -100, 100, 250, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396, 0xf322942f644a996a617bd29c16bd7d231d9f35e9, 1712790000))"
     ]
+  },
+  {
+    "id":"286",
+    "type":"Fasttrack",
+    "title":"VIP-286 Ethereum: increase XVS mint cap",
+    "description":"#### Disclaimer for Ethereum VIPs\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are deployed. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0xa8306df72040b6882b82b599569661a680b542ff708438a5456fd7969ac70f86\">this multisig transaction</a> will be executed. Otherwise, it will be rejected.\n\n#### Description\n\nThis VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-recommendations-increase-xvs-minting-cap-04-07-24/4247\">Chaos Labs Recommendations - Increase XVS Minting Cap 04/07/24</a>.\n\n- Increase mint cap of the <a href=\"https://etherscan.io/address/0xd3CC9d8f3689B83c91b7B59cAB4946B063EB894A\">XVS</a> token on Ethereum via the <a href=\"https://etherscan.io/address/0x888E317606b4c590BBAD88653863e8B345702633\">XVS bridge</a>, from 500,000 XVS to 1,250,000 XVS\n\nSimulation of the multisig transaction: <a href=\"https://github.com/VenusProtocol/vips/pull/257\">https://github.com/VenusProtocol/vips/pull/257</a>",
+    "endblock":37712905,
+    "eta":1712677713,
+    "actions":[
+      "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
+    ]
   }
 ]
