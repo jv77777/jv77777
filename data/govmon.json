@@ -4630,5 +4630,17 @@
     "actions":[
       "0x939bd8d64c0a9583a7dcea9933f7b21697ab6396{value: 1}"
     ]
+  },
+  {
+    "id":"291",
+    "type":"Fasttrack",
+    "title":"VIP-291 Prime Adjustment",
+    "description":"If passed, this VIP will follow the recommendations from the <a href=\"https://community.venus.io/t/prime-adjustment-proposal-q2-2024/4273\">Prime Adjustment Proposal - Q2 2024</a> (<a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0x73f58f48f6950e162fc9b47e84f5fed96ce195f06ed19ab2a8a1f5766ccf8dc0\">snapshot</a>) and set the following Prime configuration (compared with the previous configuration, set in the <a href=\"https://app.venus.io/#/governance/proposal/241?chainId=56\">VIP-241</a>):\n\nNew reward distribution proposal (how the <a href=\"https://docs-v4.venus.io/governance/tokenomics#revenue-distribution-from-protocol-reserves\">income allocated to the Prime program</a> is distributed among the Prime markets):\n\n- BTC: 5% (0%)\n- ETH: 15% (-10%)\n- USDC: 40% (+10%)\n- USDT: 40% (0%)\n\n3-month reward distribution recommendations (rewards to be distributed among Prime holders):\n\n- BTC: 0.72 (-0.07)\n- ETH: 71.35 (-1.04)\n- USDC: 300,000 (+75,000)\n- USDT: 400,000 (+100,000)\n\nTotal rewards for 3 months: $1,000,000. These funds are already available in the <a href=\"https://bscscan.com/address/0x23c4F844ffDdC6161174eB32c770D4D8C07833F2\">PrimeLiquidityProvider</a> contract, thanks to the <a href=\"https://docs-v4.venus.io/whats-new/automatic-income-allocation\">Automatic Income Allocation</a> system.\n\nThe token amounts have been adjusted based on token prices for April 01 2024, block number: 37463959\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/261\">VIP simulation</a>\n- <a href=\"https://docs-v4.venus.io/whats-new/prime-yield\">Documentation</a>",
+    "endblock":38005115,
+    "eta":1713556113,
+    "actions":[
+      "0xca01d5a9a248a830e9d93231e791b1affed7c446.addOrUpdateDistributionConfigs([(0, 400, 0xa758c9c215b6c4198f0a0e3fa46395fa15db691b), (0, 150, 0xca430b8a97ea918ff634162acb0b731445b8195e)])",
+      "0x23c4f844ffddc6161174eb32c770d4d8c07833f2.setTokensDistributionSpeed([0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c, 0x2170ed0880ac9a755fd29b2688956bd959f933f8, 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 0x55d398326f99059ff775485246999027b3197955], [277777777777, 27527006172839, 115740740740740740, 154320987654320987])"
+    ]
   }
 ]
