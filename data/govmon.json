@@ -4729,5 +4729,18 @@
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xeca88125a5adbe82614ffc12d0db554e2e2867c8, 299081273300000, 0xd039b647603219d6d39c051c25f945c0e53d75f3)",
       "0xd039b647603219d6d39c051c25f945c0e53d75f3.redeemAndTransfer(0xeca88125a5adbe82614ffc12d0db554e2e2867c8, 0xfb1912af5b9d3fb678f801bf764e98f1c217ef35)"
     ]
+  },
+  {
+    "id":"298",
+    "type":"Fasttrack",
+    "title":"VIP-298 Risk Parameters Adjustments (USDT, crvUSD, UNI, CAKE)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-04-23-24/4299\">Chaos Labs - Risk Parameter Updates - 04/23/24</a>.\n\n<b>BNB Chain</b>\n\n- <a href=\"https://bscscan.com/address/0x27FF564707786720C71A2e5c1490A63266683612\">UNI (Core pool)</a>\n    - Increase supply cap, from 400K to 500K UNI\n- <a href=\"https://bscscan.com/address/0x86aC3974e2BD0d60825230fa6F355fF11409df5c\">CAKE (Core pool)</a>\n    - Increase supply cap, from 21M to 24M CAKE\n- <a href=\"https://bscscan.com/address/0x4978591f17670A846137d9d613e333C38dc68A37\">USDT (GameFi)</a>\n    - Increase supply cap, from 1.2M to 2M USDT\n    - Increase borrow cap, from 1.1M to 1.9M USDT\n\n<b>Ethereum</b>\n\n- <a href=\"https://etherscan.io/address/0x2d499800239C4CD3012473Cb1EAE33562F0A6933\">crvUSD (Curve pool)</a>\n    - Increase supply cap, from 2.5M to 2M crvUSD\n    - Increase borrow cap, from 2M to 4M crvUSD\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/272\">https://github.com/VenusProtocol/vips/pull/272</a>\n\n#### Disclaimer for Ethereum VIPs\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are deployed. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0xfc328abef2fa8924e12776c130feafd52fdb8c54ed4b087d895f6674a70e1e15\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.",
+    "endblock":38313344,
+    "eta":1714482382,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x27ff564707786720c71a2e5c1490a63266683612, 0x86ac3974e2bd0d60825230fa6f355ff11409df5c], [500000000000000000000000, 24000000000000000000000000])",
+      "0x1b43ea8622e76627b81665b1ecebb4867566b963.setMarketSupplyCaps([0x4978591f17670a846137d9d613e333c38dc68a37], [2000000000000000000000000])",
+      "0x1b43ea8622e76627b81665b1ecebb4867566b963.setMarketBorrowCaps([0x4978591f17670a846137d9d613e333c38dc68a37], [1900000000000000000000000])"
+    ]
   }
 ]
