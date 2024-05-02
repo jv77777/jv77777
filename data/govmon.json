@@ -4754,5 +4754,17 @@
       "0x004065d34c6b18ce4370ced1cebde94865dbfafe._setPendingImplementation(0xc1aadea20c755c445d0ca80f01989ccfb32c93cc)",
       "0xc1aadea20c755c445d0ca80f01989ccfb32c93cc._become(0x004065d34c6b18ce4370ced1cebde94865dbfafe)"
     ]
+  },
+  {
+    "id":"300",
+    "type":"Fasttrack",
+    "title":"VIP-300 Risk Parameters Adjustments (FDUSD, FIL)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-04-30-24/4306\">Chaos Labs - Risk Parameter Updates - 04/30/24</a>.\n\n- <a href=\"https://bscscan.com/address/0xC4eF4229FEc74Ccfe17B2bdeF7715fAC740BA0ba\">FDUSD (Core pool)</a>\n    - Increase supply cap, from 30M to 40M FDUSD\n    - Increase borrow cap, from 24M to 34M FDUSD\n- <a href=\"https://bscscan.com/address/0xf91d58b5aE142DAcC749f58A49FCBac340Cb0343\">FIL (Core pool)</a>\n    - Increase supply cap, from 908,500 to 1.2M FIL\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/276\">https://github.com/VenusProtocol/vips/pull/276</a>",
+    "endblock":38399044,
+    "eta":1714740015,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba, 0xf91d58b5ae142dacc749f58a49fcbac340cb0343], [40000000000000000000000000, 1200000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba], [34000000000000000000000000])"
+    ]
   }
 ]
