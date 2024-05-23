@@ -4892,5 +4892,23 @@
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 10518730000000000000000, 0x48e9d2128321cbf75cd108321459865357c00f15)",
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBNB(3000000000000000000, 0x48e9d2128321cbf75cd108321459865357c00f15)"
     ]
+  },
+  {
+    "id":"308",
+    "type":"Fasttrack",
+    "title":"VIP-308 Risk Parameters Adjustments (Stablecoins)",
+    "description":"If passed, this VIP will perform the set changes recommended by Chaos Labs in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-stablecoin-ir-updates-05-17-24/4332\">Chaos Labs - Stablecoin IR Updates - 05/17/24</a>.\n\n- BNB chain\n    - Decrease multiplier (annualized), from 0.1 (8% APR at kink) to 0.0875 (7% APR at kink): <a href=\"https://bscscan.com/address/0xfD5840Cd36d94D7229439859C0112a4185BC0255\">USDT (Core pool)</a> and <a href=\"https://bscscan.com/address/0xecA88125a5ADbe82614ffC12D0DB554E2e2867C8\">USDC (Core pool)</a>\n    - Decrease multiplier (annualized), from 0.125 (10% APR at kink) to 0.0875 (7% APR at kink): <a href=\"https://bscscan.com/address/0x334b3eCB4DCa3593BCCC3c7EBD1A1C1d1780FBF1\">DAI (Core pool)</a> and <a href=\"https://bscscan.com/address/0xC4eF4229FEc74Ccfe17B2bdeF7715fAC740BA0ba\">FDUSD (Core pool)</a>\n    - Decrease multiplier (annualized), from 0.125 (10% APR at kink) to 0.1 (8% APR at kink): <a href=\"https://bscscan.com/address/0xBf762cd5991cA1DCdDaC9ae5C638F5B5Dc3Bee6E\">TUSD (Core pool)</a> and <a href=\"https://bscscan.com/address/0x5e3072305F9caE1c7A82F6Fe9E38811c74922c3B\">USDT (Stablecoins)</a>\n    - Decrease multiplier (annualized), from 0.175 (14% APR at kink) to 0.15 (12% APR at kink): <a href=\"https://bscscan.com/address/0x4978591f17670A846137d9d613e333C38dc68A37\">USDT (GameFi)</a> and <a href=\"https://bscscan.com/address/0x1D8bBDE12B6b34140604E18e9f9c6e14deC16854\">USDT (DeFi)</a>\n- Ethereum\n    - Decrease multiplier (annualized), from 0.125 (10% APR at kink) to 0.0875 (7% APR at kink): <a href=\"https://etherscan.io/address/0x8C3e3821259B82fFb32B2450A95d2dcbf161C24E\">USDT (Core pool)</a>, <a href=\"https://etherscan.io/address/0x17C07e0c232f2f80DfDbd7a95b942D893A4C5ACb\">USDC (Core pool)</a>, <a href=\"https://etherscan.io/address/0x672208C10aaAA2F9A6719F449C4C8227bc0BC202\">crvUSD (Core pool)</a>\n\nComplete analysis and details of these recommendations are available in the above publications.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/290\">https://github.com/VenusProtocol/vips/pull/290</a>\n\n#### Disclaimer for Ethereum commands\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are deployed. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0xabec36a214fcc2d7a93c82cf2da28b280281ea40eaca55d8bf96cc296ec95173\">this</a> multisig transaction will be executed. Otherwise, they will be rejected.",
+    "endblock":39004218,
+    "eta":1716559403,
+    "actions":[
+      "0xfd5840cd36d94d7229439859c0112a4185bc0255._setInterestRateModel(0xbe4609d972fdebaa9dc870f4a957f40c301beb1d)",
+      "0xeca88125a5adbe82614ffc12d0db554e2e2867c8._setInterestRateModel(0xbe4609d972fdebaa9dc870f4a957f40c301beb1d)",
+      "0x334b3ecb4dca3593bccc3c7ebd1a1c1d1780fbf1._setInterestRateModel(0xbe4609d972fdebaa9dc870f4a957f40c301beb1d)",
+      "0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba._setInterestRateModel(0xe19c14171c2ac6ca63e008133e4b0d8571164ba3)",
+      "0xbf762cd5991ca1dcddac9ae5c638f5b5dc3bee6e._setInterestRateModel(0x62a8919c4c413fd4f9aef7348540bc4b1b5cc805)",
+      "0x5e3072305f9cae1c7a82f6fe9e38811c74922c3b.setInterestRateModel(0x2ba0f45f7368d2a56d0c9e5a29af363987be1d02)",
+      "0x4978591f17670a846137d9d613e333c38dc68a37.setInterestRateModel(0x5eca0fbbc5e7bf49dbfb1953a92784f8e4248ef6)",
+      "0x1d8bbde12b6b34140604e18e9f9c6e14dec16854.setInterestRateModel(0x5eca0fbbc5e7bf49dbfb1953a92784f8e4248ef6)"
+    ]
   }
 ]
