@@ -5467,5 +5467,17 @@
     "actions":[
       "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
     ]
+  },
+  {
+    "id":"313",
+    "type":"Normal",
+    "title":"VIP-313 Allocate funding for the Gitcoin Grants Stack Partnership",
+    "description":"#### Summary\n\nIf passed, this VIP will allocate $150,000 USDC to Gitcoin.\n\n#### Description\n\nGitcoin will handle the design, setup, implementation, and management of the rounds atop Gitcoin Grants Stack. The Venus dev team and community will approve grantees, ensuring alignment with strategic goals and ecosystem development priorities.\n\nThe funding rounds will focus on projects contributing to the Venus ecosystem\u2019s growth and development within the following themes:\n\n1. Venus Stablecoin Adoption\n2. Lending and Borrowing Innovations\n3. DeFi / Gaming Integrations\n4. Developer Tools and Libraries\n5. Venus Governance and Community Engagement\n\n#### Actions\n\nSend 150,000 USDC to BEP20 wallet address: <a href=\"https://bscscan.com/address/0x457990a79f64bBf8f09e090C16d017d5e70d3CB3\">0x457990a79f64bBf8f09e090C16d017d5e70d3CB3</a>.\n\n#### References\n\n- <a href=\"https://community.venus.io/t/gitcoin-grants-stack-partnership/4187/10\">Proposal</a>\n- <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0x9043f38a9cc0ca75ded022c2b2a839d377ed83a4ff133834dd3e119864816fcc\">Snapshot</a>",
+    "endblock":39122891,
+    "eta":1716916403,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xeca88125a5adbe82614ffc12d0db554e2e2867c8, 628005000000000, 0xc53ffda840b51068c64b2e052a5715043f634bcd)",
+      "0xc53ffda840b51068c64b2e052a5715043f634bcd.redeemUnderlyingAndTransfer(0xeca88125a5adbe82614ffc12d0db554e2e2867c8, 0x457990a79f64bbf8f09e090c16d017d5e70d3cb3, 150000000000000000000000, 0xf322942f644a996a617bd29c16bd7d231d9f35e9)"
+    ]
   }
 ]
