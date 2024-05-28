@@ -5498,5 +5498,16 @@
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x051100480289e704d20e9db4804837068f3f9204, \"setRewardAmountPerBlockOrSecond(address,uint256)\", 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x051100480289e704d20e9db4804837068f3f9204, \"setRewardAmountPerBlockOrSecond(address,uint256)\", 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)"
     ]
+  },
+  {
+    "id":"315",
+    "type":"Fasttrack",
+    "title":"VIP-315 Risk Parameters Adjustments (weETH, wstETH)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-05-27-24/4364/1\">Chaos Labs - Risk Parameter Updates - 05/27/24</a>.\n\n- <a href=\"https://etherscan.io/address/0xb4933AF59868986316Ed37fa865C829Eba2df0C7\">weETH (Liquid Staked ETH pool)</a>\n  - Increase supply cap, from 15K to 50K weETH\n  - Increase borrow cap, from 7.5K to 25K weETH\n- <a href=\"https://etherscan.io/address/0x4a240F0ee138697726C8a3E43eFE6Ac3593432CB\">wstETH (Liquid Staked ETH pool)</a>\n  - Increase borrow cap, from 4K to 10K wstETH\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/294\">https://github.com/VenusProtocol/vips/pull/294</a>\n\n#### Disclaimer for Ethereum VIPs\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance contracts</a> are deployed. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0xcde4d485220c45190037c5897bf8ca2aee6d6e05d8a817497a161b297870b18b\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.",
+    "endblock":39152398,
+    "eta":1717005189,
+    "actions":[
+      "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
+    ]
   }
 ]
