@@ -5509,5 +5509,17 @@
     "actions":[
       "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
     ]
+  },
+  {
+    "id":"316",
+    "type":"Normal",
+    "title":"VIP-316 Bootstrap liquidity for the Arbitrum one markets",
+    "description":"#### Summary\n\nIf passed, this VIP will transfer 25,000 USDC from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury on BNB Chain</a> to the <a href=\"https://bscscan.com/address/0xc444949e0054A23c44Fc45789738bdF64aed2391\">Community wallet</a>. These tokens will be used for the bootstrap liquidity of the new Venus markets on Arbitrum one: USDC, USDT, WETH, WBTC, ARB, following the <a href=\"https://community.venus.io/t/vrc-deploy-venus-protocol-on-arbitrum/3721/7\">Chaos labs recommendations</a>.\n\n#### Description\n\nThe transferred tokens will be partially used by the Community wallet to get the rest of the needed tokens for the bootstrap liquidity in the new Venus markets to be deployed to Arbitrum one.\n\nThe next steps will be:\n\n- Transfer USDC to the Community wallet. This VIP\n- The Community wallet:\n    - swaps 5,000 USDC for USDT\n    - swaps 5,000 USDC for WBTC\n    - swaps 5,000 USDC for ETH\n    - swaps 5,000 USDC for ARB\n- The Community wallet sends to the <a href=\"https://arbiscan.io/address/0x8a662ceac418daef956bc0e6b2dd417c80cda631\">Venus Treasury on Arbitrum one</a> 100% of the received tokens after swapping USDC\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/token-bridge\">Repository</a>\n- <a href=\"https://github.com/VenusProtocol/vips/pull/286\">VIP simulation</a>\n- <a href=\"https://community.venus.io/t/vrc-deploy-venus-protocol-on-arbitrum/3721\">[VRC] Deploy Venus Protocol on Arbitrum</a>\n- Snapshot <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xfc1f42609bda5d7d14660b0b91b19ca63ea1b2ea50169ddab79adfbfbdce323f\">\"Deploy Venus Protocol on Arbitrum\"</a>\n- <a href=\"https://docs-v4.venus.io/\">Documentation</a>",
+    "endblock":39181260,
+    "eta":1717091973,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xeca88125a5adbe82614ffc12d0db554e2e2867c8, 104890000000000, 0xc53ffda840b51068c64b2e052a5715043f634bcd)",
+      "0xc53ffda840b51068c64b2e052a5715043f634bcd.redeemUnderlyingAndTransfer(0xeca88125a5adbe82614ffc12d0db554e2e2867c8, 0xc444949e0054a23c44fc45789738bdf64aed2391, 25000000000000000000000, 0xf322942f644a996a617bd29c16bd7d231d9f35e9)"
+    ]
   }
 ]
