@@ -5632,5 +5632,17 @@
     "actions":[
       "0x939bd8d64c0a9583a7dcea9933f7b21697ab6396{value: 1}"
     ]
+  },
+  {
+    "id":"325",
+    "type":"Normal",
+    "title":"VIP-325 Configure liquidity mining (BabyDoge)",
+    "description":"#### Summary\n\nIf passed, the last block with rewards for the <a href=\"https://app.venus.io/#/isolated-pools/pool/0x33B6fa34cd23e5aeeD1B112d5988B026b8A5567d/market/0x52eD99Cd0a56d60451dD4314058854bc0845bbB5?chainId=56\">BabyDoge</a> market on BNB Chain would be set to <a href=\"https://bscscan.com/block/countdown/39793420\">39793420</a>, 33 days after the rewards were enabled, approximately, assuming 1 block every 3 seconds. Moreover 9672.98 USDT will be sent to the <a href=\"https://bscscan.com/address/0xc444949e0054A23c44Fc45789738bdF64aed2391\">Community Wallet</a> that will be used to complete the BabyDoge rewards.\n\n#### Description\n\nRewards for the BabyDoge market on BNB Chain were enabled at block 38895533 in this <a href=\"https://bscscan.com/tx/0xd8c521d72dbead374c68032b2628c6f1b8f7ae78039a5c83bcd635143f1e2588\">transaction</a> (May 20th, 2024 07:18:16 PM +UTC).\n\nThe configured rewards were set in the <a href=\"https://app.venus.io/#/governance/proposal/304?chainId=1\">VIP-304</a>, following the community proposal \u201c<a href=\"https://community.venus.io/t/isolated-lending-market-for-babydoge-on-venus/4155\">Isolated Lending Market for BABYDOGE on Venus</a>\u201d:\n\n- 15,726,472,026,491 BabyDoge for 22.5 days (instead of 90 days, as mentioned in the <a href=\"https://venus-mainnet.vercel.app/#/governance/proposal/311\">VIP-311</a>), provided by the BabyDoge project. 50% for suppliers, 50% for borrowers. So, the last block with rewards provided by the BabyDoge project was <a href=\"https://bscscan.com/block/39543533\">39543533</a> (June 12th, 2024)\n- Venus Treasury will sponsor the BabyDoge rewards for extra 10.5 days, with a total cost of 6,064,569,313,709 BabyDoge (around $9,672 with the current price, on June 17th 2024)\n\nVenus Treasury doesn\u2019t have enough BabyDoge tokens to fund this sponsorship, so 9,672 USDT will be transferred to the Community Wallet in this VIP. This wallet will swap the received USDT for BabyDoge tokens, and it will send them to the <a href=\"https://bscscan.com/address/0xC1044437AbfD8592150d612185581c5600851d44\">RewardsDistributor contract</a>.\n\nSimulation of the VIP: <a href=\"https://github.com/VenusProtocol/vips/pull/306\">https://github.com/VenusProtocol/vips/pull/306</a>",
+    "endblock":39726847,
+    "eta":1718734016,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 9672988055366700105059, 0xc444949e0054a23c44fc45789738bdf64aed2391)",
+      "0xc1044437abfd8592150d612185581c5600851d44.setLastRewardingBlocks([0x52ed99cd0a56d60451dd4314058854bc0845bbb5], [39793420], [39793420])"
+    ]
   }
 ]
