@@ -6151,5 +6151,18 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._grantXVS(0x1e25cf968f12850003db17e0dba32108509c4359, 153510000000000000000000)",
       "0x051100480289e704d20e9db4804837068f3f9204.setRewardAmountPerBlockOrSecond(0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63, 67708333333333334)"
     ]
+  },
+  {
+    "id":"333",
+    "type":"Normal",
+    "title":"VIP-333 Creation of the Vanguard Vantage program",
+    "description":"#### Summary\n\nIf passed, this VIP will transfer the budget requested by the Vanguard Vantage Program team required for its deployment.\n\nThe \"Vanguard Vantage\u2019\u2019 initiative is a transformative step forward in governance for the Venus Protocol, through the introduction of an innovative \u201cRecognized Delegates\u201d framework. \n\nBy championing the principles of innovation, collaboration, and inclusive governance, Vanguard Vantage aims to become the driving force behind significant initiatives including Marketing, Liquidity Provisioning, Venus Stars, Ecosystem expansions, DEX\u2019s and CEX\u2019s collaborations and various DAO endeavors. \n\nThis initiative is crafted not merely to propel growth and diversification within the Venus ecosystem but to markedly amplify our footprint in the DeFi realm. Vanguard Vantage will empower the Venus community with greater decision-making capabilities, ensuring that Venus remains at the cutting edge of DeFi, committed to our core values of decentralization, transparency, and financial empowerment for all.\n\nIf passed this VIP will perform the following actions:\n  - Withdraw and redeem 18750000 vUSDT from the treasury\n  - Transfer 542,000 USDC to the Vanguard Vantage program\n\n\n#### Details\n  - Website <a href=\"https://vanguardvantage.io/\">Vanguard Vantage - DAO Management Solutions | Vanguard Vantage</a>\n  - Concept: Vanguard Vantage Annual Budget \n  - Cost: 542,000 USDC, to be sent to the BEP20 address 0xDeA0b46950dDc377E71800deba8F52456A7E42EE\n\n#### References\n  - Snapshot <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0x9728614f6c10a544569c3410356562dca8d1fb99ba9a582e752fa3a88569d01b\">Launch the Vanguard Vantage Program</a>\n  - <a href=\"https://community.venus.io/t/proposal-launch-the-vanguard-vantage-program/4359\">Proposal: Launch the Vanguard Vantage Program - Venus Governance - Venus Community</a>\n  - <a href=\"https://github.com/VenusProtocol/vips/pull/312\">VIP simulation</a>",
+    "endblock":40126691,
+    "eta":1719939443,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xeca88125a5adbe82614ffc12d0db554e2e2867c8, 2258333300000000, 0xc53ffda840b51068c64b2e052a5715043f634bcd)",
+      "0xc53ffda840b51068c64b2e052a5715043f634bcd.redeemAndTransfer(0xeca88125a5adbe82614ffc12d0db554e2e2867c8, 0xf322942f644a996a617bd29c16bd7d231d9f35e9)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 542000000000000000000000, 0xdea0b46950ddc377e71800deba8f52456a7e42ee)"
+    ]
   }
 ]
