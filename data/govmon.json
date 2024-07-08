@@ -6189,5 +6189,16 @@
     "actions":[
       "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
     ]
+  },
+  {
+    "id":"336",
+    "type":"Fasttrack",
+    "title":"VIP-336 Ethereum Risk Parameters Adjustments (wstETH, weETH)",
+    "description":"If passed, this VIP will perform the set changes recommended by Chaos Labs in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-07-03-24/4459\">Chaos Labs - Risk Parameter Updates - 07/03/24</a>.\n\n- Increase <a href=\"https://etherscan.io/address/0x4a240F0ee138697726C8a3E43eFE6Ac3593432CB\">wstETH\u2019s (Staked ETH)</a> collateral factor from 90% to 93%\n- Increase <a href=\"https://etherscan.io/address/0x4a240F0ee138697726C8a3E43eFE6Ac3593432CB\">wstETH\u2019s (Staked ETH)</a> liquidation threshold from 93% to 95%\n- Increase <a href=\"https://etherscan.io/address/0xb4933AF59868986316Ed37fa865C829Eba2df0C7\">weETH (Staked ETH)</a> collateral factor from 90% to 93%\n- Increase <a href=\"https://etherscan.io/address/0xb4933AF59868986316Ed37fa865C829Eba2df0C7\">weETH (Staked ETH)</a> liquidation threshold from 93% to 95%\n\nComplete analysis and details of these recommendations are available in the above publications.\n\nIn order to increase the collateral factor to 93% a new (comptroller implementation)[https://etherscan.io/address/0x25973b6BF39298D87B5498760a6c24CA06C3B40a] is required with the MAX_COLLATERAL_FACTOR_MANTISSA increased to 95%.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/316\">https://github.com/VenusProtocol/vips/pull/316</a>\n\n#### Disclaimer for Ethereum commands\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0xb4c1c75d88be0ae534fc4e15fa380aea42859db4cc67549279c92a1de70b969a&amp;safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67\">this</a> multisig transaction will be executed. Otherwise, they will be rejected.",
+    "endblock":40322707,
+    "eta":1720529568,
+    "actions":[
+      "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
+    ]
   }
 ]
