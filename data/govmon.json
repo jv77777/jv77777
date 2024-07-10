@@ -6200,5 +6200,17 @@
     "actions":[
       "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
     ]
+  },
+  {
+    "id":"337",
+    "type":"Fasttrack",
+    "title":"VIP-337 Prime Adjustment Proposal - Q3 2024",
+    "description":"If passed this VIP will perform the following actions:\n\n  - Modify the reward speeds for Prime markets based on the following <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xb688127908f595c0f60e28922a152bb00d9693d065dfb4760f6350aa6b9a92cc\">snapshot</a>.\n  - Collect BBTC Tokens from the Eth <a href=\"https://etherscan.io/address/0x8ba6affd0e7bcd0028d1639225c84ddcf53d8872\">Prime Liquidity Provider</a> contract and send them to the <a href=\"https://bscscan.com/address/0xc444949e0054a23c44fc45789738bdf64aed2391\">Community wallet</a> for them to be swapped for WBTC and sent back to the same contract on Ethereum.\n\nIt was previously suggested to increase the amount of Prime tokens by 50 but in view of the Community\u2019s comments on the Forum and in the Venus telegram groups, <b>no changes will be made to the number of Prime Tokens at this time</b> and they will be kept at 500 until a vote is held by the community in the future.\n\nIn summary, the changes are the following:\n\nNew reward distribution proposal:\n  - BTC: 5% (0%)\n  - ETH: 15% (0%)\n  - USDC: 35% (-5%)\n  - USDT: 45% (+5%)\n\n3-month reward distribution recommendations:\n  - BTC: 0.81 (+0.09)\n  - ETH: 45.92 (-25.43)\n  - USDC: 315,000 (+15,000)\n  - USDT: 405,000 (+5,000)\n    - Total rewards for 3 months: $900,000\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0xe09e4e745d6ec24347cb1a11515bbbe0440b5b210d66cb39946d7e69e0591cef\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/320\">VIP simulation</a>",
+    "endblock":40387471,
+    "eta":1720724791,
+    "actions":[
+      "0xca01d5a9a248a830e9d93231e791b1affed7c446.addOrUpdateDistributionConfigs([(0, 100, 0xe8ceaa79f082768f99266dfd208d665d2dd18f53), (0, 300, 0xca430b8a97ea918ff634162acb0b731445b8195e), (0, 700, 0xa758c9c215b6c4198f0a0e3fa46395fa15db691b), (0, 900, 0xd9f101aa67f3d72662609a2703387242452078c3)])",
+      "0x23c4f844ffddc6161174eb32c770d4d8c07833f2.setTokensDistributionSpeed([0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c, 0x2170ed0880ac9a755fd29b2688956bd959f933f8, 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 0x55d398326f99059ff775485246999027b3197955], [30821917808, 1747336377473, 11986301369863013, 15410958904109589])"
+    ]
   }
 ]
