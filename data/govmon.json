@@ -6212,5 +6212,16 @@
       "0xca01d5a9a248a830e9d93231e791b1affed7c446.addOrUpdateDistributionConfigs([(0, 100, 0xe8ceaa79f082768f99266dfd208d665d2dd18f53), (0, 300, 0xca430b8a97ea918ff634162acb0b731445b8195e), (0, 700, 0xa758c9c215b6c4198f0a0e3fa46395fa15db691b), (0, 900, 0xd9f101aa67f3d72662609a2703387242452078c3)])",
       "0x23c4f844ffddc6161174eb32c770d4d8c07833f2.setTokensDistributionSpeed([0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c, 0x2170ed0880ac9a755fd29b2688956bd959f933f8, 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 0x55d398326f99059ff775485246999027b3197955], [30821917808, 1747336377473, 11986301369863013, 15410958904109589])"
     ]
+  },
+  {
+    "id":"338",
+    "type":"Critical",
+    "title":"VIP-338 [BNB chain] : Correction of prime speeds",
+    "description":"Due to a library issue with handling Big Numbers/decimals in the previous <a href=\"https://app.venus.io/#/governance/proposal/337?chainId=56\">VIP-337</a>, the Prime reward speeds were set lower than intended. To resolve this, we are deploying this VIP with hardcoded values to correct the Prime rewards distribution speed.\n\nIf passed this VIP will perform the following actions:\n\n  - Hardcode the reward speeds for Prime markets on BNB Chain based on the following <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xb688127908f595c0f60e28922a152bb00d9693d065dfb4760f6350aa6b9a92cc\">snapshot</a> and previous <a href=\"https://app.venus.io/#/governance/proposal/337?chainId=56\">VIP-337</a>.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/323\">VIP simulation</a>",
+    "endblock":40406554,
+    "eta":1720782512,
+    "actions":[
+      "0x23c4f844ffddc6161174eb32c770d4d8c07833f2.setTokensDistributionSpeed([0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c, 0x2170ed0880ac9a755fd29b2688956bd959f933f8, 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 0x55d398326f99059ff775485246999027b3197955], [308219178082, 17473363774733, 119863013698630136, 154109589041095890])"
+    ]
   }
 ]
