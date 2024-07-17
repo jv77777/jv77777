@@ -6248,5 +6248,16 @@
     "actions":[
       "0x213c446ec11e45b15a6e29c1c1b402b8897f606d{value: 1}"
     ]
+  },
+  {
+    "id":"341",
+    "type":"Fasttrack",
+    "title":"VIP-341 [Ethereum] Provide the XVS Vault rewards for 2024 Q3",
+    "description":"#### Summary\n\nIf passed, this VIP allows unlimited transfers of XVS from any network to the <a href=\"https://etherscan.io/address/0xaE39C38AF957338b3cEE2b3E5d825ea88df02EfE\">XVS Vault Treasury</a> contract on Ethereum. Moreover, it will transfer 22,500 XVS from the XVS Vault Treasury contract to the <a href=\"https://etherscan.io/address/0x1db646e1ab05571af99e47e8f909801e5c99d37b\">XVS Store</a> contract, where the XVS Vault rewards are stored.\n\n#### Description\n\nIn the <a href=\"https://app.venus.io/#/governance/proposal/339\">VIP-339</a>, 45,000 XVS were transferred from the <a href=\"https://bscscan.com/address/0xfD36E2c2a6789Db23113685031d7F16329158384\">Distributor contract on BNB Chain</a> to the XVS Vault Treasury on Ethereum. Due to the limits configured on the bridge contracts, the XVS tokens were not minted on Ethereum. This VIP will allow anyone to complete this transfer, by retrying the <a href=\"https://etherscan.io/tx/0x8778c81a4f12767f9c5901afa44a7471f1a76f1e0360ae1297cbc30b487245cf\">failed bridge transaction</a>.\n\nAfter successfully retrying the bridge operation, 45,000 XVS will be received by the XVS Vault Treasury contract on Ethereum. From this amount, in the context of this VIP, 22,500 XVS will be sent to the XVS Store contract, which is responsible for distributing rewards.\n\n#### Security and additional considerations\n\nWe applied the following security procedures for this upgrade:\n\n- <b>VIP execution simulation</b>: in a simulation environment, validating the new configuration is the expected one and the funds are transferred to the XVS Store contract\n- This VIP doesn\u2019t upgrade any smart contract\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/325\">VIP simulation</a>\n- <a href=\"https://app.venus.io/#/governance/proposal/339\">VIP-339 [Ethereum] : Venus Prime Deployment - Q3 2024</a>\n- <a href=\"https://docs-v4.venus.io/governance/tokenomics\">Documentation</a>\n\n#### Disclaimer for Ethereum VIPs\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0x641b0438a70b2e62c6f85fb5b37805d79d74eb72101bf03a07b87ea184504d95\">this</a> and <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0x2690a9620cc99748ad46cb539d5345ced6277cc56af14efe6b10d17ad8cd80b1\">this</a> multisig transactions will be executed. Otherwise, they will be rejected.",
+    "endblock":40584832,
+    "eta":1721318669,
+    "actions":[
+      "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
+    ]
   }
 ]
