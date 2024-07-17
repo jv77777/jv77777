@@ -6237,5 +6237,16 @@
       "0xf8f46791e3db29a029ec6c9d946226f3c613e854.sendFrom(0x939bd8d64c0a9583a7dcea9933f7b21697ab6396, 101, 0x000000000000000000000000ae39c38af957338b3cee2b3e5d825ea88df02efe, 45000000000000000000000, (0xf322942f644a996a617bd29c16bd7d231d9f35e9, 0x0000000000000000000000000000000000000000, 0x000100000000000000000000000000000000000000000000000000000000000493e0))",
       "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63.approve(0xf8f46791e3db29a029ec6c9d946226f3c613e854, 0)"
     ]
+  },
+  {
+    "id":"340",
+    "type":"Critical",
+    "title":"VIP-340 [Ethereum] Prime synchronisation in the Core and Curve pools",
+    "description":"If passed, this VIP allows the automatic update of the Prime rewards every time a Prime holder interacts with a Prime market of the Core and Curve pools.\n\n#### Security and additional considerations\n\nWe applied the following security procedures for this upgrade:\n\n- <b>VIP execution simulation</b>: in a simulation environment, validating the new configuration is the expected one\n- This VIP doesn\u2019t upgrade any smart contract. It only configures the Prime contract on the Core and Curve comptrollers\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/324\">VIP simulation</a>\n- <a href=\"https://app.venus.io/#/governance/proposal/339\">VIP-339 [Ethereum] : Venus Prime Deployment - Q3 2024</a>\n- <a href=\"https://docs-v4.venus.io/whats-new/prime-yield\">Documentation</a>\n\n#### Disclaimer for Ethereum VIPs\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0x2aab4f994d730c4a9ec9dcdcbc348bc6a9e5d7ed7995927671f938c636a6fd86\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.",
+    "endblock":40560974,
+    "eta":1721247083,
+    "actions":[
+      "0x213c446ec11e45b15a6e29c1c1b402b8897f606d{value: 1}"
+    ]
   }
 ]
