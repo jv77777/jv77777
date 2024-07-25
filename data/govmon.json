@@ -6284,5 +6284,16 @@
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x9a7890534d9d91d473f28cb97962d176e2b65f1d, \"setInterestRateModel(address)\", 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
       "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x9a7890534d9d91d473f28cb97962d176e2b65f1d, \"setInterestRateModel(address)\", 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)"
     ]
+  },
+  {
+    "id":"344",
+    "type":"Normal",
+    "title":"VIP-344 [Ethereum] Distribution Speed Adjustment for the XVS Vault",
+    "description":"#### Summary\n\nIf passed, this VIP will transfer the converted XVS tokens from the <a href=\"https://etherscan.io/address/0xaE39C38AF957338b3cEE2b3E5d825ea88df02EfE\">XVS Vault Treasury</a> to the <a href=\"https://etherscan.io/address/0x1db646e1ab05571af99e47e8f909801e5c99d37b\">XVS Store</a> and adjust the XVS Vault distribution speed.\n\n- Transfer 6,893 XVS from the <a href=\"https://etherscan.io/address/0xaE39C38AF957338b3cEE2b3E5d825ea88df02EfE\">XVS Vault Treasury</a> to the <a href=\"https://etherscan.io/address/0x1db646e1ab05571af99e47e8f909801e5c99d37b\">XVS Store</a> for distribution.\n- Increase the XVS distribution speed from 250 XVS/Day to 310 XVS/day.\n\n#### Description\n\nA total of 6,893 XVS has been converted through a buyback during Q2 2024 using the <a href=\"https://etherscan.io/address/0x1FD30e761C3296fE36D9067b1e398FD97B4C0407\">XVS converter</a>. These tokens will be added to the distribution as per our <a href=\"https://app.venus.io/#/governance/proposal/332?chainId=56\">Tokenomics V4</a> and <a href=\"https://community.venus.io/t/xvs-ethereum-mainnet-development-program-with-lido-frax-curve-and-gitcoin/4200\">ETH Deployment Proposal</a>.\n\nThe converted XVS is currently held in the <a href=\"https://etherscan.io/address/0xaE39C38AF957338b3cEE2b3E5d825ea88df02EfE\">XVS Vault Treasury</a> and needs to be transferred to the <a href=\"https://etherscan.io/address/0x1db646e1ab05571af99e47e8f909801e5c99d37b\">XVS Store</a> for distribution.\n\nThe new distribution speed will be increased from 250 XVS/day to 310 XVS/day, which is estimated to increase the vault APR from 12% to 15%.\n\n#### References\n\n- <a href=\"https://app.venus.io/#/governance/proposal/332?chainId=56\">Tokenomics V4</a>\n- <a href=\"https://community.venus.io/t/xvs-ethereum-mainnet-development-program-with-lido-frax-curve-and-gitcoin/4200\">ETH Deployment Proposal</a>\n- <a href=\"https://github.com/VenusProtocol/vips/pull/330\">VIP simulation</a>\n\n#### Disclaimer for Ethereum VIPs\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0x26a82f80811aebe17b3dc863726075581db822b08381f9bb75feb1600a4d11e6\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.",
+    "endblock":40814685,
+    "eta":1722010166,
+    "actions":[
+      "0x939bd8d64c0a9583a7dcea9933f7b21697ab6396{value: 1}"
+    ]
   }
 ]
