@@ -6330,5 +6330,16 @@
       "0x4124e7aaafd7f29ad6e6914b80179060b8be871c{value: 833330000000000000000}",
       "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 3000000000000000000000, 0x3d9d22e1821be3b1ce2a8acb6fe47ffef04243c3)"
     ]
+  },
+  {
+    "id":"347",
+    "type":"Fasttrack",
+    "title":"VIP-347 [Ethereum] Risk Parameters Adjustments (PT-weETH-DEC24)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-supply-cap-recommendation-for-pt-weeth-07-24-2024/4483/2\">Chaos Labs - Supply Cap Recommendation for PT-weETH - 07.24.2024</a>.\n\n- <a href=\"https://etherscan.io/address/0x76697f8eaeA4bE01C678376aAb97498Ee8f80D5C\">PT-wETH-26DEC2024 (Liquid Staked ETH)</a>: increase supply cap from 1,200 to 2,400\n\nComplete analysis and details of these recommendations are available in the above publication.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/329\">VIP simulation</a>\n\n#### Disclaimer for Ethereum VIPs\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0x299f67a2733432ee74d856b598c6193faf0bfc5f633795b55480f36addd682a4&amp;safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.",
+    "endblock":40929025,
+    "eta":1722353860,
+    "actions":[
+      "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
+    ]
   }
 ]
