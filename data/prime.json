@@ -1,10 +1,5 @@
 [
   {
-    "addr":"0xBc3F3cf0c356511e6ed250C58b8a23dB54e6475b",
-    "eligible_time":1722520651,
-    "staked":1002
-  },
-  {
     "addr":"0x5Ee28734472d608998c50776Ac8E31d3f4E86afC",
     "eligible_time":1722690119,
     "staked":1022
@@ -223,11 +218,6 @@
     "addr":"0xaB6FBD6C6CAf074db17566d15F023bB25f20ECdf",
     "eligible_time":1726315164,
     "staked":1006
-  },
-  {
-    "addr":"0xfeC283Ee0E5B8b0EaD64d3E56E5c0c65D2b78691",
-    "eligible_time":1726366367,
-    "staked":3059
   },
   {
     "addr":"0xe43252a4A76B4E60025aFa327805b0a109934513",
@@ -487,7 +477,7 @@
   {
     "addr":"0x4a94c1bbeE2ADa6e0EC2490fabad062e81fB0Dc8",
     "eligible_time":1729091476,
-    "staked":1554
+    "staked":2831
   },
   {
     "addr":"0x9b0ABeE957CB0427290Bd5EBc84B7d77364DC09a",
@@ -515,13 +505,18 @@
     "staked":1001
   },
   {
-    "addr":"0xA74A4Ca0448e5A76f0B21f64121E7d74B4Bf5091",
-    "eligible_time":1729651293,
-    "staked":1115
-  },
-  {
     "addr":"0xe8AF2650119a33eaa2C3f389755B775834489444",
     "eligible_time":1729702764,
     "staked":1407
+  },
+  {
+    "addr":"0xfe99A10424FcB3D3030192d87302C94238d56e8A",
+    "eligible_time":1730228542,
+    "staked":1356
+  },
+  {
+    "addr":"0x5720dfF8883c32e4BB413e83bb2B72256Bb5d396",
+    "eligible_time":1730301402,
+    "staked":1078
   }
 ]
