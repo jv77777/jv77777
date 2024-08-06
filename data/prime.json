@@ -1,20 +1,5 @@
 [
   {
-    "addr":"0x9b9B7ebB01A975B644FD6d3B549ABb91a5a66A8E",
-    "eligible_time":1722890044,
-    "staked":1908
-  },
-  {
-    "addr":"0xF321f48b207acf720570C3fF0BcB388Fc2f6EE69",
-    "eligible_time":1722919056,
-    "staked":2470
-  },
-  {
-    "addr":"0x243f1de9A9cf60Db819aeCeADF90d01f5f25E2E3",
-    "eligible_time":1722959425,
-    "staked":1000
-  },
-  {
     "addr":"0xbf5870D0F8A23525926eA88E282129eE2ab0C071",
     "eligible_time":1723376265,
     "staked":1001
@@ -92,7 +77,7 @@
   {
     "addr":"0x4BaC702Dd1080a6e8CF524F4c727FD598F089FaF",
     "eligible_time":1724676097,
-    "staked":1000
+    "staked":1006
   },
   {
     "addr":"0xd1805EE7154C8e1C79EEe2130c5fa2Daaf8140Ef",
@@ -217,7 +202,7 @@
   {
     "addr":"0x3801410DcEa87EFA2141ECC866EcAD5e020028dc",
     "eligible_time":1726436822,
-    "staked":1027
+    "staked":1028
   },
   {
     "addr":"0x57B35e0aAFFCbf7bF49FD0fd7CE02Ae520F0d2dF",
@@ -282,7 +267,7 @@
   {
     "addr":"0x5a9DaD5116a4c9267983Bd57424a4862ee94fc1d",
     "eligible_time":1726804706,
-    "staked":3700
+    "staked":3739
   },
   {
     "addr":"0x923F2EeDfdC7Ba8F60083DFf1A9413cbD032841d",
@@ -327,7 +312,7 @@
   {
     "addr":"0x9A9cACd8C1082c61bADC1A0F4116BB7260f60994",
     "eligible_time":1727300300,
-    "staked":1000
+    "staked":1006
   },
   {
     "addr":"0x0D5757B1F261d73504897273e3e48eD09bfD27bd",
@@ -417,7 +402,7 @@
   {
     "addr":"0xAd63B47467145aD4f8159B415978aeF29452a442",
     "eligible_time":1728566769,
-    "staked":5395
+    "staked":7000
   },
   {
     "addr":"0x0E4431768e1214Af3b9Af5a37f158fD4734c0f88",
@@ -482,7 +467,7 @@
   {
     "addr":"0xe8AF2650119a33eaa2C3f389755B775834489444",
     "eligible_time":1729702764,
-    "staked":1407
+    "staked":1412
   },
   {
     "addr":"0xfe99A10424FcB3D3030192d87302C94238d56e8A",
@@ -513,5 +498,10 @@
     "addr":"0xe101C2Dbd54d5a466fe7aE3608b40F3aeC768407",
     "eligible_time":1730569070,
     "staked":1036
+  },
+  {
+    "addr":"0x8C28a9Fe8CC4C36718665dAB1cD684a4e90Ca881",
+    "eligible_time":1730728420,
+    "staked":5287
   }
 ]
