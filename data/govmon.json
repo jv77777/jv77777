@@ -6352,5 +6352,17 @@
     "actions":[
       "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
     ]
+  },
+  {
+    "id":"349",
+    "type":"Normal",
+    "title":"VIP-349 Venus Stars Program Renewal",
+    "description":"#### Summary\n\nIf passed, this VIP will transfer to the <a href=\"https://bscscan.com/address/0xc444949e0054A23c44Fc45789738bdF64aed2391\">Venus Community Wallet</a> 193,000 USDT and 200,000 VAI, from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury</a> for the annual Venus Stars Program (Ambassador Program) budget renewal for the period of July 2024 - June 2025. All unused funds will be carried over and used in the next period as previously.\n\n#### Description\n\nThe Venus Stars Team suggests revising and enhancing the budget for the Venus Ambassadors program. With Venus expanding to multiple new blockchains, additional resources are necessary. The proposed restructuring aims to ensure that resources are appropriately allocated to meet the program's increasing needs, enabling effective outreach and support for our global community.\n\n#### Details\n\n- The estimated yearly budget total is $393K. We propose using a mix of VAI tokens already accumulated in the Venus Treasury and USDT to fund the program.\n- This VIP will transfer: 200,000 VAI and 193,000 USDT to the Venus Community wallet address: <a href=\"https://bscscan.com/address/0xc444949e0054A23c44Fc45789738bdF64aed2391\">0xc444949e0054A23c44Fc45789738bdF64aed2391</a>\n\n#### References\n\n- <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xfc7200b104fc61aa283ef25136c7d48d686f1edc2bb684d3da2904508ac69aa8\">Venus Stars Program Renewal Snapshot</a>\n- <a href=\"https://community.venus.io/t/proposal-venus-stars-program-renewal-2024/4488\">Proposal: Venus Stars Program Renewal 2024</a>\n- <a href=\"https://github.com/VenusProtocol/vips/pull/343\">VIP simulation</a>",
+    "endblock":41222386,
+    "eta":1723236482,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x55d398326f99059ff775485246999027b3197955, 193000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0x4bd17003473389a42daf6a0a729f6fdb328bbbd7, 200000000000000000000000, 0xc444949e0054a23c44fc45789738bdf64aed2391)"
+    ]
   }
 ]
