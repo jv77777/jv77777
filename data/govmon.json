@@ -6402,5 +6402,16 @@
     "actions":[
       "0x939bd8d64c0a9583a7dcea9933f7b21697ab6396{value: 1}"
     ]
+  },
+  {
+    "id":"353",
+    "type":"Fasttrack",
+    "title":"VIP-353 [Ethereum] Risk Parameters Adjustments (WETH)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-08-02-24/4502\">Chaos Labs - Risk Parameter Updates - 08/02/24</a>.\n\n- <a href=\"https://etherscan.io/address/0xc82780Db1257C788F262FBbDA960B3706Dfdcaf2\">WETH (Liquid Staked ETH)</a>:\n    - Reduce Collateral Factor, from 90% to 0%\n    - Increase Kink, from 80% to 90%\n    - Increase Multiplier, from 3.5% to 4.5%\n    - Increase Reserve Factor, from 15% to 25%\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nPlease note that reducing the collateral factor to 0% will not cause current borrowers to be liquidated as the liquidation threshold will not be modified.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/356\">VIP simulation</a>\n\n#### Disclaimer for Ethereum VIPs\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0xab824acf17443e1c50231fa0d6ad1d854269941db67704518104867ac9181083\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.",
+    "endblock":41423119,
+    "eta":1723839848,
+    "actions":[
+      "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
+    ]
   }
 ]
