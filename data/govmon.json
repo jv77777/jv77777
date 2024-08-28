@@ -6452,5 +6452,24 @@
     "actions":[
       "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
     ]
+  },
+  {
+    "id":"357",
+    "type":"Normal",
+    "title":"VIP-357 Extend accessibility to the risk funds",
+    "description":"If passed, this VIP will upgrade the <a href=\"https://bscscan.com/address/0xdF31a28D68A2AB381D42b380649Ead7ae2A76E42\">RiskFund contract</a>, enabling funds to be extracted through Fast-track and Critical VIPs, in addition to the current method of using Normal VIPs.\n\nMoreover, this VIP would authorize the Venus Governance to liquidate the BNB Exploiter account via any type of VIP\u2019s, and to change the percentage of the liquidation fee for the protocol with Fast-track and Critical VIP\u2019s. This would effectively allow Venus to be the liquidator of that account and to keep the seized BNB supplied to Venus.\n\n#### Security and additional considerations\n\nWe applied the following security procedures for this upgrade:\n\n* <b>Audits:</b> <a href=\"https://www.certik.com/\">Certik</a> has audited the changes in the RiskFund contract.\n* <b>VIP execution simulation:</b> in a simulation environment, validating the new implementation works as expected\n* <b>Deployment on testnet:</b> the same contract has been deployed to BNB testnet, and used in the Venus Protocol testnet deployment\n\n#### Audit reports\n\n* <a href=\"https://github.com/VenusProtocol/protocol-reserve/blob/477e0f80384461163a5140c7e7f69e44c324bd91/audits/117_riskFundUpgrade_certik_20240826.pdf\">Certik audit report - 2024/08/26</a>\n\n#### Deployed contracts\n\n* <a href=\"https://bscscan.com/address/0x7Ef5ABbcC9A701e728BeB7Afd4fb5747fAB15A28\">New RiskFund implementation on BNB Chain</a>\n* <a href=\"https://testnet.bscscan.com/address/0x394C9a8cDbbFcAbEAb21fB105311B6B1f09b667a\">New RiskFund implementation on BNB testnet </a>\n\n#### References\n\n* <a href=\"https://github.com/VenusProtocol/vips/pull/358\">VIP simulation</a>\n* <a href=\"https://testnet.bscscan.com/tx/0x7241fe30b49b11fcbfa4359fd02aff0cc33dc85d0f94e1f21fe959e54fc61e85\">Execution on testnet</a>\n",
+    "endblock":41788514,
+    "eta":1724939239,
+    "actions":[
+      "0x6beb6d2695b67feb73ad4f172e8e2975497187e4.upgrade(0xdf31a28d68a2ab381d42b380649ead7ae2a76e42, 0x7ef5abbcc9a701e728beb7afd4fb5747fab15a28)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xdf31a28d68a2ab381d42b380649ead7ae2a76e42, \"sweepTokenFromPool(address,address,address,uint256)\", 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xdf31a28d68a2ab381d42b380649ead7ae2a76e42, \"sweepTokenFromPool(address,address,address,uint256)\", 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0xdf31a28d68a2ab381d42b380649ead7ae2a76e42, \"sweepTokenFromPool(address,address,address,uint256)\", 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x0870793286aada55d39ce7f82fb2766e8004cf43, \"setTreasuryPercent(uint256)\", 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x4788629abc6cfca10f9f969efdeaa1cf70c23555.giveCallPermission(0x0870793286aada55d39ce7f82fb2766e8004cf43, \"setTreasuryPercent(uint256)\", 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0x0870793286aada55d39ce7f82fb2766e8004cf43.addToAllowlist(0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0x0870793286aada55d39ce7f82fb2766e8004cf43.addToAllowlist(0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec, 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0x0870793286aada55d39ce7f82fb2766e8004cf43.addToAllowlist(0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec, 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)"
+    ]
   }
 ]
