@@ -6584,5 +6584,16 @@
     "actions":[
       "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
     ]
+  },
+  {
+    "id":"366",
+    "type":"Fasttrack",
+    "title":"VIP-366 Risk Parameters Adjustments (BNB)",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-09-12-24/4573\">Chaos Labs - Risk Parameter Updates - 09/12/24</a>.\n\n- <a href=\"https://bscscan.com/address/0xA07c5b74C9B40447a954e1466938b865b6BBea36\">BNB (Core pool)</a>: decrease kink, from 0.7 to 0.5\n\nComplete analysis and details of these recommendations are available in the above publication.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/383\">VIP simulation</a>\n- <a href=\"https://bscscan.com/address/0xDb8347b96c94Be24B9c077A4CDDAAD074F6480cf\">New Interest Rate contract for the vBNB market</a>",
+    "endblock":42333420,
+    "eta":1726578101,
+    "actions":[
+      "0x9a7890534d9d91d473f28cb97962d176e2b65f1d.setInterestRateModel(0xdb8347b96c94be24b9c077a4cddaad074f6480cf)"
+    ]
   }
 ]
