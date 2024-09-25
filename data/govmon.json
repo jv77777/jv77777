@@ -6715,5 +6715,17 @@
       "0xbe609449eb4d76ad8545f957bbe04b596e8fc529.setMarketSupplyCaps([0xeccacf760fea7943c5b0285bd09f601505a29c05, 0xc5b24f347254bd8cf8988913d1fd0f795274900f, 0x94180a3948296530024ef7d60f60b85cfe0422c8], [3600000000000000000000, 120000000000000000000, 3200000000000000000000])",
       "0xbe609449eb4d76ad8545f957bbe04b596e8fc529.setMarketBorrowCaps([0xeccacf760fea7943c5b0285bd09f601505a29c05, 0xc5b24f347254bd8cf8988913d1fd0f795274900f, 0x94180a3948296530024ef7d60f60b85cfe0422c8], [3250000000000000000000, 60000000000000000000, 320000000000000000000])"
     ]
+  },
+  {
+    "id":"373",
+    "type":"Normal",
+    "title":"VIP-373 Bootstrap liquidity for the Optimism markets",
+    "description":"#### Summary\n\nIf passed, this VIP will transfer 25,000 USDC from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury on BNB Chain</a> to the <a href=\"https://bscscan.com/address/0xc444949e0054A23c44Fc45789738bdF64aed2391\">Community wallet</a>. These tokens will be used for the bootstrap liquidity of the new Venus markets on Optimism: USDC, USDT, WETH, WBTC, OP, following the <a href=\"https://community.venus.io/t/deploy-venus-protocol-on-op-mainnet/4512/9\">Chaos labs recommendations</a>.\n\n#### Description\n\nThe transferred tokens will be partially used by the Community wallet to get the rest of the needed tokens for the bootstrap liquidity in the new Venus markets to be deployed to Optimism.\n\nThe next steps will be:\n\n- Transfer USDC to the Community wallet. This VIP\n- The Community wallet:\n    - swaps 5,000 USDC for USDT\n    - swaps 5,000 USDC for WBTC\n    - swaps 5,000 USDC for WETH\n    - swaps 5,000 USDC for OP\n- The Community wallet sends to the <a href=\"https://optimistic.etherscan.io/address/0x104c01EB7b4664551BE6A9bdB26a8C5c6Be7d3da\">Venus Treasury on Optimism</a> 100% of the received tokens after swapping USDC\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/393\">VIP simulation</a>\n- <a href=\"https://community.venus.io/t/deploy-venus-protocol-on-op-mainnet/4512\">Deploy Venus Protocol on OP Mainnet</a>\n- Snapshot \u201c<a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0xe2e59410d7c010600ec869132980f10a8694d78e9ece4b3702f973d1e0ecc93f\">Deploy Venus Protocol on OP Mainnet</a>\u201d\n- <a href=\"https://docs-v4.venus.io/\">Documentation</a>",
+    "endblock":42597429,
+    "eta":1727371966,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBEP20(0xeca88125a5adbe82614ffc12d0db554e2e2867c8, 102256000000000, 0xc53ffda840b51068c64b2e052a5715043f634bcd)",
+      "0xc53ffda840b51068c64b2e052a5715043f634bcd.redeemUnderlyingAndTransfer(0xeca88125a5adbe82614ffc12d0db554e2e2867c8, 0xc444949e0054a23c44fc45789738bdf64aed2391, 25000000000000000000000, 0xf322942f644a996a617bd29c16bd7d231d9f35e9)"
+    ]
   }
 ]
