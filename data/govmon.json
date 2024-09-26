@@ -6743,5 +6743,22 @@
       "0x70d644877b7b73800e9073bcfce981eaab6dbc21.setMaxDailyReceiveLimit(111, 102000000000000000000000)",
       "0x70d644877b7b73800e9073bcfce981eaab6dbc21.setMaxSingleReceiveTransactionLimit(111, 20400000000000000000000)"
     ]
+  },
+  {
+    "id":"375",
+    "type":"Fasttrack",
+    "title":"VIP-375 Risk Parameters Adjustment (stkBNB, MATIC, zkSync caps)",
+    "description":"If passed, this VIP will perform the following actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-deprecate-stkbnb-09-25-24/4584\">Chaos Labs - Deprecate stkBNB - 09/25/24</a>.\n\n- Pause supply, borrow and enter market actions in the <a href=\"https://bscscan.com/address/0xcc5D9e502574cda17215E70bC0B4546663785227\">vstkBNB market</a>\n- Set borrow and supply caps to 0\n- Increase vstkBNB Reserve Factor to 100%\n- Reduce CF from 75% to 0%\n\nMoreover, it would update the following caps on zkSync Era, following this forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-09-25-24/4586\">Chaos Labs - Risk Parameter Updates - 09/25/24</a>:\n\n- <a href=\"https://explorer.zksync.io/address/0x1aF23bD57c62A99C59aD48236553D0Dd11e49D2D\">USDC.e (Core pool)</a>:\n    - increase supply cap from 5M USDC.e to 6M USDC.e\n    - increase borrow cap from 4.2M USDC.e to 5.4M USDC.e\n- <a href=\"https://explorer.zksync.io/address/0x697a70779C1A03Ba2BD28b7627a902BFf831b616\">ZK (Core pool)</a>: increase supply cap from 25M ZK to 35M ZK\n- <a href=\"https://explorer.zksync.io/address/0x1Fa916C27c7C2c4602124A14C77Dbb40a5FF1BE8\">WETH (Core pool)</a>: increase supply cap from 2,000 WETH to 3,000 WETH\n\nAnd finally, it would update the following caps on BNB Chain, following this forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-matic-on-bnb-09-25-24/4585\">Chaos Labs - Risk Parameter Updates: MATIC on BNB - 09/25/24</a>:\n\n- <a href=\"https://bscscan.com/address/0x5c9476FcD6a4F9a3654139721c949c2233bBbBc8\">MATIC (Core pool)</a>:\n    - decrease supply cap from 10M MATIC to 5.5M MATIC\n    - decrease borrow cap from 1M MATIC to 250K MATIC\n\nReview the Chaos Labs\u2019 recommendations for a deeper analysis.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/396\">https://github.com/VenusProtocol/vips/pull/396</a>\n\n#### Disclaimer for zkSync Era VIPs\n\nPrivilege commands on zkSync Era will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\"></a><a href=\"https://explorer.zksync.io/address/0x751Aa759cfBB6CE71A43b48e40e1cCcFC66Ba4aa\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0x79ca5d7ef82648f5c52054aa996356da270a60e95a959c595ee3c29defc6a4ca\"></a><a href=\"https://app.safe.global/transactions/tx?safe=zksync:0x751Aa759cfBB6CE71A43b48e40e1cCcFC66Ba4aa&amp;id=multisig_0x751Aa759cfBB6CE71A43b48e40e1cCcFC66Ba4aa_0x047e668610a1d6906903e4152bb114be57a49af4fa117ba42b7e575e8ceb5b78\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.",
+    "endblock":42627104,
+    "eta":1727461092,
+    "actions":[
+      "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setActionsPaused([0xcc5d9e502574cda17215e70bc0b4546663785227], [0, 2, 7], True)",
+      "0xcc5d9e502574cda17215e70bc0b4546663785227.setReserveFactor(1000000000000000000)",
+      "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setCollateralFactor(0xcc5d9e502574cda17215e70bc0b4546663785227, 0, 930000000000000000)",
+      "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setMarketBorrowCaps([0xcc5d9e502574cda17215e70bc0b4546663785227], [0])",
+      "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setMarketSupplyCaps([0xcc5d9e502574cda17215e70bc0b4546663785227], [0])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x5c9476fcd6a4f9a3654139721c949c2233bbbbc8], [250000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x5c9476fcd6a4f9a3654139721c949c2233bbbbc8], [5500000000000000000000000])"
+    ]
   }
 ]
