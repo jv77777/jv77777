@@ -6760,5 +6760,16 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x5c9476fcd6a4f9a3654139721c949c2233bbbbc8], [250000000000000000000000])",
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x5c9476fcd6a4f9a3654139721c949c2233bbbbc8], [5500000000000000000000000])"
     ]
+  },
+  {
+    "id":"376",
+    "type":"Fasttrack",
+    "title":"VIP-376 Risk Parameters Adjustments",
+    "description":"If passed, this VIP will increase the limits in the XVS bridge between zkSync and BNB Chain, in the zkSync side following the <a href=\"https://community.venus.io/t/deploy-venus-protocol-on-zksync-era/4472/12\">Chaos labs recommendations</a>\n\nIn the <a href=\"https://app.venus.io/#/governance/proposal/372?chainId=56\">VIP-372</a> the single transaction and daily XVS bridge limits for BNB Chain \u2192 zkSync were updated, but the associated limits on zkSync were not updated. In this VIP, these limits are set to the expected values:\n\n- Maximum bridged XVS in a single transaction: 20,000 USD\n- Maximum bridged XVS in 24 hours: 100,000 USD\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/397\">VIP simulation</a>\n- <a href=\"https://app.venus.io/#/governance/proposal/372?chainId=56\">VIP-372 Risk Parameters Adjustments</a>\n\n#### Disclaimer for zkSync Era VIPs\n\nPrivilege commands on zkSync Era will be executed by the <a href=\"https://explorer.zksync.io/address/0x751Aa759cfBB6CE71A43b48e40e1cCcFC66Ba4aa\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=zksync:0x751Aa759cfBB6CE71A43b48e40e1cCcFC66Ba4aa&amp;id=multisig_0x751Aa759cfBB6CE71A43b48e40e1cCcFC66Ba4aa_0xa811e29cd5470ade43dcd536225c209190a52f92fd515fd2f82dfdc319e908c0\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.\n",
+    "endblock":42675101,
+    "eta":1727605101,
+    "actions":[
+      "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
+    ]
   }
 ]
