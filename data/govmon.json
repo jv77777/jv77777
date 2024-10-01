@@ -6771,5 +6771,16 @@
     "actions":[
       "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
     ]
+  },
+  {
+    "id":"377",
+    "type":"Fasttrack",
+    "title":"VIP-377 [Ethereum] Risk Parameters Adjustments",
+    "description":"This VIP will perform the following Risk Parameter actions as per Chaos Labs\u2019 recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-09-20-24/4581\">Chaos Labs - Risk Parameter Updates - 09/20/24</a> (updated <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-09-20-24/4581/7\">here</a>).\n\n- <a href=\"https://etherscan.io/address/0xc82780Db1257C788F262FBbDA960B3706Dfdcaf2\">WETH (Liquid Staked ETH)</a>:\n  - Increase Collateral Factor from 0 to 0.9\n  - Reduce multiplier of the Interest Rate model, from 4.5% to 3%\n\nComplete analysis and details of these recommendations are available in the above publications.\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/391\">VIP simulation</a>\n- <a href=\"https://etherscan.io/address/0xe1747F8D64C297DBB482c4FD8fd11EA73F7Dc85a\">New Interest Rate contract for the vWETH market</a>\n\n#### Disclaimer for Ethereum commands\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0xdba09947f52a34516fbebccdfbab5d8bbd82ab01d7bdf4a5868bbc0d863845e8\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.",
+    "endblock":42765701,
+    "eta":1727876912,
+    "actions":[
+      "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
+    ]
   }
 ]
