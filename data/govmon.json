@@ -6793,5 +6793,16 @@
     "actions":[
       "0x2b8a1c539abac89cbf7e2bc6987a0a38a5e660d4.upgradeTo(0xb0c4227fa3b7b2a5c298dca960ab0631763d2839)"
     ]
+  },
+  {
+    "id":"379",
+    "type":"Fasttrack",
+    "title":"VIP-379 [zkSync] Risk Parameters Adjustment (WETH, ZK)",
+    "description":"If passed, this VIP will perform the following actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-10-03-24/4599\">Chaos Labs - Risk Parameter Updates - 10/03/24</a>.\n\n- <a href=\"https://explorer.zksync.io/address/0x697a70779C1A03Ba2BD28b7627a902BFf831b616\">ZK (Core pool)</a>: increase supply cap from 35M ZK to 50M ZK\n- <a href=\"https://explorer.zksync.io/address/0x1Fa916C27c7C2c4602124A14C77Dbb40a5FF1BE8\">WETH (Core pool)</a>:\n    - increase supply cap from 3,000 WETH to 6,000 WETH\n    - increase borrow cap from 1,700 WETH to 3,400 WETH\n\nReview the Chaos Labs\u2019 recommendations for a deeper analysis.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/403\">https://github.com/VenusProtocol/vips/pull/403</a>\n\n#### Disclaimer for zkSync Era VIPs\n\nPrivilege commands on zkSync Era will be executed by the <a href=\"https://explorer.zksync.io/address/0x751Aa759cfBB6CE71A43b48e40e1cCcFC66Ba4aa\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=zksync:0x751Aa759cfBB6CE71A43b48e40e1cCcFC66Ba4aa&amp;id=multisig_0x751Aa759cfBB6CE71A43b48e40e1cCcFC66Ba4aa_0x85efd5e381829924cbc3205c908ce1700c09e34a0596134af6ef975cfd51f31d\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.\n",
+    "endblock":42832341,
+    "eta":1728076847,
+    "actions":[
+      "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
+    ]
   }
 ]
