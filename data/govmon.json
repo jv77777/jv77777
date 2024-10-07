@@ -6819,5 +6819,17 @@
       "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63.approve(0xf8f46791e3db29a029ec6c9d946226f3c613e854, 4500000000000000000000)",
       "0xf8f46791e3db29a029ec6c9d946226f3c613e854.sendFrom(0x939bd8d64c0a9583a7dcea9933f7b21697ab6396, 110, 0x0000000000000000000000008a662ceac418daef956bc0e6b2dd417c80cda631, 4500000000000000000000, (0xf322942f644a996a617bd29c16bd7d231d9f35e9, 0x0000000000000000000000000000000000000000, 0x000100000000000000000000000000000000000000000000000000000000000493e0))"
     ]
+  },
+  {
+    "id":"381",
+    "type":"Fasttrack",
+    "title":"VIP-381: [BNB Chain] Prime Adjustment Proposal - Q4 2024",
+    "description":"If passed, this VIP will perform the following actions following the Community proposal <a href=\"https://community.venus.io/t/prime-adjustment-proposal-q4-2024-bnb-chain/4598\">Prime Adjustment Proposal - Q4 2024 [BNB Chain]</a> and the associated <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0x71ed2e920b20172c439477f1b21f8c9822d9692d9bcc86abea931e3aab263ed7\">snapshot</a>:\n\n- Modify the reward speeds for Prime markets\n- Modify the\n\nIn summary, the changes are the following:\n\nNew income distribution proposal (scoped to the 20% of the protocol reserves, allocated to Prime):\n\n- BTC: 5% (0%)\n- ETH: 15% (0%)\n- USDC: 30% (-5%)\n- USDT: 50% (+5%)\n\n3-month reward distribution recommendations:\n\n- BTC: 0.41 (-0.40)\n- ETH: 30.24 (-15.68)\n- USDC: 157,500 (-157,500)\n- USDT: 262,500 (-142,500)\n- Total rewards for 3 months: $525,000\n\n#### References\n\n- Community proposal \u201c<a href=\"https://community.venus.io/t/prime-adjustment-proposal-q4-2024-bnb-chain/4598\">Prime Adjustment Proposal - Q4 2024 [BNB Chain]</a>\u201d\n- <a href=\"https://app.venus.io/#/governance/proposal/337?chainId=56\">VIP-337: Prime Adjustment Proposal - Q3 2024</a> (previous Prime adjustment)\n- <a href=\"https://github.com/VenusProtocol/vips/pull/405\">VIP simulation</a>\n- <a href=\"https://docs-v4.venus.io/governance/tokenomics\">Tokenomics</a>",
+    "endblock":42940631,
+    "eta":1728401746,
+    "actions":[
+      "0xca01d5a9a248a830e9d93231e791b1affed7c446.addOrUpdateDistributionConfigs([(0, 100, 0xe8ceaa79f082768f99266dfd208d665d2dd18f53), (0, 300, 0xca430b8a97ea918ff634162acb0b731445b8195e), (0, 600, 0xa758c9c215b6c4198f0a0e3fa46395fa15db691b), (0, 1000, 0xd9f101aa67f3d72662609a2703387242452078c3)])",
+      "0x23c4f844ffddc6161174eb32c770d4d8c07833f2.setTokensDistributionSpeed([0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c, 0x2170ed0880ac9a755fd29b2688956bd959f933f8, 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d, 0x55d398326f99059ff775485246999027b3197955], [156012176560, 11506849315068, 59931506849315068, 99885844748858447])"
+    ]
   }
 ]
