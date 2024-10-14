@@ -6842,5 +6842,16 @@
     "actions":[
       "0x939bd8d64c0a9583a7dcea9933f7b21697ab6396{value: 1}"
     ]
+  },
+  {
+    "id":"383",
+    "type":"Fasttrack",
+    "title":"VIP-383 [Ethereum] Prime Adjustment Proposal - Q4 2024",
+    "description":"If passed, this VIP will perform the following actions following the Community proposal <a href=\"https://community.venus.io/t/prime-adjustment-proposal-q4-2024-eth-mainnet/4608\">Prime Adjustment Proposal - Q4 2024 [ETH Mainnet]</a> and the associated <a href=\"https://snapshot.org/#/venus-xvs.eth/proposal/0x610fcaadd990425a164f59eebc5b7b07fa29261a7a19b31e1cf8aa81191f3215\">snapshot</a>:\n\n- Modify the reward speeds for Prime markets\n- Modify the income distribution to the Prime markets\n\nIn summary, the changes are the following:\n\nNew income distribution proposal (scoped to the 20% of the protocol reserves, allocated to Prime):\n\n- BTC (Core): 5% (-2%)\n- WETH (Liquid Staked ETH): 85% (+6%)\n- USDC (Core): 5% (-2%)\n- USDT (Core): 5% (-2%)\n\n3-month reward distribution:\n\n- BTC (Core): 0.04 (-0.22)\n- WETH (Liquid Staked ETH): 15.78 (-37)\n- USDC (Core): 2,250 (-13,145)\n- USDT (Core): 2,250 (-13,145)\n- Total rewards for 3 months: $45,000\n\n#### References\n\n- Community proposal \u201c<a href=\"https://community.venus.io/t/prime-adjustment-proposal-q4-2024-eth-mainnet/4608\">Prime Adjustment Proposal - Q4 2024 [ETH Mainnet]</a>\u201d\n- <a href=\"https://app.venus.io/#/governance/proposal/339?chainId=56\">VIP-339 [Ethereum] : Venus Prime Deployment - Q3 2024</a> (previous Prime adjustment)\n- <a href=\"https://github.com/VenusProtocol/vips/pull/408\">VIP simulation</a>\n- <a href=\"https://docs-v4.venus.io/governance/tokenomics\">Tokenomics</a>\n\n#### Disclaimer for Ethereum VIPs\n\nPrivilege commands on Ethereum will be executed by the <a href=\"https://etherscan.io/address/0x285960C5B22fD66A736C7136967A3eB15e93CC67\">Guardian wallet</a>, until the <a href=\"https://docs-v4.venus.io/technical-reference/reference-technical-articles/multichain-governance\">Multichain Governance</a> contracts are fully enabled. If this VIP passes, <a href=\"https://app.safe.global/transactions/tx?safe=eth:0x285960C5B22fD66A736C7136967A3eB15e93CC67&amp;id=multisig_0x285960C5B22fD66A736C7136967A3eB15e93CC67_0x65fdcf0fd1d3377196dd73e25f7335aa81c693b0ddd41822780ceaed526156f5\">this</a> multisig transaction will be executed. Otherwise, it will be rejected.\n    ",
+    "endblock":43142959,
+    "eta":1729008747,
+    "actions":[
+      "0x555ba73db1b006f3f2c7db7126d6e4343adbce02{value: 1}"
+    ]
   }
 ]
