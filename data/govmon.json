@@ -6949,5 +6949,19 @@
       "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketSupplyCaps([0x736bf1d21a28b5dc19a1ac8ca71fc2856c23c03f], [700000000000000000000000])",
       "0x3344417c9360b963ca93a4e8305361aede340ab9.setCollateralFactor(0x736bf1d21a28b5dc19a1ac8ca71fc2856c23c03f, 0, 600000000000000000)"
     ]
+  },
+  {
+    "id":"389",
+    "type":"Fasttrack",
+    "title":"VIP-388 [BNB Chain] Risk Parameters Adjustments (LTC, AAVE, TWT)",
+    "description":"Bringing you VIP-388 one more time: resubmitting the previous VIP without any changes, as our community delegate\u2019s vote got stuck in the digital abyss during a Starlink service timeout.\n\nIf passed, this VIP will perform the following actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication:\n\n<a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-10-23-24/4668\">Chaos Labs - Risk Parameter Updates - 10/23/24</a>\n\n- <a href=\"https://bscscan.com/address/0x57A5297F2cB2c0AaC9D554660acd6D385Ab50c6B\">LTC (Core pool)</a>:\n    - Increase supply cap, from 120K LTC to 240K LTC\n    - Increase borrow cap, from 10K LTC to 20K LTC\n- <a href=\"https://bscscan.com/address/0x26DA28954763B92139ED49283625ceCAf52C6f94\">AAVE (Core pool)</a>:\n    - Increase borrow cap, from 2K AAVE to 3K AAVE\n\n<a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-10-08-24/4606/7\">TWT Migration Specifications</a>\n\n- <a href=\"https://bscscan.com/address/0x736bf1D21A28b5DC19A1aC8cA71Fc2856C23c03F\">TWT (DeFi pool)</a>:\n    - Set collateral factor to 0% (from 50%). Keep the liquidation threshold at 60%\n    - Decrease supply cap, from 3M TWT to 700K TWT\n\nComplete analysis and details of these recommendations are available in the above publications.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/415\">https://github.com/VenusProtocol/vips/pull/415</a>",
+    "endblock":43491721,
+    "eta":1730055123,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0x57a5297f2cb2c0aac9d554660acd6d385ab50c6b], [240000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0x57a5297f2cb2c0aac9d554660acd6d385ab50c6b, 0x26da28954763b92139ed49283625cecaf52c6f94], [20000000000000000000000, 3000000000000000000000])",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketSupplyCaps([0x736bf1d21a28b5dc19a1ac8ca71fc2856c23c03f], [700000000000000000000000])",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setCollateralFactor(0x736bf1d21a28b5dc19a1ac8ca71fc2856c23c03f, 0, 600000000000000000)"
+    ]
   }
 ]
