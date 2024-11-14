@@ -7073,5 +7073,27 @@
       "0xb8fd67f215117fadef06447af31590309750529d.setConversionConfigs(0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2, [0xd9a442856c234a39a81a089c06451ebaa4306a72], [(100000000000000, 1)])",
       "0x1fd30e761c3296fe36d9067b1e398fd97b4c0407.setConversionConfigs(0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a, [0xd9a442856c234a39a81a089c06451ebaa4306a72], [(100000000000000, 1)])"
     ]
+  },
+  {
+    "id":"396",
+    "type":"Normal",
+    "title":"VIP-396 Risk Parameters Adjustments (ETH, FDUSD)",
+    "description":"#### Description\n\nIf passed, this VIP will perform the following actions as per Chaos Labs\u2019 latest recommendations in these Venus community forum publications:\n\n<a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-11-11-24/4718\">Chaos Labs - Risk Parameter Updates - 11/11/24</a>\n\n- BNB Chain\n    - <a href=\"https://bscscan.com/address/0xf508fCD89b8bd15579dc79A6827cB4686A3592c8\">ETH - Core pool</a>\n        - Current kink: 85%. Recommendation: 90%\n        - Current multiplier: 0.0425. Recommendation: 0.03\n        - Current jump multiplier: 2. Recommendation: 4.5\n    - <a href=\"https://bscscan.com/address/0xeCCACF760FEA7943C5b0285BD09F601505A29c05\">ETH - Liquid Staked ETH</a>\n        - Current kink: 80%. Recommendation: 90%\n        - Current multiplier: 0.035. Recommendation: 0.03\n        - Current jump multiplier: 0.8. Recommendation: 4.5\n- Ethereum\n    - <a href=\"https://etherscan.io/address/0x7c8ff7d2A1372433726f879BD945fFb250B94c65\">WETH - Core</a>\n        - Current kink: 80%. Recommendation: 90%\n        - Current multiplier: 0.09. Recommendation: 0.03\n        - Current jump multiplier: 0.75. Recommendation: 4.5\n    - <a href=\"https://etherscan.io/address/0xc82780Db1257C788F262FBbDA960B3706Dfdcaf2\">WETH - Liquid Staked ETH</a>\n        - Current jump multiplier: 0.8. Recommendation: 4.5\n- Arbitrum\n    - <a href=\"https://arbiscan.io/address/0x68a34332983f4Bf866768DD6D6E638b02eF5e1f0\">WETH - Core</a>\n        - Current kink: 80%. Recommendation: 90%\n        - Current multiplier: 0.035. Recommendation: 0.03\n        - Current jump multiplier: 2.5. Recommendation: 4.5\n    - <a href=\"https://arbiscan.io/address/0x39D6d13Ea59548637104E40e729E4aABE27FE106\">WETH - Liquid Staked ETH</a>\n        - Current kink: 80%. Recommendation: 90%\n        - Current multiplier: 0.035. Recommendation: 0.03\n        - Current jump multiplier: 2.5. Recommendation: 4.5\n- opBNB\n    - <a href=\"https://opbnbscan.com/address/0x509e81eF638D489936FA85BC58F52Df01190d26C\">ETH - Core</a>\n        - Current kink: 45%. Recommendation: 90%\n        - Current jump multiplier: 1. Recommendation: 4.5\n\n<a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-11-13-24/4722\">Chaos Labs - Risk Parameter Updates - 11/13/24</a>\n\n- <a href=\"https://bscscan.com/address/0xC4eF4229FEc74Ccfe17B2bdeF7715fAC740BA0ba\">FDUSD (Core pool)</a>:\n    - Increase supply cap, from 45M FDUSD to 100M FDUSD\n    - Increase borrow cap, from 40M FDUSD to 80M FDUSD\n\nComplete analysis and details of these recommendations are available in the above publications.\n\nMoreover, this VIP will transfer 5 BNB from the <a href=\"https://bscscan.com/address/0xf322942f644a996a617bd29c16bd7d231d9f35e9\">Venus Treasury on BNB</a> to the timelock contracts (<a href=\"https://bscscan.com/address/0x939bD8d64c0A9583A7Dcea9933f7b21697ab6396\">Normal Timelock</a>, <a href=\"https://bscscan.com/address/0x555ba73dB1b006F3f2C7dB7126d6e4343aDBce02\">Fast-track Timelock</a> and <a href=\"https://bscscan.com/address/0x213c446ec11e45b15a6E29C1C1b402B8897f606d\">Critical Timelock</a>), to fund the cross-chain messages sent and this VIP and in the future.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/422\">https://github.com/VenusProtocol/vips/pull/422</a>",
+    "endblock":44037235,
+    "eta":1731692441,
+    "actions":[
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBNB(5000000000000000000, 0x939bd8d64c0a9583a7dcea9933f7b21697ab6396)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBNB(5000000000000000000, 0x555ba73db1b006f3f2c7db7126d6e4343adbce02)",
+      "0xf322942f644a996a617bd29c16bd7d231d9f35e9.withdrawTreasuryBNB(5000000000000000000, 0x213c446ec11e45b15a6e29c1c1b402b8897f606d)",
+      "0xf508fcd89b8bd15579dc79a6827cb4686a3592c8._setInterestRateModel(0x3aa125788fc6b9f801772baea887aa40328015e9)",
+      "0xeccacf760fea7943c5b0285bd09f601505a29c05.setInterestRateModel(0x49a06b82b3c907ab140879f73f1d8de262962c30)",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba], [100000000000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0xc4ef4229fec74ccfe17b2bdef7715fac740ba0ba], [80000000000000000000000000])",
+      "0x68a34332983f4bf866768dd6d6e638b02ef5e1f0.setInterestRateModel(0x425dde630be832195619a06175ba45c827dd3dca)",
+      "0x39d6d13ea59548637104e40e729e4aabe27fe106.setInterestRateModel(0x425dde630be832195619a06175ba45c827dd3dca)",
+      "0x7c8ff7d2a1372433726f879bd945ffb250b94c65.setInterestRateModel(0x2f81daa9de0fd60fb9b105cfc5b67a31fda547b6)",
+      "0xc82780db1257c788f262fbbda960b3706dfdcaf2.setInterestRateModel(0x2f81daa9de0fd60fb9b105cfc5b67a31fda547b6)",
+      "0x509e81ef638d489936fa85bc58f52df01190d26c.setInterestRateModel(0x0d75544019e3015eebf61f26595d08d60f3ac841)"
+    ]
   }
 ]
