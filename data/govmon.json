@@ -7095,5 +7095,18 @@
       "0xc82780db1257c788f262fbbda960b3706dfdcaf2.setInterestRateModel(0x2f81daa9de0fd60fb9b105cfc5b67a31fda547b6)",
       "0x509e81ef638d489936fa85bc58f52df01190d26c.setInterestRateModel(0x0d75544019e3015eebf61f26595d08d60f3ac841)"
     ]
+  },
+  {
+    "id":"397",
+    "type":"Critical",
+    "title":"VIP-397 BNBx Oracle implementation upgrade ",
+    "description":"#### Summary\n\nThis proposal, if approved, will upgrade the implementation of the BNBx Oracle contract on Venus from version 1 (V1) to version 2 (V2), aligning with the latest BNBx stake manager contract recently deployed by Stader Labs.\n\n#### Description\n\nStader Labs has updated their ecosystem by migrating several of their key contracts, including the stake manager contract associated with BNBx. As part of this migration, a new price oracle contract has been introduced for BNBx, designed to improve reliability and compatibility with the updated infrastructure.\n\nThe proposed upgrade involves replacing the existing BNBx Oracle contract on Venus with the new V2 contract to ensure continued accuracy in pricing and compatibility with the underlying infrastructure.\n\nThis upgrade does not modify the protocol\u2019s functionality beyond the scope of the oracle and its interaction with the broader ecosystem. Key features of the V2 contract include:\n\n- Improved price accuracy mechanisms.\n- Compatibility with Stader Labs\u2019 latest deployment architecture.\n\n#### Security and additional considerations\n\nTo ensure the safety and reliability of this upgrade, the following measures were taken:\n\n1. <b>Behavior Validation in Simulation Environment</b>\n    \n    The upgraded oracle contract was extensively tested in a simulation environment. Tests confirmed that the price feed accuracy and update frequency function as intended, with no discrepancies observed post-upgrade.\n    \n2. <b>Independent Audits by Stader Labs</b>\n\n    Stader Labs conducted security audits of the V2 oracle contract as part of their migration process, ensuring that all vulnerabilities identified in prior versions were addressed.\n",
+    "endblock":44060175,
+    "eta":1731761264,
+    "actions":[
+      "0x6592b5de802159f3e74b2486b091d11a8256ab8a.setTokenConfig((0x1bdd3cf7f79cfb8edbb955f20ad99211551ba275, [0x94f30dc18d12c210e5ae32752b1033afdd89d5db, 0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000], [True, False, False]))",
+      "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setActionsPaused([0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a, 0xbfe25459ba784e70e2d7a718be99a1f3521ca17f, 0xe10e80b7fd3a29fe46e16c30cc8f4dd938b742e2], [2], False)",
+      "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setActionsPaused([0x5e21bf67a6af41c74c1773e4b473ca5ce8fd3791], [0, 2, 7], False)"
+    ]
   }
 ]
