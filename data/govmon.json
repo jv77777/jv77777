@@ -7108,5 +7108,16 @@
       "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setActionsPaused([0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a, 0xbfe25459ba784e70e2d7a718be99a1f3521ca17f, 0xe10e80b7fd3a29fe46e16c30cc8f4dd938b742e2], [2], False)",
       "0xd933909a4a2b7a4638903028f44d1d38ce27c352.setActionsPaused([0x5e21bf67a6af41c74c1773e4b473ca5ce8fd3791], [0, 2, 7], False)"
     ]
+  },
+  {
+    "id":"398",
+    "type":"Fasttrack",
+    "title":"VIP-398 [BNB Chain] Risk Parameters Adjustments (SolvBTC)",
+    "description":"If passed, this VIP will perform the following actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-11-05-24/4708\">Chaos Labs - Risk Parameter Updates - 11/05/24</a>\n\n- <a href=\"https://bscscan.com/address/0xf841cb62c19fCd4fF5CD0AaB5939f3140BaaC3Ea\">SolvBTC (Core pool)</a>:\n    - Increase supply cap, from 100 SolvBTC to 200 SolvBTC\n\nComplete analysis and details of these recommendations are available in the above publications.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/430\">https://github.com/VenusProtocol/vips/pull/430</a>",
+    "endblock":44266580,
+    "eta":1732380504,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xf841cb62c19fcd4ff5cd0aab5939f3140baac3ea], [200000000000000000000])"
+    ]
   }
 ]
