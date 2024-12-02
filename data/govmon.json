@@ -7167,5 +7167,22 @@
       "0x2f6672c9a0988748b0172d97961becfd9dc6d6d5.addTokenConverter(0x4acb90ddd6df24dc6b0d50df84c94e72012026d0)",
       "0x2f6672c9a0988748b0172d97961becfd9dc6d6d5.addTokenConverter(0x9c5a7ab705ea40876c1b292630a3ff2e0c213db1)"
     ]
+  },
+  {
+    "id":"401",
+    "type":"Normal",
+    "title":"VIP-401 [Ethereum] Fix eBTC/XVS conversion and Vault mitigation",
+    "description":"If passed, this VIP will configure the conversion of <a href=\"https://etherscan.io/address/0x657e8c867d8b37dcc18fa4caead9c45eb088c642\">eBTC</a> for <a href=\"https://etherscan.io/address/0xd3CC9d8f3689B83c91b7B59cAB4946B063EB894A\">XVS</a> on the <a href=\"https://etherscan.io/address/0x1FD30e761C3296fE36D9067b1e398FD97B4C0407\">XVSVaultConverter</a> contract deployed to Ethereum. In the \u201c<a href=\"https://app.venus.io/#/governance/proposal/394?chainId=56\">VIP-394 [Ethereum] New eBTC market in the Core pool</a>\u201d that conversion was wrongly configured, without any side effect. This VIP also extends the locking period as a mitigation of the currently active requests created by 0xc444949e0054A23c44Fc45789738bdF64aed2391 and 0x2C7A1398368A38489bB6Dc53B79B3e416B531636 on the XVS Vaults of BNB Chain and ZKSync.",
+    "endblock":44553393,
+    "eta":1733240994,
+    "actions":[
+      "0x051100480289e704d20e9db4804837068f3f9204._setPendingImplementation(0x8414c30c04147c2d15cc2a18c69beb0f954f2660)",
+      "0x8414c30c04147c2d15cc2a18c69beb0f954f2660._become(0x051100480289e704d20e9db4804837068f3f9204)",
+      "0x051100480289e704d20e9db4804837068f3f9204.setWithdrawalRequestsUnlockTime(0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63, 0, 0x2c7a1398368a38489bb6dc53b79b3e416b531636, 1748986920)",
+      "0x051100480289e704d20e9db4804837068f3f9204.setWithdrawalRequestsUnlockTime(0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63, 0, 0xc444949e0054a23c44fc45789738bdf64aed2391, 1748986920)",
+      "0x051100480289e704d20e9db4804837068f3f9204._setPendingImplementation(0x413c1e1b77190bc84717f8cce6eeab0594e0af4e)",
+      "0x413c1e1b77190bc84717f8cce6eeab0594e0af4e._become(0x051100480289e704d20e9db4804837068f3f9204)",
+      "0x1fd30e761c3296fe36d9067b1e398fd97b4c0407.setConversionConfigs(0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a, [0x657e8c867d8b37dcc18fa4caead9c45eb088c642], [(100000000000000, 1)])"
+    ]
   }
 ]
