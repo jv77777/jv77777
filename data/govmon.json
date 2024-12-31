@@ -7606,5 +7606,17 @@
       "0x672208c10aaaa2f9a6719f449c4c8227bc0bc202.setInterestRateModel(0x837996e7d74222965acf1fdd478926e07336a291)",
       "0x2d499800239c4cd3012473cb1eae33562f0a6933.setInterestRateModel(0x837996e7d74222965acf1fdd478926e07336a291)"
     ]
+  },
+  {
+    "id":"416",
+    "type":"Fasttrack",
+    "title":"VIP-416 [BNB Chain] Risk Parameters Adjustments (SolvBTC)",
+    "description":"If passed, this VIP will perform the following actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-12-31-2024/4806\">Chaos Labs - Risk Parameter Updates - 12/31/2024</a>\n\n- <a href=\"https://bscscan.com/address/0xf841cb62c19fCd4fF5CD0AaB5939f3140BaaC3Ea\">SolvBTC (Core pool)</a>:\n    - Increase supply cap, from 200 SolvBTC to 400 SolvBTC\n    - Increase borrow cap, from 55 SolvBTC to 110 SolvBTC\n\nComplete analysis and details of these recommendations are available in the above publications.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/449\">https://github.com/VenusProtocol/vips/pull/449</a>",
+    "endblock":45391215,
+    "eta":1735754798,
+    "actions":[
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xf841cb62c19fcd4ff5cd0aab5939f3140baac3ea], [400000000000000000000])",
+      "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0xf841cb62c19fcd4ff5cd0aab5939f3140baac3ea], [110000000000000000000])"
+    ]
   }
 ]
