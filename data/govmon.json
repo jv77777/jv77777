@@ -7618,5 +7618,17 @@
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketSupplyCaps([0xf841cb62c19fcd4ff5cd0aab5939f3140baac3ea], [400000000000000000000])",
       "0xfd36e2c2a6789db23113685031d7f16329158384._setMarketBorrowCaps([0xf841cb62c19fcd4ff5cd0aab5939f3140baac3ea], [110000000000000000000])"
     ]
+  },
+  {
+    "id":"417",
+    "type":"Critical",
+    "title":"VIP-417 [ZKsync] Risk Parameters Adjustments (USDC.e, ZK)",
+    "description":"If passed, this VIP will perform the changes recommended by Chaos Labs in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-1-5-2025/4811\">Chaos Labs - Risk Parameter Updates - 1/5/2025</a>.\n\n- <a href=\"https://explorer.zksync.io/address/0x697a70779C1A03Ba2BD28b7627a902BFf831b616\">ZK (Core pool)</a>:\n    - Increase supply cap, from 50M ZK to 100M ZK\n- <a href=\"https://explorer.zksync.io/address/0x1aF23bD57c62A99C59aD48236553D0Dd11e49D2D\">USDC.e (Core pool)</a>:\n    - Increase supply cap, from 6M USDC.e to 12M USDC.e\n    - Increase borrow cap, from 5.4M USDC.e to 10.8M USDC.e\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/453\">https://github.com/VenusProtocol/vips/pull/453</a>",
+    "endblock":45520299,
+    "eta":1736142071,
+    "actions":[
+      "0xdde4d098d9995b659724ae6d5e3fb9681ac941b1.setMarketSupplyCaps([0x1af23bd57c62a99c59ad48236553d0dd11e49d2d, 0x697a70779c1a03ba2bd28b7627a902bff831b616], [12000000000000, 100000000000000000000000000])",
+      "0xdde4d098d9995b659724ae6d5e3fb9681ac941b1.setMarketBorrowCaps([0x1af23bd57c62a99c59ad48236553d0dd11e49d2d], [10800000000000])"
+    ]
   }
 ]
