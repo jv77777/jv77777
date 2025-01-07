@@ -7630,5 +7630,17 @@
       "0xdde4d098d9995b659724ae6d5e3fb9681ac941b1.setMarketSupplyCaps([0x1af23bd57c62a99c59ad48236553d0dd11e49d2d, 0x697a70779c1a03ba2bd28b7627a902bff831b616], [12000000000000, 100000000000000000000000000])",
       "0xdde4d098d9995b659724ae6d5e3fb9681ac941b1.setMarketBorrowCaps([0x1af23bd57c62a99c59ad48236553d0dd11e49d2d], [10800000000000])"
     ]
+  },
+  {
+    "id":"418",
+    "type":"Critical",
+    "title":"VIP-418 [ZKsync] Risk Parameters Adjustments (USDC.e, ZK)",
+    "description":"If passed, this VIP will perform the changes recommended by Chaos Labs in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-risk-parameter-updates-1-6-2025/4815\">Chaos Labs - Risk Parameter Updates - 1/6/2025</a>.\n\n- <a href=\"https://explorer.zksync.io/address/0x697a70779C1A03Ba2BD28b7627a902BFf831b616\">ZK (Core pool)</a>:\n    - Increase supply cap, from 100M ZK to 200M ZK\n    - Increase Collateral Factor, from 0.35 to 0.4\n    - Increase Liquidation Threshold, from 0.4 to 0.45\n- <a href=\"https://explorer.zksync.io/address/0x1aF23bD57c62A99C59aD48236553D0Dd11e49D2D\">USDC.e (Core pool)</a>:\n    - Increase supply cap, from 12M USDC.e to 24M USDC.e\n\nComplete analysis and details of these recommendations are available in the above publication.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/454\">https://github.com/VenusProtocol/vips/pull/454</a>",
+    "endblock":45548662,
+    "eta":1736227169,
+    "actions":[
+      "0xdde4d098d9995b659724ae6d5e3fb9681ac941b1.setMarketSupplyCaps([0x1af23bd57c62a99c59ad48236553d0dd11e49d2d, 0x697a70779c1a03ba2bd28b7627a902bff831b616], [24000000000000, 200000000000000000000000000])",
+      "0xdde4d098d9995b659724ae6d5e3fb9681ac941b1.setCollateralFactor(0x697a70779c1a03ba2bd28b7627a902bff831b616, 400000000000000000, 450000000000000000)"
+    ]
   }
 ]
