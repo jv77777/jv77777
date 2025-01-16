@@ -7738,5 +7738,20 @@
       "0xdde4d098d9995b659724ae6d5e3fb9681ac941b1.setCollateralFactor(0x1af23bd57c62a99c59ad48236553d0dd11e49d2d, 750000000000000000, 780000000000000000)",
       "0xdde4d098d9995b659724ae6d5e3fb9681ac941b1.setCollateralFactor(0x84064c058f2efea4ab648bb6bd7e40f83ffde39a, 750000000000000000, 780000000000000000)"
     ]
+  },
+  {
+    "id":"424",
+    "type":"Fasttrack",
+    "title":"VIP-424 Risk Parameters Adjustment (PLANET)",
+    "description":"If passed, this VIP will perform the following actions as per Chaos Labs\u2019 latest recommendations in this Venus community forum publication: <a href=\"https://community.venus.io/t/chaos-labs-planet-deprecation/4833\">Chaos Labs - PLANET Deprecation</a>.\n\n- Pause supply, borrow and enter market actions in the <a href=\"https://bscscan.com/address/0xFf1112ba7f88a53D4D23ED4e14A117A2aE17C6be\">vPLANET market</a>\n- Set borrow and supply caps to 0\n- Increase vPLANET Reserve Factor to 100%\n- Reduce CF from 20% to 0%\n- Reduce LT from 30% to 15%\n\nReview the Chaos Labs\u2019 recommendations for a deeper analysis.\n\nVIP simulation: <a href=\"https://github.com/VenusProtocol/vips/pull/459\">https://github.com/VenusProtocol/vips/pull/459</a>",
+    "endblock":45852122,
+    "eta":1737137653,
+    "actions":[
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setActionsPaused([0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be], [0, 2, 7], True)",
+      "0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be.setReserveFactor(1000000000000000000)",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setCollateralFactor(0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be, 0, 150000000000000000)",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketBorrowCaps([0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be], [0])",
+      "0x3344417c9360b963ca93a4e8305361aede340ab9.setMarketSupplyCaps([0xff1112ba7f88a53d4d23ed4e14a117a2ae17c6be], [0])"
+    ]
   }
 ]
