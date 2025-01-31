@@ -8141,5 +8141,29 @@
       "0xbc1471308eb2287ebe137420eb1664a964895d21.acceptOwnership()",
       "0x8c8c8530464f7d95552a11ec31adbd4dc4ac4d3e.acceptOwnership()"
     ]
+  },
+  {
+    "id":"439",
+    "type":"Normal",
+    "title":"VIP-439 [Ethereum] New USDS market in the Core pool",
+    "description":"#### Summary\n\nIf passed, this VIP will add a market for <a href=\"https://etherscan.io/address/0xdC035D45d973E3EC169d2276DDab16f1e407384F\">USDS</a> to the Core pool on Ethereum, following the Community proposal \u201c<a href=\"https://community.venus.io/t/usds-as-collateral-on-venus-protocol-ethereum-core-pool/4737\">USDS as collateral on Venus Protocol Ethereum Core Pool</a>\u201d and <a href=\"https://snapshot.box/#/s:venus-xvs.eth/proposal/0x75f126ead30c4273933a9fa0e89638a8656c79de595181e883f2b2b0dd6c6f03\">the associated snapshot</a>.\n\n#### Description\n\n<b>Risk parameters</b>\n\nFollowing <a href=\"https://community.venus.io/t/susds-saving-usds-as-collateral-on-venus-protocol-ethereum-core-pool/4776/9\">Chaos Labs recommendations</a>, the risk parameters for the new market are:\n\nUnderlying token: <a href=\"https://etherscan.io/address/0xdC035D45d973E3EC169d2276DDab16f1e407384F\">USDS</a>\n\n- Borrow cap: 7,680,000 USDS\n- Supply cap: 65,000,000 USDS\n- Collateral factor: 73%\n- Liquidation threshold: 75%\n- Reserve factor: 10%\n\nBootstrap liquidity: 10,000 USDS provided by the <a href=\"https://etherscan.io/address/0x9c489E4efba90A67299C1097a8628e233C33BB7B\">SKY Treasury</a>.\n\nInterest rate curve for the new market:\n\n- kink: 80%\n- base (yearly): 0%\n- multiplier (yearly): 15.625%\n- jump multiplier (yearly): 250%\n\n<b>Oracles configuration</b>\n\nThe <a href=\"https://docs-v4.venus.io/risk/resilient-price-oracle\">ResilientOracle</a> deployed to <a href=\"https://etherscan.io/address/0xd2ce3fb018805ef92b8C5976cb31F84b4E295F94\">Ethereum</a> is used for USDS, using under the hood the USDS/USD price provided by Chainlink (<a href=\"https://etherscan.io/address/0xfF30586cD0F29eD462364C7e81375FC0C71219b1\">feed</a>).\n\n#### Security and additional considerations\n\nWe applied the following security procedures for this upgrade:\n\n- <b>VIP execution simulation</b>: in a simulation environment, validating the new market is properly added to the Core pool on Ethereum, with the right parameters and the expected bootstrap liquidity\n- <b>Deployment on testnet</b>: the same market has been deployed to Sepolia, and used in the Venus Protocol testnet deployment\n\n#### Deployed contracts\n\nMainnet\n\n- vUSDS_Core: <a href=\"https://etherscan.io/address/0x0c6B19287999f1e31a5c0a44393b24B62D2C0468\">0x0c6B19287999f1e31a5c0a44393b24B62D2C0468</a>\n\nTestnet\n\n- vUSDS_Core: <a href=\"https://sepolia.etherscan.io/address/0x459C6a6036e2094d1764a9ca32939b9820b2C8e0\">0x459C6a6036e2094d1764a9ca32939b9820b2C8e0</a>\n\n#### References\n\n- <a href=\"https://github.com/VenusProtocol/vips/pull/469\">VIP simulation</a>\n- <a href=\"https://sepolia.etherscan.io/tx/0x6b0fedeb12c9a1026862b7de1be02f978c3dfe1c19004585bbcb54fefecce8dc\">Deployment to Sepolia</a>\n- <a href=\"https://docs-v4.venus.io/\">Documentation</a>",
+    "endblock":46277908,
+    "eta":1738415059,
+    "actions":[
+      "0x94c3a2d6b7b2c051ada041282aec5b0752f8a1f2.setTokenConfig((0xdc035d45d973e3ec169d2276ddab16f1e407384f, 0xff30586cd0f29ed462364c7e81375fc0c71219b1, 93600))",
+      "0xd2ce3fb018805ef92b8c5976cb31f84b4e295f94.setTokenConfig((0xdc035d45d973e3ec169d2276ddab16f1e407384f, [0x94c3a2d6b7b2c051ada041282aec5b0752f8a1f2, 0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000], [True, False, False]))",
+      "0x0c6b19287999f1e31a5c0a44393b24b62d2c0468.setReduceReservesBlockDelta(7200)",
+      "0x0c6b19287999f1e31a5c0a44393b24b62d2c0468.setReserveFactor(100000000000000000)",
+      "0xfd9b071168bc27dbe16406ec3aba050ce8eb22fa.withdrawTreasuryToken(0xdc035d45d973e3ec169d2276ddab16f1e407384f, 10000000000000000000000, 0xd969e79406c35e80750aaae061d402aab9325714)",
+      "0xdc035d45d973e3ec169d2276ddab16f1e407384f.approve(0x61caff113ccaf05ffc6540302c37adcf077c5179, 10000000000000000000000)",
+      "0x61caff113ccaf05ffc6540302c37adcf077c5179.addMarket((0x0c6b19287999f1e31a5c0a44393b24b62d2c0468, 730000000000000000, 750000000000000000, 10000000000000000000000, 0x9c489e4efba90a67299c1097a8628e233c33bb7b, 65000000000000000000000000, 7680000000000000000000000))",
+      "0xdc035d45d973e3ec169d2276ddab16f1e407384f.approve(0x61caff113ccaf05ffc6540302c37adcf077c5179, 0)",
+      "0x0c6b19287999f1e31a5c0a44393b24b62d2c0468.setProtocolSeizeShare(50000000000000000)",
+      "0x4f55cb0a24d5542a3478b0e284259a6b850b06bd.setConversionConfigs(0xdac17f958d2ee523a2206206994597c13d831ec7, [0xdc035d45d973e3ec169d2276ddab16f1e407384f], [(100000000000000, 1)])",
+      "0xceb9503f10b781e30213c0b320bcf3b3ce54216e.setConversionConfigs(0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48, [0xdc035d45d973e3ec169d2276ddab16f1e407384f], [(100000000000000, 1)])",
+      "0xdccde673cd8988745da384a7083b0bd22085dea0.setConversionConfigs(0x2260fac5e5542a773aa44fbcfedf7c193bc2c599, [0xdc035d45d973e3ec169d2276ddab16f1e407384f], [(100000000000000, 1)])",
+      "0xb8fd67f215117fadef06447af31590309750529d.setConversionConfigs(0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2, [0xdc035d45d973e3ec169d2276ddab16f1e407384f], [(100000000000000, 1)])",
+      "0x1fd30e761c3296fe36d9067b1e398fd97b4c0407.setConversionConfigs(0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a, [0xdc035d45d973e3ec169d2276ddab16f1e407384f], [(100000000000000, 1)])"
+    ]
   }
 ]
